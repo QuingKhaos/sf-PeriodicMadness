@@ -3,13 +3,13 @@
 	"Version": 1,
 	"VersionName": "1.0.0",
 	"SemVersion": "1.0.0",
-	"FriendlyName": "###TITLE###",
-	"Description": "###DESC###",
+	"FriendlyName": "Periodic Madness",
+	"Description": "This overhaul aims to add all the elements of the periodic table to Satisfactory.",
 	"Category": "Modding",
 	"CreatedBy": "QuingKhaos",
 	"CreatedByURL": "https://github.com/QuingKhaos",
 	"DocsURL": "",
-	"MarketplaceURL": "https://ficsit.app/mod/###NAME###",
+	"MarketplaceURL": "https://ficsit.app/mod/PeriodicMadness",
 	"SupportURL": "https://discord.gg/B3qJBE3M9W",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
@@ -18,7 +18,7 @@
 	"BuiltInInitialFeatureState": "Active",
 	"Modules": [
 		{
-			"Name": "###NAME###",
+			"Name": "PeriodicMadness",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
@@ -27,17 +27,17 @@
 		{
 			"Name": "KBFL",
 			"Enabled": true,
-			"SemVersion": "^2026.3.500"
+			"SemVersion": "^2026.3.506"
 		},
 		{
 			"Name": "KDataForge",
 			"Enabled": true,
-			"SemVersion": "^2026.3.497"
+			"SemVersion": "^2026.3.509"
 		},
 		{
 			"Name": "KhaosLib",
 			"Enabled": true,
-			"SemVersion": "^1.2.2"
+			"SemVersion": "^1.3.0"
 		},
 		{
 			"Name": "SML",
