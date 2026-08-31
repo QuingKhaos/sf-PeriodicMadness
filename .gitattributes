@@ -1,0 +1,12 @@
+* text=auto
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.locmeta filter=lfs diff=lfs merge=lfs -text
+*.locres filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.spp filter=lfs diff=lfs merge=lfs -text
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.xcf filter=lfs diff=lfs merge=lfs -text
+
+# Correctly handle generated localization file encoding.
+*.archive diff working-tree-encoding=UTF-16LE-BOM eol=CRLF
+*.manifest diff working-tree-encoding=UTF-16LE-BOM eol=CRLF

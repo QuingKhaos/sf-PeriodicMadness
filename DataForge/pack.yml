@@ -1,0 +1,7 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/pack.schema.yml
+ref: ###NAME###
+name: ###TITLE###
+version: 1.0.0
+contributer:
+  - QuingKhaos

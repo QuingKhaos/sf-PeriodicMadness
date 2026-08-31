@@ -1,0 +1,4 @@
+exclude-dirs = [".git", "Binaries", "Intermediate", "Saved"]
+
+[type-map]
+"*.uplugin" = "json"
