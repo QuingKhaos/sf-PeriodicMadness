@@ -1,0 +1,39 @@
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Subsystem/ModSubsystem.h"
+#include "PMCleanerSubsystem.generated.h"
+
+/**
+ * Subsystem for resource cleanup during runtime. 
+ */
+UCLASS()
+class PERIODICMADNESS_API APMCleanerSubsystem : public AModSubsystem
+{
+	GENERATED_BODY()
+
+public:
+	APMCleanerSubsystem();
+
+	/** Update the resource scanner to pick up any changes. */
+	UFUNCTION(BlueprintCallable, Category = "Periodic Madness|Resource Cleaner")
+	void UpdateResourceScanner();
+
+protected:
+	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaTime) override;
+
+	/** Remove all static meshes on the cleanlist. */
+	void RemoveStaticMeshes();
+
+	/** Remove all resource deposits, except allowlisted ones. */
+	void RemoveResourceDeposits();
+
+	/** List of static meshes to be cleaned up */
+	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
+	TArray<TObjectPtr<UStaticMesh>> mStaticMeshesCleanlist;
+
+	/** List of resource class substrings to block from removal. */
+	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
+	TArray<FString> mResourceClassAllowlist;
+};
