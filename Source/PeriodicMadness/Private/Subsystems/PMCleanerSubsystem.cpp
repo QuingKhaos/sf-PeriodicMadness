@@ -75,24 +75,30 @@ void APMCleanerSubsystem::RemoveResourceDeposits()
 	TArray<AActor*> ResourceDepositActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceDeposit::StaticClass(), ResourceDepositActors);
 
-	for (AActor* Actor : ResourceDepositActors) {
+	for (AActor* Actor : ResourceDepositActors)
+	{
 		AFGResourceDeposit* ResourceDeposit = Cast<AFGResourceDeposit>(Actor);
-		if (ResourceDeposit) {
+		if (ResourceDeposit)
+		{
 			FString ResourceClassName = UKismetSystemLibrary::GetPathName(ResourceDeposit->GetResourceClass());
 			bool bIsAllowlisted = false;
 
-			for (const FString& AllowlistEntry : mResourceClassAllowlist) {
-				if (ResourceClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
+			for (const FString& AllowlistEntry : mResourceClassAllowlist)
+			{
+				if (ResourceClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive))
+				{
 					bIsAllowlisted = true;
 					break;
 				}
 			}
 
-			if (!bIsAllowlisted) {
+			if (!bIsAllowlisted)
+			{
 				PM_LOG_ARGS(Verbose, TEXT("Removing resource: %s, Deposit: %s"), *ResourceClassName, *UKismetSystemLibrary::GetPathName(ResourceDeposit));
 
 				AActor* MeshActor = ResourceDeposit->GetMeshActor();
-				if (MeshActor) {
+				if (MeshActor)
+				{
 					MeshActor->Destroy();
 				}
 
