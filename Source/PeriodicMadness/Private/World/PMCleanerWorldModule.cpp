@@ -33,6 +33,7 @@ void UPMCleanerWorldModule::DispatchLifecycleEvent(ELifecyclePhase Phase)
 		RemoveResearchTrees();
 		RemoveSchematics();
 		RemoveRecipes();
+		RemoveItems();
 	}
 
     // Blueprint event logic should be dispatched after our code.
@@ -236,5 +237,40 @@ void UPMCleanerWorldModule::RemoveRecipes()
 	}
 
 	RecipeManager->RebuildDerivedAvailableRecipesData();
+}
+
+void UPMCleanerWorldModule::RemoveItems()
+{
+	AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld());
+	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
+
+	AssetDataSubsystem->EnsureRegistryScanned();
+	AssetDataSubsystem->EnsureCategoryResolved(2);
+
+	for (TSubclassOf<UFGItemDescriptor> Item : AssetDataSubsystem->GetAllItems())
+	{
+		if (Item && RecipeManager->mAllItemDescriptors.Contains(Item))
+		{
+			FString ItemClassName = UKismetSystemLibrary::GetPathName(Item);
+			bool bIsAllowlisted = false;
+			for (const FString& AllowlistEntry : mItemClassAllowlist)
+			{
+				if (ItemClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
+					bIsAllowlisted = true;
+					break;
+				}
+			}
+			if (!bIsAllowlisted)
+			{
+				PM_LOG_ARGS(Verbose, TEXT("Removing item: %s"), *ItemClassName);
+				RecipeManager->mAllItemDescriptors.Remove(Item);
+				if (RecipeManager->mAvailableItemDescriptors.Contains(Item))
+				{
+					RecipeManager->mAvailableItemDescriptors.Remove(Item);
+				}
+			}
+		}
+	}
+
 	RecipeManager->RebuildAvailableItemDescriptorLookup();
 }
