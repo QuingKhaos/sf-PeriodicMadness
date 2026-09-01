@@ -27,3 +27,7 @@ This is a complete overhaul of items and recipes in the game. Thus no mod which 
 - Thanks to Mr.SmoothieHuman allowing me to do this port.
 - Thanks to [SirDigby](https://ficsit.app/user/4Mpda7UPxKixEB) for providing the blueprint code to fix the items per minute and overclock values in the machines widget.
 - Thanks to [DavidHGillen](https://ficsit.app/user/3cMuLsemCEZUDc), who created the awesome [Modeling Tools](https://github.com/DavidHGillen/Satisfactory_ModelingTools), which are used by every custom building.
+
+## License
+
+This mod is licensed under the [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html). You are free to use, modify, and distribute this mod under the same terms of the license.
