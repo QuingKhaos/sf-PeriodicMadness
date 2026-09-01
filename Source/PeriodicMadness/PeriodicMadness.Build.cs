@@ -71,7 +71,8 @@ public class PeriodicMadness : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[] {
 			// ... add public dependencies that you statically link with here ...
-		});
+			"KBFL"
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {
 			// ... add private dependencies that you statically link with here ...
