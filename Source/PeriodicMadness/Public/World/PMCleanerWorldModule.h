@@ -24,6 +24,9 @@ protected:
 	/** Remove all research trees, except allowlisted ones. */
 	void RemoveResearchTrees();
 
+	/** Remove all schematics, except allowlisted ones. */
+	void RemoveSchematics();
+
 	/** Called after resource nodes have been removed. */
 	UFUNCTION(BlueprintImplementableEvent, Category = "Periodic Madness|Resource Cleanup", meta = (DisplayName = "On Resource Nodes Removed"))
 	void K2_ResourceNodesRemoved();
@@ -35,4 +38,8 @@ protected:
 	/** List of research tree class substrings to block from removal. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
 	TArray<FString> mResearchTreeClassAllowlist;
+
+	/** List of schematic class substrings to block from removal. */
+	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
+	TArray<FString> mSchematicClassAllowlist;
 };

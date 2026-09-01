@@ -5,6 +5,8 @@
 #include "Subsystems/KBFLAssetDataSubsystem.h"
 #include "FGResearchManager.h"
 #include "FGResearchTree.h"
+#include "FGSchematic.h"
+#include "FGSchematicManager.h"
 #include "PeriodicMadnessLogChannels.h"
 
 void UPMCleanerWorldModule::DispatchLifecycleEvent(ELifecyclePhase Phase)
@@ -23,6 +25,7 @@ void UPMCleanerWorldModule::DispatchLifecycleEvent(ELifecyclePhase Phase)
 	{
 		RemoveResourceNodes();
 		RemoveResearchTrees();
+		RemoveSchematics();
 	}
 
     // Blueprint event logic should be dispatched after our code.
@@ -106,6 +109,46 @@ void UPMCleanerWorldModule::RemoveResearchTrees()
 				ResearchTreeCDO->mDisplayName = FText();
 				ResearchTreeCDO->mPreUnlockDescription = FText();
 				ResearchTreeCDO->mPostUnlockDescription = FText();
+			}
+		}
+	}
+}
+
+void UPMCleanerWorldModule::RemoveSchematics()
+{
+	AFGSchematicManager* SchematicManager = AFGSchematicManager::Get(GetWorld());
+	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
+
+	AssetDataSubsystem->EnsureRegistryScanned();
+	AssetDataSubsystem->EnsureCategoryResolved(0);
+
+	for (TSubclassOf<UFGSchematic> Schematic : AssetDataSubsystem->GetAllSchematics())
+	{
+		if (Schematic && SchematicManager->mAllSchematics.Contains(Schematic))
+		{
+			FString SchematicClassName = UKismetSystemLibrary::GetPathName(Schematic);
+			bool bIsAllowlisted = false;
+
+			for (const FString& AllowlistEntry : mSchematicClassAllowlist)
+			{
+				if (SchematicClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
+					bIsAllowlisted = true;
+					break;
+				}
+			}
+
+			if (!bIsAllowlisted)
+			{
+				PM_LOG_ARGS(Verbose, TEXT("Removing schematic: %s"), *SchematicClassName);
+				SchematicManager->mAllSchematics.Remove(Schematic);
+
+				if (SchematicManager->mPurchasedSchematics.Contains(Schematic))
+				{
+					SchematicManager->mPurchasedSchematics.Remove(Schematic);
+				}
+
+				UFGSchematic* SchematicCDO = GetMutableDefault<UFGSchematic>(Schematic);
+				SchematicCDO->mType = ESchematicType::EST_Custom;
 			}
 		}
 	}
