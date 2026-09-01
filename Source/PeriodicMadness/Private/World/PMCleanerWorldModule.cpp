@@ -1,8 +1,14 @@
 #include "World/PMCleanerWorldModule.h"
+#include "Buildables/FGBuildable.h"
+#include "Equipment/FGBuildGun.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "Resources/FGBuildDescriptor.h"
 #include "Resources/FGResourceNodeBase.h"
 #include "Subsystems/KBFLAssetDataSubsystem.h"
+#include "FGCustomizationRecipe.h"
+#include "FGRecipe.h"
+#include "FGRecipeManager.h"
 #include "FGResearchManager.h"
 #include "FGResearchTree.h"
 #include "FGSchematic.h"
@@ -26,6 +32,7 @@ void UPMCleanerWorldModule::DispatchLifecycleEvent(ELifecyclePhase Phase)
 		RemoveResourceNodes();
 		RemoveResearchTrees();
 		RemoveSchematics();
+		RemoveRecipes();
 	}
 
     // Blueprint event logic should be dispatched after our code.
@@ -152,4 +159,82 @@ void UPMCleanerWorldModule::RemoveSchematics()
 			}
 		}
 	}
+}
+
+void UPMCleanerWorldModule::RemoveRecipes()
+{
+	AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld());
+	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
+
+	AssetDataSubsystem->EnsureRegistryScanned();
+	AssetDataSubsystem->EnsureCategoryResolved(1);
+
+	for (TSubclassOf<UFGRecipe> Recipe : AssetDataSubsystem->GetAllRecipes())
+	{
+		if (Recipe && RecipeManager->mAllRecipes.Contains(Recipe))
+		{
+			FString RecipeClassName = UKismetSystemLibrary::GetPathName(Recipe);
+			bool bIsAllowlisted = false;
+
+			for (const FString& AllowlistEntry : mRecipeClassAllowlist)
+			{
+				if (RecipeClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
+					bIsAllowlisted = true;
+					break;
+				}
+			}
+
+			if (!bIsAllowlisted)
+			{
+				PM_LOG_ARGS(Verbose, TEXT("Removing recipe: %s"), *RecipeClassName);
+				RecipeManager->mAllRecipes.Remove(Recipe);
+
+				if (RecipeManager->mAvailableRecipes.Contains(Recipe))
+				{
+					RecipeManager->mAvailableRecipes.Remove(Recipe);
+				}
+
+				if (UFGCustomizationRecipe* CustomizationRecipe = Cast<UFGCustomizationRecipe>(Recipe->GetDefaultObject()))
+				{
+					if (RecipeManager->mAvailableCustomizationRecipes.Contains(CustomizationRecipe->StaticClass()))
+					{
+						RecipeManager->mAvailableCustomizationRecipes.Remove(CustomizationRecipe->StaticClass());
+					}
+
+					if (RecipeManager->mAvailableCustomizationRecipesLookup.Contains(CustomizationRecipe->StaticClass()))
+					{
+						RecipeManager->mAvailableCustomizationRecipesLookup.Remove(CustomizationRecipe->StaticClass());
+					}
+				}
+
+				TArray<TSubclassOf<UObject>> ProducedIn = UFGRecipe::GetProducedIn(Recipe);
+				for (TSubclassOf<UObject> Producer : ProducedIn)
+				{
+					if (AFGBuildGun* BuildGun = Cast<AFGBuildGun>(Producer->GetDefaultObject()))
+					{
+						TArray<FItemAmount> Products = UFGRecipe::GetProducts(Recipe);
+						for (const FItemAmount& Product : Products)
+						{
+							if (UFGBuildDescriptor* BuildDescriptor = Cast<UFGBuildDescriptor>(Product.ItemClass->GetDefaultObject()))
+							{
+								if (TSubclassOf<AActor> BuildClass = UFGBuildDescriptor::GetBuildClass(BuildDescriptor->StaticClass()))
+								{
+									if (AFGBuildable* Buildable = Cast<AFGBuildable>(BuildClass->GetDefaultObject()))
+									{
+										if (RecipeManager->mAvailableBuildings.Contains(Buildable->StaticClass()))
+										{
+											RecipeManager->mAvailableBuildings.Remove(Buildable->StaticClass());
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	RecipeManager->RebuildDerivedAvailableRecipesData();
+	RecipeManager->RebuildAvailableItemDescriptorLookup();
 }
