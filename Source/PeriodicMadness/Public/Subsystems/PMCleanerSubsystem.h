@@ -23,7 +23,10 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
-	virtual void Tick(float DeltaTime) override;
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+
+	/** Handle removal/cleanup of things when the streaming state is updated. */
+	void OnStreamingStateUpdated();
 
 	/** Remove all static meshes on the cleanlist. */
 	void RemoveStaticMeshes();

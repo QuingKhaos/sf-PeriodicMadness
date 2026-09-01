@@ -8,6 +8,7 @@
 #include "FGDropPod.h"
 #include "FGItemPickup_Spawnable.h"
 #include "PeriodicMadnessLogChannels.h"
+#include "WorldPartition/WorldPartitionSubsystem.h"
 
 APMCleanerSubsystem::APMCleanerSubsystem()
 {
@@ -45,12 +46,27 @@ void APMCleanerSubsystem::BeginPlay()
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
 	CleanupCrashSites();
+
+	UWorldPartitionSubsystem* WorldPartitionSubsystem = GetWorld()->GetSubsystem<UWorldPartitionSubsystem>();
+	if (WorldPartitionSubsystem)
+	{
+		WorldPartitionSubsystem->OnStreamingStateUpdated().AddUObject(this, &APMCleanerSubsystem::OnStreamingStateUpdated);
+	}
 }
 
-void APMCleanerSubsystem::Tick(float DeltaTime)
+void APMCleanerSubsystem::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
-	Super::Tick(DeltaTime);
+	Super::EndPlay(EndPlayReason);
 
+	UWorldPartitionSubsystem* WorldPartitionSubsystem = GetWorld()->GetSubsystem<UWorldPartitionSubsystem>();
+	if (WorldPartitionSubsystem)
+	{
+		WorldPartitionSubsystem->OnStreamingStateUpdated().RemoveAll(this);
+	}
+}
+
+void APMCleanerSubsystem::OnStreamingStateUpdated()
+{
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
 	CleanupCrashSites();
