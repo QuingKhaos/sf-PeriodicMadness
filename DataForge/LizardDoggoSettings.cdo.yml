@@ -1,0 +1,159 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Character/Creature/Wildlife/SpaceRabbit/BP_SpaceRabbitSettings.BP_SpaceRabbitSettings_C
+    properties:
+      - path: mLootTable
+        value:
+          # Vanilla
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C
+            NumItems: 1
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk2.Desc_Crystal_mk2_C
+            NumItems: 1
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk3.Desc_Crystal_mk3_C
+            NumItems: 1
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskNuke.Desc_NobeliskNuke_C
+          #   NumItems: 1
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskShockwave.Desc_NobeliskShockwave_C
+          #   NumItems: 2
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C
+          #   NumItems: 2
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C
+          #   NumItems: 1
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C
+          #   NumItems: 2
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Environment/Berry/Desc_Berry.Desc_Berry_C
+            NumItems: 6
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Environment/DesertShroom/Desc_Shroom.Desc_Shroom_C
+            NumItems: 6
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Environment/Nut/Desc_Nut.Desc_Nut_C
+            NumItems: 6
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HogParts.Desc_HogParts_C
+            NumItems: 1
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Parts/AnimalParts/Desc_SpitterParts.Desc_SpitterParts_C
+            NumItems: 1
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Parts/AnimalParts/Desc_StingerParts.Desc_StingerParts_C
+            NumItems: 1
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C
+          #   NumItems: 27
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C
+          #   NumItems: 23
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C
+          #   NumItems: 30
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C
+          #   NumItems: 28
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C
+          #   NumItems: 16
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C
+          #   NumItems: 18
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C
+          #   NumItems: 33
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C
+          #   NumItems: 6
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C
+          #   NumItems: 4
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C
+          #   NumItems: 7
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+          #   NumItems: 13
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C
+          #   NumItems: 13
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+          #   NumItems: 23
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+          #   NumItems: 18
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C
+          #   NumItems: 12
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C
+          #   NumItems: 14
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C
+          #   NumItems: 6
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
+          #   NumItems: 29
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
+          #   NumItems: 22
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
+          #   NumItems: 17
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+          #   NumItems: 8
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+          #   NumItems: 9
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C
+          #   NumItems: 26
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C
+          #   NumItems: 14
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+          #   NumItems: 12
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C
+          #   NumItems: 26
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C
+          #   NumItems: 27
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C
+          #   NumItems: 27
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/ElectromagneticControlRod/Desc_ElectromagneticControlRod.Desc_ElectromagneticControlRod_C
+          #   NumItems: 17
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C
+          #   NumItems: 8
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+          #   NumItems: 18
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+          #   NumItems: 12
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
+          #   NumItems: 13
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+          #   NumItems: 9
+          # - Item:
+          #     ItemClass: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C
+          #   NumItems: 23
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/RawResources/SAM/Desc_SAM.Desc_SAM_C
+            NumItems: 1
