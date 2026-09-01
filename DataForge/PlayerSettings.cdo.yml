@@ -1,0 +1,107 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Script/FactoryGame.FGPlayerSettings
+    properties:
+      - path: mStartingItems
+        value:
+          # Vanilla
+          /Game/FactoryGame/Resource/Equipment/ShockShank/BP_EquipmentDescriptorShockShank.BP_EquipmentDescriptorShockShank_C: 1
+      - path: mRecipesToGivePlayersPerTier
+        value:
+          0:
+            RecipeAmountPairs: []
+          1:
+            RecipeAmountPairs: []
+              # Vanilla
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_MinerMk1.Recipe_MinerMk1_C
+              #  amount: 4
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C
+              #  amount: 3
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ConstructorMk1.Recipe_ConstructorMk1_C
+              #  amount: 4
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C
+              #  amount: 2
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_WorkBench.Recipe_WorkBench_C
+              #  amount: 1
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_Workshop.Recipe_Workshop_C
+              #  amount: 1
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPole.Recipe_ConveyorPole_C
+              #  amount: 10
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk1.Recipe_ConveyorBeltMk1_C
+              #  amount: 50
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C
+              #  amount: 8
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C
+              #  amount: 20
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_TradingPost.Recipe_TradingPost_C
+              #  amount: 1
+          2:
+            RecipeAmountPairs: []
+              # Vanilla
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ResourceSinkShop.Recipe_ResourceSinkShop_C
+              #  amount: 1
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ResourceSink.Recipe_ResourceSink_C
+              #  amount: 1
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ConstructorMk1.Recipe_ConstructorMk1_C
+              #  amount: 12
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C
+              #  amount: 2
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_MinerMk1.Recipe_MinerMk1_C
+              #  amount: 3
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_SmelterMk1.Recipe_SmelterMk1_C
+              #  amount: 6
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk1.Recipe_ConveyorBeltMk1_C
+              #  amount: 50
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPole.Recipe_ConveyorPole_C
+              #  amount: 10
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C
+              #  amount: 10
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C
+              #  amount: 20
+          3:
+            RecipeAmountPairs: []
+              # Vanilla
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C
+              #  amount: 4
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_WaterPump.Recipe_WaterPump_C
+              #  amount: 2
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline.Recipe_Pipeline_C
+              #  amount: 50
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupport.Recipe_PipeSupport_C
+              #  amount: 4
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_PipelinePump.Recipe_PipelinePump_C
+              #  amount: 4
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C
+              #  amount: 2
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ConstructorMk1.Recipe_ConstructorMk1_C
+              #  amount: 10
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_AssemblerMk1.Recipe_AssemblerMk1_C
+              #  amount: 8
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk2.Recipe_ConveyorBeltMk2_C
+              #  amount: 50
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPole.Recipe_ConveyorPole_C
+              #  amount: 10
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C
+              #  amount: 15
+              #- recipe: /Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C
+              #  amount: 30
+              #- recipe: /Game/FactoryGame/Recipes/Assembler/Recipe_IronPlateReinforced.Recipe_IronPlateReinforced_C
+              #  amount: 150
+              #- recipe: /Game/FactoryGame/Recipes/Assembler/Recipe_Rotor.Recipe_Rotor_C
+              #  amount: 50
+              #- recipe: /Game/FactoryGame/Recipes/Constructor/Recipe_Cable.Recipe_Cable_C
+              #  amount: 300
+          4:
+            RecipeAmountPairs: []
+          5:
+            RecipeAmountPairs: []
+          6:
+            RecipeAmountPairs: []
+          7:
+            RecipeAmountPairs: []
+          8:
+            RecipeAmountPairs: []
+          9:
+            RecipeAmountPairs: []
