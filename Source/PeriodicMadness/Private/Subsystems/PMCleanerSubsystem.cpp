@@ -5,6 +5,8 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "Resources/FGResourceDeposit.h"
 #include "FGCharacterPlayer.h"
+#include "FGDropPod.h"
+#include "FGItemPickup_Spawnable.h"
 #include "PeriodicMadnessLogChannels.h"
 
 APMCleanerSubsystem::APMCleanerSubsystem()
@@ -39,15 +41,19 @@ void APMCleanerSubsystem::UpdateResourceScanner()
 void APMCleanerSubsystem::BeginPlay()
 {
 	Super::BeginPlay();
+
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
+	CleanupCrashSites();
 }
 
 void APMCleanerSubsystem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
+	CleanupCrashSites();
 }
 
 void APMCleanerSubsystem::RemoveStaticMeshes()
@@ -103,6 +109,65 @@ void APMCleanerSubsystem::RemoveResourceDeposits()
 				}
 
 				ResourceDeposit->Destroy();
+			}
+		}
+	}
+}
+
+void APMCleanerSubsystem::CleanupCrashSites()
+{
+	TArray<AActor*> DropPodActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGDropPod::StaticClass(), DropPodActors);
+
+	for (AActor* Actor : DropPodActors) {
+		AFGDropPod* DropPod = Cast<AFGDropPod>(Actor);
+		if (DropPod)
+		{
+			if (DropPod->mUnlockCost.CostType != EFGDropPodUnlockCostType::None)
+			{
+				PM_LOG_ARGS(Verbose, TEXT("Resetting drop pod unlock cost for: %s"), *UKismetSystemLibrary::GetPathName(DropPod));
+				DropPod->mUnlockCost = FFGDropPodUnlockCost();
+			}
+
+			for (AFGItemPickup_Spawnable* ItemPickup : DropPod->mSpawnedPickups)
+			{
+				if (ItemPickup)
+				{
+					PM_LOG_ARGS(Verbose, TEXT("Destroying drop pod spawned item pickup: %s"), *UKismetSystemLibrary::GetPathName(ItemPickup));
+					ItemPickup->Destroy();
+				}
+			}
+
+			CleanupDroppedItems(DropPod);
+		}
+	}
+}
+
+void APMCleanerSubsystem::CleanupDroppedItems(AFGDropPod* DropPod)
+{
+	FVector CenterPosition = DropPod->GetActorLocation(); // Center of the radius
+	float Radius = 5000.f;
+
+	TArray<TEnumAsByte<EObjectTypeQuery>> ObjectTypes;
+	ObjectTypes.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_WorldDynamic));
+
+	TArray<AActor*> ActorsToIgnore;
+	ActorsToIgnore.Add(DropPod);
+
+	TArray<AActor*> OutActors;
+	bool bResult = UKismetSystemLibrary::SphereOverlapActors(GetWorld(), CenterPosition, Radius, ObjectTypes, AFGItemPickup_Spawnable::StaticClass(), ActorsToIgnore, OutActors);
+
+	if (bResult)
+	{
+		for (AActor* Actor : OutActors)
+		{
+			if (AFGItemPickup_Spawnable* ItemPickup = Cast<AFGItemPickup_Spawnable>(Actor))
+			{
+				if (!UKismetSystemLibrary::GetPathName(ItemPickup).Contains(TEXT("/PeriodicMadness/Resources/"), ESearchCase::CaseSensitive))
+				{
+					PM_LOG_ARGS(Verbose, TEXT("Destroying dropped item pickup: %s"), *UKismetSystemLibrary::GetPathName(ItemPickup));
+					ItemPickup->Destroy();
+				}
 			}
 		}
 	}

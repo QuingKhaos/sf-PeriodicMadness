@@ -4,6 +4,8 @@
 #include "Subsystem/ModSubsystem.h"
 #include "PMCleanerSubsystem.generated.h"
 
+class AFGDropPod;
+
 /**
  * Subsystem for resource cleanup during runtime. 
  */
@@ -28,6 +30,12 @@ protected:
 
 	/** Remove all resource deposits, except allowlisted ones. */
 	void RemoveResourceDeposits();
+
+	/** Cleanup crash sites. */
+	void CleanupCrashSites();
+
+	/** Cleanup dropped items around crash sites. */
+	void CleanupDroppedItems(AFGDropPod* DropPod);
 
 	/** List of static meshes to be cleaned up */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
