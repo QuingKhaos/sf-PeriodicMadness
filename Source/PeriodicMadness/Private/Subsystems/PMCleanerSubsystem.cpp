@@ -12,9 +12,7 @@
 
 APMCleanerSubsystem::APMCleanerSubsystem()
 {
-	PrimaryActorTick.bCanEverTick = true;
-	PrimaryActorTick.bAllowTickOnDedicatedServer = true;
-	PrimaryActorTick.TickInterval = 1.f;
+	PrimaryActorTick.bCanEverTick = false;
 
 	ReplicationPolicy = ESubsystemReplicationPolicy::SpawnOnServer_Replicate;
 }
