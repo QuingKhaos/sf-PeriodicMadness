@@ -54,6 +54,14 @@
 						{
 							"Key": "Nickel Chunks",
 							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelChunks/Desc_PM_NickelChunks.Default__Desc_PM_NickelChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Nickel Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelIngot/Desc_PM_NickelIngot.Default__Desc_PM_NickelIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Nickel Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelPlate/Desc_PM_NickelPlate.Default__Desc_PM_NickelPlate_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -94,6 +102,18 @@
 					"Keys": [
 						{
 							"Key": "ChunkIronIngot/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chunk Nickel Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ChunkNickelIngot/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -142,6 +162,30 @@
 					"Keys": [
 						{
 							"Key": "NickelChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "NickelIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Plate"
+					},
+					"Keys": [
+						{
+							"Key": "NickelPlate/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]

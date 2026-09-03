@@ -58,7 +58,7 @@
 					{
 						"Text": "Fe"
 					},
-					"Key": "Iron Plate"
+					"Key": "Iron Chunks"
 				},
 				{
 					"Source":
@@ -69,7 +69,29 @@
 					{
 						"Text": "Fe"
 					},
-					"Key": "Iron Chunks"
+					"Key": "Iron Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": "Ni"
+					},
+					"Key": "Nickel Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": "Ni"
+					},
+					"Key": "Nickel Plate"
 				},
 				{
 					"Source":
@@ -123,6 +145,17 @@
 				{
 					"Source":
 					{
+						"Text": "Chunk Nickel Ingot"
+					},
+					"Translation":
+					{
+						"Text": "Chunk Nickel Ingot"
+					},
+					"Key": "ChunkNickelIngot/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Chunks"
 					},
 					"Translation":
@@ -163,6 +196,28 @@
 						"Text": "Nickel Chunks"
 					},
 					"Key": "NickelChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Ingot"
+					},
+					"Translation":
+					{
+						"Text": "Nickel Ingot"
+					},
+					"Key": "NickelIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Plate"
+					},
+					"Translation":
+					{
+						"Text": "Nickel Plate"
+					},
+					"Key": "NickelPlate/Name"
 				},
 				{
 					"Source":
