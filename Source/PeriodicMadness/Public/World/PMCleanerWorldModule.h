@@ -6,6 +6,8 @@
 #include "Module/GameWorldModule.h"
 #include "PMCleanerWorldModule.generated.h"
 
+class UFGRecipe;
+
 /**
  * Sub world module for resource cleanup.
  */
@@ -29,6 +31,9 @@ protected:
 
 	/** Remove all recipes, except allowlisted ones. */
 	void RemoveRecipes();
+
+	/** Remove the actual recipe, except allowlisted ones. */
+	void RemoveRecipe(TSubclassOf<UFGRecipe> Recipe);
 
 	/** Remove all items, except allowlisted ones. */
 	void RemoveItems();
@@ -56,4 +61,8 @@ protected:
 	/** List of item class substrings to block from removal. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
 	TArray<FString> mItemClassAllowlist;
+
+	/** Cached CDOs to prevent garbage collection. */
+	UPROPERTY(Transient)
+	TArray<TObjectPtr<UObject>> mCachedCDO;
 };

@@ -6,6 +6,8 @@
 #include "Resources/FGBuildDescriptor.h"
 #include "Resources/FGResourceNodeBase.h"
 #include "Subsystems/KBFLAssetDataSubsystem.h"
+#include "Unlocks/FGUnlock.h"
+#include "Unlocks/FGUnlockRecipe.h"
 #include "FGCustomizationRecipe.h"
 #include "FGRecipe.h"
 #include "FGRecipeManager.h"
@@ -117,6 +119,8 @@ void UPMCleanerWorldModule::RemoveResearchTrees()
 				ResearchTreeCDO->mDisplayName = FText();
 				ResearchTreeCDO->mPreUnlockDescription = FText();
 				ResearchTreeCDO->mPostUnlockDescription = FText();
+
+				mCachedCDO.Add(ResearchTreeCDO);
 			}
 		}
 	}
@@ -157,6 +161,25 @@ void UPMCleanerWorldModule::RemoveSchematics()
 
 				UFGSchematic* SchematicCDO = GetMutableDefault<UFGSchematic>(Schematic);
 				SchematicCDO->mType = ESchematicType::EST_Custom;
+
+				TArray<UFGUnlock*> UnlocksToRemove;
+				UnlocksToRemove.Append(SchematicCDO->mUnlocks);
+
+				for (UFGUnlock* Unlock : UnlocksToRemove)
+				{
+					if (Unlock)
+					{
+						if (UFGUnlockRecipe* UnlockRecipe = Cast<UFGUnlockRecipe>(Unlock))
+						{
+							UnlockRecipe->mRecipes.Empty();
+						}
+
+						SchematicCDO->mUnlocks.Remove(Unlock);
+						mCachedCDO.Add(Unlock);
+					}
+				}
+
+				mCachedCDO.Add(SchematicCDO);
 			}
 		}
 	}
@@ -172,60 +195,96 @@ void UPMCleanerWorldModule::RemoveRecipes()
 
 	for (TSubclassOf<UFGRecipe> Recipe : AssetDataSubsystem->GetAllRecipes())
 	{
-		if (Recipe && RecipeManager->mAllRecipes.Contains(Recipe))
-		{
-			FString RecipeClassName = UKismetSystemLibrary::GetPathName(Recipe);
-			bool bIsAllowlisted = false;
+		RemoveRecipe(Recipe);
+	}
 
-			for (const FString& AllowlistEntry : mRecipeClassAllowlist)
+	TArray<TSubclassOf<UFGRecipe>> RecipesToRemove;
+	RecipesToRemove.Append(RecipeManager->mAllRecipes);
+	for (TSubclassOf<UFGRecipe> Recipe : RecipesToRemove)
+	{
+		RemoveRecipe(Recipe);
+	}
+
+	RecipeManager->RebuildDerivedAvailableRecipesData();
+
+	for (TSubclassOf<UFGRecipe> Recipe : RecipeManager->mAllRecipes)
+	{
+		PM_LOG_ARGS(Verbose, TEXT("Remaining all recipes: %s"), *UKismetSystemLibrary::GetPathName(Recipe));
+	}
+
+	for (TSubclassOf<UFGRecipe> Recipe : RecipeManager->mAvailableRecipes)
+	{
+		PM_LOG_ARGS(Verbose, TEXT("Remaining available recipes: %s"), *UKismetSystemLibrary::GetPathName(Recipe));
+	}
+
+	for (TSubclassOf<UFGCustomizationRecipe> CustomizationRecipe : RecipeManager->mAvailableCustomizationRecipes)
+	{
+		PM_LOG_ARGS(Verbose, TEXT("Remaining available customization recipes: %s"), *UKismetSystemLibrary::GetPathName(CustomizationRecipe));
+	}
+
+	for (TSubclassOf<AActor> Building : RecipeManager->mAvailableBuildings)
+	{
+		PM_LOG_ARGS(Verbose, TEXT("Remaining available buildings: %s"), *UKismetSystemLibrary::GetPathName(Building));
+	}
+}
+
+void UPMCleanerWorldModule::RemoveRecipe(TSubclassOf<UFGRecipe> Recipe)
+{
+	AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld());
+
+	if (Recipe && RecipeManager->mAllRecipes.Contains(Recipe))
+	{
+		FString RecipeClassName = UKismetSystemLibrary::GetPathName(Recipe);
+		bool bIsAllowlisted = false;
+
+		for (const FString& AllowlistEntry : mRecipeClassAllowlist)
+		{
+			if (RecipeClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
+				bIsAllowlisted = true;
+				break;
+			}
+		}
+
+		if (!bIsAllowlisted)
+		{
+			PM_LOG_ARGS(Verbose, TEXT("Removing recipe: %s"), *RecipeClassName);
+			RecipeManager->mAllRecipes.Remove(Recipe);
+
+			if (RecipeManager->mAvailableRecipes.Contains(Recipe))
 			{
-				if (RecipeClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
-					bIsAllowlisted = true;
-					break;
+				RecipeManager->mAvailableRecipes.Remove(Recipe);
+			}
+
+			if (UFGCustomizationRecipe* CustomizationRecipe = Cast<UFGCustomizationRecipe>(Recipe->GetDefaultObject()))
+			{
+				if (RecipeManager->mAvailableCustomizationRecipes.Contains(CustomizationRecipe->StaticClass()))
+				{
+					RecipeManager->mAvailableCustomizationRecipes.Remove(CustomizationRecipe->StaticClass());
+				}
+
+				if (RecipeManager->mAvailableCustomizationRecipesLookup.Contains(CustomizationRecipe->StaticClass()))
+				{
+					RecipeManager->mAvailableCustomizationRecipesLookup.Remove(CustomizationRecipe->StaticClass());
 				}
 			}
 
-			if (!bIsAllowlisted)
+			TArray<TSubclassOf<UObject>> ProducedIn = UFGRecipe::GetProducedIn(Recipe);
+			for (TSubclassOf<UObject> Producer : ProducedIn)
 			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing recipe: %s"), *RecipeClassName);
-				RecipeManager->mAllRecipes.Remove(Recipe);
-
-				if (RecipeManager->mAvailableRecipes.Contains(Recipe))
+				if (AFGBuildGun* BuildGun = Cast<AFGBuildGun>(Producer->GetDefaultObject()))
 				{
-					RecipeManager->mAvailableRecipes.Remove(Recipe);
-				}
-
-				if (UFGCustomizationRecipe* CustomizationRecipe = Cast<UFGCustomizationRecipe>(Recipe->GetDefaultObject()))
-				{
-					if (RecipeManager->mAvailableCustomizationRecipes.Contains(CustomizationRecipe->StaticClass()))
+					TArray<FItemAmount> Products = UFGRecipe::GetProducts(Recipe);
+					for (const FItemAmount& Product : Products)
 					{
-						RecipeManager->mAvailableCustomizationRecipes.Remove(CustomizationRecipe->StaticClass());
-					}
-
-					if (RecipeManager->mAvailableCustomizationRecipesLookup.Contains(CustomizationRecipe->StaticClass()))
-					{
-						RecipeManager->mAvailableCustomizationRecipesLookup.Remove(CustomizationRecipe->StaticClass());
-					}
-				}
-
-				TArray<TSubclassOf<UObject>> ProducedIn = UFGRecipe::GetProducedIn(Recipe);
-				for (TSubclassOf<UObject> Producer : ProducedIn)
-				{
-					if (AFGBuildGun* BuildGun = Cast<AFGBuildGun>(Producer->GetDefaultObject()))
-					{
-						TArray<FItemAmount> Products = UFGRecipe::GetProducts(Recipe);
-						for (const FItemAmount& Product : Products)
+						if (UFGBuildDescriptor* BuildDescriptor = Cast<UFGBuildDescriptor>(Product.ItemClass->GetDefaultObject()))
 						{
-							if (UFGBuildDescriptor* BuildDescriptor = Cast<UFGBuildDescriptor>(Product.ItemClass->GetDefaultObject()))
+							if (TSubclassOf<AActor> BuildClass = UFGBuildDescriptor::GetBuildClass(BuildDescriptor->StaticClass()))
 							{
-								if (TSubclassOf<AActor> BuildClass = UFGBuildDescriptor::GetBuildClass(BuildDescriptor->StaticClass()))
+								if (AFGBuildable* Buildable = Cast<AFGBuildable>(BuildClass->GetDefaultObject()))
 								{
-									if (AFGBuildable* Buildable = Cast<AFGBuildable>(BuildClass->GetDefaultObject()))
+									if (RecipeManager->mAvailableBuildings.Contains(Buildable->StaticClass()))
 									{
-										if (RecipeManager->mAvailableBuildings.Contains(Buildable->StaticClass()))
-										{
-											RecipeManager->mAvailableBuildings.Remove(Buildable->StaticClass());
-										}
+										RecipeManager->mAvailableBuildings.Remove(Buildable->StaticClass());
 									}
 								}
 							}
@@ -235,8 +294,6 @@ void UPMCleanerWorldModule::RemoveRecipes()
 			}
 		}
 	}
-
-	RecipeManager->RebuildDerivedAvailableRecipesData();
 }
 
 void UPMCleanerWorldModule::RemoveItems()
@@ -264,6 +321,7 @@ void UPMCleanerWorldModule::RemoveItems()
 			{
 				PM_LOG_ARGS(Verbose, TEXT("Removing item: %s"), *ItemClassName);
 				RecipeManager->mAllItemDescriptors.Remove(Item);
+
 				if (RecipeManager->mAvailableItemDescriptors.Contains(Item))
 				{
 					RecipeManager->mAvailableItemDescriptors.Remove(Item);
@@ -273,4 +331,14 @@ void UPMCleanerWorldModule::RemoveItems()
 	}
 
 	RecipeManager->RebuildAvailableItemDescriptorLookup();
+
+	for (TSubclassOf<UFGItemDescriptor> Item : RecipeManager->mAllItemDescriptors)
+	{
+		PM_LOG_ARGS(Verbose, TEXT("Remaining all item descriptors: %s"), *UKismetSystemLibrary::GetPathName(Item));
+	}
+
+	for (TSubclassOf<UFGItemDescriptor> Item : RecipeManager->mAvailableItemDescriptors)
+	{
+		PM_LOG_ARGS(Verbose, TEXT("Remaining available item descriptors: %s"), *UKismetSystemLibrary::GetPathName(Item));
+	}
 }
