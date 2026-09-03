@@ -3,6 +3,44 @@
 	"Namespace": "",
 	"Subnamespaces": [
 		{
+			"Namespace": "AbbreviatedDisplayName",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Copper Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Nickel Chunks"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
 				{

@@ -3,6 +3,47 @@
 	"Namespace": "",
 	"Subnamespaces": [
 		{
+			"Namespace": "AbbreviatedDisplayName",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Keys": [
+						{
+							"Key": "Copper Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperChunks/Desc_PM_CopperChunks.Default__Desc_PM_CopperChunks_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Keys": [
+						{
+							"Key": "Iron Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Iron/IronChunks/Desc_PM_IronChunks.Default__Desc_PM_IronChunks_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Keys": [
+						{
+							"Key": "Nickel Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelChunks/Desc_PM_NickelChunks.Default__Desc_PM_NickelChunks_C.mAbbreviatedDisplayName"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
 				{
