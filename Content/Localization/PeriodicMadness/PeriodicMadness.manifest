@@ -14,6 +14,10 @@
 						{
 							"Key": "Copper Chunks",
 							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperChunks/Desc_PM_CopperChunks.Default__Desc_PM_CopperChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Copper Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperIngot/Desc_PM_CopperIngot.Default__Desc_PM_CopperIngot_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -65,6 +69,18 @@
 				{
 					"Source":
 					{
+						"Text": "Chunk Copper Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ChunkCopperIngot/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Chunk Iron Ingot"
 					},
 					"Keys": [
@@ -82,6 +98,18 @@
 					"Keys": [
 						{
 							"Key": "CopperChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Plate"
+					},
+					"Keys": [
+						{
+							"Key": "CopperPlate/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]

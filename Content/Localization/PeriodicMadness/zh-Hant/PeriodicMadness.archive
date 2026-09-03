@@ -14,6 +14,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Copper Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Copper Chunks"
 				},
 				{
@@ -68,6 +79,17 @@
 				{
 					"Source":
 					{
+						"Text": "Chunk Copper Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ChunkCopperIngot/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Chunk Iron Ingot"
 					},
 					"Translation":
@@ -86,6 +108,17 @@
 						"Text": "銅礦石塊"
 					},
 					"Key": "CopperChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Plate"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "CopperPlate/Name"
 				},
 				{
 					"Source":
