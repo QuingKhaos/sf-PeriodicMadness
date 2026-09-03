@@ -37,6 +37,17 @@
 						"Text": "Ni"
 					},
 					"Key": "Nickel Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": "Zn"
+					},
+					"Key": "Zinc Chunks"
 				}
 			]
 		},

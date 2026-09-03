@@ -40,6 +40,18 @@
 							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelChunks/Desc_PM_NickelChunks.Default__Desc_PM_NickelChunks_C.mAbbreviatedDisplayName"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Keys": [
+						{
+							"Key": "Zinc Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincChunks/Desc_PM_ZincChunks.Default__Desc_PM_ZincChunks_C.mAbbreviatedDisplayName"
+						}
+					]
 				}
 			]
 		},
