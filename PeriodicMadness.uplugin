@@ -32,6 +32,11 @@
 	],
 	"Plugins": [
 		{
+			"Name": "Fabricator",
+			"Enabled": true,
+			"SemVersion": "^1.0.0"
+		},
+		{
 			"Name": "KBFL",
 			"Enabled": true,
 			"SemVersion": "^2026.3.506"

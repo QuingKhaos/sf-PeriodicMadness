@@ -26,6 +26,10 @@
 						{
 							"Key": "Iron Chunks",
 							"Path": "/PeriodicMadness/Resources/TM/Iron/IronChunks/Desc_PM_IronChunks.Default__Desc_PM_IronChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Iron Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Iron/IronIngot/Desc_PM_IronIngot.Default__Desc_PM_IronIngot_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -58,6 +62,18 @@
 		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Chunk Iron Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ChunkIronIngot/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
 				{
 					"Source":
 					{

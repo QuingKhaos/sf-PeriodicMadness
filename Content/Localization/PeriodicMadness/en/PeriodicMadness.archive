@@ -25,6 +25,17 @@
 					{
 						"Text": "Fe"
 					},
+					"Key": "Iron Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": "Fe"
+					},
 					"Key": "Iron Chunks"
 				},
 				{
@@ -54,6 +65,17 @@
 		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Chunk Iron Ingot"
+					},
+					"Translation":
+					{
+						"Text": "Chunk Iron Ingot"
+					},
+					"Key": "ChunkIronIngot/Recipe"
+				},
 				{
 					"Source":
 					{

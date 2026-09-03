@@ -6,6 +6,9 @@ patches:
     properties:
       - path: mLootTable
         value:
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Desc_PM_IronPlate_C
+            NumItems: 27
           # Vanilla
           - Item:
               ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C
