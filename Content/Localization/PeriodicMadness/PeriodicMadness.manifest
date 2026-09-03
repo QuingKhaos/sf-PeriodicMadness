@@ -8,6 +8,18 @@
 				{
 					"Source":
 					{
+						"Text": "Copper Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "CopperChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Chunks"
 					},
 					"Keys": [
@@ -25,6 +37,18 @@
 					"Keys": [
 						{
 							"Key": "TransitionMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Copper"
+					},
+					"Keys": [
+						{
+							"Key": "Copper/Cat",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]

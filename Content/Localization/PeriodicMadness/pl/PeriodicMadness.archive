@@ -8,6 +8,17 @@
 				{
 					"Source":
 					{
+						"Text": "Copper Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Odłamki miedzi"
+					},
+					"Key": "CopperChunks/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Chunks"
 					},
 					"Translation":
@@ -26,6 +37,17 @@
 						"Text": "Metale Przejściowe"
 					},
 					"Key": "TransitionMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Copper"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Copper/Cat"
 				},
 				{
 					"Source":

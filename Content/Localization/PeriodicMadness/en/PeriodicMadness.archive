@@ -8,6 +8,17 @@
 				{
 					"Source":
 					{
+						"Text": "Copper Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Copper Chunks"
+					},
+					"Key": "CopperChunks/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Chunks"
 					},
 					"Translation":
@@ -26,6 +37,17 @@
 						"Text": "Transition Metals"
 					},
 					"Key": "TransitionMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Copper"
+					},
+					"Translation":
+					{
+						"Text": "Transition Metals: Copper"
+					},
+					"Key": "Copper/Cat"
 				},
 				{
 					"Source":
