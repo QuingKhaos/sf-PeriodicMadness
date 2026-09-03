@@ -1,0 +1,44 @@
+{
+	"FormatVersion": 2,
+	"Namespace": "",
+	"Subnamespaces": [
+		{
+			"Namespace": "ST_PM_TM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Iron Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Pedaços de Ferro"
+					},
+					"Key": "IronChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TransitionMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Iron"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron/Cat"
+				}
+			]
+		}
+	]
+}
