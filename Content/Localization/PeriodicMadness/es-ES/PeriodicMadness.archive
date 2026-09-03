@@ -119,6 +119,28 @@
 						"Text": ""
 					},
 					"Key": "Nickel/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Zinc"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Trozos de Zinc"
+					},
+					"Key": "ZincChunks/Name"
 				}
 			]
 		}

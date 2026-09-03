@@ -129,6 +129,30 @@
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Zinc"
+					},
+					"Keys": [
+						{
+							"Key": "Zinc/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "ZincChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
 				}
 			]
 		}
