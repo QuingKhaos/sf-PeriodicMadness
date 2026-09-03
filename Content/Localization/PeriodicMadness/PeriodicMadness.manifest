@@ -18,6 +18,10 @@
 						{
 							"Key": "Copper Ingot",
 							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperIngot/Desc_PM_CopperIngot.Default__Desc_PM_CopperIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Copper Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperPlate/Desc_PM_CopperPlate.Default__Desc_PM_CopperPlate_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -34,6 +38,10 @@
 						{
 							"Key": "Iron Ingot",
 							"Path": "/PeriodicMadness/Resources/TM/Iron/IronIngot/Desc_PM_IronIngot.Default__Desc_PM_IronIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Iron Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Default__Desc_PM_IronPlate_C.mAbbreviatedDisplayName"
 						}
 					]
 				},

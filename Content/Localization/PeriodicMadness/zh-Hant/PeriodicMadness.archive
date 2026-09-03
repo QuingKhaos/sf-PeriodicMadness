@@ -25,6 +25,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Copper Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Copper Chunks"
 				},
 				{
@@ -37,6 +48,17 @@
 						"Text": ""
 					},
 					"Key": "Iron Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Plate"
 				},
 				{
 					"Source":
