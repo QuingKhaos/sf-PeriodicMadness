@@ -32,6 +32,18 @@
 				{
 					"Source":
 					{
+						"Text": "Nickel Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "NickelChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals"
 					},
 					"Keys": [
@@ -61,6 +73,18 @@
 					"Keys": [
 						{
 							"Key": "Iron/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Nickel"
+					},
+					"Keys": [
+						{
+							"Key": "Nickel/Cat",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]

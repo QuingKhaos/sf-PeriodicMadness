@@ -30,6 +30,17 @@
 				{
 					"Source":
 					{
+						"Text": "Nickel Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Trozos de Níquel"
+					},
+					"Key": "NickelChunks/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals"
 					},
 					"Translation":
@@ -59,6 +70,17 @@
 						"Text": ""
 					},
 					"Key": "Iron/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Nickel"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Nickel/Cat"
 				}
 			]
 		}
