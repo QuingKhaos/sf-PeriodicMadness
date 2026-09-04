@@ -15,6 +15,9 @@ patches:
           - Item:
               ItemClass: /PeriodicMadness/Resources/TM/Nickel/NickelPlate/Desc_PM_NickelPlate.Desc_PM_NickelPlate_C
             NumItems: 27
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/TM/Zinc/ZincPlate/Desc_PM_ZincPlate.Desc_PM_ZincPlate_C
+            NumItems: 27
           # Vanilla
           - Item:
               ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C

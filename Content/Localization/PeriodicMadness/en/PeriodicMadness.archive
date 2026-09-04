@@ -58,7 +58,7 @@
 					{
 						"Text": "Fe"
 					},
-					"Key": "Iron Chunks"
+					"Key": "Iron Plate"
 				},
 				{
 					"Source":
@@ -69,7 +69,18 @@
 					{
 						"Text": "Fe"
 					},
-					"Key": "Iron Plate"
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": "Ni"
+					},
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -96,13 +107,24 @@
 				{
 					"Source":
 					{
-						"Text": "Ni"
+						"Text": "Zn"
 					},
 					"Translation":
 					{
-						"Text": "Ni"
+						"Text": "Zn"
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Zinc Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": "Zn"
+					},
+					"Key": "Zinc Plate"
 				},
 				{
 					"Source":
@@ -152,6 +174,17 @@
 						"Text": "Chunk Nickel Ingot"
 					},
 					"Key": "ChunkNickelIngot/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chunk Zinc Ingot"
+					},
+					"Translation":
+					{
+						"Text": "Chunk Zinc Ingot"
+					},
+					"Key": "ChunkZincIngot/Recipe"
 				},
 				{
 					"Source":
@@ -284,6 +317,28 @@
 						"Text": "Zinc Chunks"
 					},
 					"Key": "ZincChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Ingot"
+					},
+					"Translation":
+					{
+						"Text": "Zinc Ingot"
+					},
+					"Key": "ZincIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Plate"
+					},
+					"Translation":
+					{
+						"Text": "Zinc Plate"
+					},
+					"Key": "ZincPlate/Name"
 				}
 			]
 		}

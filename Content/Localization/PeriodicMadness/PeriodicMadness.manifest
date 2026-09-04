@@ -74,6 +74,14 @@
 						{
 							"Key": "Zinc Chunks",
 							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincChunks/Desc_PM_ZincChunks.Default__Desc_PM_ZincChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Zinc Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincIngot/Desc_PM_ZincIngot.Default__Desc_PM_ZincIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Zinc Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincPlate/Desc_PM_ZincPlate.Default__Desc_PM_ZincPlate_C.mAbbreviatedDisplayName"
 						}
 					]
 				}
@@ -114,6 +122,18 @@
 					"Keys": [
 						{
 							"Key": "ChunkNickelIngot/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chunk Zinc Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ChunkZincIngot/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -258,6 +278,30 @@
 					"Keys": [
 						{
 							"Key": "ZincChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ZincIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Plate"
+					},
+					"Keys": [
+						{
+							"Key": "ZincPlate/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
