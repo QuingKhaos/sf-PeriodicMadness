@@ -140,6 +140,33 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Products",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Intermediates"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Intermediates/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sea Salt"
+					},
+					"Translation":
+					{
+						"Text": "海盐"
+					},
+					"Key": "SeaSalt/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
 				{
