@@ -74,13 +74,13 @@
 				{
 					"Source":
 					{
-						"Text": "Ni"
+						"Text": "Fe"
 					},
 					"Translation":
 					{
-						"Text": "Ni"
+						"Text": "Fe"
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Iron Screws"
 				},
 				{
 					"Source":
@@ -103,6 +103,17 @@
 						"Text": "Ni"
 					},
 					"Key": "Nickel Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": "Ni"
+					},
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -152,6 +163,17 @@
 						"Text": "Intermediates"
 					},
 					"Key": "Intermediates/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Screws"
+					},
+					"Translation":
+					{
+						"Text": "Iron Screws"
+					},
+					"Key": "IronScrew/Name"
 				},
 				{
 					"Source":

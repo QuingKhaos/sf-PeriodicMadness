@@ -42,6 +42,10 @@
 						{
 							"Key": "Iron Plate",
 							"Path": "/PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Default__Desc_PM_IronPlate_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Iron Screws",
+							"Path": "/PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Default__Desc_PM_IronScrew_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -98,6 +102,18 @@
 					"Keys": [
 						{
 							"Key": "Intermediates/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Screws"
+					},
+					"Keys": [
+						{
+							"Key": "IronScrew/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
