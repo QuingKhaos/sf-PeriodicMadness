@@ -151,6 +151,44 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_MultiMetal",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "Базові профілі"
+					},
+					"Key": "BasicFraming/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "IronBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BasicFraming/Cat"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Products",
 			"Children": [
 				{

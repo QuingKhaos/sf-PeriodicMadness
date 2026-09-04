@@ -7,6 +7,9 @@ patches:
       - path: mLootTable
         value:
           - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/Framing/BasicFraming/Desc_PM_BasicFraming.Desc_PM_BasicFraming_C
+            NumItems: 13
+          - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
             NumItems: 33
           - Item:
