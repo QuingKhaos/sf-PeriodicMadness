@@ -134,6 +134,18 @@
 							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Pipeline Part Mk.1"
+					},
+					"Keys": [
+						{
+							"Key": "PipelinePartMk1/Name",
+							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
+						}
+					]
 				}
 			]
 		},
@@ -289,6 +301,18 @@
 		{
 			"Namespace": "ST_PM_Products",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Bricks"
+					},
+					"Keys": [
+						{
+							"Key": "Bricks/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
 				{
 					"Source":
 					{

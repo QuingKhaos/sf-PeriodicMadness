@@ -190,6 +190,17 @@
 						"Text": "Conveyor Belt Parts Mk.1"
 					},
 					"Key": "ConveyorBeltPartMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Pipeline Part Mk.1"
+					},
+					"Translation":
+					{
+						"Text": "Pipeline Part Mk.1"
+					},
+					"Key": "PipelinePartMk1/Name"
 				}
 			]
 		},
@@ -333,6 +344,17 @@
 		{
 			"Namespace": "ST_PM_Products",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Bricks"
+					},
+					"Translation":
+					{
+						"Text": "Bricks"
+					},
+					"Key": "Bricks/Name"
+				},
 				{
 					"Source":
 					{
