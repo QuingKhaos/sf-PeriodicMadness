@@ -6,3 +6,7 @@ patches:
     properties:
       - path: mDefaultConveyorPoleRecipe
         value: /PeriodicMadness/Recipes/Buildables/Recipe_PM_ConveyorPole.Recipe_PM_ConveyorPole_C
+      - path: mDefaultConveyorWallPoleRecipe
+        value: /PeriodicMadness/Recipes/Buildables/Recipe_PM_ConveyorPoleWall.Recipe_PM_ConveyorPoleWall_C
+      - path: mDefaultConveyorCeilingPoleRecipe
+        value: /PeriodicMadness/Recipes/Buildables/Recipe_PM_ConveyorCeilingAttachment.Recipe_PM_ConveyorCeilingAttachment_C

@@ -151,6 +151,49 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Buildables",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Transports up to 150 resources per minute. Used to move resources between buildings."
+					},
+					"Translation":
+					{
+						"Text": "Transports up to 150 resources per minute. Used to move resources between buildings."
+					},
+					"Key": "ConveyorBeltMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports up to 150 resources per minute. Used to move resources between floors."
+					},
+					"Translation":
+					{
+						"Text": "Transports up to 150 resources per minute. Used to move resources between floors."
+					},
+					"Key": "ConveyorLiftMk1/Desc"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Logistics",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Conveyor Belt Parts Mk.1"
+					},
+					"Translation":
+					{
+						"Text": "Conveyor Belt Parts Mk.1"
+					},
+					"Key": "ConveyorBeltPartMk1/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_MultiMetal",
 			"Children": [
 				{
