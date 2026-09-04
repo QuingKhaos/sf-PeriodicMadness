@@ -167,6 +167,17 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Revêtement basique"
+					},
+					"Key": "BasicPanelling/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Basic Framing"
 					},
 					"Translation":
@@ -178,6 +189,17 @@
 				{
 					"Source":
 					{
+						"Text": "Iron Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Revêtement basique en fer"
+					},
+					"Key": "IronBasicPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "MultiMetal: Basic Framing"
 					},
 					"Translation":
@@ -185,6 +207,28 @@
 						"Text": ""
 					},
 					"Key": "BasicFraming/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BasicPanelling/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "ZincBasicPanelling"
+					},
+					"Translation":
+					{
+						"Text": "Revêtement basique en zinc"
+					},
+					"Key": "ZincBasicPanelling/Recipe"
 				}
 			]
 		},

@@ -109,6 +109,18 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "BasicPanelling/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Basic Framing"
 					},
 					"Keys": [
@@ -121,11 +133,47 @@
 				{
 					"Source":
 					{
+						"Text": "Iron Basic Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "IronBasicPanelling/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "MultiMetal: Basic Framing"
 					},
 					"Keys": [
 						{
 							"Key": "BasicFraming/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "BasicPanelling/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "ZincBasicPanelling"
+					},
+					"Keys": [
+						{
+							"Key": "ZincBasicPanelling/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
