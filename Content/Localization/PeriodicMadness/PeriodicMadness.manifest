@@ -121,6 +121,30 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "BasicTubing/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "CopperBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Basic Framing"
 					},
 					"Keys": [
@@ -145,6 +169,18 @@
 				{
 					"Source":
 					{
+						"Text": "Iron Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "IronBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "MultiMetal: Basic Framing"
 					},
 					"Keys": [
@@ -162,6 +198,30 @@
 					"Keys": [
 						{
 							"Key": "BasicPanelling/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "BasicTubing/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "NickelBasicTubing/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]

@@ -178,6 +178,28 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "基础管材"
+					},
+					"Key": "BasicTubing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "铜制基础管材"
+					},
+					"Key": "CopperBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Basic Framing"
 					},
 					"Translation":
@@ -200,6 +222,17 @@
 				{
 					"Source":
 					{
+						"Text": "Iron Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "铁制基础管材"
+					},
+					"Key": "IronBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "MultiMetal: Basic Framing"
 					},
 					"Translation":
@@ -218,6 +251,28 @@
 						"Text": ""
 					},
 					"Key": "BasicPanelling/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BasicTubing/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "镍制基础管材"
+					},
+					"Key": "NickelBasicTubing/Recipe"
 				},
 				{
 					"Source":
