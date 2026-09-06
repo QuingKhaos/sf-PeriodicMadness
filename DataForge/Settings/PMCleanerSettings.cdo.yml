@@ -7,19 +7,19 @@ patches:
       - path: mStaticMeshesCleanlist
         value:
           # Caterium
-          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreGold_01.ResourceNode_OreGold_01
+          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreGold_01
           # Copper
-          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreCopper_01.ResourceNode_OreCopper_01
+          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreCopper_01
           # Iron
-          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreIron_01.ResourceNode_OreIron_01
+          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreIron_01
           # Nitrogen
-          - /Game/Developers/gabrielestigliano/NitrogenNode/SM_Nitrogen_Node_Mid.SM_Nitrogen_Node_Mid
-          - /Game/Developers/gabrielestigliano/NitrogenNode/SM_Nitrogen_Node_Small.SM_Nitrogen_Node_Small
-          - /Game/Developers/gabrielestigliano/NitrogenNode/SM_Nitrogen_Node_Crack.SM_Nitrogen_Node_Crack
+          - /Game/Developers/gabrielestigliano/NitrogenNode/SM_Nitrogen_Node_Mid
+          - /Game/Developers/gabrielestigliano/NitrogenNode/SM_Nitrogen_Node_Small
+          - /Game/Developers/gabrielestigliano/NitrogenNode/SM_Nitrogen_Node_Crack
           # Quartz
-          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_quartz.ResourceNode_quartz
+          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_quartz
           # Sulfur
-          - /Game/FactoryGame/Resource/RawResources/Nodes/SulfurResource_01.SulfurResource_01
+          - /Game/FactoryGame/Resource/RawResources/Nodes/SulfurResource_01
       - path: mResourceClassAllowlist
         value:
           # Mods

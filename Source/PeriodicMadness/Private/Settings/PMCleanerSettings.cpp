@@ -5,6 +5,7 @@
 #include "FGRecipe.h"
 #include "FGResearchTree.h"
 #include "FGSchematic.h"
+#include "PeriodicMadnessLogChannels.h"
 
 const UPMCleanerSettings* UPMCleanerSettings::SingletonInstance = nullptr;
 
@@ -17,7 +18,17 @@ const UPMCleanerSettings* UPMCleanerSettings::Get()
 
 bool UPMCleanerSettings::ShouldRemoveStaticMesh(const UStaticMesh* StaticMesh) const
 {
-	return mStaticMeshesCleanlist.Contains(StaticMesh);
+	FString StaticMeshName = UKismetSystemLibrary::GetPathName(StaticMesh);
+
+	for (const FString& CleanlistEntry : mStaticMeshesCleanlist)
+	{
+		if (StaticMeshName.Contains(CleanlistEntry, ESearchCase::CaseSensitive))
+		{
+			return true;
+		}
+	}
+
+	return false;
 }
 
 bool UPMCleanerSettings::ShouldRemoveResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass) const

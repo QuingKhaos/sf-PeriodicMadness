@@ -75,9 +75,9 @@ public:
 	bool ShouldRemoveItemClass(const TSubclassOf<UFGItemDescriptor>& ItemClass) const;
 
 protected:
-	/** List of static meshes to be cleaned up */
+	/** List of static meshes substrings to be cleaned up */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<TObjectPtr<UStaticMesh>> mStaticMeshesCleanlist;
+	TArray<FString> mStaticMeshesCleanlist;
 
 	/** List of resource class substrings to block from removal. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
