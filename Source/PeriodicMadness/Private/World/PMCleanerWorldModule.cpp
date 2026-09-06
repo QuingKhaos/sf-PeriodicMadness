@@ -4,6 +4,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Resources/FGBuildDescriptor.h"
+#include "Resources/FGResourceDeposit.h"
+#include "Resources/FGResourceNode.h"
 #include "Resources/FGResourceNodeBase.h"
 #include "Settings/PMCleanerSettings.h"
 #include "Subsystems/KBFLAssetDataSubsystem.h"
@@ -49,15 +51,21 @@ void UPMCleanerWorldModule::RemoveResourceNodes()
 	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
 
 	TArray<AActor*> ResourceNodeActors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceNodeBase::StaticClass(), ResourceNodeActors);
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceNode::StaticClass(), ResourceNodeActors);
 
 	for (AActor* Actor : ResourceNodeActors)
 	{
-		AFGResourceNodeBase* ResourceNode = Cast<AFGResourceNodeBase>(Actor);
+		AFGResourceNode* ResourceNode = Cast<AFGResourceNode>(Actor);
 		if (ResourceNode)
 		{
 			if (CleanerSettings->ShouldRemoveResourceClass(ResourceNode->GetResourceClass()))
 			{
+				// Log removed nodes in CSV format.
+				//if (!ResourceNode->IsA(AFGResourceDeposit::StaticClass()))
+				//{
+				//	PM_LOG_ARGS(Verbose, TEXT("%s;%s;%3.3f;%3.3f;%3.3f;%f;%f;%f"), *UKismetSystemLibrary::GetPathName(ResourceNode->GetResourceClass()), *UEnum::GetValueAsString(ResourceNode->GetResourcePurity()), ResourceNode->GetActorLocation().X, ResourceNode->GetActorLocation().Y, ResourceNode->GetActorLocation().Z, ResourceNode->GetActorRotation().Roll, ResourceNode->GetActorRotation().Pitch, ResourceNode->GetActorRotation().Yaw);
+				//}
+
 				PM_LOG_ARGS(Verbose, TEXT("Removing resource: %s, Node: %s"), *UKismetSystemLibrary::GetPathName(ResourceNode->GetResourceClass()), *UKismetSystemLibrary::GetPathName(ResourceNode));
 
 				AActor* MeshActor = ResourceNode->GetMeshActor();
