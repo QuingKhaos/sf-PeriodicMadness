@@ -62,6 +62,23 @@ bool UPMCleanerSettings::ShouldReplaceResourceClass(const TSubclassOf<UFGResourc
 	return false;
 }
 
+bool UPMCleanerSettings::ShouldRemoveFoliageItemClass(const TSubclassOf<UFGItemDescriptor>& ItemClass) const
+{
+	FString ItemClassName = UKismetSystemLibrary::GetPathName(ItemClass);
+	bool bIsAllowlisted = false;
+
+	for (const FString& AllowlistEntry : mFoliageItemClassAllowlist)
+	{
+		if (ItemClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive))
+		{
+			bIsAllowlisted = true;
+			break;
+		}
+	}
+
+	return !bIsAllowlisted;
+}
+
 bool UPMCleanerSettings::ShouldReplaceFoliageItemClass(const TSubclassOf<UFGItemDescriptor>& ItemClass, TSubclassOf<UFGItemDescriptor>& OutReplacement) const
 {
 	for (const FPMItemReplacement& Replacement : mFoliageItemClassReplacements)

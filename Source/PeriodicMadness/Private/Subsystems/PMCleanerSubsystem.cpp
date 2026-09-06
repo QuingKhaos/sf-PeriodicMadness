@@ -11,7 +11,7 @@
 #include "FGFoliagePickup.h"
 #include "FGFoliageResourceUserData.h"
 #include "FGItemPickup_Spawnable.h"
-#include "InstancedFoliageActor.h"
+#include "ItemDrop.h"
 #include "PeriodicMadnessLogChannels.h"
 #include "WorldPartition/WorldPartitionSubsystem.h"
 
@@ -49,6 +49,7 @@ void APMCleanerSubsystem::BeginPlay()
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
 	ReplaceResourceDeposits();
+	RemoveFoliageItemDrops();
 	ReplaceFoliageItemDrops();
 	CleanupCrashSites();
 
@@ -75,6 +76,7 @@ void APMCleanerSubsystem::OnStreamingStateUpdated()
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
 	ReplaceResourceDeposits();
+	RemoveFoliageItemDrops();
 	ReplaceFoliageItemDrops();
 	CleanupCrashSites();
 }
@@ -146,6 +148,46 @@ void APMCleanerSubsystem::ReplaceResourceDeposits()
 			{
 				PM_LOG_ARGS(Verbose, TEXT("Replacing resource: %s with %s, Deposit: %s"), *UKismetSystemLibrary::GetPathName(ResourceDeposit->GetResourceClass()), *UKismetSystemLibrary::GetPathName(ReplacementResourceClass), *UKismetSystemLibrary::GetPathName(ResourceDeposit));
 				ResourceDeposit->SetResourceClass(ReplacementResourceClass);
+			}
+		}
+	}
+}
+
+void APMCleanerSubsystem::RemoveFoliageItemDrops()
+{
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
+	TArray<AActor*> FoliagePickupActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGFoliagePickup::StaticClass(), FoliagePickupActors);
+
+	for (AActor* Actor : FoliagePickupActors)
+	{
+		AFGFoliagePickup* FoliagePickup = Cast<AFGFoliagePickup>(Actor);
+		if (FoliagePickup)
+		{
+			if (UHierarchicalInstancedStaticMeshComponent* PickupComponent = FoliagePickup->GetPickupComponent().Get())
+			{
+				if (UStaticMesh* Mesh = PickupComponent->GetStaticMesh())
+				{
+					if (UAssetUserData* UserData = Mesh->GetAssetUserDataOfClass(UFGFoliageResourceUserData::StaticClass()))
+					{
+						if (UFGFoliageResourceUserData* FoliageResourceUserData = Cast<UFGFoliageResourceUserData>(UserData))
+						{
+							TArray<FItemDropWithChance> PickupItems;
+							PickupItems.Append(FoliageResourceUserData->mPickupItems);
+
+							for (int32 i = PickupItems.Num() - 1; i >= 0; --i)
+							{
+								const FItemDropWithChance& ItemDrop = PickupItems[i];
+								if (CleanerSettings->ShouldRemoveFoliageItemClass(ItemDrop.Drop.ItemClass))
+								{
+									PM_LOG_ARGS(Verbose, TEXT("Removing foliage item drop: %s, FoliagePickup: %s, Mesh: %s"), *UKismetSystemLibrary::GetPathName(ItemDrop.Drop.ItemClass), *UKismetSystemLibrary::GetPathName(FoliagePickup), *UKismetSystemLibrary::GetPathName(Mesh));
+									FoliageResourceUserData->mPickupItems.RemoveAt(i);
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

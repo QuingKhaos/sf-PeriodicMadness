@@ -37,6 +37,9 @@ protected:
 	/** Replace targeted resource deposit classes with their replacements. */
 	void ReplaceResourceDeposits();
 
+	/** Remove all foliage item drops, except allowlisted ones. */
+	void RemoveFoliageItemDrops();
+
 	/** Replace targeted foliage item drops with their replacements. */
 	void ReplaceFoliageItemDrops();
 

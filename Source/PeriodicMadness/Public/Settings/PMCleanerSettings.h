@@ -63,6 +63,8 @@ public:
 	bool ShouldRemoveResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass) const;
 	/** Checks if a resource class should be replaced and provides the replacement class. */
 	bool ShouldReplaceResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass, TSubclassOf<UFGResourceDescriptor>& OutReplacement) const;
+	/** Checks if a foliage item drop class is allowed to be removed. */
+	bool ShouldRemoveFoliageItemClass(const TSubclassOf<UFGItemDescriptor>& ItemClass) const;
 	/** Checks if a foliage item class should be replaced and provides the replacement class. */
 	bool ShouldReplaceFoliageItemClass(const TSubclassOf<UFGItemDescriptor>& ItemClass, TSubclassOf<UFGItemDescriptor>& OutReplacement) const;
 	/** Checks if a research tree class is allowed to be removed. */
@@ -86,6 +88,10 @@ protected:
 	/** List of resource class replacements. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
 	TArray<FPMResourceReplacement> mResourceClassReplacements;
+
+	/** List of item class substrings on foliage drops to block from removal. */
+	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
+	TArray<FString> mFoliageItemClassAllowlist;
 
 	/** List of item class replacements on foliage drops. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
