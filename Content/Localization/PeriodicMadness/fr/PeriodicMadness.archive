@@ -156,6 +156,28 @@
 				{
 					"Source":
 					{
+						"Text": "Burner Smelter"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BurnerSmelterMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100%."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BurnerSmelterMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transports up to 150 resources per minute. Used to move resources between buildings."
 					},
 					"Translation":
@@ -331,7 +353,7 @@
 				{
 					"Source":
 					{
-						"Text": "ZincBasicPanelling"
+						"Text": "Zinc Basic Panelling"
 					},
 					"Translation":
 					{
