@@ -384,6 +384,18 @@
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone"
+					},
+					"Keys": [
+						{
+							"Key": "Stone/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
 				}
 			]
 		},

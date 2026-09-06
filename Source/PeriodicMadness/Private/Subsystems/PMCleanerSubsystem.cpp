@@ -44,6 +44,7 @@ void APMCleanerSubsystem::BeginPlay()
 
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
+	ReplaceResourceDeposits();
 	CleanupCrashSites();
 
 	UWorldPartitionSubsystem* WorldPartitionSubsystem = GetWorld()->GetSubsystem<UWorldPartitionSubsystem>();
@@ -68,6 +69,7 @@ void APMCleanerSubsystem::OnStreamingStateUpdated()
 {
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
+	ReplaceResourceDeposits();
 	CleanupCrashSites();
 }
 
@@ -116,6 +118,28 @@ void APMCleanerSubsystem::RemoveResourceDeposits()
 				}
 
 				ResourceDeposit->Destroy();
+			}
+		}
+	}
+}
+
+void APMCleanerSubsystem::ReplaceResourceDeposits()
+{
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
+	TArray<AActor*> ResourceDepositActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceDeposit::StaticClass(), ResourceDepositActors);
+
+	for (AActor* Actor : ResourceDepositActors)
+	{
+		AFGResourceDeposit* ResourceDeposit = Cast<AFGResourceDeposit>(Actor);
+		if (ResourceDeposit)
+		{
+			TSubclassOf<UFGResourceDescriptor> ReplacementResourceClass;
+			if (CleanerSettings->ShouldReplaceResourceClass(ResourceDeposit->GetResourceClass(), ReplacementResourceClass))
+			{
+				PM_LOG_ARGS(Verbose, TEXT("Replacing resource: %s with %s, Deposit: %s"), *UKismetSystemLibrary::GetPathName(ResourceDeposit->GetResourceClass()), *UKismetSystemLibrary::GetPathName(ReplacementResourceClass), *UKismetSystemLibrary::GetPathName(ResourceDeposit));
+				ResourceDeposit->SetResourceClass(ReplacementResourceClass);
 			}
 		}
 	}

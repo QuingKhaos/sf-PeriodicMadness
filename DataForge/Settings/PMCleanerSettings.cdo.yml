@@ -25,13 +25,20 @@ patches:
           # Mods
           - /PeriodicMadness/
           # Generic matches
-          - Coal
           - Geyser
           - LiquidOil
           - SAM
-          - Stone
           - Uranium
           - Water
+          # must be allowed to be replaced
+          - Coal
+          - Stone
+      - path: mResourceClassReplacements
+        value:
+          - Target: /Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Coal/Desc_PM_Coal.Desc_PM_Coal_C
+          - Target: /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Stone/Desc_PM_Stone.Desc_PM_Stone_C
       - path: mResearchTreeClassAllowlist
         value:
           # Mods
@@ -43,7 +50,7 @@ patches:
           # Mods
           - /AllMapRadar/
           - /FreeSigns/
-          - /MagicMachines/
+          - /MagicMachine/
           - /PeriodicMadness/
           # Generic matches
           - Boombox
@@ -78,7 +85,7 @@ patches:
           # Mods
           - /AllMapRadar/
           - /FreeSigns/
-          - /MagicMachines/
+          - /MagicMachine/
           - /PeriodicMadness/
           # Generic matches
           - AnimalParts
@@ -97,14 +104,12 @@ patches:
           - WorkBench
           - Workshop
           # Specific items
-          - Desc_Coal
           - Desc_Foundation_8x1_01
           - Desc_Geyser
           - Desc_HardDrive
           - Desc_Leaves
           - Desc_LiquidOil
           - Desc_Mycelia
-          - Desc_Stone
           - Desc_Wood
           - Desc_WAT1
           - Desc_WAT2

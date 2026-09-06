@@ -420,6 +420,17 @@
 						"Text": "Meersalz"
 					},
 					"Key": "SeaSalt/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Stone/Name"
 				}
 			]
 		},

@@ -420,6 +420,17 @@
 						"Text": "海盐"
 					},
 					"Key": "SeaSalt/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Stone/Name"
 				}
 			]
 		},

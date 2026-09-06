@@ -33,6 +33,7 @@ void UPMCleanerWorldModule::DispatchLifecycleEvent(ELifecyclePhase Phase)
 	if (Phase == ELifecyclePhase::POST_INITIALIZATION)
 	{
 		RemoveResourceNodes();
+		ReplaceResources();
 		RemoveResearchTrees();
 		RemoveSchematics();
 		RemoveRecipes();
@@ -50,7 +51,8 @@ void UPMCleanerWorldModule::RemoveResourceNodes()
 	TArray<AActor*> ResourceNodeActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceNodeBase::StaticClass(), ResourceNodeActors);
 
-	for (AActor* Actor : ResourceNodeActors) {
+	for (AActor* Actor : ResourceNodeActors)
+	{
 		AFGResourceNodeBase* ResourceNode = Cast<AFGResourceNodeBase>(Actor);
 		if (ResourceNode)
 		{
@@ -65,6 +67,30 @@ void UPMCleanerWorldModule::RemoveResourceNodes()
 				}
 			
 				ResourceNode->Destroy();
+			}
+		}
+	}
+
+	K2_ResourceNodesRemoved();
+}
+
+void UPMCleanerWorldModule::ReplaceResources()
+{
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
+	TArray<AActor*> ResourceNodeActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceNodeBase::StaticClass(), ResourceNodeActors);
+
+	for (AActor* Actor : ResourceNodeActors)
+	{
+		AFGResourceNodeBase* ResourceNode = Cast<AFGResourceNodeBase>(Actor);
+		if (ResourceNode)
+		{
+			TSubclassOf<UFGResourceDescriptor> ReplacementResourceClass;
+			if (CleanerSettings->ShouldReplaceResourceClass(ResourceNode->GetResourceClass(), ReplacementResourceClass))
+			{
+				PM_LOG_ARGS(Verbose, TEXT("Replacing resource: %s with %s, Node: %s"), *UKismetSystemLibrary::GetPathName(ResourceNode->GetResourceClass()), *UKismetSystemLibrary::GetPathName(ReplacementResourceClass), *UKismetSystemLibrary::GetPathName(ResourceNode));
+				ResourceNode->SetResourceClass(ReplacementResourceClass);
 			}
 		}
 	}

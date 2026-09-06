@@ -34,6 +34,9 @@ protected:
 	/** Remove all resource deposits, except allowlisted ones. */
 	void RemoveResourceDeposits();
 
+	/** Replace targeted resource deposit classes with their replacements. */
+	void ReplaceResourceDeposits();
+
 	/** Cleanup crash sites. */
 	void CleanupCrashSites();
 

@@ -23,6 +23,9 @@ protected:
 	/** Remove all resource nodes, except allowlisted ones. */
 	void RemoveResourceNodes();
 
+	/** Replace targeted resource node classes with their replacements. */
+	void ReplaceResources();
+
 	/** Remove all research trees, except allowlisted ones. */
 	void RemoveResearchTrees();
 

@@ -37,6 +37,20 @@ bool UPMCleanerSettings::ShouldRemoveResourceClass(const TSubclassOf<UFGResource
 	return !bIsAllowlisted;
 }
 
+bool UPMCleanerSettings::ShouldReplaceResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass, TSubclassOf<UFGResourceDescriptor>& OutReplacement) const
+{
+	for (const FPMResourceReplacement& Replacement : mResourceClassReplacements)
+	{
+		if (ResourceClass == Replacement.Target)
+		{
+			OutReplacement = Replacement.Replacement;
+			return true;
+		}
+	}
+
+	return false;
+}
+
 bool UPMCleanerSettings::ShouldRemoveResearchTreeClass(const TSubclassOf<UFGResearchTree>& ResearchTreeClass) const
 {
 	FString ResearchTreeClassName = UKismetSystemLibrary::GetPathName(ResearchTreeClass);

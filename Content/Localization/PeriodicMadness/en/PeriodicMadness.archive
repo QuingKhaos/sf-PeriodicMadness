@@ -420,6 +420,17 @@
 						"Text": "Sea Salt"
 					},
 					"Key": "SeaSalt/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone"
+					},
+					"Translation":
+					{
+						"Text": "Stone"
+					},
+					"Key": "Stone/Name"
 				}
 			]
 		},
