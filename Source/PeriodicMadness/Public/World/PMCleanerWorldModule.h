@@ -42,26 +42,6 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Periodic Madness|Resource Cleanup", meta = (DisplayName = "On Resource Nodes Removed"))
 	void K2_ResourceNodesRemoved();
 
-	/** List of resource class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mResourceClassAllowlist;
-
-	/** List of research tree class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mResearchTreeClassAllowlist;
-
-	/** List of schematic class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mSchematicClassAllowlist;
-
-	/** List of recipe class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mRecipeClassAllowlist;
-
-	/** List of item class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mItemClassAllowlist;
-
 	/** Cached CDOs to prevent garbage collection. */
 	UPROPERTY(Transient)
 	TArray<TObjectPtr<UObject>> mCachedCDO;

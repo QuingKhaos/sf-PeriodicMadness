@@ -4,6 +4,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Resources/FGResourceDeposit.h"
+#include "Settings/PMCleanerSettings.h"
 #include "FGCharacterPlayer.h"
 #include "FGDropPod.h"
 #include "FGItemPickup_Spawnable.h"
@@ -72,6 +73,8 @@ void APMCleanerSubsystem::OnStreamingStateUpdated()
 
 void APMCleanerSubsystem::RemoveStaticMeshes()
 {
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
 	TArray<AActor*> StaticMeshActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AStaticMeshActor::StaticClass(), StaticMeshActors);
 
@@ -81,7 +84,7 @@ void APMCleanerSubsystem::RemoveStaticMeshes()
 		if (StaticMeshActor && StaticMeshActor->GetStaticMeshComponent())
 		{
 			UStaticMesh* Mesh = StaticMeshActor->GetStaticMeshComponent()->GetStaticMesh();
-			if (Mesh && mStaticMeshesCleanlist.Contains(Mesh))
+			if (Mesh && CleanerSettings->ShouldRemoveStaticMesh(Mesh))
 			{
 				PM_LOG_ARGS(Verbose, TEXT("Destroying static mesh actor: %s, Mesh: %s"), *UKismetSystemLibrary::GetPathName(StaticMeshActor), *UKismetSystemLibrary::GetPathName(Mesh));
 				StaticMeshActor->Destroy();
@@ -92,6 +95,8 @@ void APMCleanerSubsystem::RemoveStaticMeshes()
 
 void APMCleanerSubsystem::RemoveResourceDeposits()
 {
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
 	TArray<AActor*> ResourceDepositActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceDeposit::StaticClass(), ResourceDepositActors);
 
@@ -100,21 +105,9 @@ void APMCleanerSubsystem::RemoveResourceDeposits()
 		AFGResourceDeposit* ResourceDeposit = Cast<AFGResourceDeposit>(Actor);
 		if (ResourceDeposit)
 		{
-			FString ResourceClassName = UKismetSystemLibrary::GetPathName(ResourceDeposit->GetResourceClass());
-			bool bIsAllowlisted = false;
-
-			for (const FString& AllowlistEntry : mResourceClassAllowlist)
+			if (CleanerSettings->ShouldRemoveResourceClass(ResourceDeposit->GetResourceClass()))
 			{
-				if (ResourceClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive))
-				{
-					bIsAllowlisted = true;
-					break;
-				}
-			}
-
-			if (!bIsAllowlisted)
-			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing resource: %s, Deposit: %s"), *ResourceClassName, *UKismetSystemLibrary::GetPathName(ResourceDeposit));
+				PM_LOG_ARGS(Verbose, TEXT("Removing resource: %s, Deposit: %s"), *UKismetSystemLibrary::GetPathName(ResourceDeposit->GetResourceClass()), *UKismetSystemLibrary::GetPathName(ResourceDeposit));
 
 				AActor* MeshActor = ResourceDeposit->GetMeshActor();
 				if (MeshActor)

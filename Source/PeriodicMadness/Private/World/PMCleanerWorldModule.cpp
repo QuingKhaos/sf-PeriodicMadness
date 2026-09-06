@@ -5,6 +5,7 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "Resources/FGBuildDescriptor.h"
 #include "Resources/FGResourceNodeBase.h"
+#include "Settings/PMCleanerSettings.h"
 #include "Subsystems/KBFLAssetDataSubsystem.h"
 #include "Unlocks/FGUnlock.h"
 #include "Unlocks/FGUnlockRecipe.h"
@@ -44,6 +45,8 @@ void UPMCleanerWorldModule::DispatchLifecycleEvent(ELifecyclePhase Phase)
 
 void UPMCleanerWorldModule::RemoveResourceNodes()
 {
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
 	TArray<AActor*> ResourceNodeActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceNodeBase::StaticClass(), ResourceNodeActors);
 
@@ -51,21 +54,9 @@ void UPMCleanerWorldModule::RemoveResourceNodes()
 		AFGResourceNodeBase* ResourceNode = Cast<AFGResourceNodeBase>(Actor);
 		if (ResourceNode)
 		{
-			FString ResourceClassName = UKismetSystemLibrary::GetPathName(ResourceNode->GetResourceClass());
-			bool bIsAllowlisted = false;
-
-			for (const FString& AllowlistEntry : mResourceClassAllowlist)
+			if (CleanerSettings->ShouldRemoveResourceClass(ResourceNode->GetResourceClass()))
 			{
-				if (ResourceClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive))
-				{
-					bIsAllowlisted = true;
-					break;
-				}
-			}
-
-			if (!bIsAllowlisted)
-			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing resource: %s, Node: %s"), *ResourceClassName, *UKismetSystemLibrary::GetPathName(ResourceNode));
+				PM_LOG_ARGS(Verbose, TEXT("Removing resource: %s, Node: %s"), *UKismetSystemLibrary::GetPathName(ResourceNode->GetResourceClass()), *UKismetSystemLibrary::GetPathName(ResourceNode));
 
 				AActor* MeshActor = ResourceNode->GetMeshActor();
 				if (MeshActor)
@@ -83,6 +74,7 @@ void UPMCleanerWorldModule::RemoveResourceNodes()
 
 void UPMCleanerWorldModule::RemoveResearchTrees()
 {
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
 	AFGResearchManager* ResearchManager = AFGResearchManager::Get(GetWorld());
 	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
 
@@ -93,20 +85,9 @@ void UPMCleanerWorldModule::RemoveResearchTrees()
 	{
 		if (ResearchTree && ResearchManager->mAvailableResearchTrees.Contains(ResearchTree))
 		{
-			FString ResearchTreeClassName = UKismetSystemLibrary::GetPathName(ResearchTree);
-			bool bIsAllowlisted = false;
-
-			for (const FString& AllowlistEntry : mResearchTreeClassAllowlist)
+			if (CleanerSettings->ShouldRemoveResearchTreeClass(ResearchTree))
 			{
-				if (ResearchTreeClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
-					bIsAllowlisted = true;
-					break;
-				}
-			}
-
-			if (!bIsAllowlisted)
-			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing research tree: %s"), *ResearchTreeClassName);
+				PM_LOG_ARGS(Verbose, TEXT("Removing research tree: %s"), *UKismetSystemLibrary::GetPathName(ResearchTree));
 				ResearchManager->mAvailableResearchTrees.Remove(ResearchTree);
 
 				if (ResearchManager->mUnlockedResearchTrees.Contains(ResearchTree))
@@ -128,6 +109,7 @@ void UPMCleanerWorldModule::RemoveResearchTrees()
 
 void UPMCleanerWorldModule::RemoveSchematics()
 {
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
 	AFGSchematicManager* SchematicManager = AFGSchematicManager::Get(GetWorld());
 	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
 
@@ -138,20 +120,9 @@ void UPMCleanerWorldModule::RemoveSchematics()
 	{
 		if (Schematic && SchematicManager->mAllSchematics.Contains(Schematic))
 		{
-			FString SchematicClassName = UKismetSystemLibrary::GetPathName(Schematic);
-			bool bIsAllowlisted = false;
-
-			for (const FString& AllowlistEntry : mSchematicClassAllowlist)
+			if (CleanerSettings->ShouldRemoveSchematicClass(Schematic))
 			{
-				if (SchematicClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
-					bIsAllowlisted = true;
-					break;
-				}
-			}
-
-			if (!bIsAllowlisted)
-			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing schematic: %s"), *SchematicClassName);
+				PM_LOG_ARGS(Verbose, TEXT("Removing schematic: %s"), *UKismetSystemLibrary::GetPathName(Schematic));
 				SchematicManager->mAllSchematics.Remove(Schematic);
 
 				if (SchematicManager->mPurchasedSchematics.Contains(Schematic))
@@ -230,24 +201,14 @@ void UPMCleanerWorldModule::RemoveRecipes()
 
 void UPMCleanerWorldModule::RemoveRecipe(TSubclassOf<UFGRecipe> Recipe)
 {
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
 	AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld());
 
 	if (Recipe && RecipeManager->mAllRecipes.Contains(Recipe))
 	{
-		FString RecipeClassName = UKismetSystemLibrary::GetPathName(Recipe);
-		bool bIsAllowlisted = false;
-
-		for (const FString& AllowlistEntry : mRecipeClassAllowlist)
+		if (CleanerSettings->ShouldRemoveRecipeClass(Recipe))
 		{
-			if (RecipeClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
-				bIsAllowlisted = true;
-				break;
-			}
-		}
-
-		if (!bIsAllowlisted)
-		{
-			PM_LOG_ARGS(Verbose, TEXT("Removing recipe: %s"), *RecipeClassName);
+			PM_LOG_ARGS(Verbose, TEXT("Removing recipe: %s"), *UKismetSystemLibrary::GetPathName(Recipe));
 			RecipeManager->mAllRecipes.Remove(Recipe);
 
 			if (RecipeManager->mAvailableRecipes.Contains(Recipe))
@@ -298,6 +259,7 @@ void UPMCleanerWorldModule::RemoveRecipe(TSubclassOf<UFGRecipe> Recipe)
 
 void UPMCleanerWorldModule::RemoveItems()
 {
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
 	AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld());
 	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
 
@@ -308,18 +270,9 @@ void UPMCleanerWorldModule::RemoveItems()
 	{
 		if (Item && RecipeManager->mAllItemDescriptors.Contains(Item))
 		{
-			FString ItemClassName = UKismetSystemLibrary::GetPathName(Item);
-			bool bIsAllowlisted = false;
-			for (const FString& AllowlistEntry : mItemClassAllowlist)
+			if (CleanerSettings->ShouldRemoveItemClass(Item))
 			{
-				if (ItemClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive)) {
-					bIsAllowlisted = true;
-					break;
-				}
-			}
-			if (!bIsAllowlisted)
-			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing item: %s"), *ItemClassName);
+				PM_LOG_ARGS(Verbose, TEXT("Removing item: %s"), *UKismetSystemLibrary::GetPathName(Item));
 				RecipeManager->mAllItemDescriptors.Remove(Item);
 
 				if (RecipeManager->mAvailableItemDescriptors.Contains(Item))
