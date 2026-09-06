@@ -37,6 +37,9 @@ protected:
 	/** Replace targeted resource deposit classes with their replacements. */
 	void ReplaceResourceDeposits();
 
+	/** Replace targeted foliage item drops with their replacements. */
+	void ReplaceFoliageItemDrops();
+
 	/** Cleanup crash sites. */
 	void CleanupCrashSites();
 

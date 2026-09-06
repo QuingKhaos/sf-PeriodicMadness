@@ -11,6 +11,24 @@ class UFGResourceDescriptor;
 class UFGSchematic;
 
 /**
+ * Item replacement mapping.
+ */
+USTRUCT(BlueprintType)
+struct FPMItemReplacement
+{
+	GENERATED_BODY()
+
+public:
+	/** The item class to be replaced. */
+	UPROPERTY(BlueprintReadOnly, Category = "Periodic Madness|Resource Cleanup")
+	TSubclassOf<UFGItemDescriptor> Target;
+
+	/** The item class to use as a replacement. */
+	UPROPERTY(BlueprintReadOnly, Category = "Periodic Madness|Resource Cleanup")
+	TSubclassOf<UFGItemDescriptor> Replacement;
+};
+
+/**
  * Resource replacement mapping.
  */
 USTRUCT(BlueprintType)
@@ -45,6 +63,8 @@ public:
 	bool ShouldRemoveResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass) const;
 	/** Checks if a resource class should be replaced and provides the replacement class. */
 	bool ShouldReplaceResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass, TSubclassOf<UFGResourceDescriptor>& OutReplacement) const;
+	/** Checks if a foliage item class should be replaced and provides the replacement class. */
+	bool ShouldReplaceFoliageItemClass(const TSubclassOf<UFGItemDescriptor>& ItemClass, TSubclassOf<UFGItemDescriptor>& OutReplacement) const;
 	/** Checks if a research tree class is allowed to be removed. */
 	bool ShouldRemoveResearchTreeClass(const TSubclassOf<UFGResearchTree>& ResearchTreeClass) const;
 	/** Checks if a schematic class is allowed to be removed. */
@@ -66,6 +86,10 @@ protected:
 	/** List of resource class replacements. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
 	TArray<FPMResourceReplacement> mResourceClassReplacements;
+
+	/** List of item class replacements on foliage drops. */
+	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
+	TArray<FPMItemReplacement> mFoliageItemClassReplacements;
 
 	/** List of research tree class substrings to block from removal. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")

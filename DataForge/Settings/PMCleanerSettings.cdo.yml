@@ -39,6 +39,12 @@ patches:
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Coal/Desc_PM_Coal.Desc_PM_Coal_C
           - Target: /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Stone/Desc_PM_Stone.Desc_PM_Stone_C
+      - path: mFoliageItemClassReplacements
+        value:
+          - Target: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Leaves/Desc_PM_Leaves.Desc_PM_Leaves_C
+          - Target: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Wood.Desc_Wood_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Wood/Desc_PM_Wood.Desc_PM_Wood_C
       - path: mResearchTreeClassAllowlist
         value:
           # Mods
@@ -107,10 +113,8 @@ patches:
           - Desc_Foundation_8x1_01
           - Desc_Geyser
           - Desc_HardDrive
-          - Desc_Leaves
           - Desc_LiquidOil
           - Desc_Mycelia
-          - Desc_Wood
           - Desc_WAT1
           - Desc_WAT2
           - Desc_Water
