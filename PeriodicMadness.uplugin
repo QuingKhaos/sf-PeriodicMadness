@@ -32,6 +32,11 @@
 	],
 	"Plugins": [
 		{
+			"Name": "BurnerManufacturer",
+			"Enabled": true,
+			"SemVersion": "^1.0.0"
+		},
+		{
 			"Name": "Fabricator",
 			"Enabled": true,
 			"SemVersion": "^1.0.0"
