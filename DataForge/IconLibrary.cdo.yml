@@ -1899,15 +1899,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          - ID: 213
-            Texture: "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Wood_256.IconDesc_Wood_256"
-            itemDescriptor: "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Wood.Desc_Wood_C"
-            DisplayNameOverride: false
-            IconName: ""
-            IconType: "ESIT_Part"
-            Hidden: false
-            SearchOnly: false
-            Animated: false
+          # - ID: 213
+          #   Texture: "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Wood_256.IconDesc_Wood_256"
+          #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Wood.Desc_Wood_C"
+          #   DisplayNameOverride: false
+          #   IconName: ""
+          #   IconType: "ESIT_Part"
+          #   Hidden: false
+          #   SearchOnly: false
+          #   Animated: false
           # - ID: 214
           #   Texture: "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Biomass_Final_256.IconDesc_Biomass_Final_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C"

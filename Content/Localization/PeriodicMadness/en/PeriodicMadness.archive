@@ -402,6 +402,17 @@
 				{
 					"Source":
 					{
+						"Text": "Raw Resources"
+					},
+					"Translation":
+					{
+						"Text": "Raw Resources"
+					},
+					"Key": "RawResources/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Sea Salt"
 					},
 					"Translation":

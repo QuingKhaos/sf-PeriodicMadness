@@ -364,6 +364,18 @@
 				{
 					"Source":
 					{
+						"Text": "Raw Resources"
+					},
+					"Keys": [
+						{
+							"Key": "RawResources/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Sea Salt"
 					},
 					"Keys": [
