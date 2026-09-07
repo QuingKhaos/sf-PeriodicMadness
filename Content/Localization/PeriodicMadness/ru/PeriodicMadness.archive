@@ -402,6 +402,55 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_NB",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Mixed Noble Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "MixedNobleGas/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Noble Gases"
+					},
+					"Translation":
+					{
+						"Text": "Благородные газы"
+					},
+					"Key": "NobleGases/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Mixed Noble Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedMixedNobleGas/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Mixed Noble Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageMixedNobleGas/Recipe"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Products",
 			"Children": [
 				{
@@ -436,6 +485,17 @@
 						"Text": ""
 					},
 					"Key": "EmptyBottle/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Gas Tank"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyGasTank/Name"
 				},
 				{
 					"Source":

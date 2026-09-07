@@ -364,6 +364,59 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_NB",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Mixed Noble Gas"
+					},
+					"Keys": [
+						{
+							"Key": "MixedNobleGas/Name",
+							"Path": "/PeriodicMadness/Resources/NB/ST_PM_NB.ST_PM_NB"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Noble Gases"
+					},
+					"Keys": [
+						{
+							"Key": "NobleGases/Cat",
+							"Path": "/PeriodicMadness/Resources/NB/ST_PM_NB.ST_PM_NB"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Mixed Noble Gas"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedMixedNobleGas/Name",
+							"Path": "/PeriodicMadness/Resources/NB/ST_PM_NB.ST_PM_NB"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Mixed Noble Gas"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageMixedNobleGas/Recipe",
+							"Path": "/PeriodicMadness/Resources/NB/ST_PM_NB.ST_PM_NB"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Products",
 			"Children": [
 				{
@@ -398,6 +451,18 @@
 					"Keys": [
 						{
 							"Key": "EmptyBottle/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Gas Tank"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyGasTank/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
