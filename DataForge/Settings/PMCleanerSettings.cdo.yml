@@ -43,16 +43,17 @@ patches:
         value:
           # Mods
           - /PeriodicMadness/
-          # Specific matches
-          - Desc_Mycelia
           # must be allowed to be replaced
           - Desc_Leaves
+          - Desc_Mycelia
           - Desc_Stone
           - Desc_Wood
       - path: mFoliageItemClassReplacements
         value:
           - Target: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Leaves/Desc_PM_Leaves.Desc_PM_Leaves_C
+          - Target: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Mycelia/Desc_PM_Mycelia.Desc_PM_Mycelia_C
           - Target: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Wood.Desc_Wood_C
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Wood/Desc_PM_Wood.Desc_PM_Wood_C
           - Target: /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
@@ -126,7 +127,6 @@ patches:
           - Desc_Geyser
           - Desc_HardDrive
           - Desc_LiquidOil
-          - Desc_Mycelia
           - Desc_WAT1
           - Desc_WAT2
           - Desc_Water

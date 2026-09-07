@@ -435,6 +435,33 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_RNM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals"
+					},
+					"Translation":
+					{
+						"Text": "活躍非金屬"
+					},
+					"Key": "ReactiveNonMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Biostuff"
+					},
+					"Translation":
+					{
+						"Text": "活躍非金屬: Biostuff"
+					},
+					"Key": "Biostuff/Cat"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
 				{
