@@ -571,6 +571,17 @@
 				{
 					"Source":
 					{
+						"Text": "Carbon"
+					},
+					"Translation":
+					{
+						"Text": "Carbone"
+					},
+					"Key": "Carbon/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals"
 					},
 					"Translation":
@@ -589,6 +600,17 @@
 						"Text": "Non-métaux communs: Biostuff"
 					},
 					"Key": "Biostuff/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Carbon"
+					},
+					"Translation":
+					{
+						"Text": "Non-métaux communs: Carbone"
+					},
+					"Key": "Carbon/Cat"
 				}
 			]
 		},

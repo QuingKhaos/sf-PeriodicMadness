@@ -547,6 +547,18 @@
 				{
 					"Source":
 					{
+						"Text": "Carbon"
+					},
+					"Keys": [
+						{
+							"Key": "Carbon/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals"
 					},
 					"Keys": [
@@ -564,6 +576,18 @@
 					"Keys": [
 						{
 							"Key": "Biostuff/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Carbon"
+					},
+					"Keys": [
+						{
+							"Key": "Carbon/Cat",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]

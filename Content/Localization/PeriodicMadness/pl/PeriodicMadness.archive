@@ -571,6 +571,17 @@
 				{
 					"Source":
 					{
+						"Text": "Carbon"
+					},
+					"Translation":
+					{
+						"Text": "Miał węglowy"
+					},
+					"Key": "Carbon/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals"
 					},
 					"Translation":
@@ -589,6 +600,17 @@
 						"Text": "Aktywne niemetale: Biostuff"
 					},
 					"Key": "Biostuff/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Carbon"
+					},
+					"Translation":
+					{
+						"Text": "Aktywne niemetale: Miał węglowy"
+					},
+					"Key": "Carbon/Cat"
 				}
 			]
 		},

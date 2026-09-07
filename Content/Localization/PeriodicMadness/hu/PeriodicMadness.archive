@@ -265,7 +265,7 @@
 				{
 					"Source":
 					{
-						"Text": "Pipeline Part Mk.1"
+						"Text": "Pipeline Parts Mk.1"
 					},
 					"Translation":
 					{
@@ -285,7 +285,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Базові профілі"
+						"Text": ""
 					},
 					"Key": "BasicFraming/Name"
 				},
@@ -296,7 +296,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Базова панель"
+						"Text": ""
 					},
 					"Key": "BasicPanelling/Name"
 				},
@@ -307,7 +307,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Базові патрубки"
+						"Text": ""
 					},
 					"Key": "BasicTubing/Name"
 				},
@@ -402,7 +402,7 @@
 				{
 					"Source":
 					{
-						"Text": "ZincBasicPanelling"
+						"Text": "Zinc Basic Panelling"
 					},
 					"Translation":
 					{
@@ -548,7 +548,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Морська сіль"
+						"Text": ""
 					},
 					"Key": "SeaSalt/Name"
 				},
@@ -575,7 +575,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Вуглецевий порошок"
+						"Text": "Karbon"
 					},
 					"Key": "Carbon/Name"
 				},
@@ -608,7 +608,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Reactive Non-Metals: Вуглецевий порошок"
+						"Text": "Reactive Non-Metals: Karbon"
 					},
 					"Key": "Carbon/Cat"
 				}
@@ -668,7 +668,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Уламки міді"
+						"Text": ""
 					},
 					"Key": "CopperChunks/Name"
 				},
@@ -690,7 +690,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Уламки заліза"
+						"Text": ""
 					},
 					"Key": "IronChunks/Name"
 				},
@@ -701,7 +701,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Уламки нікелю"
+						"Text": ""
 					},
 					"Key": "NickelChunks/Name"
 				},
@@ -723,7 +723,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Нікелева пластина"
+						"Text": ""
 					},
 					"Key": "NickelPlate/Name"
 				},
@@ -734,7 +734,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Родовище перехідних металів"
+						"Text": ""
 					},
 					"Key": "TransitionMetals/Cat"
 				},
@@ -745,7 +745,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Родовище перехідних металів: Copper"
+						"Text": ""
 					},
 					"Key": "Copper/Cat"
 				},
@@ -756,7 +756,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Родовище перехідних металів: Iron"
+						"Text": ""
 					},
 					"Key": "Iron/Cat"
 				},
@@ -767,7 +767,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Родовище перехідних металів: Nickel"
+						"Text": ""
 					},
 					"Key": "Nickel/Cat"
 				},
@@ -778,7 +778,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Родовище перехідних металів: Zinc"
+						"Text": ""
 					},
 					"Key": "Zinc/Cat"
 				},
@@ -789,7 +789,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Уламки цинку"
+						"Text": ""
 					},
 					"Key": "ZincChunks/Name"
 				},
@@ -811,7 +811,7 @@
 					},
 					"Translation":
 					{
-						"Text": "Цинкова пластина"
+						"Text": ""
 					},
 					"Key": "ZincPlate/Name"
 				}
