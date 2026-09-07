@@ -29,16 +29,18 @@ patches:
           - LiquidOil
           - SAM
           - Uranium
-          - Water
           # must be allowed to be replaced
           - Coal
           - Stone
+          - Water
       - path: mResourceClassReplacements
         value:
           - Target: /Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Coal/Desc_PM_Coal.Desc_PM_Coal_C
           - Target: /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Stone/Desc_PM_Stone.Desc_PM_Stone_C
+          - Target: /Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C
+            Replacement: /PeriodicMadness/Resources/Fluids/Water/Water/Desc_PM_Water.Desc_PM_Water_C
       - path: mFoliageItemClassAllowlist
         value:
           # Mods
@@ -129,7 +131,6 @@ patches:
           - Desc_LiquidOil
           - Desc_WAT1
           - Desc_WAT2
-          - Desc_Water
           # More specific items
           - SAM/Desc_SAM
           - SpaceElevator/Desc_SpaceElevator

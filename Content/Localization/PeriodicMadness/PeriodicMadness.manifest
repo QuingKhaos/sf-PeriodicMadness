@@ -145,6 +145,35 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Fluids",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Fluids"
+					},
+					"Keys": [
+						{
+							"Key": "Fluids/Cat",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluids: Water"
+					},
+					"Keys": [
+						{
+							"Key": "Water/Cat",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Logistics",
 			"Children": [
 				{
@@ -333,6 +362,18 @@
 					"Keys": [
 						{
 							"Key": "Bricks/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Bottle"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyBottle/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]

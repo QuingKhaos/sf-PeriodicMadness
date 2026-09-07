@@ -200,6 +200,33 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Fluids",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Fluids"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Fluids/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluids: Water"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Water/Cat"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Logistics",
 			"Children": [
 				{
@@ -376,6 +403,17 @@
 						"Text": ""
 					},
 					"Key": "Bricks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Bottle"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyBottle/Name"
 				},
 				{
 					"Source":
