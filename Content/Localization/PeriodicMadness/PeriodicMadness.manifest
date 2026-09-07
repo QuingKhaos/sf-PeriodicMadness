@@ -162,6 +162,18 @@
 				{
 					"Source":
 					{
+						"Text": "Fluids: Oil"
+					},
+					"Keys": [
+						{
+							"Key": "Oil/Cat",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluids: Water"
 					},
 					"Keys": [
@@ -362,6 +374,18 @@
 					"Keys": [
 						{
 							"Key": "Bricks/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Barrel"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyBarrel/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]

@@ -1800,15 +1800,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          - ID: 202
-            Texture: "/Game/FactoryGame/Resource/RawResources/CrudeOil/UI/LiquidOil_Pipe_512.LiquidOil_Pipe_512"
-            itemDescriptor: "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C"
-            DisplayNameOverride: false
-            IconName: ""
-            IconType: "ESIT_Part"
-            Hidden: false
-            SearchOnly: false
-            Animated: false
+          # - ID: 202
+          #   Texture: "/Game/FactoryGame/Resource/RawResources/CrudeOil/UI/LiquidOil_Pipe_512.LiquidOil_Pipe_512"
+          #   itemDescriptor: "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C"
+          #   DisplayNameOverride: false
+          #   IconName: ""
+          #   IconType: "ESIT_Part"
+          #   Hidden: false
+          #   SearchOnly: false
+          #   Animated: false
           # - ID: 203
           #   Texture: "/Game/FactoryGame/Resource/RawResources/Sulfur/UI/Sulfur_256.Sulfur_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C"

@@ -216,6 +216,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fluids: Oil"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Oil/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluids: Water"
 					},
 					"Translation":
@@ -403,6 +414,17 @@
 						"Text": ""
 					},
 					"Key": "Bricks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Barrel"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyBarrel/Name"
 				},
 				{
 					"Source":
