@@ -33,6 +33,12 @@ patches:
           - Item:
               ItemClass: /PeriodicMadness/Resources/TM/Zinc/ZincPlate/Desc_PM_ZincPlate.Desc_PM_ZincPlate_C
             NumItems: 27
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/RNM/Biostuff/Biomass/Desc_PM_Biomass.Desc_PM_Biomass_C
+            NumItems: 23
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/RNM/Biostuff/SolidBiofuel/Desc_PM_SolidBiofuel.Desc_PM_SolidBiofuel_C
+            NumItems: 6
           # Vanilla
           - Item:
               ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C
@@ -67,6 +73,9 @@ patches:
           - Item:
               ItemClass: /Game/FactoryGame/Resource/Environment/Nut/Desc_Nut.Desc_Nut_C
             NumItems: 6
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HatcherParts.Desc_HatcherParts_C
+            NumItems: 1
           - Item:
               ItemClass: /Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HogParts.Desc_HogParts_C
             NumItems: 1
