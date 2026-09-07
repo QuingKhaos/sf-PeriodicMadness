@@ -39,7 +39,7 @@
 		{
 			"Name": "Fabricator",
 			"Enabled": true,
-			"SemVersion": "^1.0.0"
+			"SemVersion": "^1.1.0"
 		},
 		{
 			"Name": "KBFL",
