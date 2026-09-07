@@ -592,7 +592,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "過渡金屬: Copper"
 					},
 					"Key": "Copper/Cat"
 				},
@@ -603,7 +603,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "過渡金屬: Iron"
 					},
 					"Key": "Iron/Cat"
 				},
@@ -614,7 +614,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "過渡金屬: Nickel"
 					},
 					"Key": "Nickel/Cat"
 				},
@@ -625,7 +625,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "過渡金屬: Zinc"
 					},
 					"Key": "Zinc/Cat"
 				},

@@ -592,7 +592,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "Geçiş Metalleri: Copper"
 					},
 					"Key": "Copper/Cat"
 				},
@@ -603,7 +603,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "Geçiş Metalleri: Iron"
 					},
 					"Key": "Iron/Cat"
 				},
@@ -614,7 +614,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "Geçiş Metalleri: Nickel"
 					},
 					"Key": "Nickel/Cat"
 				},
@@ -625,7 +625,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "Geçiş Metalleri: Zinc"
 					},
 					"Key": "Zinc/Cat"
 				},

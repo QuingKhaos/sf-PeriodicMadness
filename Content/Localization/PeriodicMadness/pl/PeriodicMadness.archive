@@ -592,7 +592,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "Metale Przejściowe: Copper"
 					},
 					"Key": "Copper/Cat"
 				},
@@ -603,7 +603,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "Metale Przejściowe: Iron"
 					},
 					"Key": "Iron/Cat"
 				},
@@ -614,7 +614,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "Metale Przejściowe: Nickel"
 					},
 					"Key": "Nickel/Cat"
 				},
@@ -625,7 +625,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "Metale Przejściowe: Zinc"
 					},
 					"Key": "Zinc/Cat"
 				},
