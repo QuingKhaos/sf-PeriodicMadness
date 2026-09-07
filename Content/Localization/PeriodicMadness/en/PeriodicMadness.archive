@@ -571,6 +571,17 @@
 				{
 					"Source":
 					{
+						"Text": "Air Filter"
+					},
+					"Translation":
+					{
+						"Text": "Air Filter"
+					},
+					"Key": "AirFilter/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Translation":
@@ -589,6 +600,17 @@
 						"Text": "Reactive Non-Metals"
 					},
 					"Key": "ReactiveNonMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Air Filters"
+					},
+					"Translation":
+					{
+						"Text": "Reactive Non-Metals: Air Filters"
+					},
+					"Key": "AirFilters/Cat"
 				},
 				{
 					"Source":

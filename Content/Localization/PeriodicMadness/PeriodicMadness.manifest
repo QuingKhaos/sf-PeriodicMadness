@@ -547,6 +547,18 @@
 				{
 					"Source":
 					{
+						"Text": "Air Filter"
+					},
+					"Keys": [
+						{
+							"Key": "AirFilter/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Keys": [
@@ -564,6 +576,18 @@
 					"Keys": [
 						{
 							"Key": "ReactiveNonMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Air Filters"
+					},
+					"Keys": [
+						{
+							"Key": "AirFilters/Cat",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]

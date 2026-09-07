@@ -571,6 +571,17 @@
 				{
 					"Source":
 					{
+						"Text": "Air Filter"
+					},
+					"Translation":
+					{
+						"Text": "空氣濾網"
+					},
+					"Key": "AirFilter/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Translation":
@@ -589,6 +600,17 @@
 						"Text": "活躍非金屬"
 					},
 					"Key": "ReactiveNonMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Air Filters"
+					},
+					"Translation":
+					{
+						"Text": "活躍非金屬: Air Filters"
+					},
+					"Key": "AirFilters/Cat"
 				},
 				{
 					"Source":

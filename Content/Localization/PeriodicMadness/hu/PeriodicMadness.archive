@@ -571,6 +571,17 @@
 				{
 					"Source":
 					{
+						"Text": "Air Filter"
+					},
+					"Translation":
+					{
+						"Text": "Levegőszűrő"
+					},
+					"Key": "AirFilter/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Translation":
@@ -589,6 +600,17 @@
 						"Text": ""
 					},
 					"Key": "ReactiveNonMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Air Filters"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AirFilters/Cat"
 				},
 				{
 					"Source":
