@@ -16,14 +16,14 @@ patches:
               ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
             NumItems: 13
           - Item:
+              ItemClass: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
+            NumItems: 33
+          - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Intermediates/Bricks/Desc_PM_Bricks.Desc_PM_Bricks_C
             NumItems: 18
           - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Intermediates/IronRod/Desc_PM_IronRod.Desc_PM_IronRod_C
             NumItems: 23
-          - Item:
-              ItemClass: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
-            NumItems: 33
           - Item:
               ItemClass: /PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Desc_PM_IronPlate_C
             NumItems: 27
@@ -36,6 +36,9 @@ patches:
           - Item:
               ItemClass: /PeriodicMadness/Resources/TM/Zinc/ZincPlate/Desc_PM_ZincPlate.Desc_PM_ZincPlate_C
             NumItems: 27
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/RNM/AirFilters/AirFilter/Desc_PM_AirFilter.Desc_PM_AirFilter_C
+            NumItems: 12
           - Item:
               ItemClass: /PeriodicMadness/Resources/RNM/Biostuff/Biomass/Desc_PM_Biomass.Desc_PM_Biomass_C
             NumItems: 23
