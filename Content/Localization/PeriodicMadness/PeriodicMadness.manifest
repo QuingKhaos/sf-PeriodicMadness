@@ -499,6 +499,18 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Motor"
+					},
+					"Keys": [
+						{
+							"Key": "BasicMotor/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Bricks"
 					},
 					"Keys": [

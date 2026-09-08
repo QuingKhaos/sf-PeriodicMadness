@@ -22,6 +22,9 @@ patches:
               ItemClass: /PeriodicMadness/Resources/Products/Intermediates/Bricks/Desc_PM_Bricks.Desc_PM_Bricks_C
             NumItems: 18
           - Item:
+              ItemClass: /PeriodicMadness/Resources/Products/Intermediates/BasicMotor/Desc_PM_BasicMotor.Desc_PM_BasicMotor_C
+            NumItems: 6
+          - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Intermediates/IronRod/Desc_PM_IronRod.Desc_PM_IronRod_C
             NumItems: 23
           - Item:
