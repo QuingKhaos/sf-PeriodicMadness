@@ -156,6 +156,17 @@
 				{
 					"Source":
 					{
+						"Text": "Acid Plant"
+					},
+					"Translation":
+					{
+						"Text": "酸廠"
+					},
+					"Key": "AcidPlant/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Burner Smelter"
 					},
 					"Translation":
@@ -163,6 +174,17 @@
 						"Text": ""
 					},
 					"Key": "BurnerSmelterMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10 m"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AcidPlant/Desc"
 				},
 				{
 					"Source":
@@ -531,7 +553,7 @@
 					},
 					"Translation":
 					{
-						"Text": ""
+						"Text": "基礎馬達"
 					},
 					"Key": "BasicMotor/Name"
 				},

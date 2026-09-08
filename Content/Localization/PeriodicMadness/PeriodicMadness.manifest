@@ -97,11 +97,35 @@
 				{
 					"Source":
 					{
+						"Text": "Acid Plant"
+					},
+					"Keys": [
+						{
+							"Key": "AcidPlant/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Burner Smelter"
 					},
 					"Keys": [
 						{
 							"Key": "BurnerSmelterMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10 m"
+					},
+					"Keys": [
+						{
+							"Key": "AcidPlant/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]

@@ -156,6 +156,17 @@
 				{
 					"Source":
 					{
+						"Text": "Acid Plant"
+					},
+					"Translation":
+					{
+						"Text": "Acid Plant"
+					},
+					"Key": "AcidPlant/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Burner Smelter"
 					},
 					"Translation":
@@ -163,6 +174,17 @@
 						"Text": "Burner Smelter"
 					},
 					"Key": "BurnerSmelterMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10 m"
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10 m"
+					},
+					"Key": "AcidPlant/Desc"
 				},
 				{
 					"Source":
