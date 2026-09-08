@@ -167,6 +167,17 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 50%. The first output is located at the production indicator."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "FabricatorMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100%."
 					},
 					"Translation":
@@ -272,6 +283,55 @@
 						"Text": ""
 					},
 					"Key": "PipelinePartMk1/Name"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_ManufacturingCalculationsHook",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "<OrangeSmall>{Amount}</> <GreySmall> per minute</>"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Potential/Target"
+				},
+				{
+					"Source":
+					{
+						"Text": "<OrangeSmall>{Amount}</> <OrangeSmallBold>({OCAmount})</> <GreySmall> per minute</>"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Potential/Preview"
+				},
+				{
+					"Source":
+					{
+						"Text": "<PurpleSmall>{Amount}</> <GreySmall> per minute</>"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ProductionBoost/Target"
+				},
+				{
+					"Source":
+					{
+						"Text": "<PurpleSmall>{Amount}</> <PurpleSmallBold>({OCAmount})</> <GreySmall> per minute</>"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ProductionBoost/Preview"
 				}
 			]
 		},

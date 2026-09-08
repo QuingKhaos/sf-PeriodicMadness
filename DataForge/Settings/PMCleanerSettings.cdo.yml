@@ -87,7 +87,6 @@ patches:
         value:
           # Mods
           - /AllMapRadar/
-          - /Fabricator/
           - /FreeSigns/
           - /MagicMachine/Rec_Magic
           - /MagicMachine/MagicEnergy/

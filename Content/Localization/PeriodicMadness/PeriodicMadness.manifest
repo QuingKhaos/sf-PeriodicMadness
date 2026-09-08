@@ -109,6 +109,18 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 50%. The first output is located at the production indicator."
+					},
+					"Keys": [
+						{
+							"Key": "FabricatorMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100%."
 					},
 					"Keys": [
@@ -221,6 +233,59 @@
 						{
 							"Key": "PipelinePartMk1/Name",
 							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_ManufacturingCalculationsHook",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "<OrangeSmall>{Amount}</> <GreySmall> per minute</>"
+					},
+					"Keys": [
+						{
+							"Key": "Potential/Target",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_ManufacturingCalculationsHook.ST_PM_ManufacturingCalculationsHook"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "<OrangeSmall>{Amount}</> <OrangeSmallBold>({OCAmount})</> <GreySmall> per minute</>"
+					},
+					"Keys": [
+						{
+							"Key": "Potential/Preview",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_ManufacturingCalculationsHook.ST_PM_ManufacturingCalculationsHook"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "<PurpleSmall>{Amount}</> <GreySmall> per minute</>"
+					},
+					"Keys": [
+						{
+							"Key": "ProductionBoost/Target",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_ManufacturingCalculationsHook.ST_PM_ManufacturingCalculationsHook"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "<PurpleSmall>{Amount}</> <PurpleSmallBold>({OCAmount})</> <GreySmall> per minute</>"
+					},
+					"Keys": [
+						{
+							"Key": "ProductionBoost/Preview",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_ManufacturingCalculationsHook.ST_PM_ManufacturingCalculationsHook"
 						}
 					]
 				}
