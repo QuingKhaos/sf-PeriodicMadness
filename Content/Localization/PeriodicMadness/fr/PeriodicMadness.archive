@@ -194,6 +194,17 @@
 				{
 					"Source":
 					{
+						"Text": "A dirtier and more primitive version of a boiler, only takes Seawater."
+					},
+					"Translation":
+					{
+						"Text": "Une chaudière rudimentaire, et plus polluante. Elle fonctionne à l'eau de mer."
+					},
+					"Key": "SeawaterBoiler/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Acid Plant"
 					},
 					"Translation":
@@ -267,6 +278,17 @@
 						"Text": ""
 					},
 					"Key": "FabricatorMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Boiler"
+					},
+					"Translation":
+					{
+						"Text": "Chaudière à eau de mer"
+					},
+					"Key": "SeawaterBoiler/Name"
 				},
 				{
 					"Source":
@@ -382,6 +404,17 @@
 						"Text": ""
 					},
 					"Key": "Steam/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam (Seawater)"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteamSeawater/Recipe"
 				},
 				{
 					"Source":

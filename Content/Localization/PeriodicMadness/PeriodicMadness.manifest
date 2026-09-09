@@ -138,6 +138,18 @@
 				{
 					"Source":
 					{
+						"Text": "A dirtier and more primitive version of a boiler, only takes Seawater."
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterBoiler/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Acid Plant"
 					},
 					"Keys": [
@@ -215,6 +227,18 @@
 					"Keys": [
 						{
 							"Key": "FabricatorMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Boiler"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterBoiler/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -340,6 +364,18 @@
 					"Keys": [
 						{
 							"Key": "Steam/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam (Seawater)"
+					},
+					"Keys": [
+						{
+							"Key": "SteamSeawater/Recipe",
 							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
 						}
 					]
