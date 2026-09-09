@@ -162,6 +162,18 @@
 				{
 					"Source":
 					{
+						"Text": "Boiler"
+					},
+					"Keys": [
+						{
+							"Key": "Boiler/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Burner Crusher"
 					},
 					"Keys": [
@@ -179,6 +191,30 @@
 					"Keys": [
 						{
 							"Key": "BurnerSmelterMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chemistry"
+					},
+					"Keys": [
+						{
+							"Key": "Chemistry/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Crushing"
+					},
+					"Keys": [
+						{
+							"Key": "Crushing/Cat",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -234,6 +270,18 @@
 				{
 					"Source":
 					{
+						"Text": "Production"
+					},
+					"Keys": [
+						{
+							"Key": "Production/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Seawater Boiler"
 					},
 					"Keys": [
@@ -251,6 +299,18 @@
 					"Keys": [
 						{
 							"Key": "SeawaterExtractor/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelting"
+					},
+					"Keys": [
+						{
+							"Key": "Smelting/Cat",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -287,6 +347,18 @@
 					"Keys": [
 						{
 							"Key": "ConveyorLiftMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water"
+					},
+					"Keys": [
+						{
+							"Key": "Water/Cat",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]

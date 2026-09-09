@@ -216,6 +216,17 @@
 				{
 					"Source":
 					{
+						"Text": "Boiler"
+					},
+					"Translation":
+					{
+						"Text": "Boiler"
+					},
+					"Key": "Boiler/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Burner Crusher"
 					},
 					"Translation":
@@ -234,6 +245,28 @@
 						"Text": "Burner Smelter"
 					},
 					"Key": "BurnerSmelterMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chemistry"
+					},
+					"Translation":
+					{
+						"Text": "Chemistry"
+					},
+					"Key": "Chemistry/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Crushing"
+					},
+					"Translation":
+					{
+						"Text": "Crushing"
+					},
+					"Key": "Crushing/Cat"
 				},
 				{
 					"Source":
@@ -282,6 +315,17 @@
 				{
 					"Source":
 					{
+						"Text": "Production"
+					},
+					"Translation":
+					{
+						"Text": "Production"
+					},
+					"Key": "Production/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Seawater Boiler"
 					},
 					"Translation":
@@ -300,6 +344,17 @@
 						"Text": "Seawater Extractor"
 					},
 					"Key": "SeawaterExtractor/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelting"
+					},
+					"Translation":
+					{
+						"Text": "Smelting"
+					},
+					"Key": "Smelting/Cat"
 				},
 				{
 					"Source":
@@ -333,6 +388,17 @@
 						"Text": "Transports up to 150 resources per minute. Used to move resources between floors."
 					},
 					"Key": "ConveyorLiftMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water"
+					},
+					"Translation":
+					{
+						"Text": "Water"
+					},
+					"Key": "Water/Cat"
 				}
 			]
 		},

@@ -216,6 +216,17 @@
 				{
 					"Source":
 					{
+						"Text": "Boiler"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Boiler/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Burner Crusher"
 					},
 					"Translation":
@@ -234,6 +245,28 @@
 						"Text": ""
 					},
 					"Key": "BurnerSmelterMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chemistry"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Chemistry/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Crushing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Crushing/Cat"
 				},
 				{
 					"Source":
@@ -282,6 +315,17 @@
 				{
 					"Source":
 					{
+						"Text": "Production"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Production/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Seawater Boiler"
 					},
 					"Translation":
@@ -300,6 +344,17 @@
 						"Text": "Deniz suyu pompası"
 					},
 					"Key": "SeawaterExtractor/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelting"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Smelting/Cat"
 				},
 				{
 					"Source":
@@ -333,6 +388,17 @@
 						"Text": ""
 					},
 					"Key": "ConveyorLiftMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Water/Cat"
 				}
 			]
 		},
