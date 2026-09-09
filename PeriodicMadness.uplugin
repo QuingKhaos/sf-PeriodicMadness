@@ -32,6 +32,11 @@
 	],
 	"Plugins": [
 		{
+			"Name": "AB_FluidExtras",
+			"Enabled": true,
+			"SemVersion": "^1.0.13"
+		},
+		{
 			"Name": "BurnerManufacturer",
 			"Enabled": true,
 			"SemVersion": "^1.0.0"

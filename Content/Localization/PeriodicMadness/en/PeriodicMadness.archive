@@ -227,6 +227,17 @@
 				{
 					"Source":
 					{
+						"Text": "Default extraction rate: 60 m³ Seawater per minute. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": "Default extraction rate: 60 m³ Seawater per minute. Head Lift: 10 m."
+					},
+					"Key": "SeawaterExtractor/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 100%."
 					},
 					"Translation":
@@ -256,6 +267,17 @@
 						"Text": "Has a base production speed of 50%. The first output is located at the production indicator."
 					},
 					"Key": "FabricatorMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Extractor"
+					},
+					"Translation":
+					{
+						"Text": "Seawater Extractor"
+					},
+					"Key": "SeawaterExtractor/Name"
 				},
 				{
 					"Source":
@@ -331,6 +353,28 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Seawater"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Seawater"
+					},
+					"Key": "PackagedSeawater/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater"
+					},
+					"Translation":
+					{
+						"Text": "Seawater"
+					},
+					"Key": "Seawater/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steam"
 					},
 					"Translation":
@@ -338,6 +382,17 @@
 						"Text": "Steam"
 					},
 					"Key": "Steam/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Seawater"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Seawater"
+					},
+					"Key": "UnpackageSeawater/Recipe"
 				}
 			]
 		},
