@@ -816,6 +816,30 @@
 				{
 					"Source":
 					{
+						"Text": "Glassing"
+					},
+					"Keys": [
+						{
+							"Key": "Glassing/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel"
+					},
+					"Keys": [
+						{
+							"Key": "Gravel/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Intermediates"
 					},
 					"Keys": [

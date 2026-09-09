@@ -818,6 +818,28 @@
 				{
 					"Source":
 					{
+						"Text": "Glassing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Glassing/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel"
+					},
+					"Translation":
+					{
+						"Text": "Гравий"
+					},
+					"Key": "Gravel/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Intermediates"
 					},
 					"Translation":
