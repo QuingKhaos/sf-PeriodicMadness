@@ -151,6 +151,44 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_AEM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Alkaline Earth Metals"
+					},
+					"Translation":
+					{
+						"Text": "Родовище лужноземельних металів"
+					},
+					"Key": "AlkalineEarthMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Alkaline Earth Metals: Calcium"
+					},
+					"Translation":
+					{
+						"Text": "Родовище лужноземельних металів: Calcium"
+					},
+					"Key": "Calcium/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcite"
+					},
+					"Translation":
+					{
+						"Text": "Кальцит"
+					},
+					"Key": "Calcite/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Buildables",
 			"Children": [
 				{

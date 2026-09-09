@@ -92,6 +92,47 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_AEM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Alkaline Earth Metals"
+					},
+					"Keys": [
+						{
+							"Key": "AlkalineEarthMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Alkaline Earth Metals: Calcium"
+					},
+					"Keys": [
+						{
+							"Key": "Calcium/Cat",
+							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcite"
+					},
+					"Keys": [
+						{
+							"Key": "Calcite/Name",
+							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Buildables",
 			"Children": [
 				{
