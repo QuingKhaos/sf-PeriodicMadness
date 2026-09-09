@@ -109,11 +109,35 @@
 				{
 					"Source":
 					{
+						"Text": "Burner Crusher"
+					},
+					"Keys": [
+						{
+							"Key": "BurnerCrusher/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Burner Smelter"
 					},
 					"Keys": [
 						{
 							"Key": "BurnerSmelterMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%."
+					},
+					"Keys": [
+						{
+							"Key": "BurnerCrusher/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]

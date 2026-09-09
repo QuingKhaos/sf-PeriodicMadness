@@ -167,6 +167,17 @@
 				{
 					"Source":
 					{
+						"Text": "Burner Crusher"
+					},
+					"Translation":
+					{
+						"Text": "Concasseur thermique"
+					},
+					"Key": "BurnerCrusher/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Burner Smelter"
 					},
 					"Translation":
@@ -174,6 +185,17 @@
 						"Text": ""
 					},
 					"Key": "BurnerSmelterMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BurnerCrusher/Desc"
 				},
 				{
 					"Source":
