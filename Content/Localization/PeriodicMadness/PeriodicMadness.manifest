@@ -264,6 +264,10 @@
 						{
 							"Key": "BurnerCrusher/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						},
+						{
+							"Key": "Laboratory/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
 				},
@@ -306,11 +310,35 @@
 				{
 					"Source":
 					{
+						"Text": "Laboratory"
+					},
+					"Keys": [
+						{
+							"Key": "Laboratory/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Production"
 					},
 					"Keys": [
 						{
 							"Key": "Production/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Science"
+					},
+					"Keys": [
+						{
+							"Key": "Science/Cat",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]

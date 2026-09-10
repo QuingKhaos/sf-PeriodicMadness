@@ -310,6 +310,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Laboratory/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "BurnerCrusher/Desc"
 				},
 				{
@@ -348,6 +359,17 @@
 				{
 					"Source":
 					{
+						"Text": "Laboratory"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Laboratory/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Production"
 					},
 					"Translation":
@@ -355,6 +377,17 @@
 						"Text": ""
 					},
 					"Key": "Production/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Science"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Science/Cat"
 				},
 				{
 					"Source":
