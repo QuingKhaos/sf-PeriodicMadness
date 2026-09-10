@@ -818,6 +818,17 @@
 				{
 					"Source":
 					{
+						"Text": "Glass Pane"
+					},
+					"Translation":
+					{
+						"Text": "Verre"
+					},
+					"Key": "GlassPane/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Glassing"
 					},
 					"Translation":
@@ -836,6 +847,17 @@
 						"Text": "Gravier"
 					},
 					"Key": "Gravel/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel-based Glass Pane"
+					},
+					"Translation":
+					{
+						"Text": "Verre via gravier"
+					},
+					"Key": "GravleGlassPane/Recipe"
 				},
 				{
 					"Source":

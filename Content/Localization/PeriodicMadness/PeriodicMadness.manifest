@@ -816,6 +816,18 @@
 				{
 					"Source":
 					{
+						"Text": "Glass Pane"
+					},
+					"Keys": [
+						{
+							"Key": "GlassPane/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Glassing"
 					},
 					"Keys": [
@@ -833,6 +845,18 @@
 					"Keys": [
 						{
 							"Key": "Gravel/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel-based Glass Pane"
+					},
+					"Keys": [
+						{
+							"Key": "GravleGlassPane/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]

@@ -19,6 +19,9 @@ patches:
               ItemClass: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
             NumItems: 33
           - Item:
+              ItemClass: /PeriodicMadness/Resources/Products/Glassing/GlassPane/Desc_PM_GlassPane.Desc_PM_GlassPane_C
+            NumItems: 18
+          - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Intermediates/Bricks/Desc_PM_Bricks.Desc_PM_Bricks_C
             NumItems: 18
           - Item:
