@@ -234,6 +234,18 @@
 				{
 					"Source":
 					{
+						"Text": "Evaporator"
+					},
+					"Keys": [
+						{
+							"Key": "EvaporatorMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 100%."
 					},
 					"Keys": [
@@ -263,6 +275,18 @@
 					"Keys": [
 						{
 							"Key": "FabricatorMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 75%. Head Lift: 10 m."
+					},
+					"Keys": [
+						{
+							"Key": "EvaporatorMk1/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -756,6 +780,18 @@
 				{
 					"Source":
 					{
+						"Text": "Acidic Water"
+					},
+					"Keys": [
+						{
+							"Key": "AcidicWater/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Motor"
 					},
 					"Keys": [
@@ -912,11 +948,35 @@
 				{
 					"Source":
 					{
+						"Text": "Steam Condensation"
+					},
+					"Keys": [
+						{
+							"Key": "SteamCondensation/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Stone"
 					},
 					"Keys": [
 						{
 							"Key": "Stone/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "WaterVoiding/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]

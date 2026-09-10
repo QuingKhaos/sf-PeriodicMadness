@@ -282,6 +282,17 @@
 				{
 					"Source":
 					{
+						"Text": "Evaporator"
+					},
+					"Translation":
+					{
+						"Text": "Випарювач"
+					},
+					"Key": "EvaporatorMk1/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 100%."
 					},
 					"Translation":
@@ -311,6 +322,17 @@
 						"Text": ""
 					},
 					"Key": "FabricatorMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 75%. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EvaporatorMk1/Desc"
 				},
 				{
 					"Source":
@@ -763,6 +785,17 @@
 				{
 					"Source":
 					{
+						"Text": "Acidic Water"
+					},
+					"Translation":
+					{
+						"Text": "Кислотна вода"
+					},
+					"Key": "AcidicWater/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Motor"
 					},
 					"Translation":
@@ -906,6 +939,17 @@
 				{
 					"Source":
 					{
+						"Text": "Steam Condensation"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteamCondensation/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Stone"
 					},
 					"Translation":
@@ -913,6 +957,17 @@
 						"Text": ""
 					},
 					"Key": "Stone/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Випаровування води"
+					},
+					"Key": "WaterVoiding/Recipe"
 				}
 			]
 		},
