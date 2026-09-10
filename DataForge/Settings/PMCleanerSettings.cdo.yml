@@ -25,11 +25,11 @@ patches:
           - SAM
           - Uranium
           # must be allowed to be replaced
-          - Coal
-          - Stone
-          - NitrogenGas
-          - Water
-          - LiquidOil
+          - Desc_Coal
+          - Desc_Stone
+          - Desc_NitrogenGas
+          - Desc_Water
+          - Desc_LiquidOil
       - path: mResourceClassReplacements
         value:
           - Target: /Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C
