@@ -185,6 +185,17 @@
 						"Text": ""
 					},
 					"Key": "Calcite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Dust"
+					},
+					"Translation":
+					{
+						"Text": "Poudre de calcium"
+					},
+					"Key": "CalciumDust/Name"
 				}
 			]
 		},

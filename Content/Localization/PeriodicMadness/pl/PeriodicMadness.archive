@@ -185,6 +185,17 @@
 						"Text": "Kalcyt"
 					},
 					"Key": "Calcite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Dust"
+					},
+					"Translation":
+					{
+						"Text": "Pył wapniowy"
+					},
+					"Key": "CalciumDust/Name"
 				}
 			]
 		},

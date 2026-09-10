@@ -185,6 +185,17 @@
 						"Text": "方解石"
 					},
 					"Key": "Calcite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Dust"
+					},
+					"Translation":
+					{
+						"Text": "钙尘"
+					},
+					"Key": "CalciumDust/Name"
 				}
 			]
 		},

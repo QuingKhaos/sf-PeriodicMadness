@@ -185,6 +185,17 @@
 						"Text": "Calcita"
 					},
 					"Key": "Calcite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Dust"
+					},
+					"Translation":
+					{
+						"Text": "Polvo de calcio"
+					},
+					"Key": "CalciumDust/Name"
 				}
 			]
 		},

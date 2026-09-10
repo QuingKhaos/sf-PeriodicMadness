@@ -185,6 +185,17 @@
 						"Text": "Кальцит"
 					},
 					"Key": "Calcite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Dust"
+					},
+					"Translation":
+					{
+						"Text": "Кальциевая пыль"
+					},
+					"Key": "CalciumDust/Name"
 				}
 			]
 		},

@@ -129,6 +129,18 @@
 							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Dust"
+					},
+					"Keys": [
+						{
+							"Key": "CalciumDust/Name",
+							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
+						}
+					]
 				}
 			]
 		},
