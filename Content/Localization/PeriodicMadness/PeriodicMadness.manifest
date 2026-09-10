@@ -992,6 +992,18 @@
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wires"
+					},
+					"Keys": [
+						{
+							"Key": "Wires/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
 				}
 			]
 		},

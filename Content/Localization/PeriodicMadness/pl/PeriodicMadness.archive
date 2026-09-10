@@ -979,6 +979,17 @@
 						"Text": "Parowanie wody"
 					},
 					"Key": "WaterVoiding/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wires"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Wires/Cat"
 				}
 			]
 		},

@@ -979,6 +979,17 @@
 						"Text": "Water Evaporation"
 					},
 					"Key": "WaterVoiding/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wires"
+					},
+					"Translation":
+					{
+						"Text": "Wires"
+					},
+					"Key": "Wires/Cat"
 				}
 			]
 		},

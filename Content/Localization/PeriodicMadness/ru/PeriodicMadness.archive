@@ -979,6 +979,17 @@
 						"Text": "Испарение воды"
 					},
 					"Key": "WaterVoiding/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wires"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Wires/Cat"
 				}
 			]
 		},
