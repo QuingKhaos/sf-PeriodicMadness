@@ -807,6 +807,39 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Breadboard"
+					},
+					"Translation":
+					{
+						"Text": "Basic Breadboard"
+					},
+					"Key": "ElectronicBreadboard/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit"
+					},
+					"Translation":
+					{
+						"Text": "Basic Circuit"
+					},
+					"Key": "ElectronicCircuit/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Integrated Circuits"
+					},
+					"Translation":
+					{
+						"Text": "Basic Integrated Circuits"
+					},
+					"Key": "ElectronicIntegratedCircuits/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Motor"
 					},
 					"Translation":
@@ -825,6 +858,17 @@
 						"Text": "Bricks"
 					},
 					"Key": "Bricks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Circuits"
+					},
+					"Translation":
+					{
+						"Text": "Circuits"
+					},
+					"Key": "Circuits/Cat"
 				},
 				{
 					"Source":

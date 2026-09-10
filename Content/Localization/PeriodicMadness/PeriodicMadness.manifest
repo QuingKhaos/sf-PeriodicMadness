@@ -804,6 +804,42 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Breadboard"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicBreadboard/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicCircuit/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Integrated Circuits"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicIntegratedCircuits/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Motor"
 					},
 					"Keys": [
@@ -821,6 +857,18 @@
 					"Keys": [
 						{
 							"Key": "Bricks/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Circuits"
+					},
+					"Keys": [
+						{
+							"Key": "Circuits/Cat",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
