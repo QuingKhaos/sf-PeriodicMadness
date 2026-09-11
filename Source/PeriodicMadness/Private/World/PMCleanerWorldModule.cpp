@@ -11,6 +11,7 @@
 #include "Subsystems/KBFLAssetDataSubsystem.h"
 #include "Unlocks/FGUnlock.h"
 #include "Unlocks/FGUnlockRecipe.h"
+#include "Unlocks/FGUnlockScannableResource.h"
 #include "FGCustomizationRecipe.h"
 #include "FGRecipe.h"
 #include "FGRecipeManager.h"
@@ -73,7 +74,7 @@ void UPMCleanerWorldModule::RemoveResourceNodes()
 				{
 					MeshActor->Destroy();
 				}
-			
+
 				ResourceNode->Destroy();
 			}
 		}
@@ -177,6 +178,11 @@ void UPMCleanerWorldModule::RemoveSchematics()
 						if (UFGUnlockRecipe* UnlockRecipe = Cast<UFGUnlockRecipe>(Unlock))
 						{
 							UnlockRecipe->mRecipes.Empty();
+						}
+
+						if (UFGUnlockScannableResource* UnlockScannableResource = Cast<UFGUnlockScannableResource>(Unlock))
+						{
+							UnlockScannableResource->mResourcePairsToAddToScanner.Empty();
 						}
 
 						SchematicCDO->mUnlocks.Remove(Unlock);

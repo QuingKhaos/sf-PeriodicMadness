@@ -80,7 +80,6 @@ patches:
           - InventorySlots
           - Patterns
           - Pioneercosmetics
-          - SaveCompatibility
           - Statue
           - Tapes
       - path: mRecipeClassAllowlist
