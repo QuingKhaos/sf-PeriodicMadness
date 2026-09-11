@@ -1,0 +1,9 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Narrative/MAM/Slugs/MSG_Slugs_Blue.MSG_Slugs_Blue
+    properties:
+      - path: mTrigger.mSchematics
+        value:
+          - /PeriodicMadness/Schematics/Research/PowerSlugs_RS/Research_PM_BluePowerSlugs.Research_PM_BluePowerSlugs_C
