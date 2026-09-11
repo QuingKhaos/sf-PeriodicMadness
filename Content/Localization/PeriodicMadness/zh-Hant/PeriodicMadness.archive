@@ -867,6 +867,17 @@
 					{
 						"Text": "酸水"
 					},
+					"Key": "AcidicWater/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Water"
+					},
+					"Translation":
+					{
+						"Text": "酸水"
+					},
 					"Key": "AcidicWater/Cat"
 				},
 				{
@@ -1059,6 +1070,28 @@
 				{
 					"Source":
 					{
+						"Text": "Seawater Sulfide-based Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "海水硫化物蒸發"
+					},
+					"Key": "SeawaterSulfideEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater from Sea Salt"
+					},
+					"Translation":
+					{
+						"Text": "海鹽製海水"
+					},
+					"Key": "SeawaterFromSeaSalt/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steam Condensation"
 					},
 					"Translation":
@@ -1170,12 +1203,34 @@
 						"Text": "活躍非金屬: 碳粉"
 					},
 					"Key": "Carbon/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Sulfur"
+					},
+					"Translation":
+					{
+						"Text": "活躍非金屬: Sulfur"
+					},
+					"Key": "Sulfur/Cat"
 				}
 			]
 		},
 		{
 			"Namespace": "ST_PM_Schematics",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Water Processing"
+					},
+					"Translation":
+					{
+						"Text": "酸水處理"
+					},
+					"Key": "AcidicWaterProcessing/Name"
+				},
 				{
 					"Source":
 					{
@@ -1186,6 +1241,17 @@
 						"Text": ""
 					},
 					"Key": "TransitionMetalSciencePack/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "An acidic fluid to dissolve the most basic of metals for further metallurgy."
+					},
+					"Translation":
+					{
+						"Text": "一種酸性液體，用於溶解最基本的金屬，以便進行進一步的冶金加工。"
+					},
+					"Key": "AcidicWaterProcessing/Desc"
 				},
 				{
 					"Source":

@@ -867,6 +867,17 @@
 					{
 						"Text": "Кислотная вода"
 					},
+					"Key": "AcidicWater/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Water"
+					},
+					"Translation":
+					{
+						"Text": "Кислотная вода"
+					},
 					"Key": "AcidicWater/Cat"
 				},
 				{
@@ -1059,6 +1070,28 @@
 				{
 					"Source":
 					{
+						"Text": "Seawater Sulfide-based Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Испарение морской воды, насыщенной сульфидами"
+					},
+					"Key": "SeawaterSulfideEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater from Sea Salt"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SeawaterFromSeaSalt/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steam Condensation"
 					},
 					"Translation":
@@ -1170,12 +1203,34 @@
 						"Text": "Реактивные неметаллы: Углерод"
 					},
 					"Key": "Carbon/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Sulfur"
+					},
+					"Translation":
+					{
+						"Text": "Реактивные неметаллы: Sulfur"
+					},
+					"Key": "Sulfur/Cat"
 				}
 			]
 		},
 		{
 			"Namespace": "ST_PM_Schematics",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Water Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AcidicWaterProcessing/Name"
+				},
 				{
 					"Source":
 					{
@@ -1186,6 +1241,17 @@
 						"Text": ""
 					},
 					"Key": "TransitionMetalSciencePack/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "An acidic fluid to dissolve the most basic of metals for further metallurgy."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AcidicWaterProcessing/Desc"
 				},
 				{
 					"Source":

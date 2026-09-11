@@ -860,6 +860,10 @@
 						{
 							"Key": "AcidicWater/Cat",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						},
+						{
+							"Key": "AcidicWater/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
 				},
@@ -1070,6 +1074,30 @@
 				{
 					"Source":
 					{
+						"Text": "Seawater Sulfide-based Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterSulfideEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater from Sea Salt"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterFromSeaSalt/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Steam Condensation"
 					},
 					"Keys": [
@@ -1191,6 +1219,18 @@
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Sulfur"
+					},
+					"Keys": [
+						{
+							"Key": "Sulfur/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
 				}
 			]
 		},
@@ -1200,11 +1240,35 @@
 				{
 					"Source":
 					{
+						"Text": "Acidic Water Processing"
+					},
+					"Keys": [
+						{
+							"Key": "AcidicWaterProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Allows research of basic automation methods."
 					},
 					"Keys": [
 						{
 							"Key": "TransitionMetalSciencePack/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "An acidic fluid to dissolve the most basic of metals for further metallurgy."
+					},
+					"Keys": [
+						{
+							"Key": "AcidicWaterProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
