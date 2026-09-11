@@ -92,6 +92,23 @@
 			]
 		},
 		{
+			"Namespace": "ST_PeriodicMadness",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "N/A"
+					},
+					"Keys": [
+						{
+							"Key": "NA/Name",
+							"Path": "/PeriodicMadness/ST_PeriodicMadness.ST_PeriodicMadness"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_AEM",
 			"Children": [
 				{
@@ -1155,6 +1172,47 @@
 						{
 							"Key": "Carbon/Cat",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Science",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Science Bottle"
+					},
+					"Keys": [
+						{
+							"Key": "ScienceBottle/Name",
+							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Science Packs"
+					},
+					"Keys": [
+						{
+							"Key": "SciencePack/Cat",
+							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
 						}
 					]
 				}

@@ -151,6 +151,22 @@
 			]
 		},
 		{
+			"Namespace": "ST_PeriodicMadness",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "N/A"
+					},
+					"Translation":
+					{
+						"Text": "N/A"
+					},
+					"Key": "NA/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_AEM",
 			"Children": [
 				{
@@ -1138,6 +1154,44 @@
 						"Text": "Reactive Non-Metals: Carbon"
 					},
 					"Key": "Carbon/Cat"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Science",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Science Bottle"
+					},
+					"Translation":
+					{
+						"Text": "Science Bottle"
+					},
+					"Key": "ScienceBottle/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Science Packs"
+					},
+					"Translation":
+					{
+						"Text": "Science Packs"
+					},
+					"Key": "SciencePack/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Key": "TransitionMetalSciencePack/Name"
 				}
 			]
 		},

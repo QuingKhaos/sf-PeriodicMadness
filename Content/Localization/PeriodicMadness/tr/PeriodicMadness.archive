@@ -151,6 +151,22 @@
 			]
 		},
 		{
+			"Namespace": "ST_PeriodicMadness",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "N/A"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "NA/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_AEM",
 			"Children": [
 				{
@@ -1138,6 +1154,44 @@
 						"Text": "Ametaller: Karbon"
 					},
 					"Key": "Carbon/Cat"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Science",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Science Bottle"
+					},
+					"Translation":
+					{
+						"Text": "Bilim paketi şişesi"
+					},
+					"Key": "ScienceBottle/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Science Packs"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SciencePack/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TransitionMetalSciencePack/Name"
 				}
 			]
 		},

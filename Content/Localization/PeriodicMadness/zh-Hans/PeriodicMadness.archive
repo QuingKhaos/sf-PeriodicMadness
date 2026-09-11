@@ -151,6 +151,22 @@
 			]
 		},
 		{
+			"Namespace": "ST_PeriodicMadness",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "N/A"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "NA/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_AEM",
 			"Children": [
 				{
@@ -1138,6 +1154,44 @@
 						"Text": "活跃非金属: 碳"
 					},
 					"Key": "Carbon/Cat"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Science",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Science Bottle"
+					},
+					"Translation":
+					{
+						"Text": "科技包瓶子"
+					},
+					"Key": "ScienceBottle/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Science Packs"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SciencePack/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": "过渡金属科技包（红瓶）"
+					},
+					"Key": "TransitionMetalSciencePack/Name"
 				}
 			]
 		},
