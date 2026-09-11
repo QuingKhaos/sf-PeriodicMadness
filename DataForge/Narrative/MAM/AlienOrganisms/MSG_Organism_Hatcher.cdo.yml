@@ -1,0 +1,9 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Narrative/MAM/Organisms/MSG_Organism_Hatcher.MSG_Organism_Hatcher
+    properties:
+      - path: mTrigger.mSchematics
+        value:
+          - /PeriodicMadness/Schematics/Research/AlienOrganisms_RS/Research_PM_HatcherResearch.Research_PM_HatcherResearch_C

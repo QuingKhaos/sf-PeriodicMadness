@@ -125,6 +125,7 @@ patches:
           - WorkBench
           - Workshop
           # Specific items
+          - Desc_AlienProtein
           - Desc_Foundation_8x1_01
           - Desc_Geyser
           - Desc_HardDrive
