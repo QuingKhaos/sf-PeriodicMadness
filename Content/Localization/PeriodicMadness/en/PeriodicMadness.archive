@@ -1190,6 +1190,28 @@
 				{
 					"Source":
 					{
+						"Text": "Automation"
+					},
+					"Translation":
+					{
+						"Text": "Automation"
+					},
+					"Key": "AutomationMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Key technology for automatic mass production."
+					},
+					"Translation":
+					{
+						"Text": "Key technology for automatic mass production."
+					},
+					"Key": "AutomationMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metal Science Pack"
 					},
 					"Translation":

@@ -1212,6 +1212,30 @@
 				{
 					"Source":
 					{
+						"Text": "Automation"
+					},
+					"Keys": [
+						{
+							"Key": "AutomationMk1/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Key technology for automatic mass production."
+					},
+					"Keys": [
+						{
+							"Key": "AutomationMk1/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metal Science Pack"
 					},
 					"Keys": [
