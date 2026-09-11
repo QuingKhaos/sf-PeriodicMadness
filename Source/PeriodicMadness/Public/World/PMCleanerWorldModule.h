@@ -6,6 +6,8 @@
 #include "Module/GameWorldModule.h"
 #include "PMCleanerWorldModule.generated.h"
 
+class UFGRecipe;
+
 /**
  * Sub world module for resource cleanup.
  */
@@ -21,6 +23,9 @@ protected:
 	/** Remove all resource nodes, except allowlisted ones. */
 	void RemoveResourceNodes();
 
+	/** Replace targeted resource node classes with their replacements. */
+	void ReplaceResources();
+
 	/** Remove all research trees, except allowlisted ones. */
 	void RemoveResearchTrees();
 
@@ -30,30 +35,20 @@ protected:
 	/** Remove all recipes, except allowlisted ones. */
 	void RemoveRecipes();
 
+	/** Remove the actual recipe, except allowlisted ones. */
+	void RemoveRecipe(TSubclassOf<UFGRecipe> Recipe);
+
 	/** Remove all items, except allowlisted ones. */
 	void RemoveItems();
+
+	/** Remove all unlocked scannable resources, except allowlisted ones. */
+	void RemoveUnlockedScannableResources();
 
 	/** Called after resource nodes have been removed. */
 	UFUNCTION(BlueprintImplementableEvent, Category = "Periodic Madness|Resource Cleanup", meta = (DisplayName = "On Resource Nodes Removed"))
 	void K2_ResourceNodesRemoved();
 
-	/** List of resource class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mResourceClassAllowlist;
-
-	/** List of research tree class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mResearchTreeClassAllowlist;
-
-	/** List of schematic class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mSchematicClassAllowlist;
-
-	/** List of recipe class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mRecipeClassAllowlist;
-
-	/** List of item class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mItemClassAllowlist;
+	/** Cached CDOs to prevent garbage collection. */
+	UPROPERTY(Transient)
+	TArray<TObjectPtr<UObject>> mCachedCDO;
 };

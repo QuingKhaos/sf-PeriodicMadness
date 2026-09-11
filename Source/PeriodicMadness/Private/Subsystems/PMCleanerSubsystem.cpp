@@ -1,12 +1,17 @@
 #include "Subsystems/PMCleanerSubsystem.h"
+#include "Engine/AssetUserData.h"
 #include "Engine/StaticMeshActor.h"
 #include "Equipment/FGResourceScanner.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Resources/FGResourceDeposit.h"
+#include "Settings/PMCleanerSettings.h"
 #include "FGCharacterPlayer.h"
 #include "FGDropPod.h"
+#include "FGFoliagePickup.h"
+#include "FGFoliageResourceUserData.h"
 #include "FGItemPickup_Spawnable.h"
+#include "ItemDrop.h"
 #include "PeriodicMadnessLogChannels.h"
 #include "WorldPartition/WorldPartitionSubsystem.h"
 
@@ -43,6 +48,9 @@ void APMCleanerSubsystem::BeginPlay()
 
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
+	ReplaceResourceDeposits();
+	RemoveFoliageItemDrops();
+	ReplaceFoliageItemDrops();
 	CleanupCrashSites();
 
 	UWorldPartitionSubsystem* WorldPartitionSubsystem = GetWorld()->GetSubsystem<UWorldPartitionSubsystem>();
@@ -67,11 +75,16 @@ void APMCleanerSubsystem::OnStreamingStateUpdated()
 {
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
+	ReplaceResourceDeposits();
+	RemoveFoliageItemDrops();
+	ReplaceFoliageItemDrops();
 	CleanupCrashSites();
 }
 
 void APMCleanerSubsystem::RemoveStaticMeshes()
 {
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
 	TArray<AActor*> StaticMeshActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AStaticMeshActor::StaticClass(), StaticMeshActors);
 
@@ -81,7 +94,7 @@ void APMCleanerSubsystem::RemoveStaticMeshes()
 		if (StaticMeshActor && StaticMeshActor->GetStaticMeshComponent())
 		{
 			UStaticMesh* Mesh = StaticMeshActor->GetStaticMeshComponent()->GetStaticMesh();
-			if (Mesh && mStaticMeshesCleanlist.Contains(Mesh))
+			if (Mesh && CleanerSettings->ShouldRemoveStaticMesh(Mesh))
 			{
 				PM_LOG_ARGS(Verbose, TEXT("Destroying static mesh actor: %s, Mesh: %s"), *UKismetSystemLibrary::GetPathName(StaticMeshActor), *UKismetSystemLibrary::GetPathName(Mesh));
 				StaticMeshActor->Destroy();
@@ -92,6 +105,8 @@ void APMCleanerSubsystem::RemoveStaticMeshes()
 
 void APMCleanerSubsystem::RemoveResourceDeposits()
 {
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
 	TArray<AActor*> ResourceDepositActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceDeposit::StaticClass(), ResourceDepositActors);
 
@@ -100,21 +115,9 @@ void APMCleanerSubsystem::RemoveResourceDeposits()
 		AFGResourceDeposit* ResourceDeposit = Cast<AFGResourceDeposit>(Actor);
 		if (ResourceDeposit)
 		{
-			FString ResourceClassName = UKismetSystemLibrary::GetPathName(ResourceDeposit->GetResourceClass());
-			bool bIsAllowlisted = false;
-
-			for (const FString& AllowlistEntry : mResourceClassAllowlist)
+			if (CleanerSettings->ShouldRemoveResourceClass(ResourceDeposit->GetResourceClass()))
 			{
-				if (ResourceClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive))
-				{
-					bIsAllowlisted = true;
-					break;
-				}
-			}
-
-			if (!bIsAllowlisted)
-			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing resource: %s, Deposit: %s"), *ResourceClassName, *UKismetSystemLibrary::GetPathName(ResourceDeposit));
+				PM_LOG_ARGS(Verbose, TEXT("Removing resource: %s, Deposit: %s"), *UKismetSystemLibrary::GetPathName(ResourceDeposit->GetResourceClass()), *UKismetSystemLibrary::GetPathName(ResourceDeposit));
 
 				AActor* MeshActor = ResourceDeposit->GetMeshActor();
 				if (MeshActor)
@@ -123,6 +126,105 @@ void APMCleanerSubsystem::RemoveResourceDeposits()
 				}
 
 				ResourceDeposit->Destroy();
+			}
+		}
+	}
+}
+
+void APMCleanerSubsystem::ReplaceResourceDeposits()
+{
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
+	TArray<AActor*> ResourceDepositActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGResourceDeposit::StaticClass(), ResourceDepositActors);
+
+	for (AActor* Actor : ResourceDepositActors)
+	{
+		AFGResourceDeposit* ResourceDeposit = Cast<AFGResourceDeposit>(Actor);
+		if (ResourceDeposit)
+		{
+			TSubclassOf<UFGResourceDescriptor> ReplacementResourceClass;
+			if (CleanerSettings->ShouldReplaceResourceClass(ResourceDeposit->GetResourceClass(), ReplacementResourceClass))
+			{
+				PM_LOG_ARGS(Verbose, TEXT("Replacing resource: %s with %s, Deposit: %s"), *UKismetSystemLibrary::GetPathName(ResourceDeposit->GetResourceClass()), *UKismetSystemLibrary::GetPathName(ReplacementResourceClass), *UKismetSystemLibrary::GetPathName(ResourceDeposit));
+				ResourceDeposit->SetResourceClass(ReplacementResourceClass);
+			}
+		}
+	}
+}
+
+void APMCleanerSubsystem::RemoveFoliageItemDrops()
+{
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
+	TArray<AActor*> FoliagePickupActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGFoliagePickup::StaticClass(), FoliagePickupActors);
+
+	for (AActor* Actor : FoliagePickupActors)
+	{
+		AFGFoliagePickup* FoliagePickup = Cast<AFGFoliagePickup>(Actor);
+		if (FoliagePickup)
+		{
+			if (UHierarchicalInstancedStaticMeshComponent* PickupComponent = FoliagePickup->GetPickupComponent().Get())
+			{
+				if (UStaticMesh* Mesh = PickupComponent->GetStaticMesh())
+				{
+					if (UAssetUserData* UserData = Mesh->GetAssetUserDataOfClass(UFGFoliageResourceUserData::StaticClass()))
+					{
+						if (UFGFoliageResourceUserData* FoliageResourceUserData = Cast<UFGFoliageResourceUserData>(UserData))
+						{
+							TArray<FItemDropWithChance> PickupItems;
+							PickupItems.Append(FoliageResourceUserData->mPickupItems);
+
+							for (int32 i = PickupItems.Num() - 1; i >= 0; --i)
+							{
+								const FItemDropWithChance& ItemDrop = PickupItems[i];
+								if (CleanerSettings->ShouldRemoveFoliageItemClass(ItemDrop.Drop.ItemClass))
+								{
+									PM_LOG_ARGS(Verbose, TEXT("Removing foliage item drop: %s, FoliagePickup: %s, Mesh: %s"), *UKismetSystemLibrary::GetPathName(ItemDrop.Drop.ItemClass), *UKismetSystemLibrary::GetPathName(FoliagePickup), *UKismetSystemLibrary::GetPathName(Mesh));
+									FoliageResourceUserData->mPickupItems.RemoveAt(i);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+void APMCleanerSubsystem::ReplaceFoliageItemDrops()
+{
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
+	TArray<AActor*> FoliagePickupActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGFoliagePickup::StaticClass(), FoliagePickupActors);
+
+	for (AActor* Actor : FoliagePickupActors)
+	{
+		AFGFoliagePickup* FoliagePickup = Cast<AFGFoliagePickup>(Actor);
+		if (FoliagePickup)
+		{
+			if (UHierarchicalInstancedStaticMeshComponent* PickupComponent = FoliagePickup->GetPickupComponent().Get())
+			{
+				if (UStaticMesh* Mesh = PickupComponent->GetStaticMesh())
+				{
+					if (UAssetUserData* UserData = Mesh->GetAssetUserDataOfClass(UFGFoliageResourceUserData::StaticClass()))
+					{
+						if (UFGFoliageResourceUserData* FoliageResourceUserData = Cast<UFGFoliageResourceUserData>(UserData))
+						{
+							for (FItemDropWithChance& ItemDrop : FoliageResourceUserData->mPickupItems)
+							{
+								TSubclassOf<UFGItemDescriptor> ReplacementItemClass;
+								if (CleanerSettings->ShouldReplaceFoliageItemClass(ItemDrop.Drop.ItemClass, ReplacementItemClass))
+								{
+									PM_LOG_ARGS(Verbose, TEXT("Replacing foliage item drop: %s with %s, FoliagePickup: %s, Mesh: %s"), *UKismetSystemLibrary::GetPathName(ItemDrop.Drop.ItemClass), *UKismetSystemLibrary::GetPathName(ReplacementItemClass), *UKismetSystemLibrary::GetPathName(FoliagePickup), *UKismetSystemLibrary::GetPathName(Mesh));
+									ItemDrop.Drop.ItemClass = ReplacementItemClass;
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

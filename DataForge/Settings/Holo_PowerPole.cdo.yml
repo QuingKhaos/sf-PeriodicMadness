@@ -1,0 +1,8 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Buildable/Factory/-Shared/Holo_PowerPole.Holo_PowerPole_C
+    properties:
+      - path: mDefaultPowerLineRecipe
+        value: /PeriodicMadness/Recipes/Buildables/Recipe_PM_PowerLine.Recipe_PM_PowerLine_C

@@ -1,0 +1,1489 @@
+{
+	"FormatVersion": 1,
+	"Namespace": "",
+	"Subnamespaces": [
+		{
+			"Namespace": "AbbreviatedDisplayName",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Keys": [
+						{
+							"Key": "Copper Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperChunks/Desc_PM_CopperChunks.Default__Desc_PM_CopperChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Copper Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperIngot/Desc_PM_CopperIngot.Default__Desc_PM_CopperIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Copper Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperPlate/Desc_PM_CopperPlate.Default__Desc_PM_CopperPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Keys": [
+						{
+							"Key": "Iron Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Iron/IronChunks/Desc_PM_IronChunks.Default__Desc_PM_IronChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Iron Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Iron/IronIngot/Desc_PM_IronIngot.Default__Desc_PM_IronIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Iron Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Default__Desc_PM_IronPlate_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Iron Screws",
+							"Path": "/PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Default__Desc_PM_IronScrew_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Keys": [
+						{
+							"Key": "Nickel Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelChunks/Desc_PM_NickelChunks.Default__Desc_PM_NickelChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Nickel Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelIngot/Desc_PM_NickelIngot.Default__Desc_PM_NickelIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Nickel Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelPlate/Desc_PM_NickelPlate.Default__Desc_PM_NickelPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Keys": [
+						{
+							"Key": "Zinc Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincChunks/Desc_PM_ZincChunks.Default__Desc_PM_ZincChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Zinc Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincIngot/Desc_PM_ZincIngot.Default__Desc_PM_ZincIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Zinc Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincPlate/Desc_PM_ZincPlate.Default__Desc_PM_ZincPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PeriodicMadness",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "N/A"
+					},
+					"Keys": [
+						{
+							"Key": "NA/Name",
+							"Path": "/PeriodicMadness/ST_PeriodicMadness.ST_PeriodicMadness"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_AEM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Alkaline Earth Metals"
+					},
+					"Keys": [
+						{
+							"Key": "AlkalineEarthMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Alkaline Earth Metals: Calcium"
+					},
+					"Keys": [
+						{
+							"Key": "Calcium/Cat",
+							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcite"
+					},
+					"Keys": [
+						{
+							"Key": "Calcite/Name",
+							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Dust"
+					},
+					"Keys": [
+						{
+							"Key": "CalciumDust/Name",
+							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Buildables",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterBoiler/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Acid Plant"
+					},
+					"Keys": [
+						{
+							"Key": "AcidPlant/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Boiler"
+					},
+					"Keys": [
+						{
+							"Key": "Boiler/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Burner Crusher"
+					},
+					"Keys": [
+						{
+							"Key": "BurnerCrusher/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Burner Smelter"
+					},
+					"Keys": [
+						{
+							"Key": "BurnerSmelterMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chemistry"
+					},
+					"Keys": [
+						{
+							"Key": "Chemistry/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Crushing"
+					},
+					"Keys": [
+						{
+							"Key": "Crushing/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Default extraction rate: 60m³ seawater per minute. Head Lift: 10m."
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterExtractor/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Evaporator"
+					},
+					"Keys": [
+						{
+							"Key": "EvaporatorMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%."
+					},
+					"Keys": [
+						{
+							"Key": "BurnerCrusher/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						},
+						{
+							"Key": "Laboratory/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10m"
+					},
+					"Keys": [
+						{
+							"Key": "AcidPlant/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 50%. The first output is located at the production indicator."
+					},
+					"Keys": [
+						{
+							"Key": "FabricatorMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 75%. Head Lift: 10m."
+					},
+					"Keys": [
+						{
+							"Key": "EvaporatorMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Laboratory"
+					},
+					"Keys": [
+						{
+							"Key": "Laboratory/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Production"
+					},
+					"Keys": [
+						{
+							"Key": "Production/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Science"
+					},
+					"Keys": [
+						{
+							"Key": "Science/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Boiler"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterBoiler/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Extractor"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterExtractor/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelting"
+					},
+					"Keys": [
+						{
+							"Key": "Smelting/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100%."
+					},
+					"Keys": [
+						{
+							"Key": "BurnerSmelterMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports up to 150 resources per minute. Used to move resources between buildings."
+					},
+					"Keys": [
+						{
+							"Key": "ConveyorBeltMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports up to 150 resources per minute. Used to move resources between floors."
+					},
+					"Keys": [
+						{
+							"Key": "ConveyorLiftMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water"
+					},
+					"Keys": [
+						{
+							"Key": "Water/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Fluids",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Fluids"
+					},
+					"Keys": [
+						{
+							"Key": "Fluids/Cat",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluids: Oil"
+					},
+					"Keys": [
+						{
+							"Key": "Oil/Cat",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluids: Water"
+					},
+					"Keys": [
+						{
+							"Key": "Water/Cat",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Seawater"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedSeawater/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater"
+					},
+					"Keys": [
+						{
+							"Key": "Seawater/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam"
+					},
+					"Keys": [
+						{
+							"Key": "Steam/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam (Seawater)"
+					},
+					"Keys": [
+						{
+							"Key": "SteamSeawater/Recipe",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Seawater"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageSeawater/Recipe",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Logistics",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Conveyor Belt Parts Mk.1"
+					},
+					"Keys": [
+						{
+							"Key": "ConveyorBeltPartMk1/Name",
+							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Pipeline Parts Mk.1"
+					},
+					"Keys": [
+						{
+							"Key": "PipelinePartMk1/Name",
+							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_ManufacturingCalculationsHook",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "<OrangeSmall>{Amount}</> <GreySmall> per minute</>"
+					},
+					"Keys": [
+						{
+							"Key": "Potential/Target",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_ManufacturingCalculationsHook.ST_PM_ManufacturingCalculationsHook"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "<OrangeSmall>{Amount}</> <OrangeSmallBold>({OCAmount})</> <GreySmall> per minute</>"
+					},
+					"Keys": [
+						{
+							"Key": "Potential/Preview",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_ManufacturingCalculationsHook.ST_PM_ManufacturingCalculationsHook"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "<PurpleSmall>{Amount}</> <GreySmall> per minute</>"
+					},
+					"Keys": [
+						{
+							"Key": "ProductionBoost/Target",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_ManufacturingCalculationsHook.ST_PM_ManufacturingCalculationsHook"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "<PurpleSmall>{Amount}</> <PurpleSmallBold>({OCAmount})</> <GreySmall> per minute</>"
+					},
+					"Keys": [
+						{
+							"Key": "ProductionBoost/Preview",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_ManufacturingCalculationsHook.ST_PM_ManufacturingCalculationsHook"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_MultiMetal",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Basic Framing"
+					},
+					"Keys": [
+						{
+							"Key": "BasicFraming/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "BasicPanelling/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "BasicTubing/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "CopperBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Basic Framing"
+					},
+					"Keys": [
+						{
+							"Key": "IronBasicFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Basic Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "IronBasicPanelling/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "IronBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Framing"
+					},
+					"Keys": [
+						{
+							"Key": "BasicFraming/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "BasicPanelling/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "BasicTubing/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "NickelBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Basic Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "ZincBasicPanelling/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Narrative",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "HUB Upgrade 3, interior furnishing, completed. The Fabricator can produce many parts, and Power Poles allow for the expansion of the power grid."
+					},
+					"Keys": [
+						{
+							"Key": "Onboarding/MSG_Onboarding_HUB_Upgrade4/Subtitles(00)",
+							"Path": "/PeriodicMadness/Narrative/ST_PM_Narrative.ST_PM_Narrative"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_NB",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Mixed Noble Gas"
+					},
+					"Keys": [
+						{
+							"Key": "MixedNobleGas/Name",
+							"Path": "/PeriodicMadness/Resources/NB/ST_PM_NB.ST_PM_NB"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Noble Gases"
+					},
+					"Keys": [
+						{
+							"Key": "NobleGases/Cat",
+							"Path": "/PeriodicMadness/Resources/NB/ST_PM_NB.ST_PM_NB"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Mixed Noble Gas"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedMixedNobleGas/Name",
+							"Path": "/PeriodicMadness/Resources/NB/ST_PM_NB.ST_PM_NB"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Mixed Noble Gas"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageMixedNobleGas/Recipe",
+							"Path": "/PeriodicMadness/Resources/NB/ST_PM_NB.ST_PM_NB"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Products",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Water"
+					},
+					"Keys": [
+						{
+							"Key": "AcidicWater/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Breadboard"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicBreadboard/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicCircuit/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Integrated Circuits"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicIntegratedCircuits/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Motor"
+					},
+					"Keys": [
+						{
+							"Key": "BasicMotor/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Bricks"
+					},
+					"Keys": [
+						{
+							"Key": "Bricks/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Circuits"
+					},
+					"Keys": [
+						{
+							"Key": "Circuits/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Barrel"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyBarrel/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Bottle"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyBottle/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Gas Tank"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyGasTank/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Pane"
+					},
+					"Keys": [
+						{
+							"Key": "GlassPane/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Glassing"
+					},
+					"Keys": [
+						{
+							"Key": "Glassing/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel"
+					},
+					"Keys": [
+						{
+							"Key": "Gravel/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel-based Glass Pane"
+					},
+					"Keys": [
+						{
+							"Key": "GravleGlassPane/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Intermediates"
+					},
+					"Keys": [
+						{
+							"Key": "Intermediates/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Screws"
+					},
+					"Keys": [
+						{
+							"Key": "IronScrew/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Raw Resources"
+					},
+					"Keys": [
+						{
+							"Key": "RawResources/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sea Salt"
+					},
+					"Keys": [
+						{
+							"Key": "SeaSalt/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam Condensation"
+					},
+					"Keys": [
+						{
+							"Key": "SteamCondensation/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone"
+					},
+					"Keys": [
+						{
+							"Key": "Stone/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "WaterVoiding/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wires"
+					},
+					"Keys": [
+						{
+							"Key": "Wires/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_RNM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Air Filter"
+					},
+					"Keys": [
+						{
+							"Key": "AirFilter/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Carbon"
+					},
+					"Keys": [
+						{
+							"Key": "Carbon/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals"
+					},
+					"Keys": [
+						{
+							"Key": "ReactiveNonMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Air Filters"
+					},
+					"Keys": [
+						{
+							"Key": "AirFilters/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Biostuff"
+					},
+					"Keys": [
+						{
+							"Key": "Biostuff/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Carbon"
+					},
+					"Keys": [
+						{
+							"Key": "Carbon/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Schematics",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Allows research of basic automation methods."
+					},
+					"Keys": [
+						{
+							"Key": "TransitionMetalSciencePack/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Science",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Science Bottle"
+					},
+					"Keys": [
+						{
+							"Key": "ScienceBottle/Name",
+							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Science Packs"
+					},
+					"Keys": [
+						{
+							"Key": "SciencePack/Cat",
+							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_TM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Chunk Copper Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ChunkCopperIngot/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chunk Iron Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ChunkIronIngot/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chunk Nickel Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ChunkNickelIngot/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chunk Zinc Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ChunkZincIngot/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "CopperChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Plate"
+					},
+					"Keys": [
+						{
+							"Key": "CopperPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "IronChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "NickelChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "NickelIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Plate"
+					},
+					"Keys": [
+						{
+							"Key": "NickelPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Copper"
+					},
+					"Keys": [
+						{
+							"Key": "Copper/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Iron"
+					},
+					"Keys": [
+						{
+							"Key": "Iron/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Nickel"
+					},
+					"Keys": [
+						{
+							"Key": "Nickel/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Zinc"
+					},
+					"Keys": [
+						{
+							"Key": "Zinc/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "ZincChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ZincIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Plate"
+					},
+					"Keys": [
+						{
+							"Key": "ZincPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				}
+			]
+		}
+	]
+}

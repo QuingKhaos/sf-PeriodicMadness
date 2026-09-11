@@ -1,0 +1,12 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Buildable/Factory/-Shared/Holo_ConveyorBelt.Holo_ConveyorBelt_C
+    properties:
+      - path: mDefaultConveyorPoleRecipe
+        value: /PeriodicMadness/Recipes/Buildables/Recipe_PM_ConveyorPole.Recipe_PM_ConveyorPole_C
+      - path: mDefaultConveyorWallPoleRecipe
+        value: /PeriodicMadness/Recipes/Buildables/Recipe_PM_ConveyorPoleWall.Recipe_PM_ConveyorPoleWall_C
+      - path: mDefaultConveyorCeilingPoleRecipe
+        value: /PeriodicMadness/Recipes/Buildables/Recipe_PM_ConveyorCeilingAttachment.Recipe_PM_ConveyorCeilingAttachment_C

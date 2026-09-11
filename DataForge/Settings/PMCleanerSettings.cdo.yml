@@ -1,0 +1,143 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Script/PeriodicMadness.PMCleanerSettings
+    properties:
+      - path: mStaticMeshesCleanlist
+        value:
+          # Caterium
+          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreGold_01
+          # Copper
+          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreCopper_01
+          # Iron
+          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreIron_01
+          # Quartz
+          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_quartz
+          # Sulfur
+          - /Game/FactoryGame/Resource/RawResources/Nodes/SulfurResource_01
+      - path: mResourceClassAllowlist
+        value:
+          # Mods
+          - /PeriodicMadness/
+          # Generic matches
+          - Geyser
+          - SAM
+          - Uranium
+          # must be allowed to be replaced
+          - Desc_Coal
+          - Desc_Stone
+          - Desc_NitrogenGas
+          - Desc_Water
+          - Desc_LiquidOil
+      - path: mResourceClassReplacements
+        value:
+          - Target: /Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Coal/Desc_PM_Coal.Desc_PM_Coal_C
+          - Target: /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Stone/Desc_PM_Stone.Desc_PM_Stone_C
+          - Target: /Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C
+            Replacement: /PeriodicMadness/Resources/NB/NobleGases/MixedNobleGas/Desc_PM_MixedNobleGas.Desc_PM_MixedNobleGas_C
+          - Target: /Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C
+            Replacement: /PeriodicMadness/Resources/Fluids/Water/Water/Desc_PM_Water.Desc_PM_Water_C
+          - Target: /Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C
+            Replacement: /PeriodicMadness/Resources/Fluids/Oil/CrudeOil/Desc_PM_CrudeOil.Desc_PM_CrudeOil_C
+      - path: mFoliageItemClassAllowlist
+        value:
+          # Mods
+          - /PeriodicMadness/
+          # must be allowed to be replaced
+          - Desc_Leaves
+          - Desc_Mycelia
+          - Desc_Stone
+          - Desc_Wood
+      - path: mFoliageItemClassReplacements
+        value:
+          - Target: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Leaves/Desc_PM_Leaves.Desc_PM_Leaves_C
+          - Target: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Mycelia/Desc_PM_Mycelia.Desc_PM_Mycelia_C
+          - Target: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Wood.Desc_Wood_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Wood/Desc_PM_Wood.Desc_PM_Wood_C
+          - Target: /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
+            Replacement: /PeriodicMadness/Resources/Products/RawResources/Stone/Desc_PM_Stone.Desc_PM_Stone_C
+      - path: mResearchTreeClassAllowlist
+        value:
+          # Mods
+          - /PeriodicMadness/
+          # Generic matches
+          - HardDrive
+      - path: mSchematicClassAllowlist
+        value:
+          # Mods
+          - /AllMapRadar/
+          - /FreeSigns/
+          - /MagicMachine/
+          - /PeriodicMadness/
+          # Generic matches
+          - Boombox
+          - CoffeeCup
+          - InventorySlots
+          - Patterns
+          - Pioneercosmetics
+          - Statue
+          - Tapes
+      - path: mRecipeClassAllowlist
+        value:
+          # Mods
+          - /AllMapRadar/
+          - /FreeSigns/
+          - /MagicMachine/FluidSpawner/
+          - /MagicMachine/Rec_Magic
+          - /MagicMachine/MagicEnergy/
+          - /MagicMachine/NewMagic/
+          - /MagicMachine/UniversalSink/
+          - /MagicMachine/Stackable/
+          - /PeriodicMadness/
+          # Generic matches
+          - Customization/PaintFinishes
+          - Customization/Patterns
+          - Customization/Swatches
+          - StandaloneWidgetSign
+          # Specific recipes
+          - Recipe_Foundation_8x1_01
+      - path: mItemClassAllowlist
+        value:
+          # Mods
+          - /AllMapRadar/
+          - /FreeSigns/
+          - /MagicMachine/
+          - /PeriodicMadness/
+          # Generic matches
+          - AnimalParts
+          - Environment
+          - ConveyorBelt
+          - ConveyorCeilingAttachment
+          - ConveyorLift
+          - ConveyorPole
+          - GeneratorBiomass
+          - Mam
+          - Pipeline
+          - PortableMiner
+          - ShockShank
+          - StandaloneWidgetSign
+          - TradingPost
+          - WorkBench
+          - Workshop
+          # Specific items
+          - Desc_Foundation_8x1_01
+          - Desc_Geyser
+          - Desc_HardDrive
+          - Desc_WAT1
+          - Desc_WAT2
+          # More specific items
+          - SAM/Desc_SAM
+          - SpaceElevator/Desc_SpaceElevator
+      - path: mResourceScannerAllowlist
+        value:
+          # Mods
+          - /PeriodicMadness/
+          # Generic matches
+          - Geyser
+          - SAM
+          - Uranium

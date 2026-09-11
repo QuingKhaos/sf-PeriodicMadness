@@ -1,0 +1,1445 @@
+{
+	"FormatVersion": 2,
+	"Namespace": "",
+	"Subnamespaces": [
+		{
+			"Namespace": "AbbreviatedDisplayName",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Copper Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Copper Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Copper Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Screws"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Nickel Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Nickel Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Nickel Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Chunks"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PeriodicMadness",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "N/A"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "NA/Name"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_AEM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Alkaline Earth Metals"
+					},
+					"Translation":
+					{
+						"Text": "Metale ziem alkalicznych"
+					},
+					"Key": "AlkalineEarthMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Alkaline Earth Metals: Calcium"
+					},
+					"Translation":
+					{
+						"Text": "Metale ziem alkalicznych: Calcium"
+					},
+					"Key": "Calcium/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcite"
+					},
+					"Translation":
+					{
+						"Text": "Kalcyt"
+					},
+					"Key": "Calcite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Dust"
+					},
+					"Translation":
+					{
+						"Text": "Pył wapniowy"
+					},
+					"Key": "CalciumDust/Name"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Buildables",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
+					},
+					"Translation":
+					{
+						"Text": "Brudniejsza i bardziej prymitywna wersja kotła, pobiera tylko wodę morską."
+					},
+					"Key": "SeawaterBoiler/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acid Plant"
+					},
+					"Translation":
+					{
+						"Text": "Przetwórnia kwasów"
+					},
+					"Key": "AcidPlant/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Boiler"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Boiler/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Burner Crusher"
+					},
+					"Translation":
+					{
+						"Text": "Kruszarka spalinowa"
+					},
+					"Key": "BurnerCrusher/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Burner Smelter"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BurnerSmelterMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chemistry"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Chemistry/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Crushing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Crushing/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Default extraction rate: 60 m³ Seawater per minute. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SeawaterExtractor/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Evaporator"
+					},
+					"Translation":
+					{
+						"Text": "Parownik"
+					},
+					"Key": "EvaporatorMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Laboratory/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BurnerCrusher/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10 m"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AcidPlant/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 50%. The first output is located at the production indicator."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "FabricatorMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 75%. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EvaporatorMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Laboratory"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Laboratory/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Production"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Production/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Science"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Science/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Boiler"
+					},
+					"Translation":
+					{
+						"Text": "Kocioł na wodę morską"
+					},
+					"Key": "SeawaterBoiler/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Extractor"
+					},
+					"Translation":
+					{
+						"Text": "Ekstraktor wody morskiej"
+					},
+					"Key": "SeawaterExtractor/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelting"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Smelting/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100%."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BurnerSmelterMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports up to 150 resources per minute. Used to move resources between buildings."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ConveyorBeltMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports up to 150 resources per minute. Used to move resources between floors."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ConveyorLiftMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Water/Cat"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Fluids",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Fluids"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Fluids/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluids: Oil"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Oil/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluids: Water"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Water/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Seawater"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedSeawater/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater"
+					},
+					"Translation":
+					{
+						"Text": "Woda morska"
+					},
+					"Key": "Seawater/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Steam/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam (Seawater)"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteamSeawater/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Seawater"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageSeawater/Recipe"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Logistics",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Conveyor Belt Parts Mk.1"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ConveyorBeltPartMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Pipeline Part Mk.1"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PipelinePartMk1/Name"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_ManufacturingCalculationsHook",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "<OrangeSmall>{Amount}</> <GreySmall> per minute</>"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Potential/Target"
+				},
+				{
+					"Source":
+					{
+						"Text": "<OrangeSmall>{Amount}</> <OrangeSmallBold>({OCAmount})</> <GreySmall> per minute</>"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Potential/Preview"
+				},
+				{
+					"Source":
+					{
+						"Text": "<PurpleSmall>{Amount}</> <GreySmall> per minute</>"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ProductionBoost/Target"
+				},
+				{
+					"Source":
+					{
+						"Text": "<PurpleSmall>{Amount}</> <PurpleSmallBold>({OCAmount})</> <GreySmall> per minute</>"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ProductionBoost/Preview"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_MultiMetal",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowe ramy"
+					},
+					"Key": "BasicFraming/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowe panele"
+					},
+					"Key": "BasicPanelling/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowe rury"
+					},
+					"Key": "BasicTubing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowe rury miedziane"
+					},
+					"Key": "CopperBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowa rama żelazna"
+					},
+					"Key": "IronBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Żelazne panele"
+					},
+					"Key": "IronBasicPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowe rury żelazowe"
+					},
+					"Key": "IronBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BasicFraming/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BasicPanelling/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BasicTubing/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowe rury niklowe"
+					},
+					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Cynkowe panele"
+					},
+					"Key": "ZincBasicPanelling/Recipe"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Narrative",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "HUB Upgrade 3, interior furnishing, completed. The Fabricator can produce many parts, and Power Poles allow for the expansion of the power grid."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Onboarding/MSG_Onboarding_HUB_Upgrade4/Subtitles(00)"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_NB",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Mixed Noble Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "MixedNobleGas/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Noble Gases"
+					},
+					"Translation":
+					{
+						"Text": "Gazy szlachetne"
+					},
+					"Key": "NobleGases/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Mixed Noble Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedMixedNobleGas/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Mixed Noble Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageMixedNobleGas/Recipe"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Products",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Water"
+					},
+					"Translation":
+					{
+						"Text": "Woda kwaśna"
+					},
+					"Key": "AcidicWater/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Breadboard"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowa płytka drukowana"
+					},
+					"Key": "ElectronicBreadboard/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ElectronicCircuit/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Integrated Circuits"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowe układy scalone"
+					},
+					"Key": "ElectronicIntegratedCircuits/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Motor"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowy silnik"
+					},
+					"Key": "BasicMotor/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Bricks"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Bricks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Circuits"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Circuits/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Barrel"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyBarrel/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Bottle"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyBottle/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Gas Tank"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyGasTank/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Pane"
+					},
+					"Translation":
+					{
+						"Text": "Tafla szklana"
+					},
+					"Key": "GlassPane/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glassing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Glassing/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel"
+					},
+					"Translation":
+					{
+						"Text": "Żwir"
+					},
+					"Key": "Gravel/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel-based Glass Pane"
+					},
+					"Translation":
+					{
+						"Text": "Szklana szyba na bazie żwiru"
+					},
+					"Key": "GravleGlassPane/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Intermediates"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Intermediates/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Screws"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "IronScrew/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Raw Resources"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "RawResources/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sea Salt"
+					},
+					"Translation":
+					{
+						"Text": "Sól morska"
+					},
+					"Key": "SeaSalt/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam Condensation"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteamCondensation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Stone/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Parowanie wody"
+					},
+					"Key": "WaterVoiding/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wires"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Wires/Cat"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_RNM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Air Filter"
+					},
+					"Translation":
+					{
+						"Text": "Filtr powietrza"
+					},
+					"Key": "AirFilter/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Carbon"
+					},
+					"Translation":
+					{
+						"Text": "Miał węglowy"
+					},
+					"Key": "Carbon/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals"
+					},
+					"Translation":
+					{
+						"Text": "Aktywne niemetale"
+					},
+					"Key": "ReactiveNonMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Air Filters"
+					},
+					"Translation":
+					{
+						"Text": "Aktywne niemetale: Air Filters"
+					},
+					"Key": "AirFilters/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Biostuff"
+					},
+					"Translation":
+					{
+						"Text": "Aktywne niemetale: Biostuff"
+					},
+					"Key": "Biostuff/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Carbon"
+					},
+					"Translation":
+					{
+						"Text": "Aktywne niemetale: Miał węglowy"
+					},
+					"Key": "Carbon/Cat"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Schematics",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Allows research of basic automation methods."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TransitionMetalSciencePack/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TransitionMetalSciencePack/Name"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Science",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Science Bottle"
+					},
+					"Translation":
+					{
+						"Text": "Fiolka naukowa"
+					},
+					"Key": "ScienceBottle/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Science Packs"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SciencePack/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TransitionMetalSciencePack/Name"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_TM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Chunk Copper Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ChunkCopperIngot/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chunk Iron Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ChunkIronIngot/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chunk Nickel Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ChunkNickelIngot/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chunk Zinc Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ChunkZincIngot/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Odłamki miedzi"
+					},
+					"Key": "CopperChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Plate"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "CopperPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Iron Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Odłamki żelaza"
+					},
+					"Key": "IronChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Odłamki niklu"
+					},
+					"Key": "NickelChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "NickelIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Plate"
+					},
+					"Translation":
+					{
+						"Text": "Płytka niklowa"
+					},
+					"Key": "NickelPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals"
+					},
+					"Translation":
+					{
+						"Text": "Metale Przejściowe"
+					},
+					"Key": "TransitionMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Copper"
+					},
+					"Translation":
+					{
+						"Text": "Metale Przejściowe: Copper"
+					},
+					"Key": "Copper/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Iron"
+					},
+					"Translation":
+					{
+						"Text": "Metale Przejściowe: Iron"
+					},
+					"Key": "Iron/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Nickel"
+					},
+					"Translation":
+					{
+						"Text": "Metale Przejściowe: Nickel"
+					},
+					"Key": "Nickel/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Zinc"
+					},
+					"Translation":
+					{
+						"Text": "Metale Przejściowe: Zinc"
+					},
+					"Key": "Zinc/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Odłamki cynku"
+					},
+					"Key": "ZincChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ZincIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Plate"
+					},
+					"Translation":
+					{
+						"Text": "Płytka cynkowa"
+					},
+					"Key": "ZincPlate/Name"
+				}
+			]
+		}
+	]
+}

@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
-	"SemVersion": "1.0.0",
+	"VersionName": "1.0.0-alpha.1",
+	"SemVersion": "1.0.0-alpha.1",
 	"FriendlyName": "Periodic Madness",
 	"Description": "This overhaul aims to add all the elements of the periodic table to Satisfactory.",
 	"Category": "Modding",
@@ -16,6 +16,13 @@
 	"IsExperimentalVersion": false,
 	"Installed": false,
 	"BuiltInInitialFeatureState": "Active",
+	"LocalizationTargets": [
+		{
+			"Name": "PeriodicMadness",
+			"LoadingPolicy": "Always",
+			"ConfigGenerationPolicy": "Never"
+		}
+	],
 	"Modules": [
 		{
 			"Name": "PeriodicMadness",
@@ -24,6 +31,21 @@
 		}
 	],
 	"Plugins": [
+		{
+			"Name": "AB_FluidExtras",
+			"Enabled": true,
+			"SemVersion": "^1.0.13"
+		},
+		{
+			"Name": "BurnerManufacturer",
+			"Enabled": true,
+			"SemVersion": "^1.0.0"
+		},
+		{
+			"Name": "Fabricator",
+			"Enabled": true,
+			"SemVersion": "^1.1.0"
+		},
 		{
 			"Name": "KBFL",
 			"Enabled": true,
@@ -43,6 +65,11 @@
 			"Name": "SML",
 			"Enabled": true,
 			"SemVersion": "^3.12.0"
+		},
+		{
+			"Name": "ZeroPowerManufacturer",
+			"Enabled": true,
+			"SemVersion": "^1.0.0"
 		}
 	],
 	"GameVersion": ">=502094"

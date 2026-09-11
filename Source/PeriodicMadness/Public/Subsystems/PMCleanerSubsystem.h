@@ -34,17 +34,18 @@ protected:
 	/** Remove all resource deposits, except allowlisted ones. */
 	void RemoveResourceDeposits();
 
+	/** Replace targeted resource deposit classes with their replacements. */
+	void ReplaceResourceDeposits();
+
+	/** Remove all foliage item drops, except allowlisted ones. */
+	void RemoveFoliageItemDrops();
+
+	/** Replace targeted foliage item drops with their replacements. */
+	void ReplaceFoliageItemDrops();
+
 	/** Cleanup crash sites. */
 	void CleanupCrashSites();
 
 	/** Cleanup dropped items around crash sites. */
 	void CleanupDroppedItems(AFGDropPod* DropPod);
-
-	/** List of static meshes to be cleaned up */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<TObjectPtr<UStaticMesh>> mStaticMeshesCleanlist;
-
-	/** List of resource class substrings to block from removal. */
-	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
-	TArray<FString> mResourceClassAllowlist;
 };
