@@ -160,3 +160,20 @@ bool UPMCleanerSettings::ShouldRemoveItemClass(const TSubclassOf<UFGItemDescript
 
 	return !bIsAllowlisted;
 }
+
+bool UPMCleanerSettings::ShouldRemoveScannableResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass) const
+{
+	FString ResourceClassName = UKismetSystemLibrary::GetPathName(ResourceClass);
+	bool bIsAllowlisted = false;
+
+	for (const FString& AllowlistEntry : mResourceScannerAllowlist)
+	{
+		if (ResourceClassName.Contains(AllowlistEntry, ESearchCase::CaseSensitive))
+		{
+			bIsAllowlisted = true;
+			break;
+		}
+	}
+
+	return !bIsAllowlisted;
+}

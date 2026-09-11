@@ -41,6 +41,9 @@ protected:
 	/** Remove all items, except allowlisted ones. */
 	void RemoveItems();
 
+	/** Remove all unlocked scannable resources, except allowlisted ones. */
+	void RemoveUnlockedScannableResources();
+
 	/** Called after resource nodes have been removed. */
 	UFUNCTION(BlueprintImplementableEvent, Category = "Periodic Madness|Resource Cleanup", meta = (DisplayName = "On Resource Nodes Removed"))
 	void K2_ResourceNodesRemoved();

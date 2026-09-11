@@ -133,3 +133,11 @@ patches:
           # More specific items
           - SAM/Desc_SAM
           - SpaceElevator/Desc_SpaceElevator
+      - path: mResourceScannerAllowlist
+        value:
+          # Mods
+          - /PeriodicMadness/
+          # Generic matches
+          - Geyser
+          - SAM
+          - Uranium

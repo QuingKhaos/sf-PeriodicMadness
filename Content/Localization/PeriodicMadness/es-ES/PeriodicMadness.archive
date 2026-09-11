@@ -221,7 +221,7 @@
 				{
 					"Source":
 					{
-						"Text": "A dirtier and more primitive version of a boiler, only takes Seawater."
+						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
 					},
 					"Translation":
 					{
@@ -791,6 +791,22 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Narrative",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "HUB Upgrade 3, interior furnishing, completed. The Fabricator can produce many parts, and Power Poles allow for the expansion of the power grid."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Onboarding/MSG_Onboarding_HUB_Upgrade4/Subtitles(00)"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_NB",
 			"Children": [
 				{
@@ -1154,6 +1170,33 @@
 						"Text": "No metales reactivos: Carbono"
 					},
 					"Key": "Carbon/Cat"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Schematics",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Allows research of basic automation methods."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TransitionMetalSciencePack/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TransitionMetalSciencePack/Name"
 				}
 			]
 		},

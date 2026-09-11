@@ -75,6 +75,8 @@ public:
 	bool ShouldRemoveRecipeClass(const TSubclassOf<UFGRecipe>& RecipeClass) const;
 	/** Checks if an item class is allowed to be removed. */
 	bool ShouldRemoveItemClass(const TSubclassOf<UFGItemDescriptor>& ItemClass) const;
+	/** Checks if a resource class is allowed to be removed from the resource scanner. */
+	bool ShouldRemoveScannableResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass) const;
 
 protected:
 	/** List of static meshes substrings to be cleaned up */
@@ -112,6 +114,10 @@ protected:
 	/** List of item class substrings to block from removal. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
 	TArray<FString> mItemClassAllowlist;
+
+	/** List of resource class substrings to block from removal from the resource scanner. */
+	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
+	TArray<FString> mResourceScannerAllowlist;
 
 private:
 	static const UPMCleanerSettings* SingletonInstance;

@@ -221,11 +221,11 @@
 				{
 					"Source":
 					{
-						"Text": "A dirtier and more primitive version of a boiler, only takes Seawater."
+						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
 					},
 					"Translation":
 					{
-						"Text": "A dirtier and more primitive version of a boiler, only takes Seawater."
+						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
 					},
 					"Key": "SeawaterBoiler/Desc"
 				},
@@ -298,11 +298,11 @@
 				{
 					"Source":
 					{
-						"Text": "Default extraction rate: 60 m³ Seawater per minute. Head Lift: 10 m."
+						"Text": "Default extraction rate: 60m³ seawater per minute. Head Lift: 10m."
 					},
 					"Translation":
 					{
-						"Text": "Default extraction rate: 60 m³ Seawater per minute. Head Lift: 10 m."
+						"Text": "Default extraction rate: 60m³ seawater per minute. Head Lift: 10m."
 					},
 					"Key": "SeawaterExtractor/Desc"
 				},
@@ -342,11 +342,11 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 100%. Head Lift: 10 m"
+						"Text": "Has a base production speed of 100%. Head Lift: 10m"
 					},
 					"Translation":
 					{
-						"Text": "Has a base production speed of 100%. Head Lift: 10 m"
+						"Text": "Has a base production speed of 100%. Head Lift: 10m"
 					},
 					"Key": "AcidPlant/Desc"
 				},
@@ -364,11 +364,11 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 75%. Head Lift: 10 m."
+						"Text": "Has a base production speed of 75%. Head Lift: 10m."
 					},
 					"Translation":
 					{
-						"Text": "Has a base production speed of 75%. Head Lift: 10 m."
+						"Text": "Has a base production speed of 75%. Head Lift: 10m."
 					},
 					"Key": "EvaporatorMk1/Desc"
 				},
@@ -791,6 +791,22 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Narrative",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "HUB Upgrade 3, interior furnishing, completed. The Fabricator can produce many parts, and Power Poles allow for the expansion of the power grid."
+					},
+					"Translation":
+					{
+						"Text": "HUB Upgrade 3, interior furnishing, completed. The Fabricator can produce many parts, and Power Poles allow for the expansion of the power grid."
+					},
+					"Key": "Onboarding/MSG_Onboarding_HUB_Upgrade4/Subtitles(00)"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_NB",
 			"Children": [
 				{
@@ -1154,6 +1170,33 @@
 						"Text": "Reactive Non-Metals: Carbon"
 					},
 					"Key": "Carbon/Cat"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Schematics",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Allows research of basic automation methods."
+					},
+					"Translation":
+					{
+						"Text": "Allows research of basic automation methods."
+					},
+					"Key": "TransitionMetalSciencePack/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Key": "TransitionMetalSciencePack/Name"
 				}
 			]
 		},

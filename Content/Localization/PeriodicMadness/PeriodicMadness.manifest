@@ -167,7 +167,7 @@
 				{
 					"Source":
 					{
-						"Text": "A dirtier and more primitive version of a boiler, only takes Seawater."
+						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
 					},
 					"Keys": [
 						{
@@ -251,7 +251,7 @@
 				{
 					"Source":
 					{
-						"Text": "Default extraction rate: 60 m³ Seawater per minute. Head Lift: 10 m."
+						"Text": "Default extraction rate: 60m³ seawater per minute. Head Lift: 10m."
 					},
 					"Keys": [
 						{
@@ -291,7 +291,7 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 100%. Head Lift: 10 m"
+						"Text": "Has a base production speed of 100%. Head Lift: 10m"
 					},
 					"Keys": [
 						{
@@ -315,7 +315,7 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 75%. Head Lift: 10 m."
+						"Text": "Has a base production speed of 75%. Head Lift: 10m."
 					},
 					"Keys": [
 						{
@@ -779,6 +779,23 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Narrative",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "HUB Upgrade 3, interior furnishing, completed. The Fabricator can produce many parts, and Power Poles allow for the expansion of the power grid."
+					},
+					"Keys": [
+						{
+							"Key": "Onboarding/MSG_Onboarding_HUB_Upgrade4/Subtitles(00)",
+							"Path": "/PeriodicMadness/Narrative/ST_PM_Narrative.ST_PM_Narrative"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_NB",
 			"Children": [
 				{
@@ -1172,6 +1189,35 @@
 						{
 							"Key": "Carbon/Cat",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Schematics",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Allows research of basic automation methods."
+					},
+					"Keys": [
+						{
+							"Key": "TransitionMetalSciencePack/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metal Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
 				}

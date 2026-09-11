@@ -19,6 +19,7 @@
 #include "FGResearchTree.h"
 #include "FGSchematic.h"
 #include "FGSchematicManager.h"
+#include "FGUnlockSubsystem.h"
 #include "PeriodicMadnessLogChannels.h"
 
 void UPMCleanerWorldModule::DispatchLifecycleEvent(ELifecyclePhase Phase)
@@ -41,6 +42,7 @@ void UPMCleanerWorldModule::DispatchLifecycleEvent(ELifecyclePhase Phase)
 		RemoveSchematics();
 		RemoveRecipes();
 		RemoveItems();
+		RemoveUnlockedScannableResources();
 	}
 
     // Blueprint event logic should be dispatched after our code.
@@ -333,5 +335,24 @@ void UPMCleanerWorldModule::RemoveItems()
 	for (TSubclassOf<UFGItemDescriptor> Item : RecipeManager->mAvailableItemDescriptors)
 	{
 		PM_LOG_ARGS(Verbose, TEXT("Remaining available item descriptors: %s"), *UKismetSystemLibrary::GetPathName(Item));
+	}
+}
+
+void UPMCleanerWorldModule::RemoveUnlockedScannableResources()
+{
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+	AFGUnlockSubsystem* UnlockSubsystem = AFGUnlockSubsystem::Get(GetWorld());
+	UnlockSubsystem->mScannableResources.Empty();
+
+	TArray<FScannableResourcePair> UnlockedScannableResourcePairs;
+	UnlockedScannableResourcePairs.Append(UnlockSubsystem->mScannableResourcesPairs);
+
+	for (const FScannableResourcePair& ResourcePair : UnlockedScannableResourcePairs)
+	{
+		if (CleanerSettings->ShouldRemoveScannableResourceClass(ResourcePair.ResourceDescriptor))
+		{
+			PM_LOG_ARGS(Verbose, TEXT("Removing unlocked scannable resource: %s"), *UKismetSystemLibrary::GetPathName(ResourcePair.ResourceDescriptor));
+			UnlockSubsystem->mScannableResourcesPairs.Remove(ResourcePair);
+		}
 	}
 }

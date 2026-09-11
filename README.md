@@ -4,6 +4,14 @@
 
 **NOT COMPATIBLE with existing saves. NOT COMPATIBLE with previous Periodic Madness 0.x saves.**
 
+Even with 1.x releases, Periodic Madness is still a big Work In Progress. I switched to 1.x releases, so if there is ever an upcoming breaking change, the major version will be increased for you to know. Between pre-releases like alpha/beta/RC versions of the same base version, any breaking change is allowed, but will be documented in the changelog.
+
+For Satisfactory 1.2, Periodic Madness was recreated from scratch and the current `v1.0.0-alpha.1` release contains only the onboarding phase and up to the first research in the MAM.
+
+Current caveats:
+
+- The HUB upgrade milestones include Copper Ore and Limestone as additional unlockable scannable resource. That is wrong and has been already reported. You need to scan for the unlocked Copper Chunks and Stone resources instead.
+
 ---
 
 This overhaul aims to add all the elements of the periodic table to Satisfactory. Including new and complex production chains to refine and produce new ores and resources for your growing factory, and delving deeper into chemistry and production chains than a normal vanilla playthrough. If you aren't a chemistry nerd going in, you'll become one going out.
