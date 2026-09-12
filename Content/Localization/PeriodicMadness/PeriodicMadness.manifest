@@ -334,6 +334,10 @@
 						{
 							"Key": "Boiler/Cat",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						},
+						{
+							"Key": "Boiler/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
 				},
@@ -357,6 +361,18 @@
 					"Keys": [
 						{
 							"Key": "BurnerSmelterMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Burns fuel to turn water into steam."
+					},
+					"Keys": [
+						{
+							"Key": "Boiler/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -690,6 +706,18 @@
 					"Keys": [
 						{
 							"Key": "SteamSeawater/Recipe",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam (Water)"
+					},
+					"Keys": [
+						{
+							"Key": "SteamWater/Recipe",
 							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
 						}
 					]
@@ -1677,6 +1705,18 @@
 				{
 					"Source":
 					{
+						"Text": "Cleaner Power Generation"
+					},
+					"Keys": [
+						{
+							"Key": "CleanerPowerGeneration/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Keys": [
@@ -1730,6 +1770,18 @@
 					"Keys": [
 						{
 							"Key": "TransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Using better techniques and filtering to squeeze more power out."
+					},
+					"Keys": [
+						{
+							"Key": "CleanerPowerGeneration/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

@@ -441,6 +441,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Boiler/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Boiler"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Boiler/Cat"
 				},
 				{
@@ -464,6 +475,17 @@
 						"Text": ""
 					},
 					"Key": "BurnerSmelterMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Burns fuel to turn water into steam."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Boiler/Desc"
 				},
 				{
 					"Source":
@@ -777,6 +799,17 @@
 						"Text": ""
 					},
 					"Key": "SteamSeawater/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam (Water)"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteamWater/Recipe"
 				},
 				{
 					"Source":
@@ -1690,6 +1723,17 @@
 				{
 					"Source":
 					{
+						"Text": "Cleaner Power Generation"
+					},
+					"Translation":
+					{
+						"Text": "更清洁的能源生产"
+					},
+					"Key": "CleanerPowerGeneration/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Translation":
@@ -1741,6 +1785,17 @@
 						"Text": "过渡金属科技包"
 					},
 					"Key": "TransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using better techniques and filtering to squeeze more power out."
+					},
+					"Translation":
+					{
+						"Text": "采用更好的技术和过滤方法来榨取更多能量。"
+					},
+					"Key": "CleanerPowerGeneration/Desc"
 				},
 				{
 					"Source":

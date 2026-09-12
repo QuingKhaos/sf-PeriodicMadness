@@ -441,6 +441,17 @@
 					{
 						"Text": "Boiler"
 					},
+					"Key": "Boiler/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Boiler"
+					},
+					"Translation":
+					{
+						"Text": "Boiler"
+					},
 					"Key": "Boiler/Cat"
 				},
 				{
@@ -464,6 +475,17 @@
 						"Text": "Burner Smelter"
 					},
 					"Key": "BurnerSmelterMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Burns fuel to turn water into steam."
+					},
+					"Translation":
+					{
+						"Text": "Burns fuel to turn water into steam."
+					},
+					"Key": "Boiler/Desc"
 				},
 				{
 					"Source":
@@ -777,6 +799,17 @@
 						"Text": "Steam (Seawater)"
 					},
 					"Key": "SteamSeawater/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam (Water)"
+					},
+					"Translation":
+					{
+						"Text": "Steam (Water)"
+					},
+					"Key": "SteamWater/Recipe"
 				},
 				{
 					"Source":
@@ -1690,6 +1723,17 @@
 				{
 					"Source":
 					{
+						"Text": "Cleaner Power Generation"
+					},
+					"Translation":
+					{
+						"Text": "Cleaner Power Generation"
+					},
+					"Key": "CleanerPowerGeneration/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Translation":
@@ -1741,6 +1785,17 @@
 						"Text": "Transition Metal Science Pack"
 					},
 					"Key": "TransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using better techniques and filtering to squeeze more power out."
+					},
+					"Translation":
+					{
+						"Text": "Using better techniques and filtering to squeeze more power out."
+					},
+					"Key": "CleanerPowerGeneration/Desc"
 				},
 				{
 					"Source":

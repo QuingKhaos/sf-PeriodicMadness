@@ -101,6 +101,8 @@ patches:
           - StandaloneWidgetSign
           # Specific recipes
           - Recipe_Foundation_8x1_01
+          - Recipe_GeneratorCoal
+          - Recipe_PipelineJunction
       - path: mItemClassAllowlist
         value:
           # Mods
@@ -126,9 +128,11 @@ patches:
           - Workshop
           # Specific items
           - Desc_AlienProtein
+          - Desc_GeneratorCoal
           - Desc_Foundation_8x1_01
           - Desc_Geyser
           - Desc_HardDrive
+          - Desc_PipelineJunction
           - Desc_WAT1
           - Desc_WAT2
           # More specific items
