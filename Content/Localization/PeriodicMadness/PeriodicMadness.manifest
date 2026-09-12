@@ -20,6 +20,10 @@
 							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperIngot/Desc_PM_CopperIngot.Default__Desc_PM_CopperIngot_C.mAbbreviatedDisplayName"
 						},
 						{
+							"Key": "Copper Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperOre/Desc_PM_CopperOre.Default__Desc_PM_CopperOre_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Copper Plate",
 							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperPlate/Desc_PM_CopperPlate.Default__Desc_PM_CopperPlate_C.mAbbreviatedDisplayName"
 						}
@@ -38,6 +42,10 @@
 						{
 							"Key": "Iron Ingot",
 							"Path": "/PeriodicMadness/Resources/TM/Iron/IronIngot/Desc_PM_IronIngot.Default__Desc_PM_IronIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Iron Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Iron/IronOre/Desc_PM_IronOre.Default__Desc_PM_IronOre_C.mAbbreviatedDisplayName"
 						},
 						{
 							"Key": "Iron Plate",
@@ -64,8 +72,16 @@
 							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelIngot/Desc_PM_NickelIngot.Default__Desc_PM_NickelIngot_C.mAbbreviatedDisplayName"
 						},
 						{
+							"Key": "Nickel Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelOre/Desc_PM_NickelOre.Default__Desc_PM_NickelOre_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Nickel Plate",
 							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelPlate/Desc_PM_NickelPlate.Default__Desc_PM_NickelPlate_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Nickel Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelPowder/Desc_PM_NickelPowder.Default__Desc_PM_NickelPowder_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -84,8 +100,16 @@
 							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincIngot/Desc_PM_ZincIngot.Default__Desc_PM_ZincIngot_C.mAbbreviatedDisplayName"
 						},
 						{
+							"Key": "Zinc Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincOre/Desc_PM_ZincOre.Default__Desc_PM_ZincOre_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Zinc Plate",
 							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincPlate/Desc_PM_ZincPlate.Default__Desc_PM_ZincPlate_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Zinc Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincPowder/Desc_PM_ZincPowder.Default__Desc_PM_ZincPowder_C.mAbbreviatedDisplayName"
 						}
 					]
 				}
@@ -1288,6 +1312,18 @@
 				{
 					"Source":
 					{
+						"Text": "Ezekiel Ore Purifying"
+					},
+					"Keys": [
+						{
+							"Key": "EzekielOrePurifying/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Key technology for automatic mass production."
 					},
 					"Keys": [
@@ -1305,6 +1341,18 @@
 					"Keys": [
 						{
 							"Key": "TransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Using small doses of HCl, you can extract pure ore from ore chunks."
+					},
+					"Keys": [
+						{
+							"Key": "EzekielOrePurifying/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -1355,6 +1403,18 @@
 		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Basic Pig Iron"
+					},
+					"Keys": [
+						{
+							"Key": "BasicPigIron/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
 				{
 					"Source":
 					{
@@ -1430,6 +1490,78 @@
 				{
 					"Source":
 					{
+						"Text": "Crude Matte Copper"
+					},
+					"Keys": [
+						{
+							"Key": "CrudeMatteCopper/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Crude Matte Copper Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "EzekielMatteCopperLeeching/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Nickel Powder Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "NickelPowderLeeching/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Pig Iron Separation"
+					},
+					"Keys": [
+						{
+							"Key": "PigIronSeparation/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Zinc Powder Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "ZincPowderLeeching/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ferrum"
+					},
+					"Keys": [
+						{
+							"Key": "Ferrum/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Chunks"
 					},
 					"Keys": [
@@ -1466,11 +1598,59 @@
 				{
 					"Source":
 					{
+						"Text": "Nickel Ore"
+					},
+					"Keys": [
+						{
+							"Key": "NickelOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Plate"
 					},
 					"Keys": [
 						{
 							"Key": "NickelPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Powder"
+					},
+					"Keys": [
+						{
+							"Key": "NickelPowder/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Patina"
+					},
+					"Keys": [
+						{
+							"Key": "Patina/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Pig Iron"
+					},
+					"Keys": [
+						{
+							"Key": "PigIron/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -1562,11 +1742,35 @@
 				{
 					"Source":
 					{
+						"Text": "Zinc Ore"
+					},
+					"Keys": [
+						{
+							"Key": "ZincOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Zinc Plate"
 					},
 					"Keys": [
 						{
 							"Key": "ZincPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Powder"
+					},
+					"Keys": [
+						{
+							"Key": "ZincPowder/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]

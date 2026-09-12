@@ -25,6 +25,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Copper Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Copper Plate"
 				},
 				{
@@ -47,7 +58,29 @@
 					{
 						"Text": ""
 					},
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Iron Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Ore"
 				},
 				{
 					"Source":
@@ -69,18 +102,18 @@
 					{
 						"Text": ""
 					},
-					"Key": "Iron Chunks"
+					"Key": "Iron Screws"
 				},
 				{
 					"Source":
 					{
-						"Text": "Fe"
+						"Text": "Ni"
 					},
 					"Translation":
 					{
 						"Text": ""
 					},
-					"Key": "Iron Screws"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -102,6 +135,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Nickel Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Nickel Plate"
 				},
 				{
@@ -113,7 +157,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Powder"
 				},
 				{
 					"Source":
@@ -135,7 +179,29 @@
 					{
 						"Text": ""
 					},
+					"Key": "Zinc Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Zinc Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Powder"
 				},
 				{
 					"Source":
@@ -1267,6 +1333,17 @@
 				{
 					"Source":
 					{
+						"Text": "Ezekiel Ore Purifying"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 礦物提純"
+					},
+					"Key": "EzekielOrePurifying/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Key technology for automatic mass production."
 					},
 					"Translation":
@@ -1285,6 +1362,17 @@
 						"Text": "過渡金屬科技包"
 					},
 					"Key": "TransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using small doses of HCl, you can extract pure ore from ore chunks."
+					},
+					"Translation":
+					{
+						"Text": "使用少量鹽酸，可以從礦石塊中提取純礦。"
+					},
+					"Key": "EzekielOrePurifying/Desc"
 				}
 			]
 		},
@@ -1329,6 +1417,17 @@
 		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Basic Pig Iron"
+					},
+					"Translation":
+					{
+						"Text": "基礎生鐵"
+					},
+					"Key": "BasicPigIron/Recipe"
+				},
 				{
 					"Source":
 					{
@@ -1398,6 +1497,72 @@
 				{
 					"Source":
 					{
+						"Text": "Crude Matte Copper"
+					},
+					"Translation":
+					{
+						"Text": "粗冰銅"
+					},
+					"Key": "CrudeMatteCopper/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Crude Matte Copper Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 粗冰銅浸出"
+					},
+					"Key": "EzekielMatteCopperLeeching/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Nickel Powder Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 鎳粉浸出"
+					},
+					"Key": "NickelPowderLeeching/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Pig Iron Separation"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 生鐵分離"
+					},
+					"Key": "PigIronSeparation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Zinc Powder Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 鋅粉浸出"
+					},
+					"Key": "ZincPowderLeeching/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ferrum"
+					},
+					"Translation":
+					{
+						"Text": "鐵鏽"
+					},
+					"Key": "Ferrum/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Chunks"
 					},
 					"Translation":
@@ -1431,6 +1596,17 @@
 				{
 					"Source":
 					{
+						"Text": "Nickel Ore"
+					},
+					"Translation":
+					{
+						"Text": "鎳礦"
+					},
+					"Key": "NickelOre/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Plate"
 					},
 					"Translation":
@@ -1438,6 +1614,39 @@
 						"Text": "鎳板"
 					},
 					"Key": "NickelPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Powder"
+					},
+					"Translation":
+					{
+						"Text": "鎳粉"
+					},
+					"Key": "NickelPowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Patina"
+					},
+					"Translation":
+					{
+						"Text": "銅鏽"
+					},
+					"Key": "Patina/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Pig Iron"
+					},
+					"Translation":
+					{
+						"Text": "生鐵"
+					},
+					"Key": "PigIron/Name"
 				},
 				{
 					"Source":
@@ -1519,6 +1728,17 @@
 				{
 					"Source":
 					{
+						"Text": "Zinc Ore"
+					},
+					"Translation":
+					{
+						"Text": "鋅礦"
+					},
+					"Key": "ZincOre/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Zinc Plate"
 					},
 					"Translation":
@@ -1526,6 +1746,17 @@
 						"Text": "鋅板"
 					},
 					"Key": "ZincPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Powder"
+					},
+					"Translation":
+					{
+						"Text": "鋅粉"
+					},
+					"Key": "ZincPowder/Name"
 				}
 			]
 		}
