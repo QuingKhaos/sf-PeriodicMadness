@@ -1344,6 +1344,17 @@
 				{
 					"Source":
 					{
+						"Text": "Illumination for better visibility at night."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StreetLight/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Key technology for automatic mass production."
 					},
 					"Translation":

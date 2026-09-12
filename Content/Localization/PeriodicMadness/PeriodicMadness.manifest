@@ -1324,6 +1324,18 @@
 				{
 					"Source":
 					{
+						"Text": "Illumination for better visibility at night."
+					},
+					"Keys": [
+						{
+							"Key": "StreetLight/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Key technology for automatic mass production."
 					},
 					"Keys": [
