@@ -8,6 +8,18 @@
 				{
 					"Source":
 					{
+						"Text": "Ca"
+					},
+					"Keys": [
+						{
+							"Key": "Calcium Dust",
+							"Path": "/PeriodicMadness/Resources/AEM/Calcium/CalciumDust/Desc_PM_CalciumDust.Default__Desc_PM_CalciumDust_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Cu"
 					},
 					"Keys": [
