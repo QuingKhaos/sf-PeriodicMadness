@@ -20,6 +20,22 @@
 				{
 					"Source":
 					{
+						"Text": "Cl"
+					},
+					"Keys": [
+						{
+							"Key": "Chlorine Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Chlorine/Chlorine/Desc_PM_Chlorine.Default__Desc_PM_Chlorine_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Chlorine Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Chlorine/Chlorine/Desc_PM_PackagedChlorine.Default__Desc_PM_PackagedChlorine_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Cu"
 					},
 					"Keys": [
@@ -66,6 +82,38 @@
 						{
 							"Key": "Iron Screws",
 							"Path": "/PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Default__Desc_PM_IronScrew_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "H"
+					},
+					"Keys": [
+						{
+							"Key": "Hydrogen Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Hydrogen/Hydrogen/Desc_PM_Hydrogen.Default__Desc_PM_Hydrogen_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Hydrogen Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Hydrogen/Hydrogen/Desc_PM_PackagedHydrogen.Default__Desc_PM_PackagedHydrogen_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Keys": [
+						{
+							"Key": "Hydrochloric Acid",
+							"Path": "/PeriodicMadness/Resources/RNM/Chlorine/HydrochloricAcid/Desc_PM_HydrochloricAcid.Default__Desc_PM_HydrochloricAcid_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Hydrochloric Acid",
+							"Path": "/PeriodicMadness/Resources/RNM/Chlorine/HydrochloricAcid/Desc_PM_PackagedHydrochloricAcid.Default__Desc_PM_PackagedHydrochloricAcid_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -198,6 +246,59 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_AM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals"
+					},
+					"Keys": [
+						{
+							"Key": "AlkaliMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/AM/ST_PM_AM.ST_PM_AM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals: Sodium"
+					},
+					"Keys": [
+						{
+							"Key": "Sodium/Cat",
+							"Path": "/PeriodicMadness/Resources/AM/ST_PM_AM.ST_PM_AM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium"
+					},
+					"Keys": [
+						{
+							"Key": "Sodium/Name",
+							"Path": "/PeriodicMadness/Resources/AM/ST_PM_AM.ST_PM_AM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide"
+					},
+					"Keys": [
+						{
+							"Key": "SolidSodiumHydroxide/Name",
+							"Path": "/PeriodicMadness/Resources/AM/ST_PM_AM.ST_PM_AM"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Buildables",
 			"Children": [
 				{
@@ -299,6 +400,18 @@
 				{
 					"Source":
 					{
+						"Text": "Electrolysis Plant"
+					},
+					"Keys": [
+						{
+							"Key": "ElectrolysisPlantMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Evaporator"
 					},
 					"Keys": [
@@ -332,6 +445,18 @@
 					"Keys": [
 						{
 							"Key": "AcidPlant/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10m."
+					},
+					"Keys": [
+						{
+							"Key": "ElectrolysisPlantMk1/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -978,6 +1103,18 @@
 				{
 					"Source":
 					{
+						"Text": "Empty Acid Canister"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyAcidCanister/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Barrel"
 					},
 					"Keys": [
@@ -1211,6 +1348,102 @@
 				{
 					"Source":
 					{
+						"Text": "Chlorine Gas"
+					},
+					"Keys": [
+						{
+							"Key": "Chlorine/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chlorine Gas Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "ChlorineEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrochloric Acid"
+					},
+					"Keys": [
+						{
+							"Key": "HydrochloricAcid/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "Hydrogen/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "HydrogenEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Chlorine Gas"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedChlorine/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrochloric Acid"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedHydrochloricAcid/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrogen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedHydrogen/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals"
 					},
 					"Keys": [
@@ -1259,11 +1492,119 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Chlorine"
+					},
+					"Keys": [
+						{
+							"Key": "Chlorine/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Hydrogen"
+					},
+					"Keys": [
+						{
+							"Key": "Hydrogen/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Sulfur"
 					},
 					"Keys": [
 						{
 							"Key": "Sulfur/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Electrolysis"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterElectrolysis/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium to Solid Sodium Hydroxide"
+					},
+					"Keys": [
+						{
+							"Key": "SodiumToSolidSodiumHydroxide/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide Seawater"
+					},
+					"Keys": [
+						{
+							"Key": "SolidSodiumHydroxideSeawater/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Chlorine Gas"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageChlorine/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrochloric Acid"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageHydrochloricAcid/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrogen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageHydrogen/Recipe",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
@@ -1324,6 +1665,18 @@
 				{
 					"Source":
 					{
+						"Text": "Chlorine Processing"
+					},
+					"Keys": [
+						{
+							"Key": "ChlorineProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Keys": [
@@ -1353,6 +1706,18 @@
 					"Keys": [
 						{
 							"Key": "AutomationMk1/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The processing of Chlorine: make sure not to breath it in!"
+					},
+					"Keys": [
+						{
+							"Key": "ChlorineProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

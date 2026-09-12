@@ -19,6 +19,28 @@
 				{
 					"Source":
 					{
+						"Text": "Cl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Chlorine Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Chlorine Gas"
+				},
+				{
+					"Source":
+					{
 						"Text": "Cu"
 					},
 					"Translation":
@@ -47,7 +69,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Plate"
+					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -58,18 +80,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Chunks"
-				},
-				{
-					"Source":
-					{
-						"Text": "Fe"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Iron Chunks"
+					"Key": "Copper Plate"
 				},
 				{
 					"Source":
@@ -118,13 +129,57 @@
 				{
 					"Source":
 					{
-						"Text": "Ni"
+						"Text": "Fe"
 					},
 					"Translation":
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "H"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Hydrogen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "H"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Hydrogen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Hydrochloric Acid"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -158,6 +213,17 @@
 						"Text": ""
 					},
 					"Key": "Nickel Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -293,6 +359,55 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_AM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals"
+					},
+					"Translation":
+					{
+						"Text": "Щелочные металлы"
+					},
+					"Key": "AlkaliMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals: Sodium"
+					},
+					"Translation":
+					{
+						"Text": "Щелочные металлы: Натрий"
+					},
+					"Key": "Sodium/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium"
+					},
+					"Translation":
+					{
+						"Text": "Натрий"
+					},
+					"Key": "Sodium/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SolidSodiumHydroxide/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Buildables",
 			"Children": [
 				{
@@ -386,6 +501,17 @@
 				{
 					"Source":
 					{
+						"Text": "Electrolysis Plant"
+					},
+					"Translation":
+					{
+						"Text": "Электролизер"
+					},
+					"Key": "ElectrolysisPlantMk1/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Evaporator"
 					},
 					"Translation":
@@ -426,6 +552,17 @@
 						"Text": ""
 					},
 					"Key": "AcidPlant/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10m."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ElectrolysisPlantMk1/Desc"
 				},
 				{
 					"Source":
@@ -1026,6 +1163,17 @@
 				{
 					"Source":
 					{
+						"Text": "Empty Acid Canister"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyAcidCanister/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Barrel"
 					},
 					"Translation":
@@ -1240,6 +1388,94 @@
 				{
 					"Source":
 					{
+						"Text": "Chlorine Gas"
+					},
+					"Translation":
+					{
+						"Text": "Хлорный газ"
+					},
+					"Key": "Chlorine/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chlorine Gas Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Испарение хлора"
+					},
+					"Key": "ChlorineEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrochloric Acid"
+					},
+					"Translation":
+					{
+						"Text": "Соляная кислота"
+					},
+					"Key": "HydrochloricAcid/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas"
+					},
+					"Translation":
+					{
+						"Text": "Водородный газ"
+					},
+					"Key": "Hydrogen/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Испарение водорода"
+					},
+					"Key": "HydrogenEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Chlorine Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedChlorine/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrochloric Acid"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedHydrochloricAcid/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrogen Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedHydrogen/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals"
 					},
 					"Translation":
@@ -1284,6 +1520,28 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Chlorine"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Chlorine/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Hydrogen"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Hydrogen/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Sulfur"
 					},
 					"Translation":
@@ -1291,6 +1549,83 @@
 						"Text": "Реактивные неметаллы: Sulfur"
 					},
 					"Key": "Sulfur/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SeawaterElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Испарение морской воды"
+					},
+					"Key": "SeawaterEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium to Solid Sodium Hydroxide"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SodiumToSolidSodiumHydroxide/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide Seawater"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SolidSodiumHydroxideSeawater/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Chlorine Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageChlorine/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrochloric Acid"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageHydrochloricAcid/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrogen Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageHydrogen/Recipe"
 				}
 			]
 		},
@@ -1344,6 +1679,17 @@
 				{
 					"Source":
 					{
+						"Text": "Chlorine Processing"
+					},
+					"Translation":
+					{
+						"Text": "Обработка хлора"
+					},
+					"Key": "ChlorineProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Translation":
@@ -1373,6 +1719,17 @@
 						"Text": ""
 					},
 					"Key": "AutomationMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The processing of Chlorine: make sure not to breath it in!"
+					},
+					"Translation":
+					{
+						"Text": "Обработка хлором: будьте осторожны и не вдыхайте его!"
+					},
+					"Key": "ChlorineProcessing/Desc"
 				},
 				{
 					"Source":

@@ -19,6 +19,28 @@
 				{
 					"Source":
 					{
+						"Text": "Cl"
+					},
+					"Translation":
+					{
+						"Text": "Cl"
+					},
+					"Key": "Packaged Chlorine Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cl"
+					},
+					"Translation":
+					{
+						"Text": "Cl"
+					},
+					"Key": "Chlorine Gas"
+				},
+				{
+					"Source":
+					{
 						"Text": "Cu"
 					},
 					"Translation":
@@ -47,29 +69,18 @@
 					{
 						"Text": "Cu"
 					},
-					"Key": "Copper Plate"
-				},
-				{
-					"Source":
-					{
-						"Text": "Cu"
-					},
-					"Translation":
-					{
-						"Text": "Cu"
-					},
 					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
 					{
-						"Text": "Fe"
+						"Text": "Cu"
 					},
 					"Translation":
 					{
-						"Text": "Fe"
+						"Text": "Cu"
 					},
-					"Key": "Iron Chunks"
+					"Key": "Copper Plate"
 				},
 				{
 					"Source":
@@ -118,13 +129,57 @@
 				{
 					"Source":
 					{
-						"Text": "Ni"
+						"Text": "Fe"
 					},
 					"Translation":
 					{
-						"Text": "Ni"
+						"Text": "Fe"
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "H"
+					},
+					"Translation":
+					{
+						"Text": "H"
+					},
+					"Key": "Hydrogen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "H"
+					},
+					"Translation":
+					{
+						"Text": "H"
+					},
+					"Key": "Packaged Hydrogen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": "HCl"
+					},
+					"Key": "Packaged Hydrochloric Acid"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": "HCl"
+					},
+					"Key": "Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -158,6 +213,17 @@
 						"Text": "Ni"
 					},
 					"Key": "Nickel Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": "Ni"
+					},
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -293,6 +359,55 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_AM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals"
+					},
+					"Translation":
+					{
+						"Text": "Alkali Metals"
+					},
+					"Key": "AlkaliMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals: Sodium"
+					},
+					"Translation":
+					{
+						"Text": "Alkali Metals: Sodium"
+					},
+					"Key": "Sodium/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium"
+					},
+					"Translation":
+					{
+						"Text": "Sodium"
+					},
+					"Key": "Sodium/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide"
+					},
+					"Translation":
+					{
+						"Text": "Solid Sodium Hydroxide"
+					},
+					"Key": "SolidSodiumHydroxide/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Buildables",
 			"Children": [
 				{
@@ -386,6 +501,17 @@
 				{
 					"Source":
 					{
+						"Text": "Electrolysis Plant"
+					},
+					"Translation":
+					{
+						"Text": "Electrolysis Plant"
+					},
+					"Key": "ElectrolysisPlantMk1/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Evaporator"
 					},
 					"Translation":
@@ -426,6 +552,17 @@
 						"Text": "Has a base production speed of 100%. Head Lift: 10m"
 					},
 					"Key": "AcidPlant/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10m."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10m."
+					},
+					"Key": "ElectrolysisPlantMk1/Desc"
 				},
 				{
 					"Source":
@@ -1026,6 +1163,17 @@
 				{
 					"Source":
 					{
+						"Text": "Empty Acid Canister"
+					},
+					"Translation":
+					{
+						"Text": "Empty Acid Canister"
+					},
+					"Key": "EmptyAcidCanister/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Barrel"
 					},
 					"Translation":
@@ -1240,6 +1388,94 @@
 				{
 					"Source":
 					{
+						"Text": "Chlorine Gas"
+					},
+					"Translation":
+					{
+						"Text": "Chlorine Gas"
+					},
+					"Key": "Chlorine/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chlorine Gas Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Chlorine Gas Evaporation"
+					},
+					"Key": "ChlorineEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrochloric Acid"
+					},
+					"Translation":
+					{
+						"Text": "Hydrochloric Acid"
+					},
+					"Key": "HydrochloricAcid/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas"
+					},
+					"Translation":
+					{
+						"Text": "Hydrogen Gas"
+					},
+					"Key": "Hydrogen/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Hydrogen Gas Evaporation"
+					},
+					"Key": "HydrogenEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Chlorine Gas"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Chlorine Gas"
+					},
+					"Key": "PackagedChlorine/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrochloric Acid"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Hydrochloric Acid"
+					},
+					"Key": "PackagedHydrochloricAcid/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrogen Gas"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Hydrogen Gas"
+					},
+					"Key": "PackagedHydrogen/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals"
 					},
 					"Translation":
@@ -1284,6 +1520,28 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Chlorine"
+					},
+					"Translation":
+					{
+						"Text": "Reactive Non-Metals: Chlorine"
+					},
+					"Key": "Chlorine/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Hydrogen"
+					},
+					"Translation":
+					{
+						"Text": "Reactive Non-Metals: Hydrogen"
+					},
+					"Key": "Hydrogen/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Sulfur"
 					},
 					"Translation":
@@ -1291,6 +1549,83 @@
 						"Text": "Reactive Non-Metals: Sulfur"
 					},
 					"Key": "Sulfur/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": "Seawater Electrolysis"
+					},
+					"Key": "SeawaterElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Seawater Evaporation"
+					},
+					"Key": "SeawaterEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium to Solid Sodium Hydroxide"
+					},
+					"Translation":
+					{
+						"Text": "Sodium to Solid Sodium Hydroxide"
+					},
+					"Key": "SodiumToSolidSodiumHydroxide/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide Seawater"
+					},
+					"Translation":
+					{
+						"Text": "Solid Sodium Hydroxide Seawater"
+					},
+					"Key": "SolidSodiumHydroxideSeawater/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Chlorine Gas"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Chlorine Gas"
+					},
+					"Key": "UnpackageChlorine/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrochloric Acid"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Hydrochloric Acid"
+					},
+					"Key": "UnpackageHydrochloricAcid/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrogen Gas"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Hydrogen Gas"
+					},
+					"Key": "UnpackageHydrogen/Recipe"
 				}
 			]
 		},
@@ -1344,6 +1679,17 @@
 				{
 					"Source":
 					{
+						"Text": "Chlorine Processing"
+					},
+					"Translation":
+					{
+						"Text": "Chlorine Processing"
+					},
+					"Key": "ChlorineProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Translation":
@@ -1373,6 +1719,17 @@
 						"Text": "Key technology for automatic mass production."
 					},
 					"Key": "AutomationMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The processing of Chlorine: make sure not to breath it in!"
+					},
+					"Translation":
+					{
+						"Text": "The processing of Chlorine: make sure not to breath it in!"
+					},
+					"Key": "ChlorineProcessing/Desc"
 				},
 				{
 					"Source":
