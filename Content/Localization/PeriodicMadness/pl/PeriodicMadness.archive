@@ -47,6 +47,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Copper Disk"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Copper Ingot"
 				},
 				{
@@ -235,6 +246,17 @@
 						"Text": ""
 					},
 					"Key": "Nickel Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Disk"
 				},
 				{
 					"Source":
@@ -710,6 +732,28 @@
 				{
 					"Source":
 					{
+						"Text": "Voltatic Charger"
+					},
+					"Translation":
+					{
+						"Text": "Ładowarka Volty"
+					},
+					"Key": "VoltaticCharger/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Discharger"
+					},
+					"Translation":
+					{
+						"Text": "Rozładowarka Volty"
+					},
+					"Key": "VoltaticDischarger/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Water"
 					},
 					"Translation":
@@ -1174,6 +1218,17 @@
 				{
 					"Source":
 					{
+						"Text": "Batteries"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Batteries/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Bricks"
 					},
 					"Translation":
@@ -1185,6 +1240,28 @@
 				{
 					"Source":
 					{
+						"Text": "Broken Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "Uszkodzony stos Volty"
+					},
+					"Key": "BrokenVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Charged Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "Naładowany stos Volty"
+					},
+					"Key": "ChargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Circuits"
 					},
 					"Translation":
@@ -1192,6 +1269,17 @@
 						"Text": ""
 					},
 					"Key": "Circuits/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Disk"
+					},
+					"Translation":
+					{
+						"Text": "Krążek miedziany"
+					},
+					"Key": "CopperDisc/Name"
 				},
 				{
 					"Source":
@@ -1372,6 +1460,50 @@
 				{
 					"Source":
 					{
+						"Text": "Uncharged Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "Nienaładowany stos Volty"
+					},
+					"Key": "UnchargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "Stos Volty"
+					},
+					"Key": "VoltaticPile/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Charging"
+					},
+					"Translation":
+					{
+						"Text": "Ładowanie stosu Volty"
+					},
+					"Key": "VoltaticPileCharging/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Fixing"
+					},
+					"Translation":
+					{
+						"Text": "Naprawa stosu Volty"
+					},
+					"Key": "VoltaticPileFixing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Water Evaporation"
 					},
 					"Translation":
@@ -1390,6 +1522,17 @@
 						"Text": ""
 					},
 					"Key": "Wires/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Disk"
+					},
+					"Translation":
+					{
+						"Text": "Krążek cynkowy"
+					},
+					"Key": "ZincDisc/Name"
 				}
 			]
 		},
@@ -1712,6 +1855,17 @@
 				{
 					"Source":
 					{
+						"Text": "By stacking Copper and Zinc disks ontop of one another, you can safely store power in a primitive battery."
+					},
+					"Translation":
+					{
+						"Text": "Układając miedziane i cynkowe dyski jeden na drugim, można „bezpiecznie” przechowywać energię w prymitywnej baterii."
+					},
+					"Key": "VoltaticPiles/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Chlorine Processing"
 					},
 					"Translation":
@@ -1807,6 +1961,17 @@
 						"Text": "Używając małych dawek HCl, można wydobyć czystą rudę z kawałków rudy."
 					},
 					"Key": "EzekielOrePurifying/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Batteries"
+					},
+					"Translation":
+					{
+						"Text": "Baterie stosów Volty"
+					},
+					"Key": "VoltaticPiles/Name"
 				}
 			]
 		},

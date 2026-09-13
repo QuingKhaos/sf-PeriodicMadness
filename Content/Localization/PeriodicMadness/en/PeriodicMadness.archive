@@ -47,6 +47,17 @@
 					{
 						"Text": "Cu"
 					},
+					"Key": "Copper Disk"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": "Cu"
+					},
 					"Key": "Copper Ingot"
 				},
 				{
@@ -235,6 +246,17 @@
 						"Text": "Ni"
 					},
 					"Key": "Nickel Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": "Zn"
+					},
+					"Key": "Zinc Disk"
 				},
 				{
 					"Source":
@@ -710,6 +732,28 @@
 				{
 					"Source":
 					{
+						"Text": "Voltatic Charger"
+					},
+					"Translation":
+					{
+						"Text": "Voltatic Charger"
+					},
+					"Key": "VoltaticCharger/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Discharger"
+					},
+					"Translation":
+					{
+						"Text": "Voltatic Discharger"
+					},
+					"Key": "VoltaticDischarger/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Water"
 					},
 					"Translation":
@@ -1174,6 +1218,17 @@
 				{
 					"Source":
 					{
+						"Text": "Batteries"
+					},
+					"Translation":
+					{
+						"Text": "Batteries"
+					},
+					"Key": "Batteries/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Bricks"
 					},
 					"Translation":
@@ -1185,6 +1240,28 @@
 				{
 					"Source":
 					{
+						"Text": "Broken Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "Broken Voltatic Pile"
+					},
+					"Key": "BrokenVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Charged Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "Charged Voltatic Pile"
+					},
+					"Key": "ChargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Circuits"
 					},
 					"Translation":
@@ -1192,6 +1269,17 @@
 						"Text": "Circuits"
 					},
 					"Key": "Circuits/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Disk"
+					},
+					"Translation":
+					{
+						"Text": "Copper Disk"
+					},
+					"Key": "CopperDisc/Name"
 				},
 				{
 					"Source":
@@ -1372,6 +1460,50 @@
 				{
 					"Source":
 					{
+						"Text": "Uncharged Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "Uncharged Voltatic Pile"
+					},
+					"Key": "UnchargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "Voltatic Pile"
+					},
+					"Key": "VoltaticPile/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Charging"
+					},
+					"Translation":
+					{
+						"Text": "Voltatic Pile Charging"
+					},
+					"Key": "VoltaticPileCharging/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Fixing"
+					},
+					"Translation":
+					{
+						"Text": "Voltatic Pile Fixing"
+					},
+					"Key": "VoltaticPileFixing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Water Evaporation"
 					},
 					"Translation":
@@ -1390,6 +1522,17 @@
 						"Text": "Wires"
 					},
 					"Key": "Wires/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Disk"
+					},
+					"Translation":
+					{
+						"Text": "Zinc Disk"
+					},
+					"Key": "ZincDisc/Name"
 				}
 			]
 		},
@@ -1712,6 +1855,17 @@
 				{
 					"Source":
 					{
+						"Text": "By stacking Copper and Zinc disks ontop of one another, you can \"safely\" store power in a primitive battery."
+					},
+					"Translation":
+					{
+						"Text": "By stacking Copper and Zinc disks ontop of one another, you can safely store power in a primitive battery."
+					},
+					"Key": "VoltaticPiles/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Chlorine Processing"
 					},
 					"Translation":
@@ -1807,6 +1961,17 @@
 						"Text": "Using small doses of HCl, you can extract pure ore from ore chunks."
 					},
 					"Key": "EzekielOrePurifying/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Batteries"
+					},
+					"Translation":
+					{
+						"Text": "Voltatic Pile Batteries"
+					},
+					"Key": "VoltaticPiles/Name"
 				}
 			]
 		},
