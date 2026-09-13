@@ -44,6 +44,10 @@
 							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperChunks/Desc_PM_CopperChunks.Default__Desc_PM_CopperChunks_C.mAbbreviatedDisplayName"
 						},
 						{
+							"Key": "Copper Disk",
+							"Path": "/PeriodicMadness/Resources/Products/Batteries/CopperDisc/Desc_PM_CopperDisc.Default__Desc_PM_CopperDisc_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Copper Ingot",
 							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperIngot/Desc_PM_CopperIngot.Default__Desc_PM_CopperIngot_C.mAbbreviatedDisplayName"
 						},
@@ -154,6 +158,10 @@
 						{
 							"Key": "Zinc Chunks",
 							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincChunks/Desc_PM_ZincChunks.Default__Desc_PM_ZincChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Zinc Disk",
+							"Path": "/PeriodicMadness/Resources/Products/Batteries/ZincDisc/Desc_PM_ZincDisc.Default__Desc_PM_ZincDisc_C.mAbbreviatedDisplayName"
 						},
 						{
 							"Key": "Zinc Ingot",
@@ -605,6 +613,30 @@
 					"Keys": [
 						{
 							"Key": "ConveyorLiftMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Charger"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticCharger/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Discharger"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticDischarger/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -1107,6 +1139,18 @@
 				{
 					"Source":
 					{
+						"Text": "Batteries"
+					},
+					"Keys": [
+						{
+							"Key": "Batteries/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Bricks"
 					},
 					"Keys": [
@@ -1119,11 +1163,47 @@
 				{
 					"Source":
 					{
+						"Text": "Broken Voltatic Pile"
+					},
+					"Keys": [
+						{
+							"Key": "BrokenVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Charged Voltatic Pile"
+					},
+					"Keys": [
+						{
+							"Key": "ChargedVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Circuits"
 					},
 					"Keys": [
 						{
 							"Key": "Circuits/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Disk"
+					},
+					"Keys": [
+						{
+							"Key": "CopperDisc/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1323,6 +1403,54 @@
 				{
 					"Source":
 					{
+						"Text": "Uncharged Voltatic Pile"
+					},
+					"Keys": [
+						{
+							"Key": "UnchargedVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPile/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Charging"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPileCharging/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Fixing"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPileFixing/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Water Evaporation"
 					},
 					"Keys": [
@@ -1340,6 +1468,18 @@
 					"Keys": [
 						{
 							"Key": "Wires/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Disk"
+					},
+					"Keys": [
+						{
+							"Key": "ZincDisc/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1693,6 +1833,18 @@
 				{
 					"Source":
 					{
+						"Text": "By stacking Copper and Zinc disks ontop of one another, you can \"safely\" store power in a primitive battery."
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPiles/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Chlorine Processing"
 					},
 					"Keys": [
@@ -1794,6 +1946,18 @@
 					"Keys": [
 						{
 							"Key": "EzekielOrePurifying/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Batteries"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPiles/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
