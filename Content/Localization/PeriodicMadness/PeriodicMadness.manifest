@@ -152,6 +152,22 @@
 				{
 					"Source":
 					{
+						"Text": "O"
+					},
+					"Keys": [
+						{
+							"Key": "Oxygen Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Oxygen/Oxygen/Desc_PM_Oxygen.Default__Desc_PM_Oxygen_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Oxygen Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Oxygen/Oxygen/Desc_PM_PackagedOxygen.Default__Desc_PM_PackagedOxygen_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Zn"
 					},
 					"Keys": [
@@ -317,6 +333,18 @@
 					"Keys": [
 						{
 							"Key": "SeawaterBoiler/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200%."
+					},
+					"Keys": [
+						{
+							"Key": "Welder/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -649,6 +677,18 @@
 					"Keys": [
 						{
 							"Key": "Water/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Welder"
+					},
+					"Keys": [
+						{
+							"Key": "Welder/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -1091,6 +1131,18 @@
 				{
 					"Source":
 					{
+						"Text": "Alloys"
+					},
+					"Keys": [
+						{
+							"Key": "Alloys/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Breadboard"
 					},
 					"Keys": [
@@ -1144,6 +1196,42 @@
 					"Keys": [
 						{
 							"Key": "Batteries/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "BrassIngot/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Plate"
+					},
+					"Keys": [
+						{
+							"Key": "BrassPlate/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Screws"
+					},
+					"Keys": [
+						{
+							"Key": "BrassScrew/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1259,6 +1347,18 @@
 				{
 					"Source":
 					{
+						"Text": "Fuels"
+					},
+					"Keys": [
+						{
+							"Key": "Fuels/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Glass Pane"
 					},
 					"Keys": [
@@ -1324,6 +1424,18 @@
 					"Keys": [
 						{
 							"Key": "IronScrew/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Oxidiser"
+					},
+					"Keys": [
+						{
+							"Key": "HydrogenFuel/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1504,6 +1616,18 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Oxygen Gas Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "OxygenEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Keys": [
@@ -1576,6 +1700,18 @@
 				{
 					"Source":
 					{
+						"Text": "Oxygen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "Oxygen/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Chlorine Gas"
 					},
 					"Keys": [
@@ -1605,6 +1741,18 @@
 					"Keys": [
 						{
 							"Key": "PackagedHydrogen/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Oxygen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedOxygen/Name",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
@@ -1684,6 +1832,18 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Oxygen"
+					},
+					"Keys": [
+						{
+							"Key": "Oxygen/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Sulfur"
 					},
 					"Keys": [
@@ -1732,6 +1892,18 @@
 				{
 					"Source":
 					{
+						"Text": "Solid Sodium Hydroxide Mixing"
+					},
+					"Keys": [
+						{
+							"Key": "SolidSodiumHydroxideMixing/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Solid Sodium Hydroxide Seawater"
 					},
 					"Keys": [
@@ -1773,6 +1945,18 @@
 					"Keys": [
 						{
 							"Key": "UnpackageHydrogen/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Oxygen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageOxygen/Recipe",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
@@ -1826,6 +2010,18 @@
 					"Keys": [
 						{
 							"Key": "AutomationMk1/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Processing"
+					},
+					"Keys": [
+						{
+							"Key": "BrassProcessing/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

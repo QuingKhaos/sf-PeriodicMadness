@@ -157,7 +157,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Hydrogen Gas"
+					"Key": "Packaged Hydrogen Gas"
 				},
 				{
 					"Source":
@@ -168,18 +168,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Hydrogen Gas"
-				},
-				{
-					"Source":
-					{
-						"Text": "HCl"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Packaged Hydrochloric Acid"
+					"Key": "Hydrogen Gas"
 				},
 				{
 					"Source":
@@ -191,6 +180,17 @@
 						"Text": ""
 					},
 					"Key": "Hydrochloric Acid"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -234,7 +234,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Powder"
 				},
 				{
 					"Source":
@@ -245,7 +245,29 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Powder"
+					"Key": "Nickel Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "O"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Oxygen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "O"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Oxygen Gas"
 				},
 				{
 					"Source":
@@ -442,6 +464,17 @@
 						"Text": "Une chaudière rudimentaire, et plus polluante. Elle fonctionne à l'eau de mer."
 					},
 					"Key": "SeawaterBoiler/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200%."
+					},
+					"Translation":
+					{
+						"Text": "Un four qui ne produit que des alliages. Il nécessite son propre carburant spécial. Has a base production speed of 200%."
+					},
+					"Key": "Welder/Desc"
 				},
 				{
 					"Source":
@@ -761,6 +794,17 @@
 						"Text": ""
 					},
 					"Key": "Water/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Welder"
+					},
+					"Translation":
+					{
+						"Text": "Soudeuse"
+					},
+					"Key": "Welder/Name"
 				}
 			]
 		},
@@ -1174,6 +1218,17 @@
 				{
 					"Source":
 					{
+						"Text": "Alloys"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Alloys/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Breadboard"
 					},
 					"Translation":
@@ -1225,6 +1280,39 @@
 						"Text": ""
 					},
 					"Key": "Batteries/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BrassIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Plate"
+					},
+					"Translation":
+					{
+						"Text": "Plaque de laiton"
+					},
+					"Key": "BrassPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Screws"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BrassScrew/Name"
 				},
 				{
 					"Source":
@@ -1328,6 +1416,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fuels"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Fuels/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Glass Pane"
 					},
 					"Translation":
@@ -1390,6 +1489,17 @@
 						"Text": ""
 					},
 					"Key": "IronScrew/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oxidiser"
+					},
+					"Translation":
+					{
+						"Text": "Oxydant"
+					},
+					"Key": "HydrogenFuel/Name"
 				},
 				{
 					"Source":
@@ -1553,6 +1663,17 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Oxygen Gas Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "Dissipation basique de l'oxygène"
+					},
+					"Key": "OxygenEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Translation":
@@ -1619,6 +1740,17 @@
 				{
 					"Source":
 					{
+						"Text": "Oxygen Gas"
+					},
+					"Translation":
+					{
+						"Text": "Oxygène"
+					},
+					"Key": "Oxygen/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Chlorine Gas"
 					},
 					"Translation":
@@ -1648,6 +1780,17 @@
 						"Text": ""
 					},
 					"Key": "PackagedHydrogen/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Oxygen Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedOxygen/Name"
 				},
 				{
 					"Source":
@@ -1718,6 +1861,17 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Oxygen"
+					},
+					"Translation":
+					{
+						"Text": "Non-métaux communs: Oxygène"
+					},
+					"Key": "Oxygen/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Sulfur"
 					},
 					"Translation":
@@ -1762,6 +1916,17 @@
 				{
 					"Source":
 					{
+						"Text": "Solid Sodium Hydroxide Mixing"
+					},
+					"Translation":
+					{
+						"Text": "Mixage de l'hydroxyde de sodium solide"
+					},
+					"Key": "SolidSodiumHydroxideMixing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Solid Sodium Hydroxide Seawater"
 					},
 					"Translation":
@@ -1802,6 +1967,17 @@
 						"Text": ""
 					},
 					"Key": "UnpackageHydrogen/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Oxygen Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageOxygen/Recipe"
 				}
 			]
 		},
@@ -1851,6 +2027,17 @@
 						"Text": ""
 					},
 					"Key": "AutomationMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Processing"
+					},
+					"Translation":
+					{
+						"Text": "Traitement du laiton"
+					},
+					"Key": "BrassProcessing/Name"
 				},
 				{
 					"Source":
