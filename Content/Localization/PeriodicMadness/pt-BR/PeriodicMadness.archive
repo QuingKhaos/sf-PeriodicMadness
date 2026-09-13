@@ -80,7 +80,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Chunks"
+					"Key": "Copper Plate"
 				},
 				{
 					"Source":
@@ -91,7 +91,18 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Plate"
+					"Key": "Copper Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Chunks"
 				},
 				{
 					"Source":
@@ -140,17 +151,6 @@
 				{
 					"Source":
 					{
-						"Text": "Fe"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Iron Chunks"
-				},
-				{
-					"Source":
-					{
 						"Text": "H"
 					},
 					"Translation":
@@ -179,7 +179,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Hydrochloric Acid"
+					"Key": "Packaged Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -190,7 +190,40 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Hydrochloric Acid"
+					"Key": "Hydrochloric Acid"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Plate"
 				},
 				{
 					"Source":
@@ -2119,6 +2152,17 @@
 				{
 					"Source":
 					{
+						"Text": "Steel Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "The processing of Chlorine: make sure not to breath it in!"
 					},
 					"Translation":
@@ -2371,6 +2415,39 @@
 				{
 					"Source":
 					{
+						"Text": "Manganese Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ManganeseIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Ore"
+					},
+					"Translation":
+					{
+						"Text": "Minério de manganês"
+					},
+					"Key": "ManganeseOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Plate"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ManganesePlate/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Chunks"
 					},
 					"Translation":
@@ -2448,6 +2525,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Manganese Leeching"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TransitionManganeseLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals"
 					},
 					"Translation":
@@ -2488,6 +2576,17 @@
 						"Text": ""
 					},
 					"Key": "Iron/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Manganese"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese/Cat"
 				},
 				{
 					"Source":

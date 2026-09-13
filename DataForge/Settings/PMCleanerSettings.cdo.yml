@@ -99,6 +99,7 @@ patches:
           - Customization/Patterns
           - Customization/Swatches
           - StandaloneWidgetSign
+          - StorageContainer
           # Specific recipes
           - Recipe_Foundation_8x1_01
           - Recipe_GeneratorCoal
@@ -123,6 +124,7 @@ patches:
           - PortableMiner
           - ShockShank
           - StandaloneWidgetSign
+          - StorageContainer
           - TradingPost
           - WorkBench
           - Workshop

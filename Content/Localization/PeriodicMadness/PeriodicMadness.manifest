@@ -124,6 +124,26 @@
 				{
 					"Source":
 					{
+						"Text": "Mn"
+					},
+					"Keys": [
+						{
+							"Key": "Manganese Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Manganese/ManganeseIngot/Desc_PM_ManganeseIngot.Default__Desc_PM_ManganeseIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Manganese Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Manganese/ManganeseOre/Desc_PM_ManganeseOre.Default__Desc_PM_ManganeseOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Manganese Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Manganese/ManganesePlate/Desc_PM_ManganesePlate.Default__Desc_PM_ManganesePlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ni"
 					},
 					"Keys": [
@@ -2113,6 +2133,18 @@
 				{
 					"Source":
 					{
+						"Text": "Steel Processing"
+					},
+					"Keys": [
+						{
+							"Key": "SteelProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "The processing of Chlorine: make sure not to breath it in!"
 					},
 					"Keys": [
@@ -2387,6 +2419,42 @@
 				{
 					"Source":
 					{
+						"Text": "Manganese Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ManganeseIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Ore"
+					},
+					"Keys": [
+						{
+							"Key": "ManganeseOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Plate"
+					},
+					"Keys": [
+						{
+							"Key": "ManganesePlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Chunks"
 					},
 					"Keys": [
@@ -2471,6 +2539,18 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Manganese Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionManganeseLeeching/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals"
 					},
 					"Keys": [
@@ -2512,6 +2592,18 @@
 					"Keys": [
 						{
 							"Key": "Iron/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Manganese"
+					},
+					"Keys": [
+						{
+							"Key": "Manganese/Cat",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
