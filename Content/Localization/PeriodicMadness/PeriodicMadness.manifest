@@ -168,6 +168,18 @@
 				{
 					"Source":
 					{
+						"Text": "TM"
+					},
+					"Keys": [
+						{
+							"Key": "Transition Metals Ore",
+							"Path": "/PeriodicMadness/Resources/TM/TransitionMetals/TransitionMetalsOre/Desc_PM_TransitionMetalsOre.Default__Desc_PM_TransitionMetalsOre_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Zn"
 					},
 					"Keys": [
@@ -2464,6 +2476,18 @@
 					"Keys": [
 						{
 							"Key": "TransitionMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals Ore"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionMetalsOre/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]

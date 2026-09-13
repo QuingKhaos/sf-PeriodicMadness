@@ -256,7 +256,7 @@
 					{
 						"Text": "O"
 					},
-					"Key": "Oxygen Gas"
+					"Key": "Packaged Oxygen Gas"
 				},
 				{
 					"Source":
@@ -267,7 +267,18 @@
 					{
 						"Text": "O"
 					},
-					"Key": "Packaged Oxygen Gas"
+					"Key": "Oxygen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "TM"
+					},
+					"Translation":
+					{
+						"Text": "TM"
+					},
+					"Key": "Transition Metals Ore"
 				},
 				{
 					"Source":
@@ -2444,6 +2455,17 @@
 						"Text": "Transition Metals"
 					},
 					"Key": "TransitionMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals Ore"
+					},
+					"Translation":
+					{
+						"Text": "Transition Metals Ore"
+					},
+					"Key": "TransitionMetalsOre/Name"
 				},
 				{
 					"Source":

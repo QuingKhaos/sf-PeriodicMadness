@@ -256,7 +256,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Oxygen Gas"
+					"Key": "Packaged Oxygen Gas"
 				},
 				{
 					"Source":
@@ -267,7 +267,18 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Oxygen Gas"
+					"Key": "Oxygen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "TM"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Transition Metals Ore"
 				},
 				{
 					"Source":
@@ -2444,6 +2455,17 @@
 						"Text": "Geçiş Metalleri"
 					},
 					"Key": "TransitionMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals Ore"
+					},
+					"Translation":
+					{
+						"Text": "Geçiş metali cevheri"
+					},
+					"Key": "TransitionMetalsOre/Name"
 				},
 				{
 					"Source":
