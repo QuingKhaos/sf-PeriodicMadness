@@ -8,6 +8,149 @@
 				{
 					"Source":
 					{
+						"Text": "Ag"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Silver Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ag"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Silver Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ag"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Silver Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ag"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Silver Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Gold Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Gold Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Gold Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Gold Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ca"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Calcium Dust"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Chlorine Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Chlorine Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Copper Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Copper Disk"
+				},
+				{
+					"Source":
+					{
 						"Text": "Cu"
 					},
 					"Translation":
@@ -25,7 +168,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Plate"
+					"Key": "Copper Ore"
 				},
 				{
 					"Source":
@@ -36,7 +179,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Chunks"
+					"Key": "Copper Plate"
 				},
 				{
 					"Source":
@@ -58,7 +201,29 @@
 					{
 						"Text": ""
 					},
+					"Key": "Iron Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Iron Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Screws"
 				},
 				{
 					"Source":
@@ -74,13 +239,134 @@
 				{
 					"Source":
 					{
-						"Text": "Fe"
+						"Text": "H"
 					},
 					"Translation":
 					{
 						"Text": ""
 					},
-					"Key": "Iron Screws"
+					"Key": "Packaged Hydrogen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "H"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Hydrogen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Hydrochloric Acid"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Hydrochloric Acid"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Liquid Mercury"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Mercury Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg R"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Red Mercury Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg V"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Mercury Vapour"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg W"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Mercury Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Plate"
 				},
 				{
 					"Source":
@@ -102,7 +388,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Plate"
+					"Key": "Nickel Ore"
 				},
 				{
 					"Source":
@@ -114,6 +400,83 @@
 						"Text": ""
 					},
 					"Key": "Nickel Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Nickel Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Nickel Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "O"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Oxygen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "O"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Oxygen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "TM"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Transition Metals Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Disk"
 				},
 				{
 					"Source":
@@ -135,6 +498,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Zinc Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Zinc Plate"
 				},
 				{
@@ -146,7 +520,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Zinc Chunks"
+					"Key": "Zinc Powder"
 				}
 			]
 		},
@@ -216,6 +590,55 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_AM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals"
+					},
+					"Translation":
+					{
+						"Text": "碱金属"
+					},
+					"Key": "AlkaliMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals: Sodium"
+					},
+					"Translation":
+					{
+						"Text": "碱金属: 钠"
+					},
+					"Key": "Sodium/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium"
+					},
+					"Translation":
+					{
+						"Text": "钠"
+					},
+					"Key": "Sodium/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide"
+					},
+					"Translation":
+					{
+						"Text": "固态氢氧化钠"
+					},
+					"Key": "SolidSodiumHydroxide/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Buildables",
 			"Children": [
 				{
@@ -232,6 +655,17 @@
 				{
 					"Source":
 					{
+						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200%."
+					},
+					"Translation":
+					{
+						"Text": "一种专门用于生产合金的冶炼机，只能使用特定的燃料。 Has a base production speed of 200%."
+					},
+					"Key": "Welder/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Acid Plant"
 					},
 					"Translation":
@@ -239,6 +673,17 @@
 						"Text": "酸厂"
 					},
 					"Key": "AcidPlant/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Boiler"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Boiler/Name"
 				},
 				{
 					"Source":
@@ -276,6 +721,17 @@
 				{
 					"Source":
 					{
+						"Text": "Burns fuel to turn water into steam."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Boiler/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Chemistry"
 					},
 					"Translation":
@@ -305,6 +761,17 @@
 						"Text": ""
 					},
 					"Key": "SeawaterExtractor/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Electrolysis Plant"
+					},
+					"Translation":
+					{
+						"Text": "电解厂型"
+					},
+					"Key": "ElectrolysisPlantMk1/Name"
 				},
 				{
 					"Source":
@@ -349,6 +816,17 @@
 						"Text": ""
 					},
 					"Key": "AcidPlant/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10m."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ElectrolysisPlantMk1/Desc"
 				},
 				{
 					"Source":
@@ -474,6 +952,28 @@
 				{
 					"Source":
 					{
+						"Text": "Voltatic Charger"
+					},
+					"Translation":
+					{
+						"Text": "伏打充电器"
+					},
+					"Key": "VoltaticCharger/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Discharger"
+					},
+					"Translation":
+					{
+						"Text": "伏打放电器"
+					},
+					"Key": "VoltaticDischarger/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Water"
 					},
 					"Translation":
@@ -481,6 +981,17 @@
 						"Text": ""
 					},
 					"Key": "Water/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Welder"
+					},
+					"Translation":
+					{
+						"Text": "焊接器"
+					},
+					"Key": "Welder/Name"
 				}
 			]
 		},
@@ -563,6 +1074,17 @@
 						"Text": ""
 					},
 					"Key": "SteamSeawater/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam (Water)"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteamWater/Recipe"
 				},
 				{
 					"Source":
@@ -692,6 +1214,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "黄铜制基础框架"
+					},
+					"Key": "BrassBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "黄铜制基础管材"
+					},
+					"Key": "BrassBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -776,6 +1320,39 @@
 						"Text": "镍制基础管材"
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "钢制基础框架"
+					},
+					"Key": "SteelBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "钢制基础管材"
+					},
+					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "SteelBasicPanelling"
+					},
+					"Translation":
+					{
+						"Text": "钢制基础板材"
+					},
+					"Key": "SteelBasicPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -867,7 +1444,29 @@
 					{
 						"Text": "酸水"
 					},
+					"Key": "AcidicWater/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Water"
+					},
+					"Translation":
+					{
+						"Text": "酸水"
+					},
 					"Key": "AcidicWater/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Alloys"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Alloys/Cat"
 				},
 				{
 					"Source":
@@ -916,6 +1515,50 @@
 				{
 					"Source":
 					{
+						"Text": "Batteries"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Batteries/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BrassIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Plate"
+					},
+					"Translation":
+					{
+						"Text": "黄铜板"
+					},
+					"Key": "BrassPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Screws"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BrassScrew/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Bricks"
 					},
 					"Translation":
@@ -927,6 +1570,28 @@
 				{
 					"Source":
 					{
+						"Text": "Broken Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "损坏的伏打电堆"
+					},
+					"Key": "BrokenVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Charged Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "已充电的伏打电堆"
+					},
+					"Key": "ChargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Circuits"
 					},
 					"Translation":
@@ -934,6 +1599,28 @@
 						"Text": ""
 					},
 					"Key": "Circuits/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Disk"
+					},
+					"Translation":
+					{
+						"Text": "铜盘"
+					},
+					"Key": "CopperDisc/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Acid Canister"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyAcidCanister/Name"
 				},
 				{
 					"Source":
@@ -960,6 +1647,17 @@
 				{
 					"Source":
 					{
+						"Text": "Empty Chemical Canister"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyChemCanister/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Gas Tank"
 					},
 					"Translation":
@@ -967,6 +1665,17 @@
 						"Text": ""
 					},
 					"Key": "EmptyGasTank/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fuels"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Fuels/Cat"
 				},
 				{
 					"Source":
@@ -1037,6 +1746,17 @@
 				{
 					"Source":
 					{
+						"Text": "Oxidiser"
+					},
+					"Translation":
+					{
+						"Text": "氧化剂"
+					},
+					"Key": "HydrogenFuel/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Raw Resources"
 					},
 					"Translation":
@@ -1055,6 +1775,28 @@
 						"Text": "海盐"
 					},
 					"Key": "SeaSalt/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Sulfide-based Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "海水硫化物蒸发"
+					},
+					"Key": "SeawaterSulfideEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater from Sea Salt"
+					},
+					"Translation":
+					{
+						"Text": "海盐制海水"
+					},
+					"Key": "SeawaterFromSeaSalt/Recipe"
 				},
 				{
 					"Source":
@@ -1081,6 +1823,50 @@
 				{
 					"Source":
 					{
+						"Text": "Uncharged Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "未充电的伏打电堆"
+					},
+					"Key": "UnchargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile"
+					},
+					"Translation":
+					{
+						"Text": "伏打电堆"
+					},
+					"Key": "VoltaticPile/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Charging"
+					},
+					"Translation":
+					{
+						"Text": "伏打电堆充电"
+					},
+					"Key": "VoltaticPileCharging/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Fixing"
+					},
+					"Translation":
+					{
+						"Text": "伏打电堆修复"
+					},
+					"Key": "VoltaticPileFixing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Water Evaporation"
 					},
 					"Translation":
@@ -1099,6 +1885,17 @@
 						"Text": ""
 					},
 					"Key": "Wires/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Disk"
+					},
+					"Translation":
+					{
+						"Text": "锌盘"
+					},
+					"Key": "ZincDisc/Name"
 				}
 			]
 		},
@@ -1119,6 +1916,17 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Oxygen Gas Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "基础氧气蒸发"
+					},
+					"Key": "OxygenEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Translation":
@@ -1126,6 +1934,116 @@
 						"Text": "碳"
 					},
 					"Key": "Carbon/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chlorine Gas"
+					},
+					"Translation":
+					{
+						"Text": "氯气"
+					},
+					"Key": "Chlorine/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chlorine Gas Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "氯蒸发"
+					},
+					"Key": "ChlorineEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrochloric Acid"
+					},
+					"Translation":
+					{
+						"Text": "盐酸"
+					},
+					"Key": "HydrochloricAcid/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas"
+					},
+					"Translation":
+					{
+						"Text": "氢气"
+					},
+					"Key": "Hydrogen/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "氢蒸发"
+					},
+					"Key": "HydrogenEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oxygen Gas"
+					},
+					"Translation":
+					{
+						"Text": "氧气"
+					},
+					"Key": "Oxygen/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Chlorine Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedChlorine/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrochloric Acid"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedHydrochloricAcid/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrogen Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedHydrogen/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Oxygen Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedOxygen/Name"
 				},
 				{
 					"Source":
@@ -1170,12 +2088,188 @@
 						"Text": "活跃非金属: 碳"
 					},
 					"Key": "Carbon/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Chlorine"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Chlorine/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Hydrogen"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Hydrogen/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Oxygen"
+					},
+					"Translation":
+					{
+						"Text": "活跃非金属: Oxygen"
+					},
+					"Key": "Oxygen/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Sulfur"
+					},
+					"Translation":
+					{
+						"Text": "活跃非金属: Sulfur"
+					},
+					"Key": "Sulfur/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": "海水电解"
+					},
+					"Key": "SeawaterElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Evaporation"
+					},
+					"Translation":
+					{
+						"Text": "海水蒸发"
+					},
+					"Key": "SeawaterEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium to Solid Sodium Hydroxide"
+					},
+					"Translation":
+					{
+						"Text": "钠制固态氢氧化钠"
+					},
+					"Key": "SodiumToSolidSodiumHydroxide/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide Mixing"
+					},
+					"Translation":
+					{
+						"Text": "固态氢氧化钠混合"
+					},
+					"Key": "SolidSodiumHydroxideMixing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide Seawater"
+					},
+					"Translation":
+					{
+						"Text": "固态氢氧化钠海水"
+					},
+					"Key": "SolidSodiumHydroxideSeawater/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Chlorine Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageChlorine/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrochloric Acid"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageHydrochloricAcid/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrogen Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageHydrogen/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Oxygen Gas"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageOxygen/Recipe"
 				}
 			]
 		},
 		{
 			"Namespace": "ST_PM_Schematics",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Water Processing"
+					},
+					"Translation":
+					{
+						"Text": "酸水处理"
+					},
+					"Key": "AcidicWaterProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced MultiMetal Production"
+					},
+					"Translation":
+					{
+						"Text": "先进的多金属生产"
+					},
+					"Key": "AdvancedBasicTubing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced Transition Metal Refining"
+					},
+					"Translation":
+					{
+						"Text": "高级过渡金属提炼"
+					},
+					"Key": "AdvancedTransitionMetalRefining/Name"
+				},
 				{
 					"Source":
 					{
@@ -1190,6 +2284,182 @@
 				{
 					"Source":
 					{
+						"Text": "An acidic fluid to dissolve the most basic of metals for further metallurgy."
+					},
+					"Translation":
+					{
+						"Text": "一种酸性液体，用于溶解最基本的金属，以便进行进一步的冶金加工。"
+					},
+					"Key": "AcidicWaterProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Automation"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AutomationMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Processing"
+					},
+					"Translation":
+					{
+						"Text": "黄铜加工"
+					},
+					"Key": "BrassProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "By stacking Copper and Zinc disks ontop of one another, you can safely store power in a primitive battery."
+					},
+					"Translation":
+					{
+						"Text": "将铜片和锌片叠放在一起，就可以“安全地”将电能储存在一个原始电池中。"
+					},
+					"Key": "VoltaticPiles/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Byproduct Handling"
+					},
+					"Translation":
+					{
+						"Text": "副产物处理"
+					},
+					"Key": "ByproductHandling/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chlorine Processing"
+					},
+					"Translation":
+					{
+						"Text": "氯气处理"
+					},
+					"Key": "ChlorineProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cleaner Power Generation"
+					},
+					"Translation":
+					{
+						"Text": "更清洁的能源生产"
+					},
+					"Key": "CleanerPowerGeneration/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Ore Purifying"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 矿物提纯"
+					},
+					"Key": "EzekielOrePurifying/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Illumination for better visibility at night."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StreetLight/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Key technology for automatic mass production."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AutomationMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Means to clear and deal with byproducts from ore refining."
+					},
+					"Translation":
+					{
+						"Text": "清除和处理矿石提炼副产物的手段。"
+					},
+					"Key": "ByproductHandling/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Processing"
+					},
+					"Translation":
+					{
+						"Text": "汞加工"
+					},
+					"Key": "MercuryProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "The process of refining and processing mercury."
+					},
+					"Translation":
+					{
+						"Text": "汞的提炼和加工过程。"
+					},
+					"Key": "MercuryProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The processing of Chlorine: make sure not to breath it in!"
+					},
+					"Translation":
+					{
+						"Text": "氯气处理：切勿吸入！"
+					},
+					"Key": "ChlorineProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The use of new and more acidic fluids to refine new products."
+					},
+					"Translation":
+					{
+						"Text": "使用新型更酸的酸性液体来提炼新产品。"
+					},
+					"Key": "AdvancedTransitionMetalRefining/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metal Science Pack"
 					},
 					"Translation":
@@ -1197,6 +2467,50 @@
 						"Text": "过渡金属科技包"
 					},
 					"Key": "TransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using better techniques and filtering to squeeze more power out."
+					},
+					"Translation":
+					{
+						"Text": "采用更好的技术和过滤方法来榨取更多能量。"
+					},
+					"Key": "CleanerPowerGeneration/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using more expensive materials can yield more products, who woulda thunk it."
+					},
+					"Translation":
+					{
+						"Text": "使用更昂贵的材料可以生产出更多的产品，谁能想到呢。"
+					},
+					"Key": "AdvancedBasicTubing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using small doses of HCl, you can extract pure ore from ore chunks."
+					},
+					"Translation":
+					{
+						"Text": "使用少量盐酸，可以从矿石块中提取纯矿。"
+					},
+					"Key": "EzekielOrePurifying/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Batteries"
+					},
+					"Translation":
+					{
+						"Text": "伏打电堆电池"
+					},
+					"Key": "VoltaticPiles/Name"
 				}
 			]
 		},
@@ -1241,6 +2555,39 @@
 		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Ferrum Leeching"
+					},
+					"Translation":
+					{
+						"Text": "酸性铁锈浸出"
+					},
+					"Key": "FerrumLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Patina Leeching"
+					},
+					"Translation":
+					{
+						"Text": "酸性铜锈浸出"
+					},
+					"Key": "PatinaLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Pig Iron"
+					},
+					"Translation":
+					{
+						"Text": "基础生铁"
+					},
+					"Key": "BasicPigIron/Recipe"
+				},
 				{
 					"Source":
 					{
@@ -1310,6 +2657,116 @@
 				{
 					"Source":
 					{
+						"Text": "Crude Matte Copper"
+					},
+					"Translation":
+					{
+						"Text": "粗冰铜"
+					},
+					"Key": "CrudeMatteCopper/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Crude Matte Copper Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 粗冰铜浸出"
+					},
+					"Key": "EzekielMatteCopperLeeching/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Nickel Powder Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 镍粉浸出"
+					},
+					"Key": "NickelPowderLeeching/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Pig Iron Separation"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 生铁分离"
+					},
+					"Key": "PigIronSeparation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Zinc Powder Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Ezekiel 锌粉浸出"
+					},
+					"Key": "ZincPowderLeeching/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ferrum"
+					},
+					"Translation":
+					{
+						"Text": "铁锈"
+					},
+					"Key": "Ferrum/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Chunks"
+					},
+					"Translation":
+					{
+						"Text": "金矿石块"
+					},
+					"Key": "GoldChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "GoldIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Ore"
+					},
+					"Translation":
+					{
+						"Text": "金矿"
+					},
+					"Key": "GoldOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Plate"
+					},
+					"Translation":
+					{
+						"Text": "金板"
+					},
+					"Key": "GoldPlate/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Chunks"
 					},
 					"Translation":
@@ -1317,6 +2774,105 @@
 						"Text": "铁矿石块"
 					},
 					"Key": "IronChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Liquid Mercury"
+					},
+					"Translation":
+					{
+						"Text": "液态汞"
+					},
+					"Key": "LiquidMercury/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ManganeseIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Ore"
+					},
+					"Translation":
+					{
+						"Text": "锰矿"
+					},
+					"Key": "ManganeseOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Plate"
+					},
+					"Translation":
+					{
+						"Text": "锰板"
+					},
+					"Key": "ManganesePlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Ore"
+					},
+					"Translation":
+					{
+						"Text": "汞矿"
+					},
+					"Key": "MercuryOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powder"
+					},
+					"Translation":
+					{
+						"Text": "汞粉"
+					},
+					"Key": "MercuryPowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powdering"
+					},
+					"Translation":
+					{
+						"Text": "汞粉化"
+					},
+					"Key": "MercuryPowdering/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour"
+					},
+					"Translation":
+					{
+						"Text": "汞蒸气"
+					},
+					"Key": "MercuryVapour/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour Condensing"
+					},
+					"Translation":
+					{
+						"Text": "汞蒸气冷凝"
+					},
+					"Key": "MercuryVapourCondensing/Recipe"
 				},
 				{
 					"Source":
@@ -1343,6 +2899,17 @@
 				{
 					"Source":
 					{
+						"Text": "Nickel Ore"
+					},
+					"Translation":
+					{
+						"Text": "镍矿"
+					},
+					"Key": "NickelOre/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Plate"
 					},
 					"Translation":
@@ -1350,6 +2917,116 @@
 						"Text": "镍板"
 					},
 					"Key": "NickelPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Powder"
+					},
+					"Translation":
+					{
+						"Text": "镍粉"
+					},
+					"Key": "NickelPowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Liquid Mercury"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedLiquidMercury/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Patina"
+					},
+					"Translation":
+					{
+						"Text": "铜锈"
+					},
+					"Key": "Patina/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Pig Iron"
+					},
+					"Translation":
+					{
+						"Text": "生铁"
+					},
+					"Key": "PigIron/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Red Mercury Powder"
+					},
+					"Translation":
+					{
+						"Text": "红汞粉"
+					},
+					"Key": "RedMercuryPowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Chunks"
+					},
+					"Translation":
+					{
+						"Text": "银矿石块"
+					},
+					"Key": "SilverChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SilverIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Ore"
+					},
+					"Translation":
+					{
+						"Text": "银矿"
+					},
+					"Key": "SilverOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Plate"
+					},
+					"Translation":
+					{
+						"Text": "银板"
+					},
+					"Key": "SilverPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Manganese Leeching"
+					},
+					"Translation":
+					{
+						"Text": "过渡锰浸出"
+					},
+					"Key": "TransitionManganeseLeeching/Recipe"
 				},
 				{
 					"Source":
@@ -1365,6 +3042,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals Ore"
+					},
+					"Translation":
+					{
+						"Text": "过渡金属矿"
+					},
+					"Key": "TransitionMetalsOre/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Copper"
 					},
 					"Translation":
@@ -1372,6 +3060,17 @@
 						"Text": "过渡金属: Copper"
 					},
 					"Key": "Copper/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Gold"
+					},
+					"Translation":
+					{
+						"Text": "过渡金属: 金"
+					},
+					"Key": "Gold/Cat"
 				},
 				{
 					"Source":
@@ -1387,6 +3086,28 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Manganese"
+					},
+					"Translation":
+					{
+						"Text": "过渡金属: Manganese"
+					},
+					"Key": "Manganese/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Mercury"
+					},
+					"Translation":
+					{
+						"Text": "过渡金属: 汞"
+					},
+					"Key": "Mercury/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Nickel"
 					},
 					"Translation":
@@ -1398,6 +3119,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Silver"
+					},
+					"Translation":
+					{
+						"Text": "过渡金属: 银"
+					},
+					"Key": "Silver/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Zinc"
 					},
 					"Translation":
@@ -1405,6 +3137,17 @@
 						"Text": "过渡金属: Zinc"
 					},
 					"Key": "Zinc/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Liquid Mercury"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageLiquidMercury/Recipe"
 				},
 				{
 					"Source":
@@ -1431,6 +3174,17 @@
 				{
 					"Source":
 					{
+						"Text": "Zinc Ore"
+					},
+					"Translation":
+					{
+						"Text": "锌矿"
+					},
+					"Key": "ZincOre/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Zinc Plate"
 					},
 					"Translation":
@@ -1438,6 +3192,17 @@
 						"Text": "锌板"
 					},
 					"Key": "ZincPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Powder"
+					},
+					"Translation":
+					{
+						"Text": "锌粉"
+					},
+					"Key": "ZincPowder/Name"
 				}
 			]
 		}

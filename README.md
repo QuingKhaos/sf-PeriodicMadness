@@ -4,9 +4,11 @@
 
 **NOT COMPATIBLE with existing saves. NOT COMPATIBLE with previous Periodic Madness 0.x saves.**
 
-Even with 1.x releases, Periodic Madness is still a big Work In Progress. I switched to 1.x releases, so if there is ever an upcoming breaking change, the major version will be increased for you to know. Between pre-releases like alpha/beta/RC versions of the same base version, any breaking change is allowed, but will be documented in the changelog.
+Even with 1.x releases, Periodic Madness is still a big Work In Progress. I switched to 1.x releases, so if there is ever an upcoming breaking change, the major version will be increased for you to know.
 
-For Satisfactory 1.2, Periodic Madness was recreated from scratch and the current `v1.0.0-alpha.1` release contains only the onboarding phase and up to the first research in the MAM.
+For Satisfactory 1.2, Periodic Madness was recreated from scratch and the current `v1.0.0-beta.1` release contains only the onboarding phase and content for the first transition metal science pack.
+
+**If you want to test the the current `v1.0.0-beta.1` release, you need to explicitly choose this version via SMM's "Change version" button. Otherwise SMM will just install the old non-working 0.x version!**
 
 Current caveats:
 

@@ -1,0 +1,12 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Narrative/MAM/Organisms/MSG_Organism_Stinger_Pickup_PostMAM.MSG_Organism_Stinger_Pickup_PostMAM
+    properties:
+      - path: mConditions[0].mSchematics
+        value:
+          - /PeriodicMadness/Schematics/Progression/Schematic_PM_FieldResearch.Schematic_PM_FieldResearch_C
+      - path: mConditions[2].mSchematics
+        value:
+          - /PeriodicMadness/Schematics/Research/AlienOrganisms_RS/Research_PM_StingerResearch.Research_PM_StingerResearch_C

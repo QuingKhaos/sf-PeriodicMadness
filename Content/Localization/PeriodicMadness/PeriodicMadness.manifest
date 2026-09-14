@@ -8,6 +8,82 @@
 				{
 					"Source":
 					{
+						"Text": "Ag"
+					},
+					"Keys": [
+						{
+							"Key": "Silver Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Silver/SilverChunks/Desc_PM_SilverChunks.Default__Desc_PM_SilverChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Silver Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Silver/SilverIngot/Desc_PM_SilverIngot.Default__Desc_PM_SilverIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Silver Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Silver/SilverOre/Desc_PM_SilverOre.Default__Desc_PM_SilverOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Silver Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Silver/SilverPlate/Desc_PM_SilverPlate.Default__Desc_PM_SilverPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Keys": [
+						{
+							"Key": "Gold Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldChunks/Desc_PM_GoldChunks.Default__Desc_PM_GoldChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Gold Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldIngot/Desc_PM_GoldIngot.Default__Desc_PM_GoldIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Gold Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldOre/Desc_PM_GoldOre.Default__Desc_PM_GoldOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Gold Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldPlate/Desc_PM_GoldPlate.Default__Desc_PM_GoldPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ca"
+					},
+					"Keys": [
+						{
+							"Key": "Calcium Dust",
+							"Path": "/PeriodicMadness/Resources/AEM/Calcium/CalciumDust/Desc_PM_CalciumDust.Default__Desc_PM_CalciumDust_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Cl"
+					},
+					"Keys": [
+						{
+							"Key": "Chlorine Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Chlorine/Chlorine/Desc_PM_Chlorine.Default__Desc_PM_Chlorine_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Chlorine Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Chlorine/Chlorine/Desc_PM_PackagedChlorine.Default__Desc_PM_PackagedChlorine_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Cu"
 					},
 					"Keys": [
@@ -16,8 +92,16 @@
 							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperChunks/Desc_PM_CopperChunks.Default__Desc_PM_CopperChunks_C.mAbbreviatedDisplayName"
 						},
 						{
+							"Key": "Copper Disk",
+							"Path": "/PeriodicMadness/Resources/Products/Batteries/CopperDisc/Desc_PM_CopperDisc.Default__Desc_PM_CopperDisc_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Copper Ingot",
 							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperIngot/Desc_PM_CopperIngot.Default__Desc_PM_CopperIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Copper Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Copper/CopperOre/Desc_PM_CopperOre.Default__Desc_PM_CopperOre_C.mAbbreviatedDisplayName"
 						},
 						{
 							"Key": "Copper Plate",
@@ -40,12 +124,120 @@
 							"Path": "/PeriodicMadness/Resources/TM/Iron/IronIngot/Desc_PM_IronIngot.Default__Desc_PM_IronIngot_C.mAbbreviatedDisplayName"
 						},
 						{
+							"Key": "Iron Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Iron/IronOre/Desc_PM_IronOre.Default__Desc_PM_IronOre_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Iron Plate",
 							"Path": "/PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Default__Desc_PM_IronPlate_C.mAbbreviatedDisplayName"
 						},
 						{
 							"Key": "Iron Screws",
 							"Path": "/PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Default__Desc_PM_IronScrew_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "H"
+					},
+					"Keys": [
+						{
+							"Key": "Hydrogen Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Hydrogen/Hydrogen/Desc_PM_Hydrogen.Default__Desc_PM_Hydrogen_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Hydrogen Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Hydrogen/Hydrogen/Desc_PM_PackagedHydrogen.Default__Desc_PM_PackagedHydrogen_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Keys": [
+						{
+							"Key": "Hydrochloric Acid",
+							"Path": "/PeriodicMadness/Resources/RNM/Chlorine/HydrochloricAcid/Desc_PM_HydrochloricAcid.Default__Desc_PM_HydrochloricAcid_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Hydrochloric Acid",
+							"Path": "/PeriodicMadness/Resources/RNM/Chlorine/HydrochloricAcid/Desc_PM_PackagedHydrochloricAcid.Default__Desc_PM_PackagedHydrochloricAcid_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg"
+					},
+					"Keys": [
+						{
+							"Key": "Mercury Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/MercuryOre/Desc_PM_MercuryOre.Default__Desc_PM_MercuryOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Liquid Mercury",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/LiquidMercury/Desc_PM_PackagedLiquidMercury.Default__Desc_PM_PackagedLiquidMercury_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg R"
+					},
+					"Keys": [
+						{
+							"Key": "Red Mercury Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/RedMercuryPowder/Desc_PM_RedMercuryPowder.Default__Desc_PM_RedMercuryPowder_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg V"
+					},
+					"Keys": [
+						{
+							"Key": "Mercury Vapour",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/MercuryVapour/Desc_PM_MercuryVapour.Default__Desc_PM_MercuryVapour_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg W"
+					},
+					"Keys": [
+						{
+							"Key": "Mercury Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/MercuryPowder/Desc_PM_MercuryPowder.Default__Desc_PM_MercuryPowder_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Keys": [
+						{
+							"Key": "Manganese Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Manganese/ManganeseIngot/Desc_PM_ManganeseIngot.Default__Desc_PM_ManganeseIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Manganese Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Manganese/ManganeseOre/Desc_PM_ManganeseOre.Default__Desc_PM_ManganeseOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Manganese Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Manganese/ManganesePlate/Desc_PM_ManganesePlate.Default__Desc_PM_ManganesePlate_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -64,8 +256,44 @@
 							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelIngot/Desc_PM_NickelIngot.Default__Desc_PM_NickelIngot_C.mAbbreviatedDisplayName"
 						},
 						{
+							"Key": "Nickel Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelOre/Desc_PM_NickelOre.Default__Desc_PM_NickelOre_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Nickel Plate",
 							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelPlate/Desc_PM_NickelPlate.Default__Desc_PM_NickelPlate_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Nickel Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Nickel/NickelPowder/Desc_PM_NickelPowder.Default__Desc_PM_NickelPowder_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "O"
+					},
+					"Keys": [
+						{
+							"Key": "Oxygen Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Oxygen/Oxygen/Desc_PM_Oxygen.Default__Desc_PM_Oxygen_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Oxygen Gas",
+							"Path": "/PeriodicMadness/Resources/RNM/Oxygen/Oxygen/Desc_PM_PackagedOxygen.Default__Desc_PM_PackagedOxygen_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "TM"
+					},
+					"Keys": [
+						{
+							"Key": "Transition Metals Ore",
+							"Path": "/PeriodicMadness/Resources/TM/TransitionMetals/TransitionMetalsOre/Desc_PM_TransitionMetalsOre.Default__Desc_PM_TransitionMetalsOre_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -80,12 +308,24 @@
 							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincChunks/Desc_PM_ZincChunks.Default__Desc_PM_ZincChunks_C.mAbbreviatedDisplayName"
 						},
 						{
+							"Key": "Zinc Disk",
+							"Path": "/PeriodicMadness/Resources/Products/Batteries/ZincDisc/Desc_PM_ZincDisc.Default__Desc_PM_ZincDisc_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Zinc Ingot",
 							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincIngot/Desc_PM_ZincIngot.Default__Desc_PM_ZincIngot_C.mAbbreviatedDisplayName"
 						},
 						{
+							"Key": "Zinc Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincOre/Desc_PM_ZincOre.Default__Desc_PM_ZincOre_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Zinc Plate",
 							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincPlate/Desc_PM_ZincPlate.Default__Desc_PM_ZincPlate_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Zinc Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincPowder/Desc_PM_ZincPowder.Default__Desc_PM_ZincPowder_C.mAbbreviatedDisplayName"
 						}
 					]
 				}
@@ -162,6 +402,59 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_AM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals"
+					},
+					"Keys": [
+						{
+							"Key": "AlkaliMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/AM/ST_PM_AM.ST_PM_AM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Alkali Metals: Sodium"
+					},
+					"Keys": [
+						{
+							"Key": "Sodium/Cat",
+							"Path": "/PeriodicMadness/Resources/AM/ST_PM_AM.ST_PM_AM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium"
+					},
+					"Keys": [
+						{
+							"Key": "Sodium/Name",
+							"Path": "/PeriodicMadness/Resources/AM/ST_PM_AM.ST_PM_AM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide"
+					},
+					"Keys": [
+						{
+							"Key": "SolidSodiumHydroxide/Name",
+							"Path": "/PeriodicMadness/Resources/AM/ST_PM_AM.ST_PM_AM"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Buildables",
 			"Children": [
 				{
@@ -172,6 +465,18 @@
 					"Keys": [
 						{
 							"Key": "SeawaterBoiler/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200%."
+					},
+					"Keys": [
+						{
+							"Key": "Welder/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -197,6 +502,10 @@
 						{
 							"Key": "Boiler/Cat",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						},
+						{
+							"Key": "Boiler/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
 				},
@@ -220,6 +529,18 @@
 					"Keys": [
 						{
 							"Key": "BurnerSmelterMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Burns fuel to turn water into steam."
+					},
+					"Keys": [
+						{
+							"Key": "Boiler/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -263,6 +584,18 @@
 				{
 					"Source":
 					{
+						"Text": "Electrolysis Plant"
+					},
+					"Keys": [
+						{
+							"Key": "ElectrolysisPlantMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Evaporator"
 					},
 					"Keys": [
@@ -296,6 +629,18 @@
 					"Keys": [
 						{
 							"Key": "AcidPlant/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100%. Head Lift: 10m."
+					},
+					"Keys": [
+						{
+							"Key": "ElectrolysisPlantMk1/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -435,11 +780,47 @@
 				{
 					"Source":
 					{
+						"Text": "Voltatic Charger"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticCharger/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Discharger"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticDischarger/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Water"
 					},
 					"Keys": [
 						{
 							"Key": "Water/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Welder"
+					},
+					"Keys": [
+						{
+							"Key": "Welder/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -529,6 +910,18 @@
 					"Keys": [
 						{
 							"Key": "SteamSeawater/Recipe",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steam (Water)"
+					},
+					"Keys": [
+						{
+							"Key": "SteamWater/Recipe",
 							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
 						}
 					]
@@ -671,6 +1064,30 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Basic Framing"
+					},
+					"Keys": [
+						{
+							"Key": "BrassBasicFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "BrassBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Keys": [
@@ -760,6 +1177,42 @@
 					"Keys": [
 						{
 							"Key": "NickelBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Framing"
+					},
+					"Keys": [
+						{
+							"Key": "SteelBasicFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "SteelBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "SteelBasicPanelling"
+					},
+					"Keys": [
+						{
+							"Key": "SteelBasicPanelling/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -860,6 +1313,22 @@
 						{
 							"Key": "AcidicWater/Cat",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						},
+						{
+							"Key": "AcidicWater/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Alloys"
+					},
+					"Keys": [
+						{
+							"Key": "Alloys/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
 				},
@@ -914,6 +1383,54 @@
 				{
 					"Source":
 					{
+						"Text": "Batteries"
+					},
+					"Keys": [
+						{
+							"Key": "Batteries/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "BrassIngot/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Plate"
+					},
+					"Keys": [
+						{
+							"Key": "BrassPlate/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Screws"
+					},
+					"Keys": [
+						{
+							"Key": "BrassScrew/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Bricks"
 					},
 					"Keys": [
@@ -926,11 +1443,59 @@
 				{
 					"Source":
 					{
+						"Text": "Broken Voltatic Pile"
+					},
+					"Keys": [
+						{
+							"Key": "BrokenVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Charged Voltatic Pile"
+					},
+					"Keys": [
+						{
+							"Key": "ChargedVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Circuits"
 					},
 					"Keys": [
 						{
 							"Key": "Circuits/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Disk"
+					},
+					"Keys": [
+						{
+							"Key": "CopperDisc/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Empty Acid Canister"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyAcidCanister/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -962,11 +1527,35 @@
 				{
 					"Source":
 					{
+						"Text": "Empty Chemical Canister"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyChemCanister/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Gas Tank"
 					},
 					"Keys": [
 						{
 							"Key": "EmptyGasTank/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fuels"
+					},
+					"Keys": [
+						{
+							"Key": "Fuels/Cat",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1046,6 +1635,18 @@
 				{
 					"Source":
 					{
+						"Text": "Oxidiser"
+					},
+					"Keys": [
+						{
+							"Key": "HydrogenFuel/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Raw Resources"
 					},
 					"Keys": [
@@ -1063,6 +1664,30 @@
 					"Keys": [
 						{
 							"Key": "SeaSalt/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Sulfide-based Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterSulfideEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater from Sea Salt"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterFromSeaSalt/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1094,6 +1719,54 @@
 				{
 					"Source":
 					{
+						"Text": "Uncharged Voltatic Pile"
+					},
+					"Keys": [
+						{
+							"Key": "UnchargedVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPile/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Charging"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPileCharging/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Fixing"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPileFixing/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Water Evaporation"
 					},
 					"Keys": [
@@ -1111,6 +1784,18 @@
 					"Keys": [
 						{
 							"Key": "Wires/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Disk"
+					},
+					"Keys": [
+						{
+							"Key": "ZincDisc/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1135,11 +1820,143 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Oxygen Gas Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "OxygenEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Keys": [
 						{
 							"Key": "Carbon/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chlorine Gas"
+					},
+					"Keys": [
+						{
+							"Key": "Chlorine/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chlorine Gas Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "ChlorineEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrochloric Acid"
+					},
+					"Keys": [
+						{
+							"Key": "HydrochloricAcid/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "Hydrogen/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hydrogen Gas Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "HydrogenEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Oxygen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "Oxygen/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Chlorine Gas"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedChlorine/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrochloric Acid"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedHydrochloricAcid/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Hydrogen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedHydrogen/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Oxygen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedOxygen/Name",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
@@ -1191,12 +2008,204 @@
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Chlorine"
+					},
+					"Keys": [
+						{
+							"Key": "Chlorine/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Hydrogen"
+					},
+					"Keys": [
+						{
+							"Key": "Hydrogen/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Oxygen"
+					},
+					"Keys": [
+						{
+							"Key": "Oxygen/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Reactive Non-Metals: Sulfur"
+					},
+					"Keys": [
+						{
+							"Key": "Sulfur/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Electrolysis"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterElectrolysis/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Seawater Evaporation"
+					},
+					"Keys": [
+						{
+							"Key": "SeawaterEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium to Solid Sodium Hydroxide"
+					},
+					"Keys": [
+						{
+							"Key": "SodiumToSolidSodiumHydroxide/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide Mixing"
+					},
+					"Keys": [
+						{
+							"Key": "SolidSodiumHydroxideMixing/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Solid Sodium Hydroxide Seawater"
+					},
+					"Keys": [
+						{
+							"Key": "SolidSodiumHydroxideSeawater/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Chlorine Gas"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageChlorine/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrochloric Acid"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageHydrochloricAcid/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Hydrogen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageHydrogen/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Oxygen Gas"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageOxygen/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
 				}
 			]
 		},
 		{
 			"Namespace": "ST_PM_Schematics",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Water Processing"
+					},
+					"Keys": [
+						{
+							"Key": "AcidicWaterProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced MultiMetal Production"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedBasicTubing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced Transition Metal Refining"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalRefining/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
 				{
 					"Source":
 					{
@@ -1212,11 +2221,251 @@
 				{
 					"Source":
 					{
+						"Text": "An acidic fluid to dissolve the most basic of metals for further metallurgy."
+					},
+					"Keys": [
+						{
+							"Key": "AcidicWaterProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Automation"
+					},
+					"Keys": [
+						{
+							"Key": "AutomationMk1/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Processing"
+					},
+					"Keys": [
+						{
+							"Key": "BrassProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "By stacking Copper and Zinc disks ontop of one another, you can \"safely\" store power in a primitive battery."
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPiles/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Byproduct Handling"
+					},
+					"Keys": [
+						{
+							"Key": "ByproductHandling/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chlorine Processing"
+					},
+					"Keys": [
+						{
+							"Key": "ChlorineProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Cleaner Power Generation"
+					},
+					"Keys": [
+						{
+							"Key": "CleanerPowerGeneration/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Ore Purifying"
+					},
+					"Keys": [
+						{
+							"Key": "EzekielOrePurifying/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Illumination for better visibility at night."
+					},
+					"Keys": [
+						{
+							"Key": "StreetLight/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Key technology for automatic mass production."
+					},
+					"Keys": [
+						{
+							"Key": "AutomationMk1/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Means to clear and deal with byproducts from ore refining."
+					},
+					"Keys": [
+						{
+							"Key": "ByproductHandling/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Processing"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Processing"
+					},
+					"Keys": [
+						{
+							"Key": "SteelProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The process of refining and processing mercury."
+					},
+					"Keys": [
+						{
+							"Key": "MercuryProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The processing of Chlorine: make sure not to breath it in!"
+					},
+					"Keys": [
+						{
+							"Key": "ChlorineProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The use of new and more acidic fluids to refine new products."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalRefining/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metal Science Pack"
 					},
 					"Keys": [
 						{
 							"Key": "TransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Using better techniques and filtering to squeeze more power out."
+					},
+					"Keys": [
+						{
+							"Key": "CleanerPowerGeneration/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Using more expensive materials can yield more products, who woulda thunk it."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedBasicTubing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Using small doses of HCl, you can extract pure ore from ore chunks."
+					},
+					"Keys": [
+						{
+							"Key": "EzekielOrePurifying/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Voltatic Pile Batteries"
+					},
+					"Keys": [
+						{
+							"Key": "VoltaticPiles/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -1267,6 +2516,42 @@
 		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Ferrum Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "FerrumLeeching/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Patina Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "PatinaLeeching/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Pig Iron"
+					},
+					"Keys": [
+						{
+							"Key": "BasicPigIron/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
 				{
 					"Source":
 					{
@@ -1342,11 +2627,239 @@
 				{
 					"Source":
 					{
+						"Text": "Crude Matte Copper"
+					},
+					"Keys": [
+						{
+							"Key": "CrudeMatteCopper/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Crude Matte Copper Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "EzekielMatteCopperLeeching/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Nickel Powder Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "NickelPowderLeeching/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Pig Iron Separation"
+					},
+					"Keys": [
+						{
+							"Key": "PigIronSeparation/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ezekiel Zinc Powder Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "ZincPowderLeeching/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ferrum"
+					},
+					"Keys": [
+						{
+							"Key": "Ferrum/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "GoldChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "GoldIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Ore"
+					},
+					"Keys": [
+						{
+							"Key": "GoldOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Plate"
+					},
+					"Keys": [
+						{
+							"Key": "GoldPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Chunks"
 					},
 					"Keys": [
 						{
 							"Key": "IronChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Liquid Mercury"
+					},
+					"Keys": [
+						{
+							"Key": "LiquidMercury/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "ManganeseIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Ore"
+					},
+					"Keys": [
+						{
+							"Key": "ManganeseOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Plate"
+					},
+					"Keys": [
+						{
+							"Key": "ManganesePlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Ore"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powder"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryPowder/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powdering"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryPowdering/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryVapour/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour Condensing"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryVapourCondensing/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -1378,11 +2891,143 @@
 				{
 					"Source":
 					{
+						"Text": "Nickel Ore"
+					},
+					"Keys": [
+						{
+							"Key": "NickelOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Plate"
 					},
 					"Keys": [
 						{
 							"Key": "NickelPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Nickel Powder"
+					},
+					"Keys": [
+						{
+							"Key": "NickelPowder/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Liquid Mercury"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedLiquidMercury/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Patina"
+					},
+					"Keys": [
+						{
+							"Key": "Patina/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Pig Iron"
+					},
+					"Keys": [
+						{
+							"Key": "PigIron/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Red Mercury Powder"
+					},
+					"Keys": [
+						{
+							"Key": "RedMercuryPowder/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "SilverChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "SilverIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Ore"
+					},
+					"Keys": [
+						{
+							"Key": "SilverOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Plate"
+					},
+					"Keys": [
+						{
+							"Key": "SilverPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Manganese Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionManganeseLeeching/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -1402,11 +3047,35 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals Ore"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionMetalsOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Copper"
 					},
 					"Keys": [
 						{
 							"Key": "Copper/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Gold"
+					},
+					"Keys": [
+						{
+							"Key": "Gold/Cat",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -1426,6 +3095,30 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Manganese"
+					},
+					"Keys": [
+						{
+							"Key": "Manganese/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Mercury"
+					},
+					"Keys": [
+						{
+							"Key": "Mercury/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Nickel"
 					},
 					"Keys": [
@@ -1438,11 +3131,35 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Silver"
+					},
+					"Keys": [
+						{
+							"Key": "Silver/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Zinc"
 					},
 					"Keys": [
 						{
 							"Key": "Zinc/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Liquid Mercury"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageLiquidMercury/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -1474,11 +3191,35 @@
 				{
 					"Source":
 					{
+						"Text": "Zinc Ore"
+					},
+					"Keys": [
+						{
+							"Key": "ZincOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Zinc Plate"
 					},
 					"Keys": [
 						{
 							"Key": "ZincPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zinc Powder"
+					},
+					"Keys": [
+						{
+							"Key": "ZincPowder/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
