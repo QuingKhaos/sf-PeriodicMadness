@@ -1214,6 +1214,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BrassBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BrassBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1298,6 +1320,39 @@
 						"Text": ""
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteelBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "SteelBasicPanelling"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteelBasicPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -2196,6 +2251,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced MultiMetal Production"
+					},
+					"Translation":
+					{
+						"Text": "Producción avanzada de tubos básicos"
+					},
+					"Key": "AdvancedBasicTubing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Translation":
@@ -2390,6 +2456,17 @@
 						"Text": "Usar mejores técnicas y filtrado para exprimir más energía."
 					},
 					"Key": "CleanerPowerGeneration/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using more expensive materials can yield more products, who woulda thunk it."
+					},
+					"Translation":
+					{
+						"Text": "El uso de materiales más caros puede producir más productos, ¿quién lo hubiera pensado?"
+					},
+					"Key": "AdvancedBasicTubing/Desc"
 				},
 				{
 					"Source":

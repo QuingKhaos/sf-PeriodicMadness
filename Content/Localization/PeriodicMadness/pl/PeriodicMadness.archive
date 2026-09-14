@@ -1214,6 +1214,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "Obudowa podstawowa z mosiądzu"
+					},
+					"Key": "BrassBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowe rury mosiężne"
+					},
+					"Key": "BrassBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1298,6 +1320,39 @@
 						"Text": "Podstawowe rury niklowe"
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowa rama stalowa"
+					},
+					"Key": "SteelBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowe rury stalowe"
+					},
+					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "SteelBasicPanelling"
+					},
+					"Translation":
+					{
+						"Text": "Stalowe panele"
+					},
+					"Key": "SteelBasicPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -2196,6 +2251,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced MultiMetal Production"
+					},
+					"Translation":
+					{
+						"Text": "Zaawansowana produkcja wielometalowa"
+					},
+					"Key": "AdvancedBasicTubing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Translation":
@@ -2390,6 +2456,17 @@
 						"Text": "Użycie lepszych technik i filtrowania w celu wyciśnięcia większej mocy."
 					},
 					"Key": "CleanerPowerGeneration/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using more expensive materials can yield more products, who woulda thunk it."
+					},
+					"Translation":
+					{
+						"Text": "Użycie droższych materiałów może dać więcej produktów, kto by pomyślał."
+					},
+					"Key": "AdvancedBasicTubing/Desc"
 				},
 				{
 					"Source":

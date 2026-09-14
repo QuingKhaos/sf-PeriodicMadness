@@ -1214,6 +1214,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BrassBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Messing-Grundverrohrung"
+					},
+					"Key": "BrassBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1298,6 +1320,39 @@
 						"Text": "Nickel-Grundverrohrung"
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteelBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Stahl-Grundverrohrung"
+					},
+					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "SteelBasicPanelling"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SteelBasicPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -2196,6 +2251,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced MultiMetal Production"
+					},
+					"Translation":
+					{
+						"Text": "Fortgeschrittene MultiMetal-Produktion"
+					},
+					"Key": "AdvancedBasicTubing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Translation":
@@ -2390,6 +2456,17 @@
 						"Text": ""
 					},
 					"Key": "CleanerPowerGeneration/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using more expensive materials can yield more products, who woulda thunk it."
+					},
+					"Translation":
+					{
+						"Text": "Wenn man teurere Materialien verwendet, kann man mehr Produkte herstellen – wer hätt's gedacht."
+					},
+					"Key": "AdvancedBasicTubing/Desc"
 				},
 				{
 					"Source":

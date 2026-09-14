@@ -1214,6 +1214,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "黃銅製基礎框架"
+					},
+					"Key": "BrassBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "黃銅製基礎管材"
+					},
+					"Key": "BrassBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1298,6 +1320,39 @@
 						"Text": "鎳製基礎管材"
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "鋼製基礎框架"
+					},
+					"Key": "SteelBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "鋼製基礎管材"
+					},
+					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "SteelBasicPanelling"
+					},
+					"Translation":
+					{
+						"Text": "鋼製基礎板材"
+					},
+					"Key": "SteelBasicPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -2196,6 +2251,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced MultiMetal Production"
+					},
+					"Translation":
+					{
+						"Text": "先進的多金屬生產"
+					},
+					"Key": "AdvancedBasicTubing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Translation":
@@ -2390,6 +2456,17 @@
 						"Text": "採用更好的技術和過濾方法來榨取更多能量。"
 					},
 					"Key": "CleanerPowerGeneration/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using more expensive materials can yield more products, who woulda thunk it."
+					},
+					"Translation":
+					{
+						"Text": "使用更昂貴的材料可以生產出更多的產品，誰能想到呢。"
+					},
+					"Key": "AdvancedBasicTubing/Desc"
 				},
 				{
 					"Source":

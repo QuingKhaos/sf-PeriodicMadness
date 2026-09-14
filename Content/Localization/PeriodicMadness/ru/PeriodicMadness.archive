@@ -1214,6 +1214,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "Базовый латунный каркас"
+					},
+					"Key": "BrassBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Базовая латунная трубка"
+					},
+					"Key": "BrassBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1298,6 +1320,39 @@
 						"Text": "Базовая никелевая трубка"
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "Базовый стальной каркас"
+					},
+					"Key": "SteelBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Базовая стальная трубка"
+					},
+					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "SteelBasicPanelling"
+					},
+					"Translation":
+					{
+						"Text": "Базовая стальная панель"
+					},
+					"Key": "SteelBasicPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -2196,6 +2251,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced MultiMetal Production"
+					},
+					"Translation":
+					{
+						"Text": "Продвинутое производство мультиметаллов"
+					},
+					"Key": "AdvancedBasicTubing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Translation":
@@ -2390,6 +2456,17 @@
 						"Text": "Использование лучших технологий и фильтрации для извлечения большей мощности."
 					},
 					"Key": "CleanerPowerGeneration/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Using more expensive materials can yield more products, who woulda thunk it."
+					},
+					"Translation":
+					{
+						"Text": "Использование более дорогих материалов может дать больше продукции, кто бы мог подумать."
+					},
+					"Key": "AdvancedBasicTubing/Desc"
 				},
 				{
 					"Source":

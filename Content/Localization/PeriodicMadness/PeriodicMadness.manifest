@@ -1064,6 +1064,30 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Basic Framing"
+					},
+					"Keys": [
+						{
+							"Key": "BrassBasicFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Brass Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "BrassBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Keys": [
@@ -1153,6 +1177,42 @@
 					"Keys": [
 						{
 							"Key": "NickelBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Framing"
+					},
+					"Keys": [
+						{
+							"Key": "SteelBasicFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Basic Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "SteelBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "SteelBasicPanelling"
+					},
+					"Keys": [
+						{
+							"Key": "SteelBasicPanelling/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -2125,6 +2185,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced MultiMetal Production"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedBasicTubing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Keys": [
@@ -2334,6 +2406,18 @@
 					"Keys": [
 						{
 							"Key": "CleanerPowerGeneration/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Using more expensive materials can yield more products, who woulda thunk it."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedBasicTubing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
