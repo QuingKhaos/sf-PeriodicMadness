@@ -106,6 +106,7 @@ patches:
           - Customization/Swatches
           - GeneratorBiomass
           - GeneratorCoal
+          - Inhaler
           - LightsControlPanel
           - LookoutTower
           - Mam
@@ -155,6 +156,7 @@ patches:
           - LightsControlPanel
           - LookoutTower
           - Mam
+          - Medkit
           - Miner
           - ObjectScanner
           - Pipeline
