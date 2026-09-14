@@ -2328,6 +2328,17 @@
 				{
 					"Source":
 					{
+						"Text": "Byproduct Handling"
+					},
+					"Translation":
+					{
+						"Text": "Manejo de subproductos"
+					},
+					"Key": "ByproductHandling/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Chlorine Processing"
 					},
 					"Translation":
@@ -2379,6 +2390,17 @@
 						"Text": ""
 					},
 					"Key": "AutomationMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Means to clear and deal with byproducts from ore refining."
+					},
+					"Translation":
+					{
+						"Text": "Medios para limpiar y tratar los subproductos del refinado de minerales."
+					},
+					"Key": "ByproductHandling/Desc"
 				},
 				{
 					"Source":
@@ -2533,6 +2555,28 @@
 		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Ferrum Leeching"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "FerrumLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Patina Leeching"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PatinaLeeching/Recipe"
+				},
 				{
 					"Source":
 					{

@@ -2328,6 +2328,17 @@
 				{
 					"Source":
 					{
+						"Text": "Byproduct Handling"
+					},
+					"Translation":
+					{
+						"Text": "Obsługa produktów ubocznych"
+					},
+					"Key": "ByproductHandling/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Chlorine Processing"
 					},
 					"Translation":
@@ -2379,6 +2390,17 @@
 						"Text": ""
 					},
 					"Key": "AutomationMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Means to clear and deal with byproducts from ore refining."
+					},
+					"Translation":
+					{
+						"Text": "Środki do oczyszczania i radzenia sobie z produktami ubocznymi rafinacji rudy."
+					},
+					"Key": "ByproductHandling/Desc"
 				},
 				{
 					"Source":
@@ -2533,6 +2555,28 @@
 		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Ferrum Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Wyługowanie kwasowe żelaza"
+					},
+					"Key": "FerrumLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Patina Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Wyługowanie kwasowe patyny"
+					},
+					"Key": "PatinaLeeching/Recipe"
+				},
 				{
 					"Source":
 					{

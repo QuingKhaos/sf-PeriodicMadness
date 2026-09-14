@@ -2328,6 +2328,17 @@
 				{
 					"Source":
 					{
+						"Text": "Byproduct Handling"
+					},
+					"Translation":
+					{
+						"Text": "Byproduct Handling"
+					},
+					"Key": "ByproductHandling/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Chlorine Processing"
 					},
 					"Translation":
@@ -2379,6 +2390,17 @@
 						"Text": "Key technology for automatic mass production."
 					},
 					"Key": "AutomationMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Means to clear and deal with byproducts from ore refining."
+					},
+					"Translation":
+					{
+						"Text": "Means to clear and deal with byproducts from ore refining."
+					},
+					"Key": "ByproductHandling/Desc"
 				},
 				{
 					"Source":
@@ -2533,6 +2555,28 @@
 		{
 			"Namespace": "ST_PM_TM",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Acidic Ferrum Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Acidic Ferrum Leeching"
+					},
+					"Key": "FerrumLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Patina Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Acidic Patina Leeching"
+					},
+					"Key": "PatinaLeeching/Recipe"
+				},
 				{
 					"Source":
 					{
