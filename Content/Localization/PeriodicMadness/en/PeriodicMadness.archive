@@ -47,6 +47,17 @@
 					{
 						"Text": "Cu"
 					},
+					"Key": "Copper Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": "Cu"
+					},
 					"Key": "Copper Disk"
 				},
 				{
@@ -81,17 +92,6 @@
 						"Text": "Cu"
 					},
 					"Key": "Copper Plate"
-				},
-				{
-					"Source":
-					{
-						"Text": "Cu"
-					},
-					"Translation":
-					{
-						"Text": "Cu"
-					},
-					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -195,13 +195,57 @@
 				{
 					"Source":
 					{
-						"Text": "Mn"
+						"Text": "Hg"
 					},
 					"Translation":
 					{
-						"Text": "Mn"
+						"Text": "Hg"
 					},
-					"Key": "Manganese Ingot"
+					"Key": "Packaged Liquid Mercury"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg"
+					},
+					"Translation":
+					{
+						"Text": "Hg"
+					},
+					"Key": "Mercury Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg R"
+					},
+					"Translation":
+					{
+						"Text": "Hg R"
+					},
+					"Key": "Red Mercury Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg V"
+					},
+					"Translation":
+					{
+						"Text": "Hg V"
+					},
+					"Key": "Mercury Vapour"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg W"
+					},
+					"Translation":
+					{
+						"Text": "Hg W"
+					},
+					"Key": "Mercury Powder"
 				},
 				{
 					"Source":
@@ -213,6 +257,17 @@
 						"Text": "Mn"
 					},
 					"Key": "Manganese Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": "Mn"
+					},
+					"Key": "Manganese Ingot"
 				},
 				{
 					"Source":
@@ -267,7 +322,7 @@
 					{
 						"Text": "Ni"
 					},
-					"Key": "Nickel Powder"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -278,7 +333,7 @@
 					{
 						"Text": "Ni"
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Powder"
 				},
 				{
 					"Source":
@@ -312,6 +367,17 @@
 						"Text": "TM"
 					},
 					"Key": "Transition Metals Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": "Zn"
+					},
+					"Key": "Zinc Chunks"
 				},
 				{
 					"Source":
@@ -367,17 +433,6 @@
 						"Text": "Zn"
 					},
 					"Key": "Zinc Powder"
-				},
-				{
-					"Source":
-					{
-						"Text": "Zn"
-					},
-					"Translation":
-					{
-						"Text": "Zn"
-					},
-					"Key": "Zinc Chunks"
 				}
 			]
 		},
@@ -1449,6 +1504,17 @@
 				{
 					"Source":
 					{
+						"Text": "Empty Chemical Canister"
+					},
+					"Translation":
+					{
+						"Text": "Empty Chemical Canister"
+					},
+					"Key": "EmptyChemCanister/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Gas Tank"
 					},
 					"Translation":
@@ -2152,6 +2218,17 @@
 				{
 					"Source":
 					{
+						"Text": "Mercury Processing"
+					},
+					"Translation":
+					{
+						"Text": "Mercury Processing"
+					},
+					"Key": "MercuryProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Translation":
@@ -2159,6 +2236,17 @@
 						"Text": "Steel Processing"
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "The process of refining and processing mercury."
+					},
+					"Translation":
+					{
+						"Text": "The process of refining and processing mercury."
+					},
+					"Key": "MercuryProcessing/Desc"
 				},
 				{
 					"Source":
@@ -2415,6 +2503,17 @@
 				{
 					"Source":
 					{
+						"Text": "Liquid Mercury"
+					},
+					"Translation":
+					{
+						"Text": "Liquid Mercury"
+					},
+					"Key": "LiquidMercury/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Manganese Ingot"
 					},
 					"Translation":
@@ -2444,6 +2543,61 @@
 						"Text": "Manganese Plate"
 					},
 					"Key": "ManganesePlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Ore"
+					},
+					"Translation":
+					{
+						"Text": "Mercury Ore"
+					},
+					"Key": "MercuryOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powder"
+					},
+					"Translation":
+					{
+						"Text": "Mercury Powder"
+					},
+					"Key": "MercuryPowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powdering"
+					},
+					"Translation":
+					{
+						"Text": "Mercury Powdering"
+					},
+					"Key": "MercuryPowdering/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour"
+					},
+					"Translation":
+					{
+						"Text": "Mercury Vapour"
+					},
+					"Key": "MercuryVapour/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour Condensing"
+					},
+					"Translation":
+					{
+						"Text": "Mercury Vapour Condensing"
+					},
+					"Key": "MercuryVapourCondensing/Recipe"
 				},
 				{
 					"Source":
@@ -2503,6 +2657,17 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Liquid Mercury"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Liquid Mercury"
+					},
+					"Key": "PackagedLiquidMercury/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Patina"
 					},
 					"Translation":
@@ -2521,6 +2686,17 @@
 						"Text": "Pig Iron"
 					},
 					"Key": "PigIron/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Red Mercury Powder"
+					},
+					"Translation":
+					{
+						"Text": "Red Mercury Powder"
+					},
+					"Key": "RedMercuryPowder/Name"
 				},
 				{
 					"Source":
@@ -2591,6 +2767,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Mercury"
+					},
+					"Translation":
+					{
+						"Text": "Transition Metals: Mercury"
+					},
+					"Key": "Mercury/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Nickel"
 					},
 					"Translation":
@@ -2609,6 +2796,17 @@
 						"Text": "Transition Metals: Zinc"
 					},
 					"Key": "Zinc/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Liquid Mercury"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Liquid Mercury"
+					},
+					"Key": "UnpackageLiquidMercury/Recipe"
 				},
 				{
 					"Source":

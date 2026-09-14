@@ -47,6 +47,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Copper Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Copper Disk"
 				},
 				{
@@ -81,17 +92,6 @@
 						"Text": ""
 					},
 					"Key": "Copper Plate"
-				},
-				{
-					"Source":
-					{
-						"Text": "Cu"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -195,13 +195,57 @@
 				{
 					"Source":
 					{
-						"Text": "Mn"
+						"Text": "Hg"
 					},
 					"Translation":
 					{
 						"Text": ""
 					},
-					"Key": "Manganese Ingot"
+					"Key": "Packaged Liquid Mercury"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Mercury Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg R"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Red Mercury Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg V"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Mercury Vapour"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg W"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Mercury Powder"
 				},
 				{
 					"Source":
@@ -213,6 +257,17 @@
 						"Text": ""
 					},
 					"Key": "Manganese Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ingot"
 				},
 				{
 					"Source":
@@ -267,7 +322,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Powder"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -278,7 +333,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Powder"
 				},
 				{
 					"Source":
@@ -312,6 +367,17 @@
 						"Text": ""
 					},
 					"Key": "Transition Metals Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Chunks"
 				},
 				{
 					"Source":
@@ -367,17 +433,6 @@
 						"Text": ""
 					},
 					"Key": "Zinc Powder"
-				},
-				{
-					"Source":
-					{
-						"Text": "Zn"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Zinc Chunks"
 				}
 			]
 		},
@@ -1449,6 +1504,17 @@
 				{
 					"Source":
 					{
+						"Text": "Empty Chemical Canister"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "EmptyChemCanister/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Gas Tank"
 					},
 					"Translation":
@@ -2152,6 +2218,17 @@
 				{
 					"Source":
 					{
+						"Text": "Mercury Processing"
+					},
+					"Translation":
+					{
+						"Text": "Przetwarzanie rtęci"
+					},
+					"Key": "MercuryProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Translation":
@@ -2159,6 +2236,17 @@
 						"Text": ""
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "The process of refining and processing mercury."
+					},
+					"Translation":
+					{
+						"Text": "Proces rafinacji i przetwarzania rtęci."
+					},
+					"Key": "MercuryProcessing/Desc"
 				},
 				{
 					"Source":
@@ -2415,6 +2503,17 @@
 				{
 					"Source":
 					{
+						"Text": "Liquid Mercury"
+					},
+					"Translation":
+					{
+						"Text": "Płynna rtęć"
+					},
+					"Key": "LiquidMercury/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Manganese Ingot"
 					},
 					"Translation":
@@ -2444,6 +2543,61 @@
 						"Text": "Płytka manganowa"
 					},
 					"Key": "ManganesePlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Ore"
+					},
+					"Translation":
+					{
+						"Text": "Rtęć rodzima"
+					},
+					"Key": "MercuryOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powder"
+					},
+					"Translation":
+					{
+						"Text": "Sproszkowana rtęć"
+					},
+					"Key": "MercuryPowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powdering"
+					},
+					"Translation":
+					{
+						"Text": "Sproszkowanie rtęci"
+					},
+					"Key": "MercuryPowdering/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour"
+					},
+					"Translation":
+					{
+						"Text": "Opary rtęci"
+					},
+					"Key": "MercuryVapour/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour Condensing"
+					},
+					"Translation":
+					{
+						"Text": "Kondensacja oparów rtęci"
+					},
+					"Key": "MercuryVapourCondensing/Recipe"
 				},
 				{
 					"Source":
@@ -2503,6 +2657,17 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Liquid Mercury"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedLiquidMercury/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Patina"
 					},
 					"Translation":
@@ -2521,6 +2686,17 @@
 						"Text": "Żelazo surowe"
 					},
 					"Key": "PigIron/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Red Mercury Powder"
+					},
+					"Translation":
+					{
+						"Text": "Sproszkowana czerwona rtęć"
+					},
+					"Key": "RedMercuryPowder/Name"
 				},
 				{
 					"Source":
@@ -2591,6 +2767,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Mercury"
+					},
+					"Translation":
+					{
+						"Text": "Metale Przejściowe: Rtęć"
+					},
+					"Key": "Mercury/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Nickel"
 					},
 					"Translation":
@@ -2609,6 +2796,17 @@
 						"Text": "Metale Przejściowe: Zinc"
 					},
 					"Key": "Zinc/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Liquid Mercury"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageLiquidMercury/Recipe"
 				},
 				{
 					"Source":

@@ -124,6 +124,58 @@
 				{
 					"Source":
 					{
+						"Text": "Hg"
+					},
+					"Keys": [
+						{
+							"Key": "Mercury Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/MercuryOre/Desc_PM_MercuryOre.Default__Desc_PM_MercuryOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Packaged Liquid Mercury",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/LiquidMercury/Desc_PM_PackagedLiquidMercury.Default__Desc_PM_PackagedLiquidMercury_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg R"
+					},
+					"Keys": [
+						{
+							"Key": "Red Mercury Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/RedMercuryPowder/Desc_PM_RedMercuryPowder.Default__Desc_PM_RedMercuryPowder_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg V"
+					},
+					"Keys": [
+						{
+							"Key": "Mercury Vapour",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/MercuryVapour/Desc_PM_MercuryVapour.Default__Desc_PM_MercuryVapour_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg W"
+					},
+					"Keys": [
+						{
+							"Key": "Mercury Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/MercuryPowder/Desc_PM_MercuryPowder.Default__Desc_PM_MercuryPowder_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Mn"
 					},
 					"Keys": [
@@ -1367,6 +1419,18 @@
 				{
 					"Source":
 					{
+						"Text": "Empty Chemical Canister"
+					},
+					"Keys": [
+						{
+							"Key": "EmptyChemCanister/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Gas Tank"
 					},
 					"Keys": [
@@ -2133,11 +2197,35 @@
 				{
 					"Source":
 					{
+						"Text": "Mercury Processing"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Keys": [
 						{
 							"Key": "SteelProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The process of refining and processing mercury."
+					},
+					"Keys": [
+						{
+							"Key": "MercuryProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -2419,6 +2507,18 @@
 				{
 					"Source":
 					{
+						"Text": "Liquid Mercury"
+					},
+					"Keys": [
+						{
+							"Key": "LiquidMercury/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Manganese Ingot"
 					},
 					"Keys": [
@@ -2448,6 +2548,66 @@
 					"Keys": [
 						{
 							"Key": "ManganesePlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Ore"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powder"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryPowder/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Powdering"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryPowdering/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryVapour/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mercury Vapour Condensing"
+					},
+					"Keys": [
+						{
+							"Key": "MercuryVapourCondensing/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -2515,6 +2675,18 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Liquid Mercury"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedLiquidMercury/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Patina"
 					},
 					"Keys": [
@@ -2532,6 +2704,18 @@
 					"Keys": [
 						{
 							"Key": "PigIron/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Red Mercury Powder"
+					},
+					"Keys": [
+						{
+							"Key": "RedMercuryPowder/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -2611,6 +2795,18 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Mercury"
+					},
+					"Keys": [
+						{
+							"Key": "Mercury/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Nickel"
 					},
 					"Keys": [
@@ -2628,6 +2824,18 @@
 					"Keys": [
 						{
 							"Key": "Zinc/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Liquid Mercury"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageLiquidMercury/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
