@@ -7,3 +7,6 @@ patches:
       - path: mConditions[0].mSchematics
         value:
           - /PeriodicMadness/Schematics/Progression/Schematic_PM_FieldResearch.Schematic_PM_FieldResearch_C
+      - path: mConditions[2].mSchematics
+        value:
+          - /PeriodicMadness/Schematics/Research/Nutrients_RS/Research_PM_BerylNut.Research_PM_BerylNut_C
