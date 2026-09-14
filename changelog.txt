@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: ????
+  Bugfixes:
+    - Add missing icons to the icon library.
   Changes:
     - Add new transition metal items to lizard doggo loot table.
 ---------------------------------------------------------------------------------------------------

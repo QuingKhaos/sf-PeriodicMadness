@@ -42,15 +42,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 5
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerLine/UI/Powerline_256.Powerline_256"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerLine/Desc_PowerLine.Desc_PowerLine_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 5
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerLine/UI/Powerline_256.Powerline_256"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerLine/Desc_PowerLine.Desc_PowerLine_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 6
           #   Texture: "/Game/FactoryGame/Buildable/Factory/ConstructorMk1/UI/IconDesc_ConstructorMk1_512.IconDesc_ConstructorMk1_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Desc_ConstructorMk1.Desc_ConstructorMk1_C"
@@ -60,15 +60,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 7
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/UI/PowerPoleMk1_512.PowerPoleMk1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Desc_PowerPoleMk1.Desc_PowerPoleMk1_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 7
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/UI/PowerPoleMk1_512.PowerPoleMk1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Desc_PowerPoleMk1.Desc_PowerPoleMk1_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 8
             Texture: "/Game/FactoryGame/Buildable/Factory/ConveyorPole/UI/IconDesc_ConveyorPole_512.IconDesc_ConveyorPole_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ConveyorPole/Desc_ConveyorPole.Desc_ConveyorPole_C"
@@ -87,24 +87,24 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 10
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/MinerMK1/UI/IconDesc_MinerMk1_512.IconDesc_MinerMk1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/MinerMK1/Desc_MinerMk1.Desc_MinerMk1_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 11
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/UI/IconDesc_StorageContainer_512.IconDesc_StorageContainer_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Desc_StorageContainerMk1.Desc_StorageContainerMk1_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 10
+            Texture: "/Game/FactoryGame/Buildable/Factory/MinerMK1/UI/IconDesc_MinerMk1_512.IconDesc_MinerMk1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/MinerMK1/Desc_MinerMk1.Desc_MinerMk1_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 11
+            Texture: "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/UI/IconDesc_StorageContainer_512.IconDesc_StorageContainer_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Desc_StorageContainerMk1.Desc_StorageContainerMk1_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 12
             Texture: "/Game/FactoryGame/Buildable/Factory/SpaceElevator/UI/SpaceElevator_512.SpaceElevator_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SpaceElevator/Desc_SpaceElevator.Desc_SpaceElevator_C"
@@ -186,15 +186,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 21
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/LightsControlPanel/UI/IconDesc_LightsControlPanel_512.IconDesc_LightsControlPanel_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/LightsControlPanel/Desc_LightsControlPanel.Desc_LightsControlPanel_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 21
+            Texture: "/Game/FactoryGame/Buildable/Factory/LightsControlPanel/UI/IconDesc_LightsControlPanel_512.IconDesc_LightsControlPanel_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/LightsControlPanel/Desc_LightsControlPanel.Desc_LightsControlPanel_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 22
           #   Texture: "/Game/FactoryGame/Buildable/Factory/FrackingSmasher/UI/IconDesc_Smasher_512.IconDesc_Smasher_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FrackingSmasher/Desc_FrackingSmasher.Desc_FrackingSmasher_C"
@@ -306,15 +306,15 @@ patches:
           #   Hidden: true
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 38
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/LookoutTower/UI/LookOutTower_512.LookOutTower_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/LookoutTower/Desc_LookoutTower.Desc_LookoutTower_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 38
+            Texture: "/Game/FactoryGame/Buildable/Factory/LookoutTower/UI/LookOutTower_512.LookOutTower_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/LookoutTower/Desc_LookoutTower.Desc_LookoutTower_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 39
           #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/U5/IconDesc_FicsitFoundation4m_256.IconDesc_FicsitFoundation4m_256"
           #   itemDescriptor: ""
@@ -384,24 +384,24 @@ patches:
           #   Hidden: true
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 45
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/CA_Splitter/UI/IconDesc_ConveyorSplitter_512.IconDesc_ConveyorSplitter_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Desc_ConveyorAttachmentSplitter.Desc_ConveyorAttachmentSplitter_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 46
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/CA_Merger/UI/IconDesc_ConveyorMerger_512.IconDesc_ConveyorMerger_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/CA_Merger/Desc_ConveyorAttachmentMerger.Desc_ConveyorAttachmentMerger_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 45
+            Texture: "/Game/FactoryGame/Buildable/Factory/CA_Splitter/UI/IconDesc_ConveyorSplitter_512.IconDesc_ConveyorSplitter_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Desc_ConveyorAttachmentSplitter.Desc_ConveyorAttachmentSplitter_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 46
+            Texture: "/Game/FactoryGame/Buildable/Factory/CA_Merger/UI/IconDesc_ConveyorMerger_512.IconDesc_ConveyorMerger_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/CA_Merger/Desc_ConveyorAttachmentMerger.Desc_ConveyorAttachmentMerger_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 47
             Texture: "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/UI/ConveyorLiftMK1_512.ConveyorLiftMK1_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Desc_ConveyorLiftMk1.Desc_ConveyorLiftMk1_C"
@@ -420,15 +420,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 49
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/PlayerStorage_512.PlayerStorage_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StoragePlayer.Desc_StoragePlayer_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 49
+            Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/PlayerStorage_512.PlayerStorage_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StoragePlayer.Desc_StoragePlayer_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 51
           #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/Wall_Conveyor_x3_Orange_512.Wall_Conveyor_x3_Orange_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Conveyor_8x4_01.Desc_Wall_Conveyor_8x4_01_C"
@@ -537,15 +537,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 67
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/UI/IconDesc_CoalGenerator_512.IconDesc_CoalGenerator_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Desc_GeneratorCoal.Desc_GeneratorCoal_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 67
+            Texture: "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/UI/IconDesc_CoalGenerator_512.IconDesc_CoalGenerator_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Desc_GeneratorCoal.Desc_GeneratorCoal_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 68
           #   Texture: "/Game/FactoryGame/Buildable/Factory/WaterPump/UI/Waterpump_512.Waterpump_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/WaterPump/Desc_WaterPump.Desc_WaterPump_C"
@@ -573,33 +573,33 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 71
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipeJunction/UI/PipelineJunction_512.PipelineJunction_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeJunction/Desc_PipelineJunction_Cross.Desc_PipelineJunction_Cross_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 72
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipePump/UI/PipePump_512.PipePump_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipePump/Desc_PipelinePump.Desc_PipelinePump_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 73
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StorageTank/UI/IconDesc_FluidStorage_512.IconDesc_FluidStorage_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StorageTank/Desc_PipeStorageTank.Desc_PipeStorageTank_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 71
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipeJunction/UI/PipelineJunction_512.PipelineJunction_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeJunction/Desc_PipelineJunction_Cross.Desc_PipelineJunction_Cross_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 72
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipePump/UI/PipePump_512.PipePump_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipePump/Desc_PipelinePump.Desc_PipelinePump_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 73
+            Texture: "/Game/FactoryGame/Buildable/Factory/StorageTank/UI/IconDesc_FluidStorage_512.IconDesc_FluidStorage_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StorageTank/Desc_PipeStorageTank.Desc_PipeStorageTank_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 74
             Texture: "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk2/UI/ConveyorMk2_512.ConveyorMk2_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk2/Desc_ConveyorBeltMk2.Desc_ConveyorBeltMk2_C"
@@ -735,15 +735,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 89
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StorageContainerMk2/UI/IconDesc_StorageContainerMk2_512.IconDesc_StorageContainerMk2_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StorageContainerMk2/Desc_StorageContainerMk2.Desc_StorageContainerMk2_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 89
+            Texture: "/Game/FactoryGame/Buildable/Factory/StorageContainerMk2/UI/IconDesc_StorageContainerMk2_512.IconDesc_StorageContainerMk2_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StorageContainerMk2/Desc_StorageContainerMk2.Desc_StorageContainerMk2_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 90
           #   Texture: "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk3/UI/ConveyorMk3_512.ConveyorMk3_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk3/Desc_ConveyorBeltMk3.Desc_ConveyorBeltMk3_C"
@@ -1422,15 +1422,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 161
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StreetLight/UI/IconDesc_StreetLight_512.IconDesc_StreetLight_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StreetLight/Desc_StreetLight.Desc_StreetLight_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 161
+            Texture: "/Game/FactoryGame/Buildable/Factory/StreetLight/UI/IconDesc_StreetLight_512.IconDesc_StreetLight_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StreetLight/Desc_StreetLight.Desc_StreetLight_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 162
           #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK1_512.PowerPoleWall_MK1_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWall.Desc_PowerPoleWall_C"
@@ -1521,24 +1521,24 @@ patches:
           #   Hidden: true
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 172
-          #   Texture: "/Game/FactoryGame/Equipment/JumpingStilts/UI/IconDesc_SprintingStilts_256.IconDesc_SprintingStilts_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/JumpingStilts/BP_EquipmentDescriptorJumpingStilts.BP_EquipmentDescriptorJumpingStilts_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Equipment"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 173
-          #   Texture: "/Game/FactoryGame/Resource/Equipment/GemstoneScanner/UI/ObjectScanner_256.ObjectScanner_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/GemstoneScanner/BP_EquipmentDescriptorObjectScanner.BP_EquipmentDescriptorObjectScanner_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Equipment"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 172
+            Texture: "/Game/FactoryGame/Equipment/JumpingStilts/UI/IconDesc_SprintingStilts_256.IconDesc_SprintingStilts_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Equipment/JumpingStilts/BP_EquipmentDescriptorJumpingStilts.BP_EquipmentDescriptorJumpingStilts_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Equipment"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 173
+            Texture: "/Game/FactoryGame/Resource/Equipment/GemstoneScanner/UI/ObjectScanner_256.ObjectScanner_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Equipment/GemstoneScanner/BP_EquipmentDescriptorObjectScanner.BP_EquipmentDescriptorObjectScanner_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Equipment"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 174
           #   Texture: "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/UI/Detonator_256.Detonator_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/BP_EquipmentDescriptorNobeliskDetonator.BP_EquipmentDescriptorNobeliskDetonator_C"
@@ -1602,15 +1602,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 181
-          #   Texture: "/Game/FactoryGame/Resource/Equipment/NailGun/UI/IconDesc_RebarGun_256.IconDesc_RebarGun_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/NailGun/Desc_RebarGunProjectile.Desc_RebarGunProjectile_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Equipment"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 181
+            Texture: "/Game/FactoryGame/Resource/Equipment/NailGun/UI/IconDesc_RebarGun_256.IconDesc_RebarGun_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Equipment/NailGun/Desc_RebarGunProjectile.Desc_RebarGunProjectile_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Equipment"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 182
           #   Texture: "/Game/FactoryGame/Resource/Equipment/Medkit/UI/Inhaler_256.Inhaler_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/Medkit/Desc_Medkit.Desc_Medkit_C"
@@ -2160,15 +2160,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          - ID: 242
-            Texture: "/Game/FactoryGame/Resource/RawResources/Water/UI/LiquidWater_Pipe_64.LiquidWater_Pipe_64"
-            itemDescriptor: "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C"
-            DisplayNameOverride: false
-            IconName: ""
-            IconType: "ESIT_Part"
-            Hidden: true
-            SearchOnly: false
-            Animated: false
+          # - ID: 242
+          #   Texture: "/Game/FactoryGame/Resource/RawResources/Water/UI/LiquidWater_Pipe_64.LiquidWater_Pipe_64"
+          #   itemDescriptor: "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C"
+          #   DisplayNameOverride: false
+          #   IconName: ""
+          #   IconType: "ESIT_Part"
+          #   Hidden: true
+          #   SearchOnly: false
+          #   Animated: false
           # - ID: 243
           #   Texture: "/Game/FactoryGame/Resource/Parts/CircuitBoard/UI/IconDesc_CircuitBoard_256.IconDesc_CircuitBoard_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C"
@@ -2511,15 +2511,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 281
-          #   Texture: "/Game/FactoryGame/Resource/Environment/Crystal/UI/PowerShard_256.PowerShard_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 281
+            Texture: "/Game/FactoryGame/Resource/Environment/Crystal/UI/PowerShard_256.PowerShard_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 282
           #   Texture: "/Game/FactoryGame/Resource/Parts/SolidBiofuel/UI/IconDesc_SolidBiofuel_256.IconDesc_SolidBiofuel_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C"
@@ -2736,18 +2736,18 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 306
-          #   Texture: "/Game/FactoryGame/Resource/Parts/SpikedRebar/UI/IconDesc_SpikedRebar_256.IconDesc_SpikedRebar_256"
-          #   itemDescriptor: ""
-          #   DisplayNameOverride: false
-          #   IconName:
-          #     key: "Game/SpikedRebar"
-          #     ns: "IconLibrary_Data"
-          #     source: "Spiked Rebar"
-          #   IconType: "ESIT_Part"
-          #   Hidden: true
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 306
+            Texture: "/Game/FactoryGame/Resource/Parts/SpikedRebar/UI/IconDesc_SpikedRebar_256.IconDesc_SpikedRebar_256"
+            itemDescriptor: ""
+            DisplayNameOverride: false
+            IconName:
+              key: "Game/SpikedRebar"
+              ns: "IconLibrary_Data"
+              source: "Spiked Rebar"
+            IconType: "ESIT_Part"
+            Hidden: true
+            SearchOnly: false
+            Animated: false
           - ID: 307
             Texture: "/Game/FactoryGame/Resource/Parts/AnimalParts/UI/IconDesc_SpitterPart_256.IconDesc_SpitterPart_256"
             itemDescriptor: "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_SpitterParts.Desc_SpitterParts_C"
@@ -2757,15 +2757,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 308
-          #   Texture: "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Mycelia_256.IconDesc_Mycelia_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 308
+            Texture: "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Mycelia_256.IconDesc_Mycelia_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 310
           #   Texture: "/Game/FactoryGame/Resource/Parts/ColorCartridge/UI/IconDesc_ColorCartridge_256.IconDesc_ColorCartridge_256"
           #   itemDescriptor: ""
@@ -6222,33 +6222,33 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 672
-          #   Texture: "/Game/FactoryGame/Resource/Parts/AlienProtein/UI/IconDesc_AlienProtein_256.IconDesc_AlienProtein_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 673
-          #   Texture: "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_Rebar_256.IconDesc_Rebar_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 674
-          #   Texture: "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/UI/IconDesc_AlienDNA_256.IconDesc_AlienDNA_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/Desc_AlienDNACapsule.Desc_AlienDNACapsule_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 672
+            Texture: "/Game/FactoryGame/Resource/Parts/AlienProtein/UI/IconDesc_AlienProtein_256.IconDesc_AlienProtein_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 673
+            Texture: "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_Rebar_256.IconDesc_Rebar_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 674
+            Texture: "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/UI/IconDesc_AlienDNA_256.IconDesc_AlienDNA_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/Desc_AlienDNACapsule.Desc_AlienDNACapsule_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 675
             Texture: "/Game/FactoryGame/Resource/Environment/AnimalParts/UI/IconDesc_HatcherPart_256.IconDesc_HatcherPart_256"
             itemDescriptor: "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HatcherParts.Desc_HatcherParts_C"
@@ -7212,18 +7212,18 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 782
-          #   Texture: "/Game/FactoryGame/Interface/UI/Assets/MonochromeIcons/TXUI_MIcon_QuestionMark.TXUI_MIcon_QuestionMark"
-          #   itemDescriptor: ""
-          #   DisplayNameOverride: true
-          #   IconName:
-          #     key: "Icons/QuestionMark"
-          #     ns: "IconLibrary_Data"
-          #     source: "Question Mark"
-          #   IconType: "ESIT_Monochrome"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 782
+            Texture: "/Game/FactoryGame/Interface/UI/Assets/MonochromeIcons/TXUI_MIcon_QuestionMark.TXUI_MIcon_QuestionMark"
+            itemDescriptor: ""
+            DisplayNameOverride: true
+            IconName:
+              key: "Icons/QuestionMark"
+              ns: "IconLibrary_Data"
+              source: "Question Mark"
+            IconType: "ESIT_Monochrome"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 783
           #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerTower/UI/IconDesc_PowerTower_512.IconDesc_PowerTower_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerTower/Desc_PowerTower.Desc_PowerTower_C"
@@ -8142,15 +8142,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 885
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipeJunction/UI/IconDesc_PipelineTJunction_512.IconDesc_PipelineTJunction_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeJunction/Desc_PipelineJunction_T.Desc_PipelineJunction_T_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 885
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipeJunction/UI/IconDesc_PipelineTJunction_512.IconDesc_PipelineTJunction_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeJunction/Desc_PipelineJunction_T.Desc_PipelineJunction_T_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 886
           #   Texture: "/Game/FactoryGame/Buildable/Factory/PortalPotty/UI/IconDesc_PortableToilet_512.IconDesc_PortableToilet_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PortalPotty/Desc_PortalPotty.Desc_PortalPotty_C"
