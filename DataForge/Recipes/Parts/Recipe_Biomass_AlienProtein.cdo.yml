@@ -1,0 +1,14 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Constructor/Recipe_Biomass_AlienProtein.Recipe_Biomass_AlienProtein_C
+    properties:
+      - path: mProduct[0].ItemClass
+        value: /PeriodicMadness/Resources/RNM/Biostuff/Biomass/Desc_PM_Biomass.Desc_PM_Biomass_C
+      - path: mOverridenCategory
+        value: /PeriodicMadness/Resources/RNM/Biostuff/Cat_PM_RNM_Biostuff.Cat_PM_RNM_Biostuff_C
+      - path: mManufacturingMenuPriority
+        value: 5.254
+      - path: mProducedIn[0]
+        value: /PeriodicMadness/Buildables/Factory/FabricatorMk1/Build_PM_FabricatorMk1.Build_PM_FabricatorMk1_C

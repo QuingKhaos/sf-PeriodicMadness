@@ -1,0 +1,14 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Buildings/Recipe_PipelinePump.Recipe_PipelinePump_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /PeriodicMadness/Resources/Products/Intermediates/BasicMotor/Desc_PM_BasicMotor.Desc_PM_BasicMotor_C
+            Amount: 4
+          - ItemClass: /PeriodicMadness/Resources/MultiMetal/Tubing/BasicTubing/Desc_PM_BasicTubing.Desc_PM_BasicTubing_C
+            Amount: 10
+          - ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
+            Amount: 8

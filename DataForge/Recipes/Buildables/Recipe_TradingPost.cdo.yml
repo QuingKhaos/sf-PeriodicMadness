@@ -1,0 +1,10 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Buildings/Recipe_TradingPost.Recipe_TradingPost_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /PeriodicMadness/Resources/TM/Iron/IronChunks/Desc_PM_IronChunks.Desc_PM_IronChunks_C
+            Amount: 20

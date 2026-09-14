@@ -96,16 +96,44 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - BladeRunners
+          - ConveyorAttachment
+          - ConveyorBelt
+          - ConveyorCeilingAttachment
+          - ConveyorLift
+          - ConveyorPole
           - Customization/PaintFinishes
           - Customization/Patterns
           - Customization/Swatches
+          - GeneratorBiomass
+          - GeneratorCoal
+          - LightsControlPanel
+          - LookoutTower
+          - Mam
+          - Miner
+          - ObjectScanner
+          - Pipeline
+          - PipeStorage
+          - PipeSupport
+          - PortableMiner
+          - PowerCrystalShard
+          - PowerLine
+          - PowerPole
           - Rebar
           - StandaloneWidgetSign
           - StorageContainer
+          - StoragePlayer
+          - StreetLight
+          - TradingPost
+          - WorkBench
+          - Workshop
+          - XenoZapper
           # Specific recipes
-          - Recipe_Foundation_8x1_01
-          - Recipe_GeneratorCoal
-          - Recipe_PipelineJunction
+          - Recipe_Alien
+          - Recipe_Biomass_AlienProtein
+          # - Recipe_Foundation_8x1_01
+          - Recipe_Protein
+          # More specific recipes
+          - TowTruck/Recipe_SpaceElevator
       - path: mItemClassAllowlist
         value:
           # Mods
@@ -116,29 +144,38 @@ patches:
           # Generic matches
           - AnimalParts
           - Environment
+          - ConveyorAttachment
           - ConveyorBelt
           - ConveyorCeilingAttachment
           - ConveyorLift
           - ConveyorPole
           - GeneratorBiomass
+          - GeneratorCoal
           - JumpingStilts
+          - LightsControlPanel
+          - LookoutTower
           - Mam
+          - Miner
+          - ObjectScanner
           - Pipeline
+          - PipeStorage
           - PortableMiner
+          - PowerLine
+          - PowerPole
           - Rebar
           - ShockShank
           - StandaloneWidgetSign
           - StorageContainer
+          - StoragePlayer
+          - StreetLight
           - TradingPost
           - WorkBench
           - Workshop
           # Specific items
-          - Desc_AlienProtein
-          - Desc_GeneratorCoal
-          - Desc_Foundation_8x1_01
+          - Desc_Alien
+          # - Desc_Foundation_8x1_01
           - Desc_Geyser
           - Desc_HardDrive
-          - Desc_PipelineJunction
           - Desc_WAT1
           - Desc_WAT2
           # More specific items

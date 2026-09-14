@@ -2,13 +2,13 @@
 $schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
 type: cdo
 patches:
-  - target: /Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C
+  - target: /Game/FactoryGame/Recipes/Buildings/Recipe_PipeStorageTank.Recipe_PipeStorageTank_C
     properties:
       - path: mIngredients
         value:
-          - ItemClass: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
-            Amount: 6
           - ItemClass: /PeriodicMadness/Resources/MultiMetal/Tubing/BasicTubing/Desc_PM_BasicTubing.Desc_PM_BasicTubing_C
-            Amount: 4
+            Amount: 2
+          - ItemClass: /PeriodicMadness/Resources/MultiMetal/Framing/BasicFraming/Desc_PM_BasicFraming.Desc_PM_BasicFraming_C
+            Amount: 2
           - ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
-            Amount: 12
+            Amount: 8

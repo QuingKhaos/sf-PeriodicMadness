@@ -1,0 +1,20 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Buildings/Recipe_MinerMk1.Recipe_MinerMk1_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C
+            Amount: 1
+          - ItemClass: /PeriodicMadness/Resources/Products/Wires/CopperWire/Desc_PM_CopperWire.Desc_PM_CopperWire_C
+            Amount: 2
+          - ItemClass: /PeriodicMadness/Resources/Products/Circuits/ElectronicCircuit/Desc_PM_ElectronicCircuit.Desc_PM_ElectronicCircuit_C
+            Amount: 3
+          - ItemClass: /PeriodicMadness/Resources/MultiMetal/Framing/BasicFraming/Desc_PM_BasicFraming.Desc_PM_BasicFraming_C
+            Amount: 4
+          - ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
+            Amount: 8
+          - ItemClass: /PeriodicMadness/Resources/Products/Intermediates/Bricks/Desc_PM_Bricks.Desc_PM_Bricks_C
+            Amount: 5
