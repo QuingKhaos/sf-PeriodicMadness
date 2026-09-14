@@ -7,8 +7,8 @@ patches:
       - path: mIngredients
         value:
           - ItemClass: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
-            Quantity: 6
+            Amount: 6
           - ItemClass: /PeriodicMadness/Resources/MultiMetal/Tubing/BasicTubing/Desc_PM_BasicTubing.Desc_PM_BasicTubing_C
-            Quantity: 4
+            Amount: 4
           - ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
-            Quantity: 12
+            Amount: 12

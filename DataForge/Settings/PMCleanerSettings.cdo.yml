@@ -95,9 +95,11 @@ patches:
           - /MagicMachine/Stackable/
           - /PeriodicMadness/
           # Generic matches
+          - BladeRunners
           - Customization/PaintFinishes
           - Customization/Patterns
           - Customization/Swatches
+          - Rebar
           - StandaloneWidgetSign
           - StorageContainer
           # Specific recipes
@@ -119,9 +121,11 @@ patches:
           - ConveyorLift
           - ConveyorPole
           - GeneratorBiomass
+          - JumpingStilts
           - Mam
           - Pipeline
           - PortableMiner
+          - Rebar
           - ShockShank
           - StandaloneWidgetSign
           - StorageContainer
