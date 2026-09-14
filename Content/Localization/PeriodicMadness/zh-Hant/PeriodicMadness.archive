@@ -8,6 +8,94 @@
 				{
 					"Source":
 					{
+						"Text": "Ag"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Silver Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ag"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Silver Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ag"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Silver Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ag"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Silver Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Gold Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Gold Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Gold Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Gold Plate"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ca"
 					},
 					"Translation":
@@ -102,17 +190,6 @@
 					{
 						"Text": ""
 					},
-					"Key": "Iron Chunks"
-				},
-				{
-					"Source":
-					{
-						"Text": "Fe"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
 					"Key": "Iron Ingot"
 				},
 				{
@@ -151,6 +228,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
 						"Text": "H"
 					},
 					"Translation":
@@ -179,7 +267,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Hydrochloric Acid"
+					"Key": "Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -190,7 +278,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Hydrochloric Acid"
+					"Key": "Packaged Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -256,7 +344,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Manganese Ore"
+					"Key": "Manganese Ingot"
 				},
 				{
 					"Source":
@@ -267,7 +355,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Manganese Ingot"
+					"Key": "Manganese Ore"
 				},
 				{
 					"Source":
@@ -311,7 +399,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Plate"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -322,7 +410,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Plate"
 				},
 				{
 					"Source":
@@ -2108,6 +2196,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Transition Metal Refining"
+					},
+					"Translation":
+					{
+						"Text": "高階過渡金屬提煉"
+					},
+					"Key": "AdvancedTransitionMetalRefining/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Allows research of basic automation methods."
 					},
 					"Translation":
@@ -2258,6 +2357,17 @@
 						"Text": "氯氣處理：切勿吸入！"
 					},
 					"Key": "ChlorineProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The use of new and more acidic fluids to refine new products."
+					},
+					"Translation":
+					{
+						"Text": "使用新型更酸的酸性液體來提煉新產品。"
+					},
+					"Key": "AdvancedTransitionMetalRefining/Desc"
 				},
 				{
 					"Source":
@@ -2492,6 +2602,50 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Chunks"
+					},
+					"Translation":
+					{
+						"Text": "金礦石塊"
+					},
+					"Key": "GoldChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "GoldIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Ore"
+					},
+					"Translation":
+					{
+						"Text": "金礦"
+					},
+					"Key": "GoldOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Plate"
+					},
+					"Translation":
+					{
+						"Text": "金板"
+					},
+					"Key": "GoldPlate/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Chunks"
 					},
 					"Translation":
@@ -2701,6 +2855,50 @@
 				{
 					"Source":
 					{
+						"Text": "Silver Chunks"
+					},
+					"Translation":
+					{
+						"Text": "銀礦石塊"
+					},
+					"Key": "SilverChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "SilverIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Ore"
+					},
+					"Translation":
+					{
+						"Text": "銀礦"
+					},
+					"Key": "SilverOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Plate"
+					},
+					"Translation":
+					{
+						"Text": "銀板"
+					},
+					"Key": "SilverPlate/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Manganese Leeching"
 					},
 					"Translation":
@@ -2745,6 +2943,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Gold"
+					},
+					"Translation":
+					{
+						"Text": "過渡金屬: 金"
+					},
+					"Key": "Gold/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Iron"
 					},
 					"Translation":
@@ -2785,6 +2994,17 @@
 						"Text": "過渡金屬: Nickel"
 					},
 					"Key": "Nickel/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Silver"
+					},
+					"Translation":
+					{
+						"Text": "過渡金屬: 銀"
+					},
+					"Key": "Silver/Cat"
 				},
 				{
 					"Source":

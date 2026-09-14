@@ -8,6 +8,54 @@
 				{
 					"Source":
 					{
+						"Text": "Ag"
+					},
+					"Keys": [
+						{
+							"Key": "Silver Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Silver/SilverChunks/Desc_PM_SilverChunks.Default__Desc_PM_SilverChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Silver Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Silver/SilverIngot/Desc_PM_SilverIngot.Default__Desc_PM_SilverIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Silver Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Silver/SilverOre/Desc_PM_SilverOre.Default__Desc_PM_SilverOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Silver Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Silver/SilverPlate/Desc_PM_SilverPlate.Default__Desc_PM_SilverPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Keys": [
+						{
+							"Key": "Gold Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldChunks/Desc_PM_GoldChunks.Default__Desc_PM_GoldChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Gold Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldIngot/Desc_PM_GoldIngot.Default__Desc_PM_GoldIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Gold Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldOre/Desc_PM_GoldOre.Default__Desc_PM_GoldOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Gold Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldPlate/Desc_PM_GoldPlate.Default__Desc_PM_GoldPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ca"
 					},
 					"Keys": [
@@ -2077,6 +2125,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Transition Metal Refining"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalRefining/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Allows research of basic automation methods."
 					},
 					"Keys": [
@@ -2238,6 +2298,18 @@
 					"Keys": [
 						{
 							"Key": "ChlorineProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The use of new and more acidic fluids to refine new products."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalRefining/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -2495,6 +2567,54 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "GoldChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "GoldIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Ore"
+					},
+					"Keys": [
+						{
+							"Key": "GoldOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Plate"
+					},
+					"Keys": [
+						{
+							"Key": "GoldPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Iron Chunks"
 					},
 					"Keys": [
@@ -2723,6 +2843,54 @@
 				{
 					"Source":
 					{
+						"Text": "Silver Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "SilverChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "SilverIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Ore"
+					},
+					"Keys": [
+						{
+							"Key": "SilverOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Plate"
+					},
+					"Keys": [
+						{
+							"Key": "SilverPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Manganese Leeching"
 					},
 					"Keys": [
@@ -2771,6 +2939,18 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Gold"
+					},
+					"Keys": [
+						{
+							"Key": "Gold/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Iron"
 					},
 					"Keys": [
@@ -2812,6 +2992,18 @@
 					"Keys": [
 						{
 							"Key": "Nickel/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Silver"
+					},
+					"Keys": [
+						{
+							"Key": "Silver/Cat",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
