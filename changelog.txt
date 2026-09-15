@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.0
-Date: ????
+Version: 1.0.0-beta.3
+Date: 2026-09-15
   Bugfixes:
     - Add missing icons to the icon library.
     - Remove superfluous scanable base game resources from HUB upgrade milestones.
