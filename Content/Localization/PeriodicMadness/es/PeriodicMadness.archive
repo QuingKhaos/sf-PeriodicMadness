@@ -704,6 +704,17 @@
 				{
 					"Source":
 					{
+						"Text": "Applied to buildings to give them the Gold Paint Finish."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Finishes/Caterium/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Boiler"
 					},
 					"Translation":
@@ -810,6 +821,17 @@
 						"Text": "Evaporador"
 					},
 					"Key": "EvaporatorMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Finish"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Finishes/Caterium/Name"
 				},
 				{
 					"Source":
@@ -2278,6 +2300,17 @@
 				{
 					"Source":
 					{
+						"Text": "Adds the premium Gold Paint Finish to the Customizer, from where it can be applied to any building."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Caterium_PaintFinish/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced MultiMetal Production"
 					},
 					"Translation":
@@ -2395,6 +2428,17 @@
 						"Text": "Purificación Ezequiel de mineral"
 					},
 					"Key": "EzekielOrePurifying/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Paint Finish"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Caterium_PaintFinish/Name"
 				},
 				{
 					"Source":

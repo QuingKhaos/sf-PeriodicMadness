@@ -87,6 +87,7 @@ patches:
           # Generic matches
           - Boombox
           - CoffeeCup
+          - CustomizerUnlock
           - InventorySlots
           - Patterns
           - Pioneercosmetics
@@ -115,6 +116,7 @@ patches:
           # Generic matches
           - BladeRunners
           - CentralStorage
+          - Chainsaw
           - ConveyorAttachment
           - ConveyorBelt
           - ConveyorCeilingAttachment
@@ -128,6 +130,8 @@ patches:
           - GeneratorBiomass
           - GeneratorCoal
           - Inhaler
+          - JumpPad
+          - LandingPad
           - LightsControlPanel
           - LookoutTower
           - Mam
@@ -141,6 +145,7 @@ patches:
           - PowerCrystalShard
           - PowerPole
           - Rebar
+          - ResourceSink
           - StandaloneWidgetSign
           - StorageContainer
           - StoragePlayer
@@ -168,17 +173,23 @@ patches:
           # Generic matches
           - AnimalParts
           - CentralStorage
+          - Chainsaw
           - ConveyorAttachment
           - ConveyorBelt
           - ConveyorCeilingAttachment
           - ConveyorLift
           - ConveyorPole
+          - Customization/PaintFinishes
+          - Customization/Patterns
+          - Customization/Swatches
           - Environment
           - Filter
           - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
           - JumpingStilts
+          - JumpPad
+          - LandingPad
           - LightsControlPanel
           - LookoutTower
           - Mam
@@ -192,6 +203,7 @@ patches:
           - PortalPotty
           - PowerPole
           - Rebar
+          - ResourceSink
           - ShockShank
           - StandaloneWidgetSign
           - StorageContainer

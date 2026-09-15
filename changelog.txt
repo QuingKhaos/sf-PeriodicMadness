@@ -11,6 +11,7 @@ Date: ????
     - Add custom resource for Uranium.
   Features:
     - Add more of the base game MAM research trees.
+    - Add tier 2 milestones to the HUB.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0-beta.2
 Date: 2026-09-14

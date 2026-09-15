@@ -1,0 +1,16 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Buildable/-Shared/Customization/PaintFinishes/Metals/PaintFinishDesc_Caterium.PaintFinishDesc_Caterium_C
+    properties:
+      - path: mDisplayName
+        value:
+          ns: ST_PM_Buildables
+          key: Finishes/Caterium/Name
+          source: "Gold Finish"
+      - path: mDescription
+        value:
+          ns: ST_PM_Buildables
+          key: Finishes/Caterium/Desc
+          source: "Applied to buildings to give them the Gold Paint Finish."

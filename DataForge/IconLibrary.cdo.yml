@@ -252,15 +252,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 31
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/JumpPad/UI/IconDesc_JumpPad_512.IconDesc_JumpPad_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/JumpPad/Desc_JumpPadTilted.Desc_JumpPadTilted_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 31
+            Texture: "/Game/FactoryGame/Buildable/Factory/JumpPad/UI/IconDesc_JumpPad_512.IconDesc_JumpPad_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/JumpPad/Desc_JumpPadTilted.Desc_JumpPadTilted_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 32
           #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/UI/PowerPoleMk2_512.PowerPoleMk2_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Desc_PowerPoleMk2.Desc_PowerPoleMk2_C"
@@ -510,33 +510,33 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 60
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/LandingPad/UI/LandingPad_512.LandingPad_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/LandingPad/Desc_LandingPad.Desc_LandingPad_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 65
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/ResourceSink/UI/ResourceSink_512.ResourceSink_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ResourceSink/Desc_ResourceSink.Desc_ResourceSink_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 66
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/UI/ResourceSinkShop_512.ResourceSinkShop_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Desc_ResourceSinkShop.Desc_ResourceSinkShop_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 60
+            Texture: "/Game/FactoryGame/Buildable/Factory/LandingPad/UI/LandingPad_512.LandingPad_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/LandingPad/Desc_LandingPad.Desc_LandingPad_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 65
+            Texture: "/Game/FactoryGame/Buildable/Factory/ResourceSink/UI/ResourceSink_512.ResourceSink_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ResourceSink/Desc_ResourceSink.Desc_ResourceSink_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 66
+            Texture: "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/UI/ResourceSinkShop_512.ResourceSinkShop_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Desc_ResourceSinkShop.Desc_ResourceSinkShop_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 67
             Texture: "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/UI/IconDesc_CoalGenerator_512.IconDesc_CoalGenerator_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Desc_GeneratorCoal.Desc_GeneratorCoal_C"
@@ -1548,15 +1548,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 175
-          #   Texture: "/Game/FactoryGame/Equipment/Chainsaw/UI/IconDesc_Chainsaw_256.IconDesc_Chainsaw_256"
-          #   itemDescriptor: "/Game/FactoryGame/Equipment/Chainsaw/Desc_Chainsaw.Desc_Chainsaw_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Equipment"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 175
+            Texture: "/Game/FactoryGame/Equipment/Chainsaw/UI/IconDesc_Chainsaw_256.IconDesc_Chainsaw_256"
+            itemDescriptor: "/Game/FactoryGame/Equipment/Chainsaw/Desc_Chainsaw.Desc_Chainsaw_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Equipment"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 176
           #   Texture: "/Game/FactoryGame/Resource/Equipment/StunSpear/UI/IconDesc_XenoBasher_256.IconDesc_XenoBasher_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/StunSpear/BP_EquipmentDescriptorStunSpear.BP_EquipmentDescriptorStunSpear_C"
