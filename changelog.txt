@@ -6,6 +6,8 @@ Date: ????
   Changes:
     - Add new transition metal items to lizard doggo loot table.
     - Add custom resource for SAM.
+  Features:
+    - Add more of the base game MAM research trees.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0-beta.2
 Date: 2026-09-14
