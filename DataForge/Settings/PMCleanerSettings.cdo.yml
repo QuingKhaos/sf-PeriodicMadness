@@ -115,6 +115,7 @@ patches:
           # Generic matches
           - BladeRunners
           - CentralStorage
+          - Chainsaw
           - ConveyorAttachment
           - ConveyorBelt
           - ConveyorCeilingAttachment
@@ -168,6 +169,7 @@ patches:
           # Generic matches
           - AnimalParts
           - CentralStorage
+          - Chainsaw
           - ConveyorAttachment
           - ConveyorBelt
           - ConveyorCeilingAttachment
