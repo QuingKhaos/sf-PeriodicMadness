@@ -7,6 +7,7 @@ Date: ????
   Changes:
     - Add new transition metal items to lizard doggo loot table.
     - Add custom resource for SAM.
+    - Add custom resource for Uranium.
   Features:
     - Add more of the base game MAM research trees.
 ---------------------------------------------------------------------------------------------------
