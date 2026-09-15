@@ -1707,15 +1707,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 192
-          #   Texture: "/Game/FactoryGame/Equipment/GolfCart/UI/IconDesc_GolfCart_256.IconDesc_GolfCart_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/GolfCart/Desc_GolfCart.Desc_GolfCart_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Equipment"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 192
+            Texture: "/Game/FactoryGame/Equipment/GolfCart/UI/IconDesc_GolfCart_256.IconDesc_GolfCart_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Equipment/GolfCart/Desc_GolfCart.Desc_GolfCart_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Equipment"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 193
           #   Texture: "/Game/FactoryGame/Resource/RawResources/Nodes/UI/IconDesc_iron_new_256.IconDesc_iron_new_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C"
@@ -8238,18 +8238,18 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 894
-          #   Texture: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/UI/IconDesc_CartPath_512.IconDesc_CartPath_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Golfcart/Desc_VehiclePath_FactoryCart.Desc_VehiclePath_FactoryCart_C"
-          #   DisplayNameOverride: false
-          #   IconName:
-          #     key: "Transport/RoadVehicles/VehiclePath/FactoryCart"
-          #     ns: "Buildables_Data"
-          #     source: "Factory Cart Vehicle Path"
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 894
+            Texture: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/UI/IconDesc_CartPath_512.IconDesc_CartPath_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Golfcart/Desc_VehiclePath_FactoryCart.Desc_VehiclePath_FactoryCart_C"
+            DisplayNameOverride: false
+            IconName:
+              key: "Transport/RoadVehicles/VehiclePath/FactoryCart"
+              ns: "Buildables_Data"
+              source: "Factory Cart Vehicle Path"
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 895
           #   Texture: "/Game/FactoryGame/Events/Christmas/Buildings/UI/IconDesc_FICSMAS_Cartridge_256.IconDesc_FICSMAS_Cartridge_256"
           #   itemDescriptor: "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasDataCartridge4.Desc_XmasDataCartridge4_C"

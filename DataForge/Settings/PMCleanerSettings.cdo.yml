@@ -125,6 +125,7 @@ patches:
           - Customization/PaintFinishes
           - Customization/Patterns
           - Customization/Swatches
+          - FactoryCart
           - Filter
           - Gasmask
           - GeneratorBiomass
@@ -189,10 +190,12 @@ patches:
           - Customization/Patterns
           - Customization/Swatches
           - Environment
+          - FactoryCart
           - Filter
           - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
+          - GolfCart
           - JumpingStilts
           - JumpPad
           - LandingPad
