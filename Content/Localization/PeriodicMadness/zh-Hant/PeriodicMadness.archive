@@ -541,6 +541,33 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_AC",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Actinides"
+					},
+					"Translation":
+					{
+						"Text": "錒系元素"
+					},
+					"Key": "Actinides/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Actinides: Uranium"
+					},
+					"Translation":
+					{
+						"Text": "錒系元素: Uranium"
+					},
+					"Key": "Uranium/Cat"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_AEM",
 			"Children": [
 				{

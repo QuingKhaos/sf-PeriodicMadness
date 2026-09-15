@@ -349,6 +349,35 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_AC",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Actinides"
+					},
+					"Keys": [
+						{
+							"Key": "Actinides/Cat",
+							"Path": "/PeriodicMadness/Resources/AC/ST_PM_AC.ST_PM_AC"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Actinides: Uranium"
+					},
+					"Keys": [
+						{
+							"Key": "Uranium/Cat",
+							"Path": "/PeriodicMadness/Resources/AC/ST_PM_AC.ST_PM_AC"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_AEM",
 			"Children": [
 				{

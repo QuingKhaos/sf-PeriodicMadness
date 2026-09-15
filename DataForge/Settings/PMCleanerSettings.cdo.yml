@@ -10,24 +10,30 @@ patches:
           - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreGold_01
           # Copper
           - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreCopper_01
-          # Iron
-          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreIron_01
           # Quartz
           - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_quartz
           # Sulfur
           - /Game/FactoryGame/Resource/RawResources/Nodes/SulfurResource_01
+      - path: mStaticMeshesByMaterialCleanlist
+        value:
+          # Bauxite
+          - StaticMesh: /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreIron_01
+            Material: Bauxite
+          # Iron
+          - StaticMesh: /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreIron_01
+            Material: Iron
       - path: mResourceClassAllowlist
         value:
           # Mods
           - /PeriodicMadness/
           # Generic matches
           - Geyser
-          - Uranium
           # must be allowed to be replaced
           - Desc_Coal
           - Desc_Stone
           - Desc_SAM
           - Desc_NitrogenGas
+          - Desc_OreUranium
           - Desc_Water
           - Desc_LiquidOil
       - path: mResourceClassReplacements
@@ -40,6 +46,8 @@ patches:
             Replacement: /PeriodicMadness/Resources/Products/AlienTech/SAM/Desc_PM_SAM.Desc_PM_SAM_C
           - Target: /Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C
             Replacement: /PeriodicMadness/Resources/NB/NobleGases/MixedNobleGas/Desc_PM_MixedNobleGas.Desc_PM_MixedNobleGas_C
+          - Target: /Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C
+            Replacement: /PeriodicMadness/Resources/AC/Uranium/UraniumOre/Desc_PM_UraniumOre.Desc_PM_UraniumOre_C
           - Target: /Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C
             Replacement: /PeriodicMadness/Resources/Fluids/Water/Water/Desc_PM_Water.Desc_PM_Water_C
           - Target: /Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C
@@ -209,4 +217,3 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - Geyser
-          - Uranium
