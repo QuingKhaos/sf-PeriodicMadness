@@ -161,8 +161,14 @@ patches:
           - Recipe_Miner
           - Recipe_Protein
           # More specific recipes
+          - Foundations/Recipe_Foundation_8
+          - Ramps/Recipe_Ramp_8x1_01
+          - Ramps/Recipe_Ramp_8x2_01
+          - Ramps/Recipe_Ramp_8x4_01
           - Recipe_PowerLine.Recipe_PowerLine
           - TowTruck/Recipe_SpaceElevator
+          - Walls/Recipe_Wall_8x4_01
+          - Walls/Recipe_Wall_Orange_8x1
       - path: mItemClassAllowlist
         value:
           # Mods
@@ -222,7 +228,13 @@ patches:
           - Desc_WAT2
           # More specific items
           - Desc_PowerLine.Desc_PowerLine
+          - FicsitWallSet/Desc_Wall_Orange_8x1
+          - Foundation/Desc_Foundation_8
+          - Ramp/Desc_Ramp_8x1_01
+          - Ramp/Desc_Ramp_8x2_01
+          - Ramp/Desc_Ramp_8x4_01
           - SpaceElevator/Desc_SpaceElevator
+          - Wall/Desc_Wall_8x4_01
       - path: mResourceScannerAllowlist
         value:
           # Mods
