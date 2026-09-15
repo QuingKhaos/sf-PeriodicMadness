@@ -525,6 +525,18 @@
 				{
 					"Source":
 					{
+						"Text": "Applied to buildings to give them the Gold Paint Finish."
+					},
+					"Keys": [
+						{
+							"Key": "Finishes/Caterium/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Boiler"
 					},
 					"Keys": [
@@ -630,6 +642,18 @@
 					"Keys": [
 						{
 							"Key": "EvaporatorMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Finish"
+					},
+					"Keys": [
+						{
+							"Key": "Finishes/Caterium/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -2214,6 +2238,18 @@
 				{
 					"Source":
 					{
+						"Text": "Adds the premium Gold Paint Finish to the Customizer, from where it can be applied to any building."
+					},
+					"Keys": [
+						{
+							"Key": "Caterium_PaintFinish/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced MultiMetal Production"
 					},
 					"Keys": [
@@ -2339,6 +2375,18 @@
 					"Keys": [
 						{
 							"Key": "EzekielOrePurifying/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Paint Finish"
+					},
+					"Keys": [
+						{
+							"Key": "Caterium_PaintFinish/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

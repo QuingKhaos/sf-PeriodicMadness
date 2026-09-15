@@ -87,6 +87,7 @@ patches:
           # Generic matches
           - Boombox
           - CoffeeCup
+          - CustomizerUnlock
           - InventorySlots
           - Patterns
           - Pioneercosmetics
@@ -144,6 +145,7 @@ patches:
           - PowerCrystalShard
           - PowerPole
           - Rebar
+          - ResourceSink
           - StandaloneWidgetSign
           - StorageContainer
           - StoragePlayer
@@ -177,6 +179,9 @@ patches:
           - ConveyorCeilingAttachment
           - ConveyorLift
           - ConveyorPole
+          - Customization/PaintFinishes
+          - Customization/Patterns
+          - Customization/Swatches
           - Environment
           - Filter
           - Gasmask
@@ -198,6 +203,7 @@ patches:
           - PortalPotty
           - PowerPole
           - Rebar
+          - ResourceSink
           - ShockShank
           - StandaloneWidgetSign
           - StorageContainer

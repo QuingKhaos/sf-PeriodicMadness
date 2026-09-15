@@ -519,24 +519,24 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 65
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/ResourceSink/UI/ResourceSink_512.ResourceSink_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ResourceSink/Desc_ResourceSink.Desc_ResourceSink_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 66
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/UI/ResourceSinkShop_512.ResourceSinkShop_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Desc_ResourceSinkShop.Desc_ResourceSinkShop_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 65
+            Texture: "/Game/FactoryGame/Buildable/Factory/ResourceSink/UI/ResourceSink_512.ResourceSink_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ResourceSink/Desc_ResourceSink.Desc_ResourceSink_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 66
+            Texture: "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/UI/ResourceSinkShop_512.ResourceSinkShop_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Desc_ResourceSinkShop.Desc_ResourceSinkShop_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 67
             Texture: "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/UI/IconDesc_CoalGenerator_512.IconDesc_CoalGenerator_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Desc_GeneratorCoal.Desc_GeneratorCoal_C"
