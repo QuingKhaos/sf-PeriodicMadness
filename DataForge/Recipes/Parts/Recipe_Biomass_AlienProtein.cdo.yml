@@ -6,7 +6,7 @@ patches:
     properties:
       - path: mProduct[0].ItemClass
         value: /PeriodicMadness/Resources/RNM/Biostuff/Biomass/Desc_PM_Biomass.Desc_PM_Biomass_C
-      - path: mOverridenCategory
+      - path: mOverriddenCategory
         value: /PeriodicMadness/Resources/RNM/Biostuff/Cat_PM_RNM_Biostuff.Cat_PM_RNM_Biostuff_C
       - path: mManufacturingMenuPriority
         value: 5.254
