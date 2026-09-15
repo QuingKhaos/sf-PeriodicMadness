@@ -39,7 +39,7 @@
 		{
 			"Name": "BurnerManufacturer",
 			"Enabled": true,
-			"SemVersion": "^1.0.0"
+			"SemVersion": "^1.0.1"
 		},
 		{
 			"Name": "Fabricator",
