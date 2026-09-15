@@ -104,6 +104,8 @@ patches:
           - Customization/PaintFinishes
           - Customization/Patterns
           - Customization/Swatches
+          - Filter
+          - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
           - Inhaler
@@ -112,6 +114,7 @@ patches:
           - Mam
           - Miner
           - ObjectScanner
+          - Parachute
           - Pipeline
           - PipeStorage
           - PipeSupport
@@ -150,6 +153,8 @@ patches:
           - ConveyorCeilingAttachment
           - ConveyorLift
           - ConveyorPole
+          - Filter
+          - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
           - JumpingStilts
@@ -159,6 +164,7 @@ patches:
           - Medkit
           - Miner
           - ObjectScanner
+          - Parachute
           - Pipeline
           - PipeStorage
           - PortableMiner
