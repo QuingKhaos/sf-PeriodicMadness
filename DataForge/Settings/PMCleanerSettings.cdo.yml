@@ -115,7 +115,6 @@ patches:
           - LightsControlPanel
           - LookoutTower
           - Mam
-          - Miner
           - ObjectScanner
           - Parachute
           - Pipeline
@@ -124,7 +123,6 @@ patches:
           - PortableMiner
           - PortalPotty
           - PowerCrystalShard
-          - PowerLine
           - PowerPole
           - Rebar
           - StandaloneWidgetSign
@@ -136,11 +134,13 @@ patches:
           - Workshop
           - XenoZapper
           # Specific recipes
-          - Recipe_Alien
+          - Recipe_AlienDNACapsule
           - Recipe_Biomass_AlienProtein
           # - Recipe_Foundation_8x1_01
+          - Recipe_Miner
           - Recipe_Protein
           # More specific recipes
+          - Recipe_PowerLine.Recipe_PowerLine
           - TowTruck/Recipe_SpaceElevator
       - path: mItemClassAllowlist
         value:
@@ -174,7 +174,6 @@ patches:
           - PipeStorage
           - PortableMiner
           - PortalPotty
-          - PowerLine
           - PowerPole
           - Rebar
           - ShockShank
@@ -186,13 +185,15 @@ patches:
           - WorkBench
           - Workshop
           # Specific items
-          - Desc_Alien
+          - Desc_AlienDNACapsule
+          - Desc_AlienProtein
           # - Desc_Foundation_8x1_01
           - Desc_Geyser
           - Desc_HardDrive
           - Desc_WAT1
           - Desc_WAT2
           # More specific items
+          - Desc_PowerLine.Desc_PowerLine
           - SpaceElevator/Desc_SpaceElevator
       - path: mResourceScannerAllowlist
         value:
