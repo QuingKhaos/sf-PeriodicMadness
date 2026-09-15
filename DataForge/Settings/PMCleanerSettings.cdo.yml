@@ -22,11 +22,11 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - Geyser
-          - SAM
           - Uranium
           # must be allowed to be replaced
           - Desc_Coal
           - Desc_Stone
+          - Desc_SAM
           - Desc_NitrogenGas
           - Desc_Water
           - Desc_LiquidOil
@@ -36,6 +36,8 @@ patches:
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Coal/Desc_PM_Coal.Desc_PM_Coal_C
           - Target: /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Stone/Desc_PM_Stone.Desc_PM_Stone_C
+          - Target: /Game/FactoryGame/Resource/RawResources/SAM/Desc_SAM.Desc_SAM_C
+            Replacement: /PeriodicMadness/Resources/Products/AlienTech/SAM/Desc_PM_SAM.Desc_PM_SAM_C
           - Target: /Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C
             Replacement: /PeriodicMadness/Resources/NB/NobleGases/MixedNobleGas/Desc_PM_MixedNobleGas.Desc_PM_MixedNobleGas_C
           - Target: /Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C
@@ -96,6 +98,7 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - BladeRunners
+          - CentralStorage
           - ConveyorAttachment
           - ConveyorBelt
           - ConveyorCeilingAttachment
@@ -104,17 +107,22 @@ patches:
           - Customization/PaintFinishes
           - Customization/Patterns
           - Customization/Swatches
+          - Filter
+          - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
+          - Inhaler
           - LightsControlPanel
           - LookoutTower
           - Mam
           - Miner
           - ObjectScanner
+          - Parachute
           - Pipeline
           - PipeStorage
           - PipeSupport
           - PortableMiner
+          - PortalPotty
           - PowerCrystalShard
           - PowerLine
           - PowerPole
@@ -143,23 +151,29 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - AnimalParts
-          - Environment
+          - CentralStorage
           - ConveyorAttachment
           - ConveyorBelt
           - ConveyorCeilingAttachment
           - ConveyorLift
           - ConveyorPole
+          - Environment
+          - Filter
+          - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
           - JumpingStilts
           - LightsControlPanel
           - LookoutTower
           - Mam
+          - Medkit
           - Miner
           - ObjectScanner
+          - Parachute
           - Pipeline
           - PipeStorage
           - PortableMiner
+          - PortalPotty
           - PowerLine
           - PowerPole
           - Rebar
@@ -179,7 +193,6 @@ patches:
           - Desc_WAT1
           - Desc_WAT2
           # More specific items
-          - SAM/Desc_SAM
           - SpaceElevator/Desc_SpaceElevator
       - path: mResourceScannerAllowlist
         value:
@@ -187,5 +200,4 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - Geyser
-          - SAM
           - Uranium
