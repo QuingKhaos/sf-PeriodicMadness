@@ -1,0 +1,9 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Narrative/Tier2/MSG_Tier2_Schematic_2-3.MSG_Tier2_Schematic_2-3
+    properties:
+      - path: mTrigger.mSchematics
+        value:
+          - /PeriodicMadness/Schematics/Progression/Schematic_PM_JumpPads.Schematic_PM_JumpPads_C

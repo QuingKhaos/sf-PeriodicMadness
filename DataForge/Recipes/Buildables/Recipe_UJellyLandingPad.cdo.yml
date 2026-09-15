@@ -1,0 +1,12 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Buildings/Recipe_UJellyLandingPad.Recipe_UJellyLandingPad_C
+    properties:
+      - path: mIngredients[0].ItemClass
+        value: /PeriodicMadness/Resources/Products/Screws/BrassScrew/Desc_PM_BrassScrew.Desc_PM_BrassScrew_C
+      - path: mIngredients[1].ItemClass
+        value: /PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Desc_PM_IronPlate_C
+      - path: mIngredients[2].ItemClass
+        value: /PeriodicMadness/Resources/RNM/Biostuff/Biomass/Desc_PM_Biomass.Desc_PM_Biomass_C

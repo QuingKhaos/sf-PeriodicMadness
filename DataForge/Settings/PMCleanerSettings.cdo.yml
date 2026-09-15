@@ -129,6 +129,8 @@ patches:
           - GeneratorBiomass
           - GeneratorCoal
           - Inhaler
+          - JumpPad
+          - LandingPad
           - LightsControlPanel
           - LookoutTower
           - Mam
@@ -181,6 +183,8 @@ patches:
           - GeneratorBiomass
           - GeneratorCoal
           - JumpingStilts
+          - JumpPad
+          - LandingPad
           - LightsControlPanel
           - LookoutTower
           - Mam
