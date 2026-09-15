@@ -2471,6 +2471,50 @@
 				{
 					"Source":
 					{
+						"Text": "Upload Upgrade: 300/min"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UploadUpgrade/01/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Upload Upgrade: 450/min"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UploadUpgrade/02/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Upload Upgrade: 600/min"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UploadUpgrade/03/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Upload Upgrade: 900/min"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UploadUpgrade/04/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Using better techniques and filtering to squeeze more power out."
 					},
 					"Translation":

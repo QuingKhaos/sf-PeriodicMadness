@@ -2425,6 +2425,54 @@
 				{
 					"Source":
 					{
+						"Text": "Upload Upgrade: 300/min"
+					},
+					"Keys": [
+						{
+							"Key": "UploadUpgrade/01/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Upload Upgrade: 450/min"
+					},
+					"Keys": [
+						{
+							"Key": "UploadUpgrade/02/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Upload Upgrade: 600/min"
+					},
+					"Keys": [
+						{
+							"Key": "UploadUpgrade/03/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Upload Upgrade: 900/min"
+					},
+					"Keys": [
+						{
+							"Key": "UploadUpgrade/04/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Using better techniques and filtering to squeeze more power out."
 					},
 					"Keys": [

@@ -8151,15 +8151,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 886
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PortalPotty/UI/IconDesc_PortableToilet_512.IconDesc_PortableToilet_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PortalPotty/Desc_PortalPotty.Desc_PortalPotty_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 886
+            Texture: "/Game/FactoryGame/Buildable/Factory/PortalPotty/UI/IconDesc_PortableToilet_512.IconDesc_PortableToilet_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PortalPotty/Desc_PortalPotty.Desc_PortalPotty_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 887
           #   Texture: "/Game/FactoryGame/Buildable/Factory/TruckStation/UI/IconDesc_TruckStation_Fluid_512.IconDesc_TruckStation_Fluid_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/TruckStation/Desc_FluidTruckStation.Desc_FluidTruckStation_C"
