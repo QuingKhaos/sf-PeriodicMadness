@@ -11,6 +11,21 @@ class UFGResourceDescriptor;
 class UFGSchematic;
 
 USTRUCT(BlueprintType)
+struct FPMStaticMeshRemovalByMaterial
+{
+	GENERATED_BODY()
+
+public:
+	/** The static mesh substring to be removed if they use the specified material. */
+	UPROPERTY(BlueprintReadOnly, Category = "Periodic Madness|Resource Cleanup")
+	FString StaticMesh;
+
+	/** The material substring to check for. */
+	UPROPERTY(BlueprintReadOnly, Category = "Periodic Madness|Resource Cleanup")
+	FString Material;
+};
+
+USTRUCT(BlueprintType)
 struct FPMSchematicCleanup
 {
 	GENERATED_BODY()
@@ -74,6 +89,8 @@ public:
 
 	/** Checks if a static mesh is allowed to be removed. */
 	bool ShouldRemoveStaticMesh(const UStaticMesh* StaticMesh) const;
+	/** Checks if a static mesh by material is allowed to be removed. */
+	bool ShouldRemoveStaticMeshByMaterial(const UStaticMesh* StaticMesh, TArray<UMaterialInterface*> UsedMaterials) const;
 	/** Checks if a resource class is allowed to be removed. */
 	bool ShouldRemoveResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass) const;
 	/** Checks if a resource class should be replaced and provides the replacement class. */
@@ -99,6 +116,10 @@ protected:
 	/** List of static meshes substrings to be cleaned up */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
 	TArray<FString> mStaticMeshesCleanlist;
+
+	/** List of static meshes by material to be cleaned up */
+	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
+	TArray<FPMStaticMeshRemovalByMaterial> mStaticMeshesByMaterialCleanlist;
 
 	/** List of resource class substrings to block from removal. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")

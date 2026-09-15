@@ -10,12 +10,18 @@ patches:
           - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreGold_01
           # Copper
           - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreCopper_01
-          # Iron
-          - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreIron_01
           # Quartz
           - /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_quartz
           # Sulfur
           - /Game/FactoryGame/Resource/RawResources/Nodes/SulfurResource_01
+      - path: mStaticMeshesByMaterialCleanlist
+        value:
+          # Bauxite
+          - StaticMesh: /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreIron_01
+            Material: Bauxite
+          # Iron
+          - StaticMesh: /Game/FactoryGame/Resource/RawResources/Nodes/ResourceNode_OreIron_01
+            Material: Iron
       - path: mResourceClassAllowlist
         value:
           # Mods

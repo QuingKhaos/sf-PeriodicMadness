@@ -31,6 +31,27 @@ bool UPMCleanerSettings::ShouldRemoveStaticMesh(const UStaticMesh* StaticMesh) c
 	return false;
 }
 
+bool UPMCleanerSettings::ShouldRemoveStaticMeshByMaterial(const UStaticMesh* StaticMesh, TArray<UMaterialInterface*> UsedMaterials) const
+{
+	FString StaticMeshName = UKismetSystemLibrary::GetPathName(StaticMesh);
+
+	for (const FPMStaticMeshRemovalByMaterial& CleanlistEntry : mStaticMeshesByMaterialCleanlist)
+	{
+		if (StaticMeshName.Contains(CleanlistEntry.StaticMesh, ESearchCase::CaseSensitive))
+		{
+			for (const UMaterialInterface* Material : UsedMaterials)
+			{
+				if (Material && UKismetSystemLibrary::GetPathName(Material).Contains(CleanlistEntry.Material, ESearchCase::CaseSensitive))
+				{
+					return true;
+				}
+			}
+		}
+	}
+
+	return false;
+}
+
 bool UPMCleanerSettings::ShouldRemoveResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass) const
 {
 	FString ResourceClassName = UKismetSystemLibrary::GetPathName(ResourceClass);

@@ -93,11 +93,22 @@ void APMCleanerSubsystem::RemoveStaticMeshes()
 		AStaticMeshActor* StaticMeshActor = Cast<AStaticMeshActor>(Actor);
 		if (StaticMeshActor && StaticMeshActor->GetStaticMeshComponent())
 		{
-			UStaticMesh* Mesh = StaticMeshActor->GetStaticMeshComponent()->GetStaticMesh();
-			if (Mesh && CleanerSettings->ShouldRemoveStaticMesh(Mesh))
+			if (UStaticMesh* Mesh = StaticMeshActor->GetStaticMeshComponent()->GetStaticMesh())
 			{
-				PM_LOG_ARGS(Verbose, TEXT("Destroying static mesh actor: %s, Mesh: %s"), *UKismetSystemLibrary::GetPathName(StaticMeshActor), *UKismetSystemLibrary::GetPathName(Mesh));
-				StaticMeshActor->Destroy();
+				if (CleanerSettings->ShouldRemoveStaticMesh(Mesh))
+				{
+					PM_LOG_ARGS(Verbose, TEXT("Destroying static mesh actor: %s, Mesh: %s"), *UKismetSystemLibrary::GetPathName(StaticMeshActor), *UKismetSystemLibrary::GetPathName(Mesh));
+					StaticMeshActor->Destroy();
+				}
+				else
+				{
+					TArray<UMaterialInterface*> UsedMaterials = StaticMeshActor->GetStaticMeshComponent()->GetMaterials();
+					if (CleanerSettings->ShouldRemoveStaticMeshByMaterial(Mesh, UsedMaterials))
+					{
+						PM_LOG_ARGS(Verbose, TEXT("Destroying static mesh actor by material: %s, Mesh: %s"), *UKismetSystemLibrary::GetPathName(StaticMeshActor), *UKismetSystemLibrary::GetPathName(Mesh));
+						StaticMeshActor->Destroy();
+					}
+				}
 			}
 		}
 	}
