@@ -10,6 +10,21 @@ class UFGResearchTree;
 class UFGResourceDescriptor;
 class UFGSchematic;
 
+USTRUCT(BlueprintType)
+struct FPMSchematicCleanup
+{
+	GENERATED_BODY()
+
+public:
+	/** The schematic class to be cleaned up. */
+	UPROPERTY(BlueprintReadOnly, Category = "Periodic Madness|Resource Cleanup")
+	TSubclassOf<UFGSchematic> Schematic;
+
+	/** The scannable resource classes to be cleaned up from the schematic. */
+	UPROPERTY(BlueprintReadOnly, Category = "Periodic Madness|Resource Cleanup")
+	TArray<TSubclassOf<UFGResourceDescriptor>> ScannableResourceClassCleanlist;
+};
+
 /**
  * Item replacement mapping.
  */
@@ -71,6 +86,8 @@ public:
 	bool ShouldRemoveResearchTreeClass(const TSubclassOf<UFGResearchTree>& ResearchTreeClass) const;
 	/** Checks if a schematic class is allowed to be removed. */
 	bool ShouldRemoveSchematicClass(const TSubclassOf<UFGSchematic>& SchematicClass) const;
+	/** Checks if a schematic should be cleaned up and provides the cleanup data. */
+	bool ShouldCleanupSchematic(const TSubclassOf<UFGSchematic>& SchematicClass, FPMSchematicCleanup& OutCleanup) const;
 	/** Checks if a recipe class is allowed to be removed. */
 	bool ShouldRemoveRecipeClass(const TSubclassOf<UFGRecipe>& RecipeClass) const;
 	/** Checks if an item class is allowed to be removed. */
@@ -106,6 +123,10 @@ protected:
 	/** List of schematic class substrings to block from removal. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
 	TArray<FString> mSchematicClassAllowlist;
+
+	/** List of schematics to clean up. */
+	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
+	TArray<FPMSchematicCleanup> mSchematicCleanupList;
 
 	/** List of recipe class substrings to block from removal. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")

@@ -84,6 +84,14 @@ patches:
           - Pioneercosmetics
           - Statue
           - Tapes
+      - path: mSchematicCleanupList
+        value:
+          - Schematic: /PeriodicMadness/Schematics/Tutorial/Schematic_PM_Tutorial1_5.Schematic_PM_Tutorial1_5_C
+            ScannableResourceClassCleanlist:
+              - /Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C
+          - Schematic: /PeriodicMadness/Schematics/Tutorial/Schematic_PM_Tutorial2.Schematic_PM_Tutorial2_C
+            ScannableResourceClassCleanlist:
+              - /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
       - path: mRecipeClassAllowlist
         value:
           # Mods

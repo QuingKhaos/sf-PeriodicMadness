@@ -194,6 +194,38 @@ void UPMCleanerWorldModule::RemoveSchematics()
 
 				mCachedCDO.Add(SchematicCDO);
 			}
+
+			FPMSchematicCleanup CleanupData;
+			if (CleanerSettings->ShouldCleanupSchematic(Schematic, CleanupData))
+			{
+				UFGSchematic* SchematicCDO = GetMutableDefault<UFGSchematic>(Schematic);
+				for (UFGUnlock* Unlock : SchematicCDO->mUnlocks)
+				{
+					if (Unlock)
+					{
+						if (UFGUnlockScannableResource* UnlockScannableResource = Cast<UFGUnlockScannableResource>(Unlock))
+						{
+							TArray<FScannableResourcePair> ResourcePairsToRemove;
+							ResourcePairsToRemove.Append(UnlockScannableResource->mResourcePairsToAddToScanner);
+
+							for (const FScannableResourcePair& ResourcePair : ResourcePairsToRemove)
+							{
+								for (const TSubclassOf<UFGResourceDescriptor>& ResourceClass : CleanupData.ScannableResourceClassCleanlist)
+								{
+									if (ResourcePair.ResourceDescriptor == ResourceClass)
+									{
+										PM_LOG_ARGS(Verbose, TEXT("Removing scannable resource: %s from schematic: %s"), *UKismetSystemLibrary::GetPathName(ResourceClass), *UKismetSystemLibrary::GetPathName(Schematic));
+										UnlockScannableResource->mResourcePairsToAddToScanner.Remove(ResourcePair);
+										break;
+									}
+								}
+							}
+						}
+					}
+				}
+
+				mCachedCDO.Add(SchematicCDO);
+			}
 		}
 	}
 }

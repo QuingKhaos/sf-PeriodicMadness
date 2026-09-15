@@ -127,6 +127,20 @@ bool UPMCleanerSettings::ShouldRemoveSchematicClass(const TSubclassOf<UFGSchemat
 	return !bIsAllowlisted;
 }
 
+bool UPMCleanerSettings::ShouldCleanupSchematic(const TSubclassOf<UFGSchematic>& SchematicClass, FPMSchematicCleanup& OutCleanup) const
+{
+	for (const FPMSchematicCleanup& Cleanup : mSchematicCleanupList)
+	{
+		if (SchematicClass == Cleanup.Schematic)
+		{
+			OutCleanup = Cleanup;
+			return true;
+		}
+	}
+
+	return false;
+}
+
 bool UPMCleanerSettings::ShouldRemoveRecipeClass(const TSubclassOf<UFGRecipe>& RecipeClass) const
 {
 	FString RecipeClassName = UKismetSystemLibrary::GetPathName(RecipeClass);
