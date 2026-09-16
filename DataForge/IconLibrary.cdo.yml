@@ -4119,15 +4119,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 447
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/IconDesc_StorageHazard_512.IconDesc_StorageHazard_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageHazard.Desc_StorageHazard_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 447
+            Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/IconDesc_StorageHazard_512.IconDesc_StorageHazard_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageHazard.Desc_StorageHazard_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 448
           #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedUp/IconDesc_FicsitInvURamp1m_512.IconDesc_FicsitInvURamp1m_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1_Corner_01.Desc_RampInverted_8x1_Corner_01_C"
@@ -4245,15 +4245,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 461
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/IconDesc_StorageMedkit_512.IconDesc_StorageMedkit_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageMedkit.Desc_StorageMedkit_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 461
+            Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/IconDesc_StorageMedkit_512.IconDesc_StorageMedkit_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageMedkit.Desc_StorageMedkit_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 462
           #   Texture: "/Game/FactoryGame/Buildable/Building/Roof/UI/IconDesc_FicsitRoofFlat_512.IconDesc_FicsitRoofFlat_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_01.Desc_Roof_Orange_01_C"
@@ -7980,15 +7980,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 867
-          #   Texture: "/Game/FactoryGame/Buildable/Building/StackableShelf/UI/IconDesc_StackableShelf_512.IconDesc_StackableShelf_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/StackableShelf/Desc_StackableShelf.Desc_StackableShelf_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 867
+            Texture: "/Game/FactoryGame/Buildable/Building/StackableShelf/UI/IconDesc_StackableShelf_512.IconDesc_StackableShelf_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/StackableShelf/Desc_StackableShelf.Desc_StackableShelf_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 868
           #   Texture: "/Game/FactoryGame/Buildable/Factory/Elevator/UI/IconDesc_PersonnelElevator_512.IconDesc_PersonnelElevator_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Elevator/Desc_Elevator.Desc_Elevator_C"

@@ -146,8 +146,11 @@ patches:
           - PowerPole
           - Rebar
           - ResourceSink
+          - StackableShelf
           - StandaloneWidgetSign
           - StorageContainer
+          - StorageHazard
+          - StorageMedkit
           - StoragePlayer
           - StreetLight
           - TradingPost
@@ -213,8 +216,11 @@ patches:
           - Rebar
           - ResourceSink
           - ShockShank
+          - StackableShelf
           - StandaloneWidgetSign
           - StorageContainer
+          - StorageHazard
+          - StorageMedkit
           - StoragePlayer
           - StreetLight
           - TradingPost
