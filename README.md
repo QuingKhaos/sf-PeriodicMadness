@@ -6,9 +6,9 @@
 
 Even with 1.x releases, Periodic Madness is still a big Work In Progress. I switched to 1.x releases, so if there is ever an upcoming breaking change, the major version will be increased for you to know.
 
-For Satisfactory 1.2, Periodic Madness was recreated from scratch and the current `v1.0.0-beta.3` release contains only the onboarding phase and content for the first transition metal science pack.
+For Satisfactory 1.2, Periodic Madness was recreated from scratch and the current `v1.0.0-rc.1` release contains only the onboarding phase and content for the first transition metal science pack.
 
-**If you want to test the the current `v1.0.0-beta.3` release, you need to explicitly choose this version via SMM's "Change version" button. Otherwise SMM will just install the old non-working 0.x version!**
+**If you want to test the the current `v1.0.0-rc.1` release, you need to explicitly choose this version via SMM's "Change version" button. Otherwise SMM will just install the old non-working 0.x version!**
 
 ---
 
