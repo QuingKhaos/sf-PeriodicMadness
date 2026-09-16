@@ -3480,15 +3480,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 376
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_ConveyorFloorHole_512.IconDesc_ConveyorFloorHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Lift.Desc_FoundationPassthrough_Lift_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 376
+            Texture: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_ConveyorFloorHole_512.IconDesc_ConveyorFloorHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Lift.Desc_FoundationPassthrough_Lift_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 377
           #   Texture: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_PipeFloorHole_512.IconDesc_PipeFloorHole_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Pipe.Desc_FoundationPassthrough_Pipe_C"
@@ -8025,15 +8025,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 872
-          #   Texture: "/Game/FactoryGame/Buildable/Building/ConveyorHole/UI/IconDesc_ConveyorWallHole_512.IconDesc_ConveyorWallHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/ConveyorHole/Desc_ConveyorWallHole.Desc_ConveyorWallHole_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 872
+            Texture: "/Game/FactoryGame/Buildable/Building/ConveyorHole/UI/IconDesc_ConveyorWallHole_512.IconDesc_ConveyorWallHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/ConveyorHole/Desc_ConveyorWallHole.Desc_ConveyorWallHole_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 873
           #   Texture: "/Game/FactoryGame/Prototype/Buildable/Beams/UI/IconDesc_CableBeam_512.IconDesc_CableBeam_512"
           #   itemDescriptor: "/Game/FactoryGame/Prototype/Buildable/Beams/Desc_Beam_Cable.Desc_Beam_Cable_C"

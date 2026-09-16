@@ -122,6 +122,7 @@ patches:
           - ConveyorCeilingAttachment
           - ConveyorLift
           - ConveyorPole
+          - ConveyorWallHole
           - Customization/PaintFinishes
           - Customization/Patterns
           - Customization/Swatches
@@ -186,6 +187,7 @@ patches:
           - ConveyorCeilingAttachment
           - ConveyorLift
           - ConveyorPole
+          - ConveyorWallHole
           - Customization/PaintFinishes
           - Customization/Patterns
           - Customization/Swatches
