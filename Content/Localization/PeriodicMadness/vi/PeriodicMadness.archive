@@ -814,6 +814,17 @@
 				{
 					"Source":
 					{
+						"Text": "Crusher"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "CrusherMk1/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Crushing"
 					},
 					"Translation":
@@ -858,6 +869,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fabricator Mk.2"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "FabricatorMk2/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Finish"
 					},
 					"Translation":
@@ -875,7 +897,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "BurnerCrusher/Desc"
+					"Key": "Laboratory/Desc"
 				},
 				{
 					"Source":
@@ -886,7 +908,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Laboratory/Desc"
+					"Key": "BurnerCrusher/Desc"
 				},
 				{
 					"Source":
@@ -913,6 +935,17 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 150 %."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "CrusherMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 50%. The first output is located at the production indicator."
 					},
 					"Translation":
@@ -931,6 +964,17 @@
 						"Text": ""
 					},
 					"Key": "EvaporatorMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 75 %. The first output is located at the production indicator."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "FabricatorMk2/Desc"
 				},
 				{
 					"Source":
@@ -2439,6 +2483,17 @@
 						"Text": ""
 					},
 					"Key": "AutomationMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Automation Mk.2"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AutomationMk2/Name"
 				},
 				{
 					"Source":

@@ -629,6 +629,18 @@
 				{
 					"Source":
 					{
+						"Text": "Crusher"
+					},
+					"Keys": [
+						{
+							"Key": "CrusherMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Crushing"
 					},
 					"Keys": [
@@ -677,6 +689,18 @@
 				{
 					"Source":
 					{
+						"Text": "Fabricator Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "FabricatorMk2/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Finish"
 					},
 					"Keys": [
@@ -705,10 +729,6 @@
 					},
 					"Keys": [
 						{
-							"Key": "BurnerCrusher/Desc",
-							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
-						},
-						{
 							"Key": "Laboratory/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
@@ -722,6 +742,18 @@
 					"Keys": [
 						{
 							"Key": "ElectrolysisPlantMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 150 %."
+					},
+					"Keys": [
+						{
+							"Key": "CrusherMk1/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -753,11 +785,35 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 75 %. The first output is located at the production indicator."
+					},
+					"Keys": [
+						{
+							"Key": "FabricatorMk2/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Laboratory"
 					},
 					"Keys": [
 						{
 							"Key": "Laboratory/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100 %."
+					},
+					"Keys": [
+						{
+							"Key": "BurnerCrusher/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -2379,6 +2435,18 @@
 					"Keys": [
 						{
 							"Key": "AutomationMk1/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Automation Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "AutomationMk2/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
