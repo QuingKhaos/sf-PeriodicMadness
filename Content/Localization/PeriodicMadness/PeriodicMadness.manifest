@@ -62,6 +62,10 @@
 						{
 							"Key": "Gold Plate",
 							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldPlate/Desc_PM_GoldPlate.Default__Desc_PM_GoldPlate_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Gold Wire",
+							"Path": "/PeriodicMadness/Resources/Products/Wires/GoldWire/Desc_PM_GoldWire.Default__Desc_PM_GoldWire_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -1760,6 +1764,18 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Wire"
+					},
+					"Keys": [
+						{
+							"Key": "GoldWire/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Gravel"
 					},
 					"Keys": [
@@ -2538,6 +2554,18 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Processing"
+					},
+					"Keys": [
+						{
+							"Key": "GoldProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Illumination for better visibility at night."
 					},
 					"Keys": [
@@ -2579,6 +2607,18 @@
 					"Keys": [
 						{
 							"Key": "MercuryProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "More advanced ways of using gold and its properties for products."
+					},
+					"Keys": [
+						{
+							"Key": "GoldProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

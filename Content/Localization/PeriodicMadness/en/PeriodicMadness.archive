@@ -107,6 +107,17 @@
 				{
 					"Source":
 					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": "Au"
+					},
+					"Key": "Gold Wire"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ca"
 					},
 					"Translation":
@@ -124,29 +135,18 @@
 					{
 						"Text": "Cl"
 					},
-					"Key": "Packaged Chlorine Gas"
-				},
-				{
-					"Source":
-					{
-						"Text": "Cl"
-					},
-					"Translation":
-					{
-						"Text": "Cl"
-					},
 					"Key": "Chlorine Gas"
 				},
 				{
 					"Source":
 					{
-						"Text": "Cu"
+						"Text": "Cl"
 					},
 					"Translation":
 					{
-						"Text": "Cu"
+						"Text": "Cl"
 					},
-					"Key": "Copper Chunks"
+					"Key": "Packaged Chlorine Gas"
 				},
 				{
 					"Source":
@@ -195,6 +195,28 @@
 				{
 					"Source":
 					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": "Cu"
+					},
+					"Key": "Copper Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": "Fe"
+					},
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fe"
 					},
 					"Translation":
@@ -235,17 +257,6 @@
 						"Text": "Fe"
 					},
 					"Key": "Iron Screws"
-				},
-				{
-					"Source":
-					{
-						"Text": "Fe"
-					},
-					"Translation":
-					{
-						"Text": "Fe"
-					},
-					"Key": "Iron Chunks"
 				},
 				{
 					"Source":
@@ -1861,6 +1872,17 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Wire"
+					},
+					"Translation":
+					{
+						"Text": "Gold Wire"
+					},
+					"Key": "GoldWire/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gravel"
 					},
 					"Translation":
@@ -2575,6 +2597,17 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Processing"
+					},
+					"Translation":
+					{
+						"Text": "Gold Processing"
+					},
+					"Key": "GoldProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Illumination for better visibility at night."
 					},
 					"Translation":
@@ -2615,6 +2648,17 @@
 						"Text": "Mercury Processing"
 					},
 					"Key": "MercuryProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "More advanced ways of using gold and its properties for products."
+					},
+					"Translation":
+					{
+						"Text": "More advanced ways of using gold and its properties for products."
+					},
+					"Key": "GoldProcessing/Desc"
 				},
 				{
 					"Source":

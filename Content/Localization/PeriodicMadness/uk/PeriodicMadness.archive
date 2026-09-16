@@ -107,6 +107,17 @@
 				{
 					"Source":
 					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Gold Wire"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ca"
 					},
 					"Translation":
@@ -124,7 +135,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Chlorine Gas"
+					"Key": "Chlorine Gas"
 				},
 				{
 					"Source":
@@ -135,18 +146,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Chlorine Gas"
-				},
-				{
-					"Source":
-					{
-						"Text": "Cu"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Copper Chunks"
+					"Key": "Packaged Chlorine Gas"
 				},
 				{
 					"Source":
@@ -195,6 +195,28 @@
 				{
 					"Source":
 					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Copper Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fe"
 					},
 					"Translation":
@@ -235,17 +257,6 @@
 						"Text": ""
 					},
 					"Key": "Iron Screws"
-				},
-				{
-					"Source":
-					{
-						"Text": "Fe"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Iron Chunks"
 				},
 				{
 					"Source":
@@ -1861,6 +1872,17 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Wire"
+					},
+					"Translation":
+					{
+						"Text": "Золотий дріт"
+					},
+					"Key": "GoldWire/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gravel"
 					},
 					"Translation":
@@ -2575,6 +2597,17 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "GoldProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Illumination for better visibility at night."
 					},
 					"Translation":
@@ -2615,6 +2648,17 @@
 						"Text": ""
 					},
 					"Key": "MercuryProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "More advanced ways of using gold and its properties for products."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "GoldProcessing/Desc"
 				},
 				{
 					"Source":
