@@ -81,7 +81,6 @@ patches:
         value:
           # Mods
           - /AllMapRadar/
-          - /FreeSigns/
           - /MagicMachine/
           - /PeriodicMadness/
           # Generic matches
@@ -105,7 +104,6 @@ patches:
         value:
           # Mods
           - /AllMapRadar/
-          - /FreeSigns/
           - /MagicMachine/FluidSpawner/
           - /MagicMachine/Rec_Magic
           - /MagicMachine/MagicEnergy/
@@ -175,7 +173,6 @@ patches:
         value:
           # Mods
           - /AllMapRadar/
-          - /FreeSigns/
           - /MagicMachine/
           - /PeriodicMadness/
           # Generic matches

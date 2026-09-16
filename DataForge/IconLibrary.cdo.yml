@@ -3669,24 +3669,24 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 397
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignLarge_512.IconDesc_SignLarge_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Large.Desc_StandaloneWidgetSign_Large_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 398
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignHuge_512.IconDesc_SignHuge_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Huge.Desc_StandaloneWidgetSign_Huge_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 397
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignLarge_512.IconDesc_SignLarge_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Large.Desc_StandaloneWidgetSign_Large_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 398
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignHuge_512.IconDesc_SignHuge_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Huge.Desc_StandaloneWidgetSign_Huge_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 399
           #   Texture: "/Game/FactoryGame/Buildable/Building/Catwalk/UI/IconDesc_CatwalkStraight_512.IconDesc_CatwalkStraight_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Catwalk/Desc_CatwalkStraight.Desc_CatwalkStraight_C"
@@ -3894,42 +3894,42 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 422
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignMedium_512.IconDesc_SignMedium_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Medium.Desc_StandaloneWidgetSign_Medium_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 423
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignPortrait_512.IconDesc_SignPortrait_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Portrait.Desc_StandaloneWidgetSign_Portrait_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 424
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquareSmall_512.IconDesc_SignSquareSmall_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square_Small.Desc_StandaloneWidgetSign_Square_Small_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 425
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquare_512.IconDesc_SignSquare_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square.Desc_StandaloneWidgetSign_Square_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 422
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignMedium_512.IconDesc_SignMedium_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Medium.Desc_StandaloneWidgetSign_Medium_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 423
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignPortrait_512.IconDesc_SignPortrait_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Portrait.Desc_StandaloneWidgetSign_Portrait_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 424
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquareSmall_512.IconDesc_SignSquareSmall_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square_Small.Desc_StandaloneWidgetSign_Square_Small_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 425
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquare_512.IconDesc_SignSquare_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square.Desc_StandaloneWidgetSign_Square_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 426
           #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Doors/IconDesc_SteelCenterDoor_512.IconDesc_SteelCenterDoor_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Door_8x4_01_Steel.Desc_Wall_Door_8x4_01_Steel_C"
@@ -4209,42 +4209,42 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 457
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmall_512.IconDesc_SignSmall_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Small.Desc_StandaloneWidgetSign_Small_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 458
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmallWide_512.IconDesc_SignSmallWide_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_SmallWide.Desc_StandaloneWidgetSign_SmallWide_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 459
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmallVeryWide_512.IconDesc_SignSmallVeryWide_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_SmallVeryWide.Desc_StandaloneWidgetSign_SmallVeryWide_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 460
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquareTiny_512.IconDesc_SignSquareTiny_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square_Tiny.Desc_StandaloneWidgetSign_Square_Tiny_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 457
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmall_512.IconDesc_SignSmall_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Small.Desc_StandaloneWidgetSign_Small_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 458
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmallWide_512.IconDesc_SignSmallWide_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_SmallWide.Desc_StandaloneWidgetSign_SmallWide_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 459
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmallVeryWide_512.IconDesc_SignSmallVeryWide_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_SmallVeryWide.Desc_StandaloneWidgetSign_SmallVeryWide_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 460
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquareTiny_512.IconDesc_SignSquareTiny_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square_Tiny.Desc_StandaloneWidgetSign_Square_Tiny_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 461
           #   Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/IconDesc_StorageMedkit_512.IconDesc_StorageMedkit_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageMedkit.Desc_StorageMedkit_C"
