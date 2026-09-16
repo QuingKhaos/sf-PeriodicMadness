@@ -165,10 +165,18 @@ patches:
           - Recipe_Miner
           - Recipe_Protein
           # More specific recipes
+          - FicsitSet/Recipe_Stair_FicsitSet
+          - FicsitSet/Recipe_QuarterPipeMiddle
           - Foundations/Recipe_Foundation_8
+          - Foundations/Recipe_QuarterPipe
+          - Ramps/Recipe_RampInverted
           - Ramps/Recipe_Ramp_8x1_01
           - Ramps/Recipe_Ramp_8x2_01
           - Ramps/Recipe_Ramp_8x4_01
+          - Ramps/Recipe_Ramp_8x4_Inverted_01
+          - Ramps/Recipe_Ramp_8x8
+          - Ramps/Recipe_Ramp_Diagonal
+          - Ramps/Recipe_RampDouble
           - Recipe_PowerLine.Recipe_PowerLine
           - TowTruck/Recipe_SpaceElevator
           - Walls/Recipe_Wall_8x4_01
@@ -238,11 +246,21 @@ patches:
           - Desc_WAT2
           # More specific items
           - Desc_PowerLine.Desc_PowerLine
+          - FicsitSet/Desc_Stair_FicsitSet
+          - FicsitSet/Desc_QuarterPipeMiddle
           - FicsitWallSet/Desc_Wall_Orange_8x1
           - Foundation/Desc_Foundation_8
+          - Foundation/Desc_QuarterPipe.Desc_QuarterPipe
+          - Foundation/Desc_QuarterPipe_02
+          - Foundation/Desc_QuarterPipeCorner
+          - Ramp/Desc_RampInverted
           - Ramp/Desc_Ramp_8x1_01
           - Ramp/Desc_Ramp_8x2_01
           - Ramp/Desc_Ramp_8x4_01
+          - Ramp/Desc_Ramp_8x4_Inverted_01
+          - Ramp/Desc_Ramp_8x8
+          - Ramp/Desc_Ramp_Diagonal
+          - Ramp/Desc_RampDouble
           - SpaceElevator/Desc_SpaceElevator
           - Wall/Desc_Wall_8x4_01
       - path: mResourceScannerAllowlist
