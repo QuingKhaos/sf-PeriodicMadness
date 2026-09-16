@@ -721,7 +721,7 @@
 					{
 						"Text": "Boiler"
 					},
-					"Key": "Boiler/Name"
+					"Key": "Boiler/Cat"
 				},
 				{
 					"Source":
@@ -732,7 +732,7 @@
 					{
 						"Text": "Boiler"
 					},
-					"Key": "Boiler/Cat"
+					"Key": "Boiler/Name"
 				},
 				{
 					"Source":
@@ -975,6 +975,28 @@
 						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100%."
 					},
 					"Key": "BurnerSmelterMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports fluids. Capacity: 180 m³ of fluid per minute."
+					},
+					"Translation":
+					{
+						"Text": "Transports fluids. Capacity: 180 m³ of fluid per minute."
+					},
+					"Key": "PipelineMk1/NoIndicator/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports fluids. External indicators show flow rate, direction, and volume. Capacity: 180 m³ of fluid per minute."
+					},
+					"Translation":
+					{
+						"Text": "Transports fluids. External indicators show flow rate, direction, and volume. Capacity: 180 m³ of fluid per minute."
+					},
+					"Key": "PipelineMk1/Desc"
 				},
 				{
 					"Source":

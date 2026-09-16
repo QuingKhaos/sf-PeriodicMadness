@@ -809,6 +809,30 @@
 				{
 					"Source":
 					{
+						"Text": "Transports fluids. Capacity: 180 m³ of fluid per minute."
+					},
+					"Keys": [
+						{
+							"Key": "PipelineMk1/NoIndicator/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports fluids. External indicators show flow rate, direction, and volume. Capacity: 180 m³ of fluid per minute."
+					},
+					"Keys": [
+						{
+							"Key": "PipelineMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transports up to 150 resources per minute. Used to move resources between buildings."
 					},
 					"Keys": [

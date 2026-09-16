@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0-rc.1
 Date: ????
+  Balancing:
+    - Reduce throughput of the Pipeline Mk1 to 180 m³ of fluid per minute.
   Bugfixes:
     - Remove double energy stat from Voltatic Discharger.
   Features:
