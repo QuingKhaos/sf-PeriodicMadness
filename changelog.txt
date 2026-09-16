@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0-rc.1
 Date: ????
+  Bugfixes:
+    - Remove double energy stat from Voltatic Discharger.
   Features:
     - Add FICSIT style foundations and walls to base building HUB milestone.
     - Fill the AWESOME Shop with most stuff.
