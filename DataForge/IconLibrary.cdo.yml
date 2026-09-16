@@ -1431,24 +1431,24 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 162
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK1_512.PowerPoleWall_MK1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWall.Desc_PowerPoleWall_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 163
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/UI/PowerPoleWallDouble_MK1_512.PowerPoleWallDouble_MK1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDouble.Desc_PowerPoleWallDouble_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 162
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK1_512.PowerPoleWall_MK1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWall.Desc_PowerPoleWall_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 163
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/UI/PowerPoleWallDouble_MK1_512.PowerPoleWallDouble_MK1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDouble.Desc_PowerPoleWallDouble_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 164
           #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK3_512.PowerPoleWall_MK3_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWallMk3.Desc_PowerPoleWallMk3_C"
