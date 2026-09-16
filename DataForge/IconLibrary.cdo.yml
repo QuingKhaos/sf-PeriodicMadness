@@ -555,15 +555,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 69
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/Pipeline/UI/IconDesc_Pipes_512.IconDesc_Pipes_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Pipeline/Desc_Pipeline_NoIndicator.Desc_Pipeline_NoIndicator_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 69
+            Texture: "/Game/FactoryGame/Buildable/Factory/Pipeline/UI/IconDesc_Pipes_512.IconDesc_Pipes_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Pipeline/Desc_Pipeline_NoIndicator.Desc_Pipeline_NoIndicator_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 70
             Texture: "/Game/FactoryGame/Buildable/Factory/PipePole/UI/PipePole_512.PipePole_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipelineSupport/Desc_PipelineSupport.Desc_PipelineSupport_C"
@@ -1413,15 +1413,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 160
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWallHole/UI/PipeSupportWallHole_512.PipeSupportWallHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWallHole/Desc_PipelineSupportWallHole.Desc_PipelineSupportWallHole_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 160
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWallHole/UI/PipeSupportWallHole_512.PipeSupportWallHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWallHole/Desc_PipelineSupportWallHole.Desc_PipelineSupportWallHole_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 161
             Texture: "/Game/FactoryGame/Buildable/Factory/StreetLight/UI/IconDesc_StreetLight_512.IconDesc_StreetLight_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StreetLight/Desc_StreetLight.Desc_StreetLight_C"
@@ -3489,15 +3489,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 377
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_PipeFloorHole_512.IconDesc_PipeFloorHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Pipe.Desc_FoundationPassthrough_Pipe_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 377
+            Texture: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_PipeFloorHole_512.IconDesc_PipeFloorHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Pipe.Desc_FoundationPassthrough_Pipe_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 378
           #   Texture: "/Game/FactoryGame/Buildable/Building/Fence/UI/IconDesc_Fences_512.IconDesc_Fences_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Fence/Desc_Fence_01.Desc_Fence_01_C"

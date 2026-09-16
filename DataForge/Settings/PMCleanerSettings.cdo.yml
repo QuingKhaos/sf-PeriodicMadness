@@ -126,6 +126,7 @@ patches:
           - Customization/Swatches
           - FactoryCart
           - Filter
+          - FoundationPassthrough
           - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
@@ -194,6 +195,7 @@ patches:
           - Environment
           - FactoryCart
           - Filter
+          - FoundationPassthrough
           - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
