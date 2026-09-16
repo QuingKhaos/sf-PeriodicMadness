@@ -501,7 +501,7 @@
 				{
 					"Source":
 					{
-						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200%."
+						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200 %."
 					},
 					"Keys": [
 						{
@@ -613,7 +613,7 @@
 				{
 					"Source":
 					{
-						"Text": "Default extraction rate: 60m³ seawater per minute. Head Lift: 10m."
+						"Text": "Default extraction rate: 60 m³ seawater per minute. Head Lift: 10 m."
 					},
 					"Keys": [
 						{
@@ -661,7 +661,19 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 100%."
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m"
+					},
+					"Keys": [
+						{
+							"Key": "AcidPlant/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100 %."
 					},
 					"Keys": [
 						{
@@ -677,19 +689,7 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 100%. Head Lift: 10m"
-					},
-					"Keys": [
-						{
-							"Key": "AcidPlant/Desc",
-							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
-						}
-					]
-				},
-				{
-					"Source":
-					{
-						"Text": "Has a base production speed of 100%. Head Lift: 10m."
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
 					},
 					"Keys": [
 						{
@@ -701,7 +701,7 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 50%. The first output is located at the production indicator."
+						"Text": "Has a base production speed of 50 %. The first output is located at the production indicator."
 					},
 					"Keys": [
 						{
@@ -713,7 +713,7 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 75%. Head Lift: 10m."
+						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
 					},
 					"Keys": [
 						{
@@ -797,7 +797,7 @@
 				{
 					"Source":
 					{
-						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100%."
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100 %."
 					},
 					"Keys": [
 						{

@@ -682,11 +682,11 @@
 				{
 					"Source":
 					{
-						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200%."
+						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200 %."
 					},
 					"Translation":
 					{
-						"Text": "一种专门用于生产合金的冶炼机，只能使用特定的燃料。 Has a base production speed of 200%."
+						"Text": "一种专门用于生产合金的冶炼机，只能使用特定的燃料。 Has a base production speed of 200 %."
 					},
 					"Key": "Welder/Desc"
 				},
@@ -842,7 +842,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Laboratory/Desc"
+					"Key": "BurnerCrusher/Desc"
 				},
 				{
 					"Source":
@@ -853,7 +853,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "BurnerCrusher/Desc"
+					"Key": "Laboratory/Desc"
 				},
 				{
 					"Source":

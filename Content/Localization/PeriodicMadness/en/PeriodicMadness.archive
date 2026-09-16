@@ -682,11 +682,11 @@
 				{
 					"Source":
 					{
-						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200%."
+						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200 %."
 					},
 					"Translation":
 					{
-						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200%."
+						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200 %."
 					},
 					"Key": "Welder/Desc"
 				},
@@ -792,11 +792,11 @@
 				{
 					"Source":
 					{
-						"Text": "Default extraction rate: 60m³ seawater per minute. Head Lift: 10m."
+						"Text": "Default extraction rate: 60 m³ seawater per minute. Head Lift: 10 m."
 					},
 					"Translation":
 					{
-						"Text": "Default extraction rate: 60m³ seawater per minute. Head Lift: 10m."
+						"Text": "Default extraction rate: 60 m³ seawater per minute. Head Lift: 10 m."
 					},
 					"Key": "SeawaterExtractor/Desc"
 				},
@@ -836,66 +836,66 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 100%."
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m"
 					},
 					"Translation":
 					{
-						"Text": "Has a base production speed of 100%."
-					},
-					"Key": "Laboratory/Desc"
-				},
-				{
-					"Source":
-					{
-						"Text": "Has a base production speed of 100%."
-					},
-					"Translation":
-					{
-						"Text": "Has a base production speed of 100%."
-					},
-					"Key": "BurnerCrusher/Desc"
-				},
-				{
-					"Source":
-					{
-						"Text": "Has a base production speed of 100%. Head Lift: 10m"
-					},
-					"Translation":
-					{
-						"Text": "Has a base production speed of 100%. Head Lift: 10m"
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m"
 					},
 					"Key": "AcidPlant/Desc"
 				},
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 100%. Head Lift: 10m."
+						"Text": "Has a base production speed of 100 %."
 					},
 					"Translation":
 					{
-						"Text": "Has a base production speed of 100%. Head Lift: 10m."
+						"Text": "Has a base production speed of 100 %."
+					},
+					"Key": "Laboratory/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100 %."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 100 %."
+					},
+					"Key": "BurnerCrusher/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
 					},
 					"Key": "ElectrolysisPlantMk1/Desc"
 				},
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 50%. The first output is located at the production indicator."
+						"Text": "Has a base production speed of 50 %. The first output is located at the production indicator."
 					},
 					"Translation":
 					{
-						"Text": "Has a base production speed of 50%. The first output is located at the production indicator."
+						"Text": "Has a base production speed of 50 %. The first output is located at the production indicator."
 					},
 					"Key": "FabricatorMk1/Desc"
 				},
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 75%. Head Lift: 10m."
+						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
 					},
 					"Translation":
 					{
-						"Text": "Has a base production speed of 75%. Head Lift: 10m."
+						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
 					},
 					"Key": "EvaporatorMk1/Desc"
 				},
@@ -968,11 +968,11 @@
 				{
 					"Source":
 					{
-						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100%."
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100 %."
 					},
 					"Translation":
 					{
-						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100%."
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100 %."
 					},
 					"Key": "BurnerSmelterMk1/Desc"
 				},

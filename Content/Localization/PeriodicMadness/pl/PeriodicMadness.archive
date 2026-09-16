@@ -682,11 +682,11 @@
 				{
 					"Source":
 					{
-						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200%."
+						"Text": "A smelting machine thats sole purpose is to produce alloys. They can only run on unique fuel. Has a base production speed of 200 %."
 					},
 					"Translation":
 					{
-						"Text": "Maszyna do wytapiania, której jedynym celem jest produkcja stopów. Może działać tylko na unikalnym paliwie. Has a base production speed of 200%."
+						"Text": "Maszyna do wytapiania, której jedynym celem jest produkcja stopów. Może działać tylko na unikalnym paliwie. Has a base production speed of 200 %."
 					},
 					"Key": "Welder/Desc"
 				},
@@ -842,7 +842,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Laboratory/Desc"
+					"Key": "BurnerCrusher/Desc"
 				},
 				{
 					"Source":
@@ -853,7 +853,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "BurnerCrusher/Desc"
+					"Key": "Laboratory/Desc"
 				},
 				{
 					"Source":
