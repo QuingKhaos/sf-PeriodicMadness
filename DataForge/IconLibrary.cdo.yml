@@ -429,33 +429,33 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 51
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/Wall_Conveyor_x3_Orange_512.Wall_Conveyor_x3_Orange_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Conveyor_8x4_01.Desc_Wall_Conveyor_8x4_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 52
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/Wall_Conveyor_x2_Orange_512.Wall_Conveyor_x2_Orange_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Conveyor_8x4_02.Desc_Wall_Conveyor_8x4_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 53
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/Wall_Conveyor_x1_Orange_512.Wall_Conveyor_x1_Orange_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Conveyor_8x4_03.Desc_Wall_Conveyor_8x4_03_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 51
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/Wall_Conveyor_x3_Orange_512.Wall_Conveyor_x3_Orange_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Conveyor_8x4_01.Desc_Wall_Conveyor_8x4_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 52
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/Wall_Conveyor_x2_Orange_512.Wall_Conveyor_x2_Orange_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Conveyor_8x4_02.Desc_Wall_Conveyor_8x4_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 53
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/Wall_Conveyor_x1_Orange_512.Wall_Conveyor_x1_Orange_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Conveyor_8x4_03.Desc_Wall_Conveyor_8x4_03_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 54
           #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/Wall_Conveyor_x3_Grey_512.Wall_Conveyor_x3_Grey_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Conveyor_8x4_01_Steel.Desc_Wall_Conveyor_8x4_01_Steel_C"
@@ -555,15 +555,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 69
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/Pipeline/UI/IconDesc_Pipes_512.IconDesc_Pipes_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Pipeline/Desc_Pipeline_NoIndicator.Desc_Pipeline_NoIndicator_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 69
+            Texture: "/Game/FactoryGame/Buildable/Factory/Pipeline/UI/IconDesc_Pipes_512.IconDesc_Pipes_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Pipeline/Desc_Pipeline_NoIndicator.Desc_Pipeline_NoIndicator_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 70
             Texture: "/Game/FactoryGame/Buildable/Factory/PipePole/UI/PipePole_512.PipePole_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipelineSupport/Desc_PipelineSupport.Desc_PipelineSupport_C"
@@ -1023,51 +1023,51 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 121
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/QuarterPipe_01_512.QuarterPipe_01_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipe.Desc_QuarterPipe_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 122
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/QuarterPipe_02_512.QuarterPipe_02_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipe_02.Desc_QuarterPipe_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 123
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/QuarterPipe_Corner_01_512.QuarterPipe_Corner_01_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_01.Desc_QuarterPipeCorner_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 124
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/QuarterPipe_Corner_02_512.QuarterPipe_Corner_02_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_02.Desc_QuarterPipeCorner_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 125
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/IconDesc_Cnr_QuarterPipe_03_512.IconDesc_Cnr_QuarterPipe_03_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_03.Desc_QuarterPipeCorner_03_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 121
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/QuarterPipe_01_512.QuarterPipe_01_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipe.Desc_QuarterPipe_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 122
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/QuarterPipe_02_512.QuarterPipe_02_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipe_02.Desc_QuarterPipe_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 123
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/QuarterPipe_Corner_01_512.QuarterPipe_Corner_01_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_01.Desc_QuarterPipeCorner_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 124
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/QuarterPipe_Corner_02_512.QuarterPipe_Corner_02_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_02.Desc_QuarterPipeCorner_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 125
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/IconDesc_Cnr_QuarterPipe_03_512.IconDesc_Cnr_QuarterPipe_03_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_03.Desc_QuarterPipeCorner_03_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 127
           #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/IconDesc_Ramp_Corner_8x1_512.IconDesc_Ramp_Corner_8x1_512"
           #   itemDescriptor: ""
@@ -1368,42 +1368,42 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 156
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/IconDesc_RampInverted_8x8x1_512.IconDesc_RampInverted_8x8x1_512"
-          #   itemDescriptor: ""
-          #   DisplayNameOverride: false
-          #   IconName:
-          #     key: "Ramps/Inverted/8x1"
-          #     ns: "IconLibrary_Data"
-          #     source: "Inverted Ramp (8 m x 1 m)"
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 157
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/IconDesc_RampInverted_8x8x2_512.IconDesc_RampInverted_8x8x2_512"
-          #   itemDescriptor: ""
-          #   DisplayNameOverride: false
-          #   IconName:
-          #     key: "Ramps/Inverted/8x2"
-          #     ns: "IconLibrary_Data"
-          #     source: "Inverted Ramp (8 m x 2 m)"
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 158
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Ramp_8x4_Inverted_512.Ramp_8x4_Inverted_512"
-          #   itemDescriptor: ""
-          #   DisplayNameOverride: false
-          #   IconName:
-          #     key: "Ramps/Inverted/8x4"
-          #     ns: "IconLibrary_Data"
-          #     source: "Inverted Ramp (8 m x 4 m)"
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 156
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/IconDesc_RampInverted_8x8x1_512.IconDesc_RampInverted_8x8x1_512"
+            itemDescriptor: ""
+            DisplayNameOverride: false
+            IconName:
+              key: "Ramps/Inverted/8x1"
+              ns: "IconLibrary_Data"
+              source: "Inverted Ramp (8 m x 1 m)"
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 157
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/IconDesc_RampInverted_8x8x2_512.IconDesc_RampInverted_8x8x2_512"
+            itemDescriptor: ""
+            DisplayNameOverride: false
+            IconName:
+              key: "Ramps/Inverted/8x2"
+              ns: "IconLibrary_Data"
+              source: "Inverted Ramp (8 m x 2 m)"
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 158
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Ramp_8x4_Inverted_512.Ramp_8x4_Inverted_512"
+            itemDescriptor: ""
+            DisplayNameOverride: false
+            IconName:
+              key: "Ramps/Inverted/8x4"
+              ns: "IconLibrary_Data"
+              source: "Inverted Ramp (8 m x 4 m)"
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 159
             Texture: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWall/UI/PipeSupportWall_512.PipeSupportWall_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWall/Desc_PipelineSupportWall.Desc_PipelineSupportWall_C"
@@ -1413,15 +1413,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 160
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWallHole/UI/PipeSupportWallHole_512.PipeSupportWallHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWallHole/Desc_PipelineSupportWallHole.Desc_PipelineSupportWallHole_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 160
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWallHole/UI/PipeSupportWallHole_512.PipeSupportWallHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipelineSupportWallHole/Desc_PipelineSupportWallHole.Desc_PipelineSupportWallHole_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 161
             Texture: "/Game/FactoryGame/Buildable/Factory/StreetLight/UI/IconDesc_StreetLight_512.IconDesc_StreetLight_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StreetLight/Desc_StreetLight.Desc_StreetLight_C"
@@ -1431,24 +1431,24 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 162
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK1_512.PowerPoleWall_MK1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWall.Desc_PowerPoleWall_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 163
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/UI/PowerPoleWallDouble_MK1_512.PowerPoleWallDouble_MK1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDouble.Desc_PowerPoleWallDouble_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 162
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK1_512.PowerPoleWall_MK1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWall.Desc_PowerPoleWall_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 163
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/UI/PowerPoleWallDouble_MK1_512.PowerPoleWallDouble_MK1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDouble.Desc_PowerPoleWallDouble_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 164
           #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK3_512.PowerPoleWall_MK3_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWallMk3.Desc_PowerPoleWallMk3_C"
@@ -1707,15 +1707,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 192
-          #   Texture: "/Game/FactoryGame/Equipment/GolfCart/UI/IconDesc_GolfCart_256.IconDesc_GolfCart_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/GolfCart/Desc_GolfCart.Desc_GolfCart_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Equipment"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 192
+            Texture: "/Game/FactoryGame/Equipment/GolfCart/UI/IconDesc_GolfCart_256.IconDesc_GolfCart_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Equipment/GolfCart/Desc_GolfCart.Desc_GolfCart_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Equipment"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 193
           #   Texture: "/Game/FactoryGame/Resource/RawResources/Nodes/UI/IconDesc_iron_new_256.IconDesc_iron_new_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C"
@@ -3480,24 +3480,24 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 376
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_ConveyorFloorHole_512.IconDesc_ConveyorFloorHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Lift.Desc_FoundationPassthrough_Lift_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 377
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_PipeFloorHole_512.IconDesc_PipeFloorHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Pipe.Desc_FoundationPassthrough_Pipe_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 376
+            Texture: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_ConveyorFloorHole_512.IconDesc_ConveyorFloorHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Lift.Desc_FoundationPassthrough_Lift_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 377
+            Texture: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_PipeFloorHole_512.IconDesc_PipeFloorHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Pipe.Desc_FoundationPassthrough_Pipe_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 378
           #   Texture: "/Game/FactoryGame/Buildable/Building/Fence/UI/IconDesc_Fences_512.IconDesc_Fences_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Fence/Desc_Fence_01.Desc_Fence_01_C"
@@ -3669,24 +3669,24 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 397
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignLarge_512.IconDesc_SignLarge_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Large.Desc_StandaloneWidgetSign_Large_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 398
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignHuge_512.IconDesc_SignHuge_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Huge.Desc_StandaloneWidgetSign_Huge_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 397
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignLarge_512.IconDesc_SignLarge_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Large.Desc_StandaloneWidgetSign_Large_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 398
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignHuge_512.IconDesc_SignHuge_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Huge.Desc_StandaloneWidgetSign_Huge_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 399
           #   Texture: "/Game/FactoryGame/Buildable/Building/Catwalk/UI/IconDesc_CatwalkStraight_512.IconDesc_CatwalkStraight_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Catwalk/Desc_CatwalkStraight.Desc_CatwalkStraight_C"
@@ -3768,168 +3768,168 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 408
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerUp/IconDesc_FicsitRampUp1m_512.IconDesc_FicsitRampUp1m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x1_02.Desc_Ramp_Diagonal_8x1_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 409
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerUp/IconDesc_FicsitRampUp2m_512.IconDesc_FicsitRampUp2m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x2_02.Desc_Ramp_Diagonal_8x2_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 410
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerUp/IconDesc_FicsitRampUp4m_512.IconDesc_FicsitRampUp4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x4_02.Desc_Ramp_Diagonal_8x4_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 411
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerDown/IconDesc_FicsitRampDown1m_512.IconDesc_FicsitRampDown1m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x1_01.Desc_Ramp_Diagonal_8x1_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 412
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerDown/IconDesc_FicsitRampDown2m_512.IconDesc_FicsitRampDown2m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x2_01.Desc_Ramp_Diagonal_8x2_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 413
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerDown/IconDesc_FicsitRampDown4m_512.IconDesc_FicsitRampDown4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x4_01.Desc_Ramp_Diagonal_8x4_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 414
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_FicsitDownDiag1m_512.IconDesc_FicsitDownDiag1m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x1_FlipTris.Desc_Wall_Orange_8x1_FlipTris_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 415
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_FicsitDownDiag2m_512.IconDesc_FicsitDownDiag2m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x2_FlipTris.Desc_Wall_Orange_8x2_FlipTris_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 416
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_FicsitDownDiag4m_512.IconDesc_FicsitDownDiag4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x4_FlipTris.Desc_Wall_Orange_8x4_FlipTris_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 417
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_FicsitDownDiag8m_512.IconDesc_FicsitDownDiag8m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x8_FlipTris.Desc_Wall_Orange_8x8_FlipTris_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 418
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/UpDiagonal/IconDesc_FicsitUpDiag1m_512.IconDesc_FicsitUpDiag1m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x1_Tris.Desc_Wall_Orange_8x1_Tris_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 419
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/UpDiagonal/IconDesc_FicsitUpDiag2m_512.IconDesc_FicsitUpDiag2m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x2_Tris.Desc_Wall_Orange_8x2_Tris_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 420
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/UpDiagonal/IconDesc_FicsitUpDiag4m_512.IconDesc_FicsitUpDiag4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x4_Tris.Desc_Wall_Orange_8x4_Tris_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 421
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/UpDiagonal/IconDesc_FicsitUpDiag8m_512.IconDesc_FicsitUpDiag8m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x8_Tris.Desc_Wall_Orange_8x8_Tris_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 422
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignMedium_512.IconDesc_SignMedium_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Medium.Desc_StandaloneWidgetSign_Medium_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 423
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignPortrait_512.IconDesc_SignPortrait_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Portrait.Desc_StandaloneWidgetSign_Portrait_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 424
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquareSmall_512.IconDesc_SignSquareSmall_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square_Small.Desc_StandaloneWidgetSign_Square_Small_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 425
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquare_512.IconDesc_SignSquare_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square.Desc_StandaloneWidgetSign_Square_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 408
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerUp/IconDesc_FicsitRampUp1m_512.IconDesc_FicsitRampUp1m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x1_02.Desc_Ramp_Diagonal_8x1_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 409
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerUp/IconDesc_FicsitRampUp2m_512.IconDesc_FicsitRampUp2m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x2_02.Desc_Ramp_Diagonal_8x2_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 410
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerUp/IconDesc_FicsitRampUp4m_512.IconDesc_FicsitRampUp4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x4_02.Desc_Ramp_Diagonal_8x4_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 411
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerDown/IconDesc_FicsitRampDown1m_512.IconDesc_FicsitRampDown1m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x1_01.Desc_Ramp_Diagonal_8x1_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 412
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerDown/IconDesc_FicsitRampDown2m_512.IconDesc_FicsitRampDown2m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x2_01.Desc_Ramp_Diagonal_8x2_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 413
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/CornerDown/IconDesc_FicsitRampDown4m_512.IconDesc_FicsitRampDown4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Diagonal_8x4_01.Desc_Ramp_Diagonal_8x4_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 414
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_FicsitDownDiag1m_512.IconDesc_FicsitDownDiag1m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x1_FlipTris.Desc_Wall_Orange_8x1_FlipTris_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 415
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_FicsitDownDiag2m_512.IconDesc_FicsitDownDiag2m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x2_FlipTris.Desc_Wall_Orange_8x2_FlipTris_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 416
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_FicsitDownDiag4m_512.IconDesc_FicsitDownDiag4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x4_FlipTris.Desc_Wall_Orange_8x4_FlipTris_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 417
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_FicsitDownDiag8m_512.IconDesc_FicsitDownDiag8m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x8_FlipTris.Desc_Wall_Orange_8x8_FlipTris_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 418
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/UpDiagonal/IconDesc_FicsitUpDiag1m_512.IconDesc_FicsitUpDiag1m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x1_Tris.Desc_Wall_Orange_8x1_Tris_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 419
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/UpDiagonal/IconDesc_FicsitUpDiag2m_512.IconDesc_FicsitUpDiag2m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x2_Tris.Desc_Wall_Orange_8x2_Tris_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 420
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/UpDiagonal/IconDesc_FicsitUpDiag4m_512.IconDesc_FicsitUpDiag4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x4_Tris.Desc_Wall_Orange_8x4_Tris_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 421
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/UpDiagonal/IconDesc_FicsitUpDiag8m_512.IconDesc_FicsitUpDiag8m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x8_Tris.Desc_Wall_Orange_8x8_Tris_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 422
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignMedium_512.IconDesc_SignMedium_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Medium.Desc_StandaloneWidgetSign_Medium_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 423
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignPortrait_512.IconDesc_SignPortrait_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Portrait.Desc_StandaloneWidgetSign_Portrait_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 424
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquareSmall_512.IconDesc_SignSquareSmall_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square_Small.Desc_StandaloneWidgetSign_Square_Small_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 425
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquare_512.IconDesc_SignSquare_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square.Desc_StandaloneWidgetSign_Square_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 426
           #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Doors/IconDesc_SteelCenterDoor_512.IconDesc_SteelCenterDoor_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Door_8x4_01_Steel.Desc_Wall_Door_8x4_01_Steel_C"
@@ -3948,24 +3948,24 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 428
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Doors/IconDesc_FicsitCenterDoor_512.IconDesc_FicsitCenterDoor_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Door_8x4_01.Desc_Wall_Door_8x4_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 429
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Doors/IconDesc_FicsitSideDoor_512.IconDesc_FicsitSideDoor_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Door_8x4_03.Desc_Wall_Door_8x4_03_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 428
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Doors/IconDesc_FicsitCenterDoor_512.IconDesc_FicsitCenterDoor_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Door_8x4_01.Desc_Wall_Door_8x4_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 429
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Doors/IconDesc_FicsitSideDoor_512.IconDesc_FicsitSideDoor_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Door_8x4_03.Desc_Wall_Door_8x4_03_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 430
           #   Texture: "/Game/FactoryGame/Buildable/Building/Fence/UI/IconDesc_ConcreteBarrier_512.IconDesc_ConcreteBarrier_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Fence/Desc_Concrete_Barrier_01.Desc_Concrete_Barrier_01_C"
@@ -3993,33 +3993,33 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 433
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Double/IconDesc_FicsitDoubleRamp1m_512.IconDesc_FicsitDoubleRamp1m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampDouble_8x1.Desc_RampDouble_8x1_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 434
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Double/IconDesc_FicsitDoubleRamp2m_512.IconDesc_FicsitDoubleRamp2m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampDouble.Desc_RampDouble_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 435
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Double/IconDesc_FicsitDoubleRamp4m_512.IconDesc_FicsitDoubleRamp4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_8x8x8.Desc_Ramp_8x8x8_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 433
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Double/IconDesc_FicsitDoubleRamp1m_512.IconDesc_FicsitDoubleRamp1m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampDouble_8x1.Desc_RampDouble_8x1_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 434
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Double/IconDesc_FicsitDoubleRamp2m_512.IconDesc_FicsitDoubleRamp2m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampDouble.Desc_RampDouble_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 435
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Double/IconDesc_FicsitDoubleRamp4m_512.IconDesc_FicsitDoubleRamp4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_8x8x8.Desc_Ramp_8x8x8_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 436
           #   Texture: "/Game/FactoryGame/Buildable/Building/Pillars/UI/IconDesc_PillarFrameBig_512.IconDesc_PillarFrameBig_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_PillarMiddle_Frame.Desc_PillarMiddle_Frame_C"
@@ -4101,159 +4101,159 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 445
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Doors/IconDesc_FicsitGate_512.IconDesc_FicsitGate_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Gate_8x4_01.Desc_Wall_Gate_8x4_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 446
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Doors/UI/IconDesc_AutomatedGate_512.IconDesc_AutomatedGate_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Doors/Desc_Gate_Automated_8x4.Desc_Gate_Automated_8x4_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 447
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/IconDesc_StorageHazard_512.IconDesc_StorageHazard_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageHazard.Desc_StorageHazard_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 448
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedUp/IconDesc_FicsitInvURamp1m_512.IconDesc_FicsitInvURamp1m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1_Corner_01.Desc_RampInverted_8x1_Corner_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 449
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedUp/IconDesc_FicsitInvURamp2m_512.IconDesc_FicsitInvURamp2m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_Corner_01.Desc_RampInverted_8x2_Corner_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 450
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedUp/IconDesc_FicsitInvURamp4m_512.IconDesc_FicsitInvURamp4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x4_Corner_01.Desc_RampInverted_8x4_Corner_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 451
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedDown/IconDesc_FicsitInvDRamp1m_512.IconDesc_FicsitInvDRamp1m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1_Corner_02.Desc_RampInverted_8x1_Corner_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 452
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedDown/IconDesc_FicsitInvDRamp2m_512.IconDesc_FicsitInvDRamp2m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_Corner_02.Desc_RampInverted_8x2_Corner_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 453
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedDown/IconDesc_FicsitInvDRamp4m_512.IconDesc_FicsitInvDRamp4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x4_Corner_02.Desc_RampInverted_8x4_Corner_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 454
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Inverted/IconDesc_FicsitInvertRamp1m_512.IconDesc_FicsitInvertRamp1m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1.Desc_RampInverted_8x1_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 455
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Inverted/IconDesc_FicsitInvertRamp2m_512.IconDesc_FicsitInvertRamp2m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_01.Desc_RampInverted_8x2_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 456
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Inverted/IconDesc_FicsitInvertRamp4m_512.IconDesc_FicsitInvertRamp4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_8x4_Inverted_01.Desc_Ramp_8x4_Inverted_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 457
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmall_512.IconDesc_SignSmall_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Small.Desc_StandaloneWidgetSign_Small_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 458
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmallWide_512.IconDesc_SignSmallWide_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_SmallWide.Desc_StandaloneWidgetSign_SmallWide_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 459
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmallVeryWide_512.IconDesc_SignSmallVeryWide_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_SmallVeryWide.Desc_StandaloneWidgetSign_SmallVeryWide_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 460
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquareTiny_512.IconDesc_SignSquareTiny_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square_Tiny.Desc_StandaloneWidgetSign_Square_Tiny_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 461
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/IconDesc_StorageMedkit_512.IconDesc_StorageMedkit_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageMedkit.Desc_StorageMedkit_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 445
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Doors/IconDesc_FicsitGate_512.IconDesc_FicsitGate_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Gate_8x4_01.Desc_Wall_Gate_8x4_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 446
+            Texture: "/Game/FactoryGame/Buildable/Building/Doors/UI/IconDesc_AutomatedGate_512.IconDesc_AutomatedGate_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Doors/Desc_Gate_Automated_8x4.Desc_Gate_Automated_8x4_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 447
+            Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/IconDesc_StorageHazard_512.IconDesc_StorageHazard_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageHazard.Desc_StorageHazard_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 448
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedUp/IconDesc_FicsitInvURamp1m_512.IconDesc_FicsitInvURamp1m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1_Corner_01.Desc_RampInverted_8x1_Corner_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 449
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedUp/IconDesc_FicsitInvURamp2m_512.IconDesc_FicsitInvURamp2m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_Corner_01.Desc_RampInverted_8x2_Corner_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 450
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedUp/IconDesc_FicsitInvURamp4m_512.IconDesc_FicsitInvURamp4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x4_Corner_01.Desc_RampInverted_8x4_Corner_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 451
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedDown/IconDesc_FicsitInvDRamp1m_512.IconDesc_FicsitInvDRamp1m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1_Corner_02.Desc_RampInverted_8x1_Corner_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 452
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedDown/IconDesc_FicsitInvDRamp2m_512.IconDesc_FicsitInvDRamp2m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_Corner_02.Desc_RampInverted_8x2_Corner_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 453
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedDown/IconDesc_FicsitInvDRamp4m_512.IconDesc_FicsitInvDRamp4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x4_Corner_02.Desc_RampInverted_8x4_Corner_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 454
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Inverted/IconDesc_FicsitInvertRamp1m_512.IconDesc_FicsitInvertRamp1m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1.Desc_RampInverted_8x1_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 455
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Inverted/IconDesc_FicsitInvertRamp2m_512.IconDesc_FicsitInvertRamp2m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_01.Desc_RampInverted_8x2_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 456
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/Inverted/IconDesc_FicsitInvertRamp4m_512.IconDesc_FicsitInvertRamp4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_8x4_Inverted_01.Desc_Ramp_8x4_Inverted_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 457
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmall_512.IconDesc_SignSmall_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Small.Desc_StandaloneWidgetSign_Small_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 458
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmallWide_512.IconDesc_SignSmallWide_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_SmallWide.Desc_StandaloneWidgetSign_SmallWide_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 459
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSmallVeryWide_512.IconDesc_SignSmallVeryWide_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_SmallVeryWide.Desc_StandaloneWidgetSign_SmallVeryWide_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 460
+            Texture: "/Game/FactoryGame/Buildable/Factory/StandaloneSign/UI/IconDesc_SignSquareTiny_512.IconDesc_SignSquareTiny_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/SignDigital/Desc_StandaloneWidgetSign_Square_Tiny.Desc_StandaloneWidgetSign_Square_Tiny_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 461
+            Texture: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/UI/IconDesc_StorageMedkit_512.IconDesc_StorageMedkit_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StorageMedkit.Desc_StorageMedkit_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 462
           #   Texture: "/Game/FactoryGame/Buildable/Building/Roof/UI/IconDesc_FicsitRoofFlat_512.IconDesc_FicsitRoofFlat_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_01.Desc_Roof_Orange_01_C"
@@ -4290,42 +4290,42 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 466
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/IconDesc_FicsitAngWall4m_512.IconDesc_FicsitAngWall4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_Angular_8x4.Desc_Wall_Orange_Angular_8x4_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 467
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/IconDesc_FicsitAngWall8m_512.IconDesc_FicsitAngWall8m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_Angular_8x8.Desc_Wall_Orange_Angular_8x8_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 468
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Triangle/IconDesc_FicsitTriangleWall4m_512.IconDesc_FicsitTriangleWall4m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x4_Corner_01.Desc_Wall_Orange_8x4_Corner_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 469
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Triangle/IconDesc_FicsitTriangleWall8m_512.IconDesc_FicsitTriangleWall8m_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x8_Corner_01.Desc_Wall_Orange_8x8_Corner_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 466
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/IconDesc_FicsitAngWall4m_512.IconDesc_FicsitAngWall4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_Angular_8x4.Desc_Wall_Orange_Angular_8x4_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 467
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/IconDesc_FicsitAngWall8m_512.IconDesc_FicsitAngWall8m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_Angular_8x8.Desc_Wall_Orange_Angular_8x8_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 468
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Triangle/IconDesc_FicsitTriangleWall4m_512.IconDesc_FicsitTriangleWall4m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x4_Corner_01.Desc_Wall_Orange_8x4_Corner_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 469
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Triangle/IconDesc_FicsitTriangleWall8m_512.IconDesc_FicsitTriangleWall8m_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x8_Corner_01.Desc_Wall_Orange_8x8_Corner_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 470
           #   Texture: "/Game/FactoryGame/Buildable/Building/Roof/UI/IconDesc_GlassRoofFlat_512.IconDesc_GlassRoofFlat_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Window_01.Desc_Roof_Window_01_C"
@@ -6168,24 +6168,24 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 666
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/Inwards/IconDesc_FICSITWallInwards_8x4_512.IconDesc_FICSITWallInwards_8x4_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x4_Corner_02.Desc_Wall_Orange_8x4_Corner_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 667
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/Inwards/IconDesc_FICSITWallInwards_8x8_512.IconDesc_FICSITWallInwards_8x8_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x8_Corner_02.Desc_Wall_Orange_8x8_Corner_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 666
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/Inwards/IconDesc_FICSITWallInwards_8x4_512.IconDesc_FICSITWallInwards_8x4_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x4_Corner_02.Desc_Wall_Orange_8x4_Corner_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 667
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/Inwards/IconDesc_FICSITWallInwards_8x8_512.IconDesc_FICSITWallInwards_8x8_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x8_Corner_02.Desc_Wall_Orange_8x8_Corner_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 668
           #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/Inwards/IconDesc_ConcWallInwards_8x4_512.IconDesc_ConcWallInwards_8x4_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Corner_2.Desc_Wall_Concrete_8x4_Corner_2_C"
@@ -6366,96 +6366,96 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 688
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/IconDesc_QP_Ficsit_DownOutCorner_8x4_512.IconDesc_QP_Ficsit_DownOutCorner_8x4_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_04.Desc_QuarterPipeCorner_04_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 689
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_Mid_8x1_512.IconDesc_QP_Ficsit_Mid_8x1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddle_Ficsit_4x1.Desc_QuarterPipeMiddle_Ficsit_4x1_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 690
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_Mid_8x2_512.IconDesc_QP_Ficsit_Mid_8x2_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddle_Ficsit_4x2.Desc_QuarterPipeMiddle_Ficsit_4x2_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 691
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_Mid_8x4_512.IconDesc_QP_Ficsit_Mid_8x4_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddle_Ficsit_4x4.Desc_QuarterPipeMiddle_Ficsit_4x4_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 692
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidInCorner_8x1_512.IconDesc_QP_Ficsit_MidInCorner_8x1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x1.Desc_QuarterPipeMiddleInCorner_Ficsit_8x1_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 693
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidInCorner_8x2_512.IconDesc_QP_Ficsit_MidInCorner_8x2_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x2.Desc_QuarterPipeMiddleInCorner_Ficsit_8x2_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 694
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidInCorner_8x4_512.IconDesc_QP_Ficsit_MidInCorner_8x4_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x4.Desc_QuarterPipeMiddleInCorner_Ficsit_8x4_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 695
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidOutCorner_8x1_512.IconDesc_QP_Ficsit_MidOutCorner_8x1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x1.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x1_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 696
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidOutCorner_8x2_512.IconDesc_QP_Ficsit_MidOutCorner_8x2_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x2.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x2_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 697
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidOutCorner_8x4_512.IconDesc_QP_Ficsit_MidOutCorner_8x4_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x4.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x4_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 688
+            Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/QuarterPipes/IconDesc_QP_Ficsit_DownOutCorner_8x4_512.IconDesc_QP_Ficsit_DownOutCorner_8x4_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_04.Desc_QuarterPipeCorner_04_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 689
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_Mid_8x1_512.IconDesc_QP_Ficsit_Mid_8x1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddle_Ficsit_4x1.Desc_QuarterPipeMiddle_Ficsit_4x1_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 690
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_Mid_8x2_512.IconDesc_QP_Ficsit_Mid_8x2_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddle_Ficsit_4x2.Desc_QuarterPipeMiddle_Ficsit_4x2_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 691
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_Mid_8x4_512.IconDesc_QP_Ficsit_Mid_8x4_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddle_Ficsit_4x4.Desc_QuarterPipeMiddle_Ficsit_4x4_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 692
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidInCorner_8x1_512.IconDesc_QP_Ficsit_MidInCorner_8x1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x1.Desc_QuarterPipeMiddleInCorner_Ficsit_8x1_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 693
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidInCorner_8x2_512.IconDesc_QP_Ficsit_MidInCorner_8x2_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x2.Desc_QuarterPipeMiddleInCorner_Ficsit_8x2_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 694
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidInCorner_8x4_512.IconDesc_QP_Ficsit_MidInCorner_8x4_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x4.Desc_QuarterPipeMiddleInCorner_Ficsit_8x4_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 695
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidOutCorner_8x1_512.IconDesc_QP_Ficsit_MidOutCorner_8x1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x1.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x1_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 696
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidOutCorner_8x2_512.IconDesc_QP_Ficsit_MidOutCorner_8x2_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x2.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x2_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 697
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Ficsit_MidOutCorner_8x4_512.IconDesc_QP_Ficsit_MidOutCorner_8x4_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x4.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x4_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 698
           #   Texture: "/Game/FactoryGame/Buildable/Building/Roof/UI/IconDesc_RoofFicsitIn_01_512.IconDesc_RoofFicsitIn_01_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_InCorner_01.Desc_Roof_Orange_InCorner_01_C"
@@ -7575,33 +7575,33 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 822
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/Stairs/IconDesc_FicsitStair_8x1_512.IconDesc_FicsitStair_8x1_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_Stair_FicsitSet_8x1_01.Desc_Stair_FicsitSet_8x1_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 823
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/Stairs/IconDesc_FicsitStair_8x2_512.IconDesc_FicsitStair_8x2_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_Stair_FicsitSet_8x2_01.Desc_Stair_FicsitSet_8x2_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 824
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/Stairs/IconDesc_FicsitStair_8x4_512.IconDesc_FicsitStair_8x4_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_Stair_FicsitSet_8x4_01.Desc_Stair_FicsitSet_8x4_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 822
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/Stairs/IconDesc_FicsitStair_8x1_512.IconDesc_FicsitStair_8x1_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_Stair_FicsitSet_8x1_01.Desc_Stair_FicsitSet_8x1_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 823
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/Stairs/IconDesc_FicsitStair_8x2_512.IconDesc_FicsitStair_8x2_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_Stair_FicsitSet_8x2_01.Desc_Stair_FicsitSet_8x2_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 824
+            Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/Stairs/IconDesc_FicsitStair_8x4_512.IconDesc_FicsitStair_8x4_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_Stair_FicsitSet_8x4_01.Desc_Stair_FicsitSet_8x4_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 825
           #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/Stairs/IconDesc_AsphaltStair_8x1_512.IconDesc_AsphaltStair_8x1_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_Stair_Asphalt_8x1.Desc_Stair_Asphalt_8x1_C"
@@ -7944,15 +7944,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 863
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Doors/UI/IconDesc_GarageDoor_512.IconDesc_GarageDoor_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Doors/Desc_BigGarageDoor_16x8.Desc_BigGarageDoor_16x8_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 863
+            Texture: "/Game/FactoryGame/Buildable/Building/Doors/UI/IconDesc_GarageDoor_512.IconDesc_GarageDoor_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Doors/Desc_BigGarageDoor_16x8.Desc_BigGarageDoor_16x8_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 864
           #   Texture: "/Game/FactoryGame/Buildable/Building/Doors/UI/IconDesc_GarageDoorConcrete_512.IconDesc_GarageDoorConcrete_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Doors/Desc_BigGarageDoor_16x8_Concrete.Desc_BigGarageDoor_16x8_Concrete_C"
@@ -7980,15 +7980,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 867
-          #   Texture: "/Game/FactoryGame/Buildable/Building/StackableShelf/UI/IconDesc_StackableShelf_512.IconDesc_StackableShelf_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/StackableShelf/Desc_StackableShelf.Desc_StackableShelf_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 867
+            Texture: "/Game/FactoryGame/Buildable/Building/StackableShelf/UI/IconDesc_StackableShelf_512.IconDesc_StackableShelf_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/StackableShelf/Desc_StackableShelf.Desc_StackableShelf_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 868
           #   Texture: "/Game/FactoryGame/Buildable/Factory/Elevator/UI/IconDesc_PersonnelElevator_512.IconDesc_PersonnelElevator_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Elevator/Desc_Elevator.Desc_Elevator_C"
@@ -8025,15 +8025,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 872
-          #   Texture: "/Game/FactoryGame/Buildable/Building/ConveyorHole/UI/IconDesc_ConveyorWallHole_512.IconDesc_ConveyorWallHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/ConveyorHole/Desc_ConveyorWallHole.Desc_ConveyorWallHole_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 872
+            Texture: "/Game/FactoryGame/Buildable/Building/ConveyorHole/UI/IconDesc_ConveyorWallHole_512.IconDesc_ConveyorWallHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/ConveyorHole/Desc_ConveyorWallHole.Desc_ConveyorWallHole_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 873
           #   Texture: "/Game/FactoryGame/Prototype/Buildable/Beams/UI/IconDesc_CableBeam_512.IconDesc_CableBeam_512"
           #   itemDescriptor: "/Game/FactoryGame/Prototype/Buildable/Beams/Desc_Beam_Cable.Desc_Beam_Cable_C"
@@ -8238,18 +8238,18 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 894
-          #   Texture: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/UI/IconDesc_CartPath_512.IconDesc_CartPath_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Golfcart/Desc_VehiclePath_FactoryCart.Desc_VehiclePath_FactoryCart_C"
-          #   DisplayNameOverride: false
-          #   IconName:
-          #     key: "Transport/RoadVehicles/VehiclePath/FactoryCart"
-          #     ns: "Buildables_Data"
-          #     source: "Factory Cart Vehicle Path"
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 894
+            Texture: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/UI/IconDesc_CartPath_512.IconDesc_CartPath_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Golfcart/Desc_VehiclePath_FactoryCart.Desc_VehiclePath_FactoryCart_C"
+            DisplayNameOverride: false
+            IconName:
+              key: "Transport/RoadVehicles/VehiclePath/FactoryCart"
+              ns: "Buildables_Data"
+              source: "Factory Cart Vehicle Path"
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 895
           #   Texture: "/Game/FactoryGame/Events/Christmas/Buildings/UI/IconDesc_FICSMAS_Cartridge_256.IconDesc_FICSMAS_Cartridge_256"
           #   itemDescriptor: "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasDataCartridge4.Desc_XmasDataCartridge4_C"

@@ -1189,6 +1189,18 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal Items"
+					},
+					"Keys": [
+						{
+							"Key": "MultiMetal/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "MultiMetal: Basic Framing"
 					},
 					"Keys": [

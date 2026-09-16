@@ -81,7 +81,6 @@ patches:
         value:
           # Mods
           - /AllMapRadar/
-          - /FreeSigns/
           - /MagicMachine/
           - /PeriodicMadness/
           # Generic matches
@@ -105,7 +104,6 @@ patches:
         value:
           # Mods
           - /AllMapRadar/
-          - /FreeSigns/
           - /MagicMachine/FluidSpawner/
           - /MagicMachine/Rec_Magic
           - /MagicMachine/MagicEnergy/
@@ -122,10 +120,13 @@ patches:
           - ConveyorCeilingAttachment
           - ConveyorLift
           - ConveyorPole
+          - ConveyorWallHole
           - Customization/PaintFinishes
           - Customization/Patterns
           - Customization/Swatches
+          - FactoryCart
           - Filter
+          - FoundationPassthrough
           - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
@@ -146,8 +147,11 @@ patches:
           - PowerPole
           - Rebar
           - ResourceSink
+          - StackableShelf
           - StandaloneWidgetSign
           - StorageContainer
+          - StorageHazard
+          - StorageMedkit
           - StoragePlayer
           - StreetLight
           - TradingPost
@@ -157,23 +161,37 @@ patches:
           # Specific recipes
           - Recipe_AlienDNACapsule
           - Recipe_Biomass_AlienProtein
-          # - Recipe_Foundation_8x1_01
           - Recipe_Miner
           - Recipe_Protein
           # More specific recipes
+          - Doors/Recipe_BigGarageDoor_16x8.
+          - Doors/Recipe_Gate
+          - FicsitSet/Recipe_Stair_FicsitSet
+          - FicsitSet/Recipe_QuarterPipeMiddle
           - Foundations/Recipe_Foundation_8
+          - Foundations/Recipe_QuarterPipe
+          - Ramps/Recipe_RampInverted
           - Ramps/Recipe_Ramp_8x1_01
           - Ramps/Recipe_Ramp_8x2_01
           - Ramps/Recipe_Ramp_8x4_01
+          - Ramps/Recipe_Ramp_8x4_Inverted_01
+          - Ramps/Recipe_Ramp_8x8
+          - Ramps/Recipe_Ramp_Diagonal
+          - Ramps/Recipe_RampDouble
           - Recipe_PowerLine.Recipe_PowerLine
           - TowTruck/Recipe_SpaceElevator
           - Walls/Recipe_Wall_8x4_01
-          - Walls/Recipe_Wall_Orange_8x1
+          - Walls/Recipe_Wall_Conveyor_8x4_01.
+          - Walls/Recipe_Wall_Conveyor_8x4_02.
+          - Walls/Recipe_Wall_Conveyor_8x4_03.
+          - Walls/Recipe_Wall_Door_8x4_01.
+          - Walls/Recipe_Wall_Door_8x4_03.
+          - Walls/Recipe_Wall_Gate
+          - Walls/Recipe_Wall_Orange
       - path: mItemClassAllowlist
         value:
           # Mods
           - /AllMapRadar/
-          - /FreeSigns/
           - /MagicMachine/
           - /PeriodicMadness/
           # Generic matches
@@ -185,14 +203,18 @@ patches:
           - ConveyorCeilingAttachment
           - ConveyorLift
           - ConveyorPole
+          - ConveyorWallHole
           - Customization/PaintFinishes
           - Customization/Patterns
           - Customization/Swatches
           - Environment
+          - FactoryCart
           - Filter
+          - FoundationPassthrough
           - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
+          - GolfCart
           - JumpingStilts
           - JumpPad
           - LandingPad
@@ -211,8 +233,11 @@ patches:
           - Rebar
           - ResourceSink
           - ShockShank
+          - StackableShelf
           - StandaloneWidgetSign
           - StorageContainer
+          - StorageHazard
+          - StorageMedkit
           - StoragePlayer
           - StreetLight
           - TradingPost
@@ -221,20 +246,38 @@ patches:
           # Specific items
           - Desc_AlienDNACapsule
           - Desc_AlienProtein
-          # - Desc_Foundation_8x1_01
           - Desc_Geyser
           - Desc_HardDrive
           - Desc_WAT1
           - Desc_WAT2
           # More specific items
           - Desc_PowerLine.Desc_PowerLine
+          - Doors/Desc_BigGarageDoor_16x8.
+          - Doors/Desc_Gate
+          - FicsitSet/Desc_Stair_FicsitSet
+          - FicsitSet/Desc_QuarterPipeMiddle
           - FicsitWallSet/Desc_Wall_Orange_8x1
           - Foundation/Desc_Foundation_8
+          - Foundation/Desc_QuarterPipe.Desc_QuarterPipe
+          - Foundation/Desc_QuarterPipe_02
+          - Foundation/Desc_QuarterPipeCorner
+          - Ramp/Desc_RampInverted
           - Ramp/Desc_Ramp_8x1_01
           - Ramp/Desc_Ramp_8x2_01
           - Ramp/Desc_Ramp_8x4_01
+          - Ramp/Desc_Ramp_8x4_Inverted_01
+          - Ramp/Desc_Ramp_8x8
+          - Ramp/Desc_Ramp_Diagonal
+          - Ramp/Desc_RampDouble
           - SpaceElevator/Desc_SpaceElevator
           - Wall/Desc_Wall_8x4_01
+          - Wall/Desc_Wall_Conveyor_8x4_01.
+          - Wall/Desc_Wall_Conveyor_8x4_02.
+          - Wall/Desc_Wall_Conveyor_8x4_03.
+          - Wall/Desc_Wall_Door_8x4_01.
+          - Wall/Desc_Wall_Door_8x4_03.
+          - Wall/Desc_Wall_Gate
+          - Wall/Desc_Wall_Orange
       - path: mResourceScannerAllowlist
         value:
           # Mods

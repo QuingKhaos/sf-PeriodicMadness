@@ -1329,6 +1329,17 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal Items"
+					},
+					"Translation":
+					{
+						"Text": "多金属物品"
+					},
+					"Key": "MultiMetal/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "MultiMetal: Basic Framing"
 					},
 					"Translation":

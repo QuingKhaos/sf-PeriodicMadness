@@ -1,0 +1,11 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target:
+      - /Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Gate_8x4_01.Recipe_Wall_Gate_8x4_01_C
+      - /Game/FactoryGame/Buildable/Building/Doors/Recipe_Gate_Automated_8x4.Recipe_Gate_Automated_8x4_C
+      - /Game/FactoryGame/Buildable/Building/Doors/Recipe_BigGarageDoor_16x8.Recipe_BigGarageDoor_16x8_C
+    properties:
+      - path: mIngredients[0].ItemClass
+        value: /PeriodicMadness/Resources/Products/Intermediates/Bricks/Desc_PM_Bricks.Desc_PM_Bricks_C

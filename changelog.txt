@@ -3,6 +3,7 @@ Version: 1.0.0-rc.1
 Date: ????
   Features:
     - Add FICSIT style foundations and walls to base building HUB milestone.
+    - Fill the AWESOME Shop with most stuff.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0-beta.3
 Date: 2026-09-15
