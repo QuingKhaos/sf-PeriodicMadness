@@ -8,6 +8,17 @@
 				{
 					"Source":
 					{
+						"Text": "ATM"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Advanced Transition Metal Science Pack"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ag"
 					},
 					"Translation":
@@ -399,7 +410,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Plate"
 				},
 				{
 					"Source":
@@ -410,7 +421,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Plate"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -448,6 +459,17 @@
 				{
 					"Source":
 					{
+						"Text": "SB"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Science Bottle"
+				},
+				{
+					"Source":
+					{
 						"Text": "TM"
 					},
 					"Translation":
@@ -455,6 +477,17 @@
 						"Text": ""
 					},
 					"Key": "Transition Metals Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "TM"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Transition Metal Science Pack"
 				},
 				{
 					"Source":
@@ -2366,6 +2399,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Transition Metals Science Pack"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Allows research of basic automation methods."
 					},
 					"Translation":
@@ -2553,6 +2597,17 @@
 				{
 					"Source":
 					{
+						"Text": "The second tier of transition metal refining. Unlocks new recipes and new ores."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedTransitionMetalSciencePack/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "The use of new and more acidic fluids to refine new products."
 					},
 					"Translation":
@@ -2665,6 +2720,17 @@
 		{
 			"Namespace": "ST_PM_Science",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Advanced Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
 				{
 					"Source":
 					{

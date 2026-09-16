@@ -8,6 +8,18 @@
 				{
 					"Source":
 					{
+						"Text": "ATM"
+					},
+					"Keys": [
+						{
+							"Key": "Advanced Transition Metal Science Pack",
+							"Path": "/PeriodicMadness/Resources/Science/SciencePack/ATMSP/Desc_PM_AdvancedTransitionMetalSciencePack.Default__Desc_PM_AdvancedTransitionMetalSciencePack_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ag"
 					},
 					"Keys": [
@@ -288,9 +300,25 @@
 				{
 					"Source":
 					{
+						"Text": "SB"
+					},
+					"Keys": [
+						{
+							"Key": "Science Bottle",
+							"Path": "/PeriodicMadness/Resources/Science/SciencePack/ScienceBottle/Desc_PM_ScienceBottle.Default__Desc_PM_ScienceBottle_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "TM"
 					},
 					"Keys": [
+						{
+							"Key": "Transition Metal Science Pack",
+							"Path": "/PeriodicMadness/Resources/Science/SciencePack/TMSP/Desc_PM_TransitionMetalSciencePack.Default__Desc_PM_TransitionMetalSciencePack_C.mAbbreviatedDisplayName"
+						},
 						{
 							"Key": "Transition Metals Ore",
 							"Path": "/PeriodicMadness/Resources/TM/TransitionMetals/TransitionMetalsOre/Desc_PM_TransitionMetalsOre.Default__Desc_PM_TransitionMetalsOre_C.mAbbreviatedDisplayName"
@@ -2310,6 +2338,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Transition Metals Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Allows research of basic automation methods."
 					},
 					"Keys": [
@@ -2514,6 +2554,18 @@
 				{
 					"Source":
 					{
+						"Text": "The second tier of transition metal refining. Unlocks new recipes and new ores."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalSciencePack/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "The use of new and more acidic fluids to refine new products."
 					},
 					"Keys": [
@@ -2636,6 +2688,18 @@
 		{
 			"Namespace": "ST_PM_Science",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Advanced Transition Metal Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
+						}
+					]
+				},
 				{
 					"Source":
 					{
