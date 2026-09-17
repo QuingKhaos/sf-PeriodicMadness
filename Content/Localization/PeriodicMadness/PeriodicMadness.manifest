@@ -613,6 +613,18 @@
 				{
 					"Source":
 					{
+						"Text": "Burner Smelter Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "BurnerSmelterMk2/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Burns fuel to turn water into steam."
 					},
 					"Keys": [
@@ -906,6 +918,18 @@
 					"Keys": [
 						{
 							"Key": "BurnerSmelterMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 200 %."
+					},
+					"Keys": [
+						{
+							"Key": "BurnerSmelterMk2/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -2646,6 +2670,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Material Processing"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedMaterialProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced MultiMetal Production"
 					},
 					"Keys": [
@@ -2843,6 +2879,18 @@
 					"Keys": [
 						{
 							"Key": "EzekielOrePurifying/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Faster and more flexible smelters."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedMaterialProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

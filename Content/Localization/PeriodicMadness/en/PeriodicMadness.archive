@@ -814,6 +814,17 @@
 				{
 					"Source":
 					{
+						"Text": "Burner Smelter Mk.2"
+					},
+					"Translation":
+					{
+						"Text": "Burner Smelter Mk.2"
+					},
+					"Key": "BurnerSmelterMk2/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Burns fuel to turn water into steam."
 					},
 					"Translation":
@@ -1085,6 +1096,17 @@
 						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100 %."
 					},
 					"Key": "BurnerSmelterMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 200 %."
+					},
+					"Translation":
+					{
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 200 %."
+					},
+					"Key": "BurnerSmelterMk2/Desc"
 				},
 				{
 					"Source":
@@ -2696,6 +2718,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Material Processing"
+					},
+					"Translation":
+					{
+						"Text": "Advanced Material Processing"
+					},
+					"Key": "AdvancedMaterialProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced MultiMetal Production"
 					},
 					"Translation":
@@ -2879,6 +2912,17 @@
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Key": "EzekielOrePurifying/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Faster and more flexible smelters."
+					},
+					"Translation":
+					{
+						"Text": "Faster and more flexible smelters."
+					},
+					"Key": "AdvancedMaterialProcessing/Desc"
 				},
 				{
 					"Source":
