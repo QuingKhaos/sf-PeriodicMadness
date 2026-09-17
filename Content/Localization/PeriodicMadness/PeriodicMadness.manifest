@@ -769,6 +769,18 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 30 %."
+					},
+					"Keys": [
+						{
+							"Key": "StoneCokeOvenMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 50 %. The first output is located at the production indicator."
 					},
 					"Keys": [
@@ -894,6 +906,18 @@
 					"Keys": [
 						{
 							"Key": "BurnerSmelterMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone Coke Oven"
+					},
+					"Keys": [
+						{
+							"Key": "StoneCokeOvenMk1/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -1780,6 +1804,22 @@
 				{
 					"Source":
 					{
+						"Text": "Coke"
+					},
+					"Keys": [
+						{
+							"Key": "Coke/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						},
+						{
+							"Key": "Coke/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Disk"
 					},
 					"Keys": [
@@ -2121,6 +2161,18 @@
 					"Keys": [
 						{
 							"Key": "Wires/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Strip-based Coke"
+					},
+					"Keys": [
+						{
+							"Key": "WoodStripCoke/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2774,6 +2826,18 @@
 				{
 					"Source":
 					{
+						"Text": "Coke Processing"
+					},
+					"Keys": [
+						{
+							"Key": "CokeProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Keys": [
@@ -2815,6 +2879,18 @@
 					"Keys": [
 						{
 							"Key": "StreetLight/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Industrial methods to produce coke, made from coal and useful in elemental processes."
+					},
+					"Keys": [
+						{
+							"Key": "CokeProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

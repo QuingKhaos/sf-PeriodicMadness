@@ -957,6 +957,17 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 30 %."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StoneCokeOvenMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 50 %. The first output is located at the production indicator."
 					},
 					"Translation":
@@ -1074,6 +1085,17 @@
 						"Text": ""
 					},
 					"Key": "BurnerSmelterMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone Coke Oven"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StoneCokeOvenMk1/Name"
 				},
 				{
 					"Source":
@@ -1894,6 +1916,28 @@
 				{
 					"Source":
 					{
+						"Text": "Coke"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Coke/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Coke"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Coke/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Disk"
 					},
 					"Translation":
@@ -2209,6 +2253,17 @@
 						"Text": ""
 					},
 					"Key": "Wires/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Strip-based Coke"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "WoodStripCoke/Recipe"
 				},
 				{
 					"Source":
@@ -2806,6 +2861,17 @@
 				{
 					"Source":
 					{
+						"Text": "Coke Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "CokeProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Translation":
@@ -2846,6 +2912,17 @@
 						"Text": ""
 					},
 					"Key": "StreetLight/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Industrial methods to produce coke, made from coal and useful in elemental processes."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "CokeProcessing/Desc"
 				},
 				{
 					"Source":
