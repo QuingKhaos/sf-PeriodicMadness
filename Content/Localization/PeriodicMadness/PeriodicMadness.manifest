@@ -192,6 +192,10 @@
 					},
 					"Keys": [
 						{
+							"Key": "Liquid Mercury",
+							"Path": "/PeriodicMadness/Resources/TM/Mercury/LiquidMercury/Desc_PM_LiquidMercury.Default__Desc_PM_LiquidMercury_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Mercury Ore",
 							"Path": "/PeriodicMadness/Resources/TM/Mercury/MercuryOre/Desc_PM_MercuryOre.Default__Desc_PM_MercuryOre_C.mAbbreviatedDisplayName"
 						},

@@ -135,7 +135,7 @@
 					{
 						"Text": "Cl"
 					},
-					"Key": "Chlorine Gas"
+					"Key": "Packaged Chlorine Gas"
 				},
 				{
 					"Source":
@@ -146,7 +146,18 @@
 					{
 						"Text": "Cl"
 					},
-					"Key": "Packaged Chlorine Gas"
+					"Key": "Chlorine Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": "Cu"
+					},
+					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -195,28 +206,6 @@
 				{
 					"Source":
 					{
-						"Text": "Cu"
-					},
-					"Translation":
-					{
-						"Text": "Cu"
-					},
-					"Key": "Copper Chunks"
-				},
-				{
-					"Source":
-					{
-						"Text": "Fe"
-					},
-					"Translation":
-					{
-						"Text": "Fe"
-					},
-					"Key": "Iron Chunks"
-				},
-				{
-					"Source":
-					{
 						"Text": "Fe"
 					},
 					"Translation":
@@ -257,6 +246,17 @@
 						"Text": "Fe"
 					},
 					"Key": "Iron Screws"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": "Fe"
+					},
+					"Key": "Iron Chunks"
 				},
 				{
 					"Source":
@@ -311,6 +311,17 @@
 					{
 						"Text": "Hg"
 					},
+					"Key": "Mercury Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg"
+					},
+					"Translation":
+					{
+						"Text": "Hg"
+					},
 					"Key": "Packaged Liquid Mercury"
 				},
 				{
@@ -322,7 +333,7 @@
 					{
 						"Text": "Hg"
 					},
-					"Key": "Mercury Ore"
+					"Key": "Liquid Mercury"
 				},
 				{
 					"Source":
@@ -421,7 +432,7 @@
 					{
 						"Text": "Ni"
 					},
-					"Key": "Nickel Plate"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -432,7 +443,7 @@
 					{
 						"Text": "Ni"
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Plate"
 				},
 				{
 					"Source":
