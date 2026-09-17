@@ -58,7 +58,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Chunks"
+					"Key": "Gold Ingot"
 				},
 				{
 					"Source":
@@ -69,7 +69,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Ingot"
+					"Key": "Gold Chunks"
 				},
 				{
 					"Source":
@@ -289,6 +289,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Mercury Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Hg"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Packaged Liquid Mercury"
 				},
 				{
@@ -300,7 +311,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Mercury Ore"
+					"Key": "Liquid Mercury"
 				},
 				{
 					"Source":
@@ -344,17 +355,6 @@
 					{
 						"Text": ""
 					},
-					"Key": "Manganese Ingot"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mn"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
 					"Key": "Manganese Ore"
 				},
 				{
@@ -367,6 +367,17 @@
 						"Text": ""
 					},
 					"Key": "Manganese Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ingot"
 				},
 				{
 					"Source":
@@ -388,7 +399,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Ore"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -399,7 +410,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Ore"
 				},
 				{
 					"Source":
