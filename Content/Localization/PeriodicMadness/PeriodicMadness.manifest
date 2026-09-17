@@ -2169,6 +2169,18 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Wood 'Growing'"
+					},
+					"Keys": [
+						{
+							"Key": "BasicBasicWoodGrowth/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Keys": [
@@ -2361,6 +2373,18 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Greenhousing"
+					},
+					"Keys": [
+						{
+							"Key": "Greenhousing/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Hydrogen"
 					},
 					"Keys": [
@@ -2522,6 +2546,18 @@
 					"Keys": [
 						{
 							"Key": "WaterMercuryElectrolysis/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Strips"
+					},
+					"Keys": [
+						{
+							"Key": "WoodStrips/Name",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
@@ -2834,6 +2870,18 @@
 				{
 					"Source":
 					{
+						"Text": "New ways to make use of wood in your factory."
+					},
+					"Keys": [
+						{
+							"Key": "WoodProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Pioneer technology of refining and using water."
 					},
 					"Keys": [
@@ -3031,6 +3079,18 @@
 					"Keys": [
 						{
 							"Key": "WaterDistillation/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Processing"
+					},
+					"Keys": [
+						{
+							"Key": "WoodProcessing/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

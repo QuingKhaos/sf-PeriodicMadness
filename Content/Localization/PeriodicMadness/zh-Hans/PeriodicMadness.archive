@@ -2251,6 +2251,17 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Wood 'Growing'"
+					},
+					"Translation":
+					{
+						"Text": "基础木材“生长”"
+					},
+					"Key": "BasicBasicWoodGrowth/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Translation":
@@ -2427,6 +2438,17 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Greenhousing"
+					},
+					"Translation":
+					{
+						"Text": "活跃非金属: Greenhousing"
+					},
+					"Key": "Greenhousing/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Hydrogen"
 					},
 					"Translation":
@@ -2577,6 +2599,17 @@
 						"Text": "水汞电解"
 					},
 					"Key": "WaterMercuryElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Strips"
+					},
+					"Translation":
+					{
+						"Text": "木条"
+					},
+					"Key": "WoodStrips/Name"
 				}
 			]
 		},
@@ -2861,6 +2894,17 @@
 				{
 					"Source":
 					{
+						"Text": "New ways to make use of wood in your factory."
+					},
+					"Translation":
+					{
+						"Text": "工厂中利用木材的新方法。"
+					},
+					"Key": "WoodProcessing/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Pioneer technology of refining and using water."
 					},
 					"Translation":
@@ -3044,6 +3088,17 @@
 						"Text": "水蒸馏配方"
 					},
 					"Key": "WaterDistillation/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Processing"
+					},
+					"Translation":
+					{
+						"Text": "木材加工"
+					},
+					"Key": "WoodProcessing/Name"
 				}
 			]
 		},

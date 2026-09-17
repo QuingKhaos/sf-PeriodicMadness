@@ -9,6 +9,7 @@ patches:
           - /PeriodicMadness/Resources/Products/RawResources/Leaves/Desc_PM_Leaves.Desc_PM_Leaves_C
           - /PeriodicMadness/Resources/Products/RawResources/Mycelia/Desc_PM_Mycelia.Desc_PM_Mycelia_C
           - /PeriodicMadness/Resources/Products/RawResources/Wood/Desc_PM_Wood.Desc_PM_Wood_C
+          - /PeriodicMadness/Resources/RNM/Biostuff/WoodStrips/Desc_PM_WoodStrips.Desc_PM_WoodStrips_C
           - /PeriodicMadness/Resources/RNM/Biostuff/Biomass/Desc_PM_Biomass.Desc_PM_Biomass_C
           - /PeriodicMadness/Resources/RNM/Biostuff/SolidBiofuel/Desc_PM_SolidBiofuel.Desc_PM_SolidBiofuel_C
 ---
@@ -22,6 +23,7 @@ patches:
           - /PeriodicMadness/Resources/Products/RawResources/Leaves/Desc_PM_Leaves.Desc_PM_Leaves_C
           - /PeriodicMadness/Resources/Products/RawResources/Mycelia/Desc_PM_Mycelia.Desc_PM_Mycelia_C
           - /PeriodicMadness/Resources/Products/RawResources/Wood/Desc_PM_Wood.Desc_PM_Wood_C
+          - /PeriodicMadness/Resources/RNM/Biostuff/WoodStrips/Desc_PM_WoodStrips.Desc_PM_WoodStrips_C
           - /PeriodicMadness/Resources/RNM/Biostuff/Biomass/Desc_PM_Biomass.Desc_PM_Biomass_C
           - /PeriodicMadness/Resources/RNM/Biostuff/SolidBiofuel/Desc_PM_SolidBiofuel.Desc_PM_SolidBiofuel_C
 ---
@@ -35,5 +37,6 @@ patches:
           - /PeriodicMadness/Resources/Products/RawResources/Leaves/Desc_PM_Leaves.Desc_PM_Leaves_C
           - /PeriodicMadness/Resources/Products/RawResources/Mycelia/Desc_PM_Mycelia.Desc_PM_Mycelia_C
           - /PeriodicMadness/Resources/Products/RawResources/Wood/Desc_PM_Wood.Desc_PM_Wood_C
+          - /PeriodicMadness/Resources/RNM/Biostuff/WoodStrips/Desc_PM_WoodStrips.Desc_PM_WoodStrips_C
           - /PeriodicMadness/Resources/RNM/Biostuff/Biomass/Desc_PM_Biomass.Desc_PM_Biomass_C
           - /PeriodicMadness/Resources/RNM/Biostuff/SolidBiofuel/Desc_PM_SolidBiofuel.Desc_PM_SolidBiofuel_C

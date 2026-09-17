@@ -2251,6 +2251,17 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Wood 'Growing'"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BasicBasicWoodGrowth/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Carbon"
 					},
 					"Translation":
@@ -2427,6 +2438,17 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Greenhousing"
+					},
+					"Translation":
+					{
+						"Text": "Ametaller: Greenhousing"
+					},
+					"Key": "Greenhousing/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Hydrogen"
 					},
 					"Translation":
@@ -2577,6 +2599,17 @@
 						"Text": ""
 					},
 					"Key": "WaterMercuryElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Strips"
+					},
+					"Translation":
+					{
+						"Text": "Çıra"
+					},
+					"Key": "WoodStrips/Name"
 				}
 			]
 		},
@@ -2861,6 +2894,17 @@
 				{
 					"Source":
 					{
+						"Text": "New ways to make use of wood in your factory."
+					},
+					"Translation":
+					{
+						"Text": "Odun üretimi için yeni yöntemler."
+					},
+					"Key": "WoodProcessing/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Pioneer technology of refining and using water."
 					},
 					"Translation":
@@ -3044,6 +3088,17 @@
 						"Text": "Su damıtma"
 					},
 					"Key": "WaterDistillation/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Processing"
+					},
+					"Translation":
+					{
+						"Text": "Odun işleme"
+					},
+					"Key": "WoodProcessing/Name"
 				}
 			]
 		},
