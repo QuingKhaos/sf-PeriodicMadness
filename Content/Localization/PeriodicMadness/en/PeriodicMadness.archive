@@ -1406,6 +1406,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Brass Heat-resistant Plating"
+					},
+					"Key": "BrassHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Cold-resistant Plating"
+					},
+					"Key": "CoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1413,6 +1435,50 @@
 						"Text": "Copper Basic Tubing"
 					},
 					"Key": "CopperBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Copper Cold-resistant Plating"
+					},
+					"Key": "CopperCoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Copper Heat-resistant Plating"
+					},
+					"Key": "CopperHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Gold Heat-resistant Plating"
+					},
+					"Key": "GoldHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Heat-resistant Plating"
+					},
+					"Key": "HeatingPlating/Name"
 				},
 				{
 					"Source":
@@ -1446,6 +1512,17 @@
 						"Text": "Iron Basic Tubing"
 					},
 					"Key": "IronBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Manganese Cold-resistant Plating"
+					},
+					"Key": "ManganeseCoolingPlating/Name"
 				},
 				{
 					"Source":
@@ -1494,6 +1571,17 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Temperature Plating"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: Temperature Plating"
+					},
+					"Key": "TempPlates/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Basic Tubing"
 					},
 					"Translation":
@@ -1501,6 +1589,17 @@
 						"Text": "Nickel Basic Tubing"
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Silver Cold-resistant Plating"
+					},
+					"Key": "SilverCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -1523,6 +1622,17 @@
 						"Text": "Steel Basic Tubing"
 					},
 					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Steel Cold-resistant Plating"
+					},
+					"Key": "SteelCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -2619,6 +2729,17 @@
 				{
 					"Source":
 					{
+						"Text": "By using a mixture of different metals laid across eachother, you can harness the infinte power of... hot and cold."
+					},
+					"Translation":
+					{
+						"Text": "By using a mixture of different metals laid across eachother, you can harness the infinte power of... hot and cold."
+					},
+					"Key": "TemperaturePlating/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Byproduct Handling"
 					},
 					"Translation":
@@ -2758,6 +2879,17 @@
 						"Text": "Steel Processing"
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Temperature Controlling Plating"
+					},
+					"Translation":
+					{
+						"Text": "Temperature Controlling Plating"
+					},
+					"Key": "TemperaturePlating/Name"
 				},
 				{
 					"Source":

@@ -1257,11 +1257,83 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Heat-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "BrassHeatingPlating/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "CoolingPlating/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Keys": [
 						{
 							"Key": "CopperBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "CopperCoolingPlating/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Heat-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "CopperHeatingPlating/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Heat-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "GoldHeatingPlating/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Heat-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "HeatingPlating/Name",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1298,6 +1370,18 @@
 					"Keys": [
 						{
 							"Key": "IronBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "ManganeseCoolingPlating/Name",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1353,11 +1437,35 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Temperature Plating"
+					},
+					"Keys": [
+						{
+							"Key": "TempPlates/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Basic Tubing"
 					},
 					"Keys": [
 						{
 							"Key": "NickelBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "SilverCoolingPlating/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1382,6 +1490,18 @@
 					"Keys": [
 						{
 							"Key": "SteelBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "SteelCoolingPlating/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -2570,6 +2690,18 @@
 				{
 					"Source":
 					{
+						"Text": "By using a mixture of different metals laid across eachother, you can harness the infinte power of... hot and cold."
+					},
+					"Keys": [
+						{
+							"Key": "TemperaturePlating/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Byproduct Handling"
 					},
 					"Keys": [
@@ -2719,6 +2851,18 @@
 					"Keys": [
 						{
 							"Key": "SteelProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Temperature Controlling Plating"
+					},
+					"Keys": [
+						{
+							"Key": "TemperaturePlating/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

@@ -1406,6 +1406,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquage thermorésistant en laiton"
+					},
+					"Key": "BrassHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquage cryorésistant"
+					},
+					"Key": "CoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1413,6 +1435,50 @@
 						"Text": "Tuyauterie basique en cuivre"
 					},
 					"Key": "CopperBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquage cryorésistant en cuivre"
+					},
+					"Key": "CopperCoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquage thermorésistant en cuivre"
+					},
+					"Key": "CopperHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquage thermorésistant en or"
+					},
+					"Key": "GoldHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquage thermorésistant"
+					},
+					"Key": "HeatingPlating/Name"
 				},
 				{
 					"Source":
@@ -1446,6 +1512,17 @@
 						"Text": "Tuyauterie basique en fer"
 					},
 					"Key": "IronBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquage cryorésistant en manganèse"
+					},
+					"Key": "ManganeseCoolingPlating/Name"
 				},
 				{
 					"Source":
@@ -1494,6 +1571,17 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Temperature Plating"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TempPlates/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Basic Tubing"
 					},
 					"Translation":
@@ -1501,6 +1589,17 @@
 						"Text": "Tuyauterie basique en nickel"
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquage cryorésistant en argent"
+					},
+					"Key": "SilverCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -1523,6 +1622,17 @@
 						"Text": "Tuyauterie basique en acier"
 					},
 					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquage cryorésistant en acier"
+					},
+					"Key": "SteelCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -2619,6 +2729,17 @@
 				{
 					"Source":
 					{
+						"Text": "By using a mixture of different metals laid across eachother, you can harness the infinte power of... hot and cold."
+					},
+					"Translation":
+					{
+						"Text": "En utilisant une mixture de différents métaux superposés, vous pouvez maintenant contrôler les forces terrifiantes que sont ... le chaud et le froid."
+					},
+					"Key": "TemperaturePlating/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Byproduct Handling"
 					},
 					"Translation":
@@ -2758,6 +2879,17 @@
 						"Text": ""
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Temperature Controlling Plating"
+					},
+					"Translation":
+					{
+						"Text": "Plaquages thermiques"
+					},
+					"Key": "TemperaturePlating/Name"
 				},
 				{
 					"Source":

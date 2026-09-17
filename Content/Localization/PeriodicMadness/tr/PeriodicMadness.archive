@@ -1406,6 +1406,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Sıcağa dayanıklı pirinç kaplama"
+					},
+					"Key": "BrassHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Soğuğa dayanıklı kaplama"
+					},
+					"Key": "CoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1413,6 +1435,50 @@
 						"Text": ""
 					},
 					"Key": "CopperBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Soğuğa dayanıklı bakır kaplama"
+					},
+					"Key": "CopperCoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Sıcağa dayanıklı bakır kaplama"
+					},
+					"Key": "CopperHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Sıcağa dayanıklı altın kaplama"
+					},
+					"Key": "GoldHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Sıcağa dayanıklı kaplama"
+					},
+					"Key": "HeatingPlating/Name"
 				},
 				{
 					"Source":
@@ -1446,6 +1512,17 @@
 						"Text": ""
 					},
 					"Key": "IronBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ManganeseCoolingPlating/Name"
 				},
 				{
 					"Source":
@@ -1494,6 +1571,17 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Temperature Plating"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TempPlates/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Basic Tubing"
 					},
 					"Translation":
@@ -1501,6 +1589,17 @@
 						"Text": ""
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Soğuğa dayanıklı gümüş kaplama"
+					},
+					"Key": "SilverCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -1523,6 +1622,17 @@
 						"Text": ""
 					},
 					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Soğuğa dayanıklı çelik kaplama"
+					},
+					"Key": "SteelCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -2619,6 +2729,17 @@
 				{
 					"Source":
 					{
+						"Text": "By using a mixture of different metals laid across eachother, you can harness the infinte power of... hot and cold."
+					},
+					"Translation":
+					{
+						"Text": "Farklı metalleri üst üste koyarak sıcak ve soğuk kavramlarını ele geçirebilirsiniz... şimdilik."
+					},
+					"Key": "TemperaturePlating/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Byproduct Handling"
 					},
 					"Translation":
@@ -2758,6 +2879,17 @@
 						"Text": ""
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Temperature Controlling Plating"
+					},
+					"Translation":
+					{
+						"Text": "Isıya dayanıklı kaplama"
+					},
+					"Key": "TemperaturePlating/Name"
 				},
 				{
 					"Source":

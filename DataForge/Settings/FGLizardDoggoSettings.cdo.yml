@@ -16,6 +16,12 @@ patches:
               ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
             NumItems: 13
           - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/TempPlates/HeatingPlating/Desc_PM_HeatingPlating.Desc_PM_HeatingPlating_C
+            NumItems: 7
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/TempPlates/CoolingPlating/Desc_PM_CoolingPlating.Desc_PM_CoolingPlating_C
+            NumItems: 7
+          - Item:
               ItemClass: /PeriodicMadness/Resources/Products/AlienTech/SAM/Desc_PM_SAM.Desc_PM_SAM_C
             NumItems: 1
           - Item:

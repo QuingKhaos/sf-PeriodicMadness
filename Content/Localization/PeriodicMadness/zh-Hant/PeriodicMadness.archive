@@ -1406,6 +1406,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "黃銅製耐熱板甲"
+					},
+					"Key": "BrassHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "耐寒板甲"
+					},
+					"Key": "CoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1413,6 +1435,50 @@
 						"Text": "銅製基礎管材"
 					},
 					"Key": "CopperBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "銅製抗冷板甲"
+					},
+					"Key": "CopperCoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "銅製耐熱板甲"
+					},
+					"Key": "CopperHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "金製耐熱板甲"
+					},
+					"Key": "GoldHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "耐熱板甲"
+					},
+					"Key": "HeatingPlating/Name"
 				},
 				{
 					"Source":
@@ -1446,6 +1512,17 @@
 						"Text": "鐵製基礎管材"
 					},
 					"Key": "IronBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "錳製抗冷板甲"
+					},
+					"Key": "ManganeseCoolingPlating/Name"
 				},
 				{
 					"Source":
@@ -1494,6 +1571,17 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Temperature Plating"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TempPlates/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Basic Tubing"
 					},
 					"Translation":
@@ -1501,6 +1589,17 @@
 						"Text": "鎳製基礎管材"
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "銀製抗冷板甲"
+					},
+					"Key": "SilverCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -1523,6 +1622,17 @@
 						"Text": "鋼製基礎管材"
 					},
 					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "鋼製抗冷板甲"
+					},
+					"Key": "SteelCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -2619,6 +2729,17 @@
 				{
 					"Source":
 					{
+						"Text": "By using a mixture of different metals laid across eachother, you can harness the infinte power of... hot and cold."
+					},
+					"Translation":
+					{
+						"Text": "透過將不同的金屬混合並相互疊放，你可以利用無限的能量……來自冷和熱的。"
+					},
+					"Key": "TemperaturePlating/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Byproduct Handling"
 					},
 					"Translation":
@@ -2758,6 +2879,17 @@
 						"Text": ""
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Temperature Controlling Plating"
+					},
+					"Translation":
+					{
+						"Text": "耐溫板甲"
+					},
+					"Key": "TemperaturePlating/Name"
 				},
 				{
 					"Source":
