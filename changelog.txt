@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.0
+Version: 1.0.0-rc.2
 Date: ????
   Bugfixes:
     - Add missing abbreviation for Liquid Mercury.
+    - Use correct Iron Rod item descriptor for Base Building HUB milestone.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0-rc.1
 Date: 2026-09-16
