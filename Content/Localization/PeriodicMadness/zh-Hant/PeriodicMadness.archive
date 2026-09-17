@@ -1894,6 +1894,17 @@
 				{
 					"Source":
 					{
+						"Text": "Gravel Crushing"
+					},
+					"Translation":
+					{
+						"Text": "粉碎沙礫"
+					},
+					"Key": "GravelCrushing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gravel-based Glass Pane"
 					},
 					"Translation":
@@ -1945,6 +1956,17 @@
 						"Text": ""
 					},
 					"Key": "RawResources/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sand"
+					},
+					"Translation":
+					{
+						"Text": "沙子"
+					},
+					"Key": "Sand/Name"
 				},
 				{
 					"Source":
@@ -2454,6 +2476,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Sand Processing"
+					},
+					"Translation":
+					{
+						"Text": "高階沙處理"
+					},
+					"Key": "AdvancedSandProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Translation":
@@ -2472,6 +2505,17 @@
 						"Text": "高階過渡金屬科技包"
 					},
 					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced ways to crush stone to manufacture glass."
+					},
+					"Translation":
+					{
+						"Text": "高階的碎石製玻璃方法。"
+					},
+					"Key": "AdvancedSandProcessing/Desc"
 				},
 				{
 					"Source":

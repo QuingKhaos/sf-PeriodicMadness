@@ -1788,6 +1788,18 @@
 				{
 					"Source":
 					{
+						"Text": "Gravel Crushing"
+					},
+					"Keys": [
+						{
+							"Key": "GravelCrushing/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Gravel-based Glass Pane"
 					},
 					"Keys": [
@@ -1841,6 +1853,18 @@
 					"Keys": [
 						{
 							"Key": "RawResources/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sand"
+					},
+					"Keys": [
+						{
+							"Key": "Sand/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2398,6 +2422,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Sand Processing"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedSandProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Keys": [
@@ -2415,6 +2451,18 @@
 					"Keys": [
 						{
 							"Key": "AdvancedTransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced ways to crush stone to manufacture glass."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedSandProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

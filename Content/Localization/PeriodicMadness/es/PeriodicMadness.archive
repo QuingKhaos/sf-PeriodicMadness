@@ -1894,6 +1894,17 @@
 				{
 					"Source":
 					{
+						"Text": "Gravel Crushing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "GravelCrushing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gravel-based Glass Pane"
 					},
 					"Translation":
@@ -1945,6 +1956,17 @@
 						"Text": ""
 					},
 					"Key": "RawResources/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sand"
+					},
+					"Translation":
+					{
+						"Text": "Arena"
+					},
+					"Key": "Sand/Name"
 				},
 				{
 					"Source":
@@ -2454,6 +2476,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Sand Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedSandProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Translation":
@@ -2472,6 +2505,17 @@
 						"Text": "Paquete de metales de transición avanzados"
 					},
 					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced ways to crush stone to manufacture glass."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedSandProcessing/Desc"
 				},
 				{
 					"Source":

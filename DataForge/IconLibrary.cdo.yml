@@ -243,15 +243,15 @@ patches:
           #   Hidden: true
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 29
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/Wall_Window_8x4_03_512.Wall_Window_8x4_03_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_03.Desc_Wall_Window_8x4_03_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 29
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/Wall_Window_8x4_03_512.Wall_Window_8x4_03_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_03.Desc_Wall_Window_8x4_03_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 31
             Texture: "/Game/FactoryGame/Buildable/Factory/JumpPad/UI/IconDesc_JumpPad_512.IconDesc_JumpPad_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/JumpPad/Desc_JumpPadTilted.Desc_JumpPadTilted_C"
@@ -1467,33 +1467,33 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 166
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/Wall_Window_8x4_01_512.Wall_Window_8x4_01_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_01.Desc_Wall_Window_8x4_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 167
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/Wall_Window_8x4_02_512.Wall_Window_8x4_02_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_02.Desc_Wall_Window_8x4_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 168
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/Wall_Window_8x4_04_512.Wall_Window_8x4_04_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_04.Desc_Wall_Window_8x4_04_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 166
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/Wall_Window_8x4_01_512.Wall_Window_8x4_01_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_01.Desc_Wall_Window_8x4_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 167
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/Wall_Window_8x4_02_512.Wall_Window_8x4_02_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_02.Desc_Wall_Window_8x4_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 168
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/Wall_Window_8x4_04_512.Wall_Window_8x4_04_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_04.Desc_Wall_Window_8x4_04_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 169
             Texture: "/Game/FactoryGame/Resource/Equipment/ShockShank/UI/IconDesc_XenoZapper_256.IconDesc_XenoZapper_256"
             itemDescriptor: "/Game/FactoryGame/Resource/Equipment/ShockShank/BP_EquipmentDescriptorShockShank.BP_EquipmentDescriptorShockShank_C"
@@ -4038,24 +4038,24 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 438
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/IconDesc_FullWindow_512.IconDesc_FullWindow_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_Thin_8x4_01.Desc_Wall_Window_Thin_8x4_01_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 439
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/IconDesc_HexagonWindow_512.IconDesc_HexagonWindow_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_Thin_8x4_02.Desc_Wall_Window_Thin_8x4_02_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 438
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/IconDesc_FullWindow_512.IconDesc_FullWindow_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_Thin_8x4_01.Desc_Wall_Window_Thin_8x4_01_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 439
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/IconDesc_HexagonWindow_512.IconDesc_HexagonWindow_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_Thin_8x4_02.Desc_Wall_Window_Thin_8x4_02_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 440
           #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/UI/U5/IconDesc_FlatFrame_512.IconDesc_FlatFrame_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/Desc_Flat_Frame_01.Desc_Flat_Frame_01_C"
@@ -7710,33 +7710,33 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 837
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/WallWindow/IconDesc_HexWindow_512.IconDesc_HexWindow_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_06.Desc_Wall_Window_8x4_06_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 838
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/WallWindow/IconDesc_ThreeWindow_512.IconDesc_ThreeWindow_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_07.Desc_Wall_Window_8x4_07_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 839
-          #   Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/WallWindow/IconDesc_AWindow_512.IconDesc_AWindow_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_05.Desc_Wall_Window_8x4_05_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 837
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/WallWindow/IconDesc_HexWindow_512.IconDesc_HexWindow_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_06.Desc_Wall_Window_8x4_06_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 838
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/WallWindow/IconDesc_ThreeWindow_512.IconDesc_ThreeWindow_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_07.Desc_Wall_Window_8x4_07_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 839
+            Texture: "/Game/FactoryGame/Buildable/Building/Wall/UI/WallWindow/IconDesc_AWindow_512.IconDesc_AWindow_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_05.Desc_Wall_Window_8x4_05_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 840
           #   Texture: "/Game/FactoryGame/Buildable/Building/TarpFence/UI/IconDesc_TarpFence_512.IconDesc_TarpFence_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/TarpFence/Desc_TarpFence.Desc_TarpFence_C"
