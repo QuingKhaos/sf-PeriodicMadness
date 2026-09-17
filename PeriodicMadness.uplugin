@@ -54,7 +54,7 @@
 		{
 			"Name": "KDataForge",
 			"Enabled": true,
-			"SemVersion": "^2026.3.509"
+			"SemVersion": "^2026.3.570"
 		},
 		{
 			"Name": "KhaosLib",

@@ -4,10 +4,21 @@ Date: ????
   Features:
     - Add the Advanced Transition Metal Science Pack and content for it.
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-09-17
+  Bugfixes:
+    - Make Burner Crusher recipe use the correct Iron Screws.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: ????
+Date: 2026-09-17
+  Features:
+    - Make dimensional depot with matched belt speeds available.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0-rc.2
+Date: 2026-09-17
   Bugfixes:
     - Add missing abbreviation for Liquid Mercury.
+    - Use correct Iron Rod item descriptor for Base Building HUB milestone.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0-rc.1
 Date: 2026-09-16
