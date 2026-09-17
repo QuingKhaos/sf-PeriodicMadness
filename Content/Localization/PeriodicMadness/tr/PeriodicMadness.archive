@@ -2434,6 +2434,28 @@
 						"Text": ""
 					},
 					"Key": "UnpackageOxygen/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "WaterElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water-Mercury Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "WaterMercuryElectrolysis/Recipe"
 				}
 			]
 		},
@@ -2707,6 +2729,17 @@
 				{
 					"Source":
 					{
+						"Text": "Pioneer technology of refining and using water."
+					},
+					"Translation":
+					{
+						"Text": "Su damıtma ve kullanım teknolojileri. Artık denizden normal su çekebilirsiniz."
+					},
+					"Key": "WaterDistillation/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Translation":
@@ -2857,6 +2890,17 @@
 						"Text": "Voltaik piller"
 					},
 					"Key": "VoltaticPiles/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Distillation Recipes"
+					},
+					"Translation":
+					{
+						"Text": "Su damıtma"
+					},
+					"Key": "WaterDistillation/Name"
 				}
 			]
 		},

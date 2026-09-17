@@ -546,15 +546,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 68
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/WaterPump/UI/Waterpump_512.Waterpump_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/WaterPump/Desc_WaterPump.Desc_WaterPump_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 68
+            Texture: "/Game/FactoryGame/Buildable/Factory/WaterPump/UI/Waterpump_512.Waterpump_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/WaterPump/Desc_WaterPump.Desc_WaterPump_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 69
             Texture: "/Game/FactoryGame/Buildable/Factory/Pipeline/UI/IconDesc_Pipes_512.IconDesc_Pipes_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Pipeline/Desc_Pipeline_NoIndicator.Desc_Pipeline_NoIndicator_C"

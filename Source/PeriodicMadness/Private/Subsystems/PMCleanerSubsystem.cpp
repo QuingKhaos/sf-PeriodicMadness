@@ -11,6 +11,7 @@
 #include "FGFoliagePickup.h"
 #include "FGFoliageResourceUserData.h"
 #include "FGItemPickup_Spawnable.h"
+#include "FGWaterVolume.h"
 #include "ItemDrop.h"
 #include "PeriodicMadnessLogChannels.h"
 #include "WorldPartition/WorldPartitionSubsystem.h"
@@ -51,6 +52,7 @@ void APMCleanerSubsystem::BeginPlay()
 	ReplaceResourceDeposits();
 	RemoveFoliageItemDrops();
 	ReplaceFoliageItemDrops();
+	ReplaceWaterVolumes();
 	CleanupCrashSites();
 
 	UWorldPartitionSubsystem* WorldPartitionSubsystem = GetWorld()->GetSubsystem<UWorldPartitionSubsystem>();
@@ -236,6 +238,28 @@ void APMCleanerSubsystem::ReplaceFoliageItemDrops()
 						}
 					}
 				}
+			}
+		}
+	}
+}
+
+void APMCleanerSubsystem::ReplaceWaterVolumes()
+{
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
+	TArray<AActor*> WaterVolumeActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AFGWaterVolume::StaticClass(), WaterVolumeActors);
+
+	for (AActor* Actor : WaterVolumeActors)
+	{
+		AFGWaterVolume* WaterVolume = Cast<AFGWaterVolume>(Actor);
+		if (WaterVolume)
+		{
+			TSubclassOf<UFGResourceDescriptor> ReplacementResourceClass;
+			if (CleanerSettings->ShouldReplaceWaterVolumeResourceClass(WaterVolume->mResourceClass, ReplacementResourceClass))
+			{
+				PM_LOG_ARGS(Verbose, TEXT("Replacing water volume resource class: %s with %s, WaterVolume: %s"), *UKismetSystemLibrary::GetPathName(WaterVolume->mResourceClass), *UKismetSystemLibrary::GetPathName(ReplacementResourceClass), *UKismetSystemLibrary::GetPathName(WaterVolume));
+				WaterVolume->mResourceClass = ReplacementResourceClass;
 			}
 		}
 	}

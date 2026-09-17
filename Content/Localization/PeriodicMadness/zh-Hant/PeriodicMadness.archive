@@ -2434,6 +2434,28 @@
 						"Text": ""
 					},
 					"Key": "UnpackageOxygen/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": "水電解"
+					},
+					"Key": "WaterElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water-Mercury Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": "水汞電解"
+					},
+					"Key": "WaterMercuryElectrolysis/Recipe"
 				}
 			]
 		},
@@ -2707,6 +2729,17 @@
 				{
 					"Source":
 					{
+						"Text": "Pioneer technology of refining and using water."
+					},
+					"Translation":
+					{
+						"Text": "提煉和使用水的先驅技術。"
+					},
+					"Key": "WaterDistillation/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Translation":
@@ -2857,6 +2890,17 @@
 						"Text": "伏打電堆電池"
 					},
 					"Key": "VoltaticPiles/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Distillation Recipes"
+					},
+					"Translation":
+					{
+						"Text": "水蒸餾配方"
+					},
+					"Key": "WaterDistillation/Name"
 				}
 			]
 		},

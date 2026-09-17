@@ -43,6 +43,9 @@ protected:
 	/** Replace targeted foliage item drops with their replacements. */
 	void ReplaceFoliageItemDrops();
 
+	/** Replace targeted water volume resource classes with their replacements. */
+	void ReplaceWaterVolumes();
+
 	/** Cleanup crash sites. */
 	void CleanupCrashSites();
 

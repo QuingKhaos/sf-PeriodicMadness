@@ -2377,6 +2377,30 @@
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Electrolysis"
+					},
+					"Keys": [
+						{
+							"Key": "WaterElectrolysis/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water-Mercury Electrolysis"
+					},
+					"Keys": [
+						{
+							"Key": "WaterMercuryElectrolysis/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
 				}
 			]
 		},
@@ -2674,6 +2698,18 @@
 				{
 					"Source":
 					{
+						"Text": "Pioneer technology of refining and using water."
+					},
+					"Keys": [
+						{
+							"Key": "WaterDistillation/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Keys": [
@@ -2835,6 +2871,18 @@
 					"Keys": [
 						{
 							"Key": "VoltaticPiles/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Distillation Recipes"
+					},
+					"Keys": [
+						{
+							"Key": "WaterDistillation/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

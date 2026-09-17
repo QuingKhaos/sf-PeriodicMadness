@@ -2434,6 +2434,28 @@
 						"Text": ""
 					},
 					"Key": "UnpackageOxygen/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": "Électrolyse de l'eau"
+					},
+					"Key": "WaterElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water-Mercury Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": "Électrolyse de l'eau et du mercure"
+					},
+					"Key": "WaterMercuryElectrolysis/Recipe"
 				}
 			]
 		},
@@ -2707,6 +2729,17 @@
 				{
 					"Source":
 					{
+						"Text": "Pioneer technology of refining and using water."
+					},
+					"Translation":
+					{
+						"Text": "Développement de processus de raffinage et d'utilisation de l'eau."
+					},
+					"Key": "WaterDistillation/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Translation":
@@ -2857,6 +2890,17 @@
 						"Text": "Piles voltaïques"
 					},
 					"Key": "VoltaticPiles/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Distillation Recipes"
+					},
+					"Translation":
+					{
+						"Text": "Distillation de l'eau"
+					},
+					"Key": "WaterDistillation/Name"
 				}
 			]
 		},

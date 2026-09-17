@@ -71,6 +71,10 @@ patches:
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Wood/Desc_PM_Wood.Desc_PM_Wood_C
           - Target: /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Stone/Desc_PM_Stone.Desc_PM_Stone_C
+      - path: mWaterVolumeResourceClassReplacement
+        value:
+          Target: /Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C
+          Replacement: /PeriodicMadness/Resources/Fluids/Water/Water/Desc_PM_Water.Desc_PM_Water_C
       - path: mResearchTreeClassAllowlist
         value:
           # Mods
@@ -163,6 +167,7 @@ patches:
           - Recipe_Biomass_AlienProtein
           - Recipe_Miner
           - Recipe_Protein
+          - Recipe_WaterPump
           # More specific recipes
           - Doors/Recipe_BigGarageDoor_16x8.
           - Doors/Recipe_Gate
@@ -251,6 +256,7 @@ patches:
           - Desc_HardDrive
           - Desc_WAT1
           - Desc_WAT2
+          - Desc_WaterPump
           # More specific items
           - Desc_PowerLine.Desc_PowerLine
           - Doors/Desc_BigGarageDoor_16x8.
