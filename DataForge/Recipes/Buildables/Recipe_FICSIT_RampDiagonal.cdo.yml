@@ -8,7 +8,7 @@ patches:
       - /Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x4_01.Recipe_Ramp_Diagonal_8x4_01_C
       - /Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x1_02.Recipe_Ramp_Diagonal_8x1_02_C
       - /Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x2_02.Recipe_Ramp_Diagonal_8x2_02_C
-      - /Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x4_02.Recipe_Ramp_Diagonal_8x4_01_C
+      - /Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x4_02.Recipe_Ramp_Diagonal_8x4_02_C
     properties:
       - path: mIngredients[0].ItemClass
         value: /PeriodicMadness/Resources/Products/Intermediates/Bricks/Desc_PM_Bricks.Desc_PM_Bricks_C

@@ -16,4 +16,4 @@ patches:
           source: "Adds the premium Gold Paint Finish to the Customizer, from where it can be applied to any building."
       - path: mSchematicDependencies[0].mSchematics
         value:
-          - /PeriodicMadness/Schematics/Research/TMSP_RS/Research_PM_AdvancedTransitionMetalRefining.Research_PM_AdvancedTransitionMetalRefining
+          - /PeriodicMadness/Schematics/Research/TMSP_RS/Research_PM_AdvancedTransitionMetalRefining.Research_PM_AdvancedTransitionMetalRefining_C

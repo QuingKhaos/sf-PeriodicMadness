@@ -2,7 +2,7 @@
 $schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
 type: cdo
 patches:
-  - target: /Game/FactoryGame/Recipes/Equipment/Recipe_FilterGasMask.Recipe_FilterGasMask
+  - target: /Game/FactoryGame/Recipes/Equipment/Recipe_FilterGasMask.Recipe_FilterGasMask_C
     properties:
       - path: mIngredients[0].ItemClass
         value: /PeriodicMadness/Resources/RNM/Biostuff/Fabric/Desc_PM_Fabric.Desc_PM_Fabric_C
