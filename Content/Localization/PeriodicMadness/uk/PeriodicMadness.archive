@@ -1966,7 +1966,7 @@
 					{
 						"Text": "Кокс"
 					},
-					"Key": "Coke/Name"
+					"Key": "Coke/Cat"
 				},
 				{
 					"Source":
@@ -1977,7 +1977,7 @@
 					{
 						"Text": "Кокс"
 					},
-					"Key": "Coke/Cat"
+					"Key": "Coke/Name"
 				},
 				{
 					"Source":
@@ -2213,6 +2213,17 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Rubber Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedRubberResin/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Phenolic Resin"
 					},
 					"Translation":
@@ -2253,6 +2264,17 @@
 						"Text": "Смола"
 					},
 					"Key": "Resin/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber Resin"
+					},
+					"Translation":
+					{
+						"Text": "Гумова смола"
+					},
+					"Key": "RubberResin/Name"
 				},
 				{
 					"Source":
@@ -2356,6 +2378,17 @@
 				{
 					"Source":
 					{
+						"Text": "Unpackage Rubber Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageRubberResin/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Voltatic Pile"
 					},
 					"Translation":
@@ -2385,6 +2418,17 @@
 						"Text": ""
 					},
 					"Key": "VoltaticPileFixing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Vulcanised Rubber"
+					},
+					"Translation":
+					{
+						"Text": "Вулканізована гума"
+					},
+					"Key": "VulcanisedRubber/Name"
 				},
 				{
 					"Source":
@@ -2839,6 +2883,17 @@
 				{
 					"Source":
 					{
+						"Text": "A type of resin thats best for making rubber."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "RubberProcessing/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Acidic Water Processing"
 					},
 					"Translation":
@@ -3198,6 +3253,17 @@
 						"Text": ""
 					},
 					"Key": "ResinProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber Resin Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "RubberProcessing/Name"
 				},
 				{
 					"Source":

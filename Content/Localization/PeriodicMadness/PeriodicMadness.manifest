@@ -2120,6 +2120,18 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Rubber Resin"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedRubberResin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Phenolic Resin"
 					},
 					"Keys": [
@@ -2153,6 +2165,18 @@
 						},
 						{
 							"Key": "Resin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber Resin"
+					},
+					"Keys": [
+						{
+							"Key": "RubberResin/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2268,6 +2292,18 @@
 				{
 					"Source":
 					{
+						"Text": "Unpackage Rubber Resin"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageRubberResin/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Voltatic Pile"
 					},
 					"Keys": [
@@ -2297,6 +2333,18 @@
 					"Keys": [
 						{
 							"Key": "VoltaticPileFixing/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Vulcanised Rubber"
+					},
+					"Keys": [
+						{
+							"Key": "VulcanisedRubber/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2794,6 +2842,18 @@
 				{
 					"Source":
 					{
+						"Text": "A type of resin thats best for making rubber."
+					},
+					"Keys": [
+						{
+							"Key": "RubberProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Acidic Water Processing"
 					},
 					"Keys": [
@@ -3183,6 +3243,18 @@
 					"Keys": [
 						{
 							"Key": "ResinProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber Resin Processing"
+					},
+					"Keys": [
+						{
+							"Key": "RubberProcessing/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
