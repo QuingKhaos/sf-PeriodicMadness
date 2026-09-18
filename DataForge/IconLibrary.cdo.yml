@@ -261,33 +261,33 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 32
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/UI/PowerPoleMk2_512.PowerPoleMk2_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Desc_PowerPoleMk2.Desc_PowerPoleMk2_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 33
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK2_512.PowerPoleWall_MK2_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWallMk2.Desc_PowerPoleWallMk2_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 34
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/UI/PowerPoleWallDouble_MK2_512.PowerPoleWallDouble_MK2_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDoubleMk2.Desc_PowerPoleWallDoubleMk2_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 32
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/UI/PowerPoleMk2_512.PowerPoleMk2_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Desc_PowerPoleMk2.Desc_PowerPoleMk2_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 33
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK2_512.PowerPoleWall_MK2_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWallMk2.Desc_PowerPoleWallMk2_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 34
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/UI/PowerPoleWallDouble_MK2_512.PowerPoleWallDouble_MK2_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDoubleMk2.Desc_PowerPoleWallDoubleMk2_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 35
             Texture: "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/UI/IconDesc_SmartSplitter_512.IconDesc_SmartSplitter_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Desc_ConveyorAttachmentSplitterSmart.Desc_ConveyorAttachmentSplitterSmart_C"
@@ -7224,24 +7224,24 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 783
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerTower/UI/IconDesc_PowerTower_512.IconDesc_PowerTower_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerTower/Desc_PowerTower.Desc_PowerTower_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 784
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerTower/UI/IconDesc_PowerTowerPlatform_512.IconDesc_PowerTowerPlatform_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerTower/Desc_PowerTowerPlatform.Desc_PowerTowerPlatform_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 783
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerTower/UI/IconDesc_PowerTower_512.IconDesc_PowerTower_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerTower/Desc_PowerTower.Desc_PowerTower_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 784
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerTower/UI/IconDesc_PowerTowerPlatform_512.IconDesc_PowerTowerPlatform_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerTower/Desc_PowerTowerPlatform.Desc_PowerTowerPlatform_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 785
           #   Texture: "/Game/FactoryGame/Buildable/Factory/SmartPowerSwitch/UI/IconDesc_SmartSwitch_512.IconDesc_SmartSwitch_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PriorityPowerSwitch/Desc_PriorityPowerSwitch.Desc_PriorityPowerSwitch_C"

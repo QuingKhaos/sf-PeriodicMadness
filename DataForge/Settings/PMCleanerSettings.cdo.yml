@@ -149,6 +149,7 @@ patches:
           - PortalPotty
           - PowerCrystalShard
           - PowerPole
+          - PowerTower
           - Rebar
           - ResourceSink
           - StackableShelf
@@ -240,6 +241,7 @@ patches:
           - PortableMiner
           - PortalPotty
           - PowerPole
+          - PowerTower
           - Rebar
           - ResourceSink
           - ShockShank
