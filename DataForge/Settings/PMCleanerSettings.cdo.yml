@@ -117,6 +117,7 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - BladeRunners
+          - Blueprint
           - CentralStorage
           - Chainsaw
           - ConveyorAttachment
@@ -207,6 +208,7 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - AnimalParts
+          - Blueprint
           - CentralStorage
           - Chainsaw
           - ConveyorAttachment

@@ -1,0 +1,14 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Buildings/Recipe_BlueprintDesigner.Recipe_BlueprintDesigner_C
+    properties:
+      - path: mIngredients[0].ItemClass
+        value: /PeriodicMadness/Resources/MultiMetal/Framing/BasicFraming/Desc_PM_BasicFraming.Desc_PM_BasicFraming_C
+      - path: mIngredients[1].ItemClass
+        value: /PeriodicMadness/Resources/Products/Wires/FiberopticCable/Desc_PM_FiberopticCable.Desc_PM_FiberopticCable_C
+      - path: mIngredients[2].ItemClass
+        value: /PeriodicMadness/Resources/Products/Intermediates/Bricks/Desc_PM_Bricks.Desc_PM_Bricks_C
+      - path: mIngredients[3].ItemClass
+        value: /PeriodicMadness/Resources/Products/Alloys/SteelPlate/Desc_PM_SteelPlate.Desc_PM_SteelPlate_C
