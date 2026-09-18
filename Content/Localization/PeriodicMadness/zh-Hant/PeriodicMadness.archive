@@ -726,6 +726,17 @@
 				{
 					"Source":
 					{
+						"Text": "A building that uses plastic or resins to create molds and other products. Has a base production speed of 50 %."
+					},
+					"Translation":
+					{
+						"Text": "一個利用塑膠或樹脂製造模具和其他產品的建築物。 Has a base production speed of 50 %."
+					},
+					"Key": "VacuumFormerMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
 					},
 					"Translation":
@@ -1162,6 +1173,17 @@
 						"Text": ""
 					},
 					"Key": "ConveyorLiftMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Vacuum Former"
+					},
+					"Translation":
+					{
+						"Text": "真空成型機"
+					},
+					"Key": "VacuumFormerMk1/Name"
 				},
 				{
 					"Source":
@@ -1971,6 +1993,17 @@
 				{
 					"Source":
 					{
+						"Text": "Electronic Circuit Resin 'Dipping'"
+					},
+					"Translation":
+					{
+						"Text": "電路板樹脂“浸漬”"
+					},
+					"Key": "BasicFluidCircuit/Recip"
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Acid Canister"
 					},
 					"Translation":
@@ -2022,6 +2055,17 @@
 						"Text": ""
 					},
 					"Key": "EmptyGasTank/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit"
+					},
+					"Translation":
+					{
+						"Text": "防水電路板"
+					},
+					"Key": "FluidCircuit/Name"
 				},
 				{
 					"Source":
@@ -2136,6 +2180,17 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedResin/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Raw Resources"
 					},
 					"Translation":
@@ -2143,6 +2198,28 @@
 						"Text": ""
 					},
 					"Key": "RawResources/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin"
+					},
+					"Translation":
+					{
+						"Text": "樹脂"
+					},
+					"Key": "Resin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin"
+					},
+					"Translation":
+					{
+						"Text": "樹脂"
+					},
+					"Key": "Resin/Cat"
 				},
 				{
 					"Source":
@@ -2220,6 +2297,17 @@
 						"Text": "未充電的伏打電堆"
 					},
 					"Key": "UnchargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageResin/Recipe"
 				},
 				{
 					"Source":
@@ -3037,6 +3125,17 @@
 				{
 					"Source":
 					{
+						"Text": "Resin Processing"
+					},
+					"Translation":
+					{
+						"Text": "樹脂加工"
+					},
+					"Key": "ResinProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Translation":
@@ -3055,6 +3154,17 @@
 						"Text": "耐溫板甲"
 					},
 					"Key": "TemperaturePlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "The means to make pre-plastic materials."
+					},
+					"Translation":
+					{
+						"Text": "製造塑膠前材料的手段。"
+					},
+					"Key": "ResinProcessing/Desc"
 				},
 				{
 					"Source":

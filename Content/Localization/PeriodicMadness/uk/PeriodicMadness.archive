@@ -726,6 +726,17 @@
 				{
 					"Source":
 					{
+						"Text": "A building that uses plastic or resins to create molds and other products. Has a base production speed of 50 %."
+					},
+					"Translation":
+					{
+						"Text": "Структура що використовує пластики або смоли для створення шаблонів та інших виробів. Has a base production speed of 50 %."
+					},
+					"Key": "VacuumFormerMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
 					},
 					"Translation":
@@ -1162,6 +1173,17 @@
 						"Text": ""
 					},
 					"Key": "ConveyorLiftMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Vacuum Former"
+					},
+					"Translation":
+					{
+						"Text": "Вакууматор"
+					},
+					"Key": "VacuumFormerMk1/Name"
 				},
 				{
 					"Source":
@@ -1971,6 +1993,17 @@
 				{
 					"Source":
 					{
+						"Text": "Electronic Circuit Resin \"Dipping\""
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BasicFluidCircuit/Recip"
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Acid Canister"
 					},
 					"Translation":
@@ -2022,6 +2055,17 @@
 						"Text": ""
 					},
 					"Key": "EmptyGasTank/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit"
+					},
+					"Translation":
+					{
+						"Text": "Вологостійка схема"
+					},
+					"Key": "FluidCircuit/Name"
 				},
 				{
 					"Source":
@@ -2136,6 +2180,17 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedResin/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Raw Resources"
 					},
 					"Translation":
@@ -2143,6 +2198,28 @@
 						"Text": ""
 					},
 					"Key": "RawResources/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin"
+					},
+					"Translation":
+					{
+						"Text": "Смола"
+					},
+					"Key": "Resin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin"
+					},
+					"Translation":
+					{
+						"Text": "Смола"
+					},
+					"Key": "Resin/Cat"
 				},
 				{
 					"Source":
@@ -2220,6 +2297,17 @@
 						"Text": "Незаряджений Вольтів стовб"
 					},
 					"Key": "UnchargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageResin/Recipe"
 				},
 				{
 					"Source":
@@ -3037,6 +3125,17 @@
 				{
 					"Source":
 					{
+						"Text": "Resin Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ResinProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Translation":
@@ -3055,6 +3154,17 @@
 						"Text": ""
 					},
 					"Key": "TemperaturePlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "The means to make pre-plastic materials."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ResinProcessing/Desc"
 				},
 				{
 					"Source":

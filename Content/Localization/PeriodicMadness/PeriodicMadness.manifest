@@ -525,6 +525,18 @@
 				{
 					"Source":
 					{
+						"Text": "A building that uses plastic or resins to create molds and other products. Has a base production speed of 50 %."
+					},
+					"Keys": [
+						{
+							"Key": "VacuumFormerMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
 					},
 					"Keys": [
@@ -990,6 +1002,18 @@
 					"Keys": [
 						{
 							"Key": "ConveyorLiftMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Vacuum Former"
+					},
+					"Keys": [
+						{
+							"Key": "VacuumFormerMk1/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -1856,6 +1880,18 @@
 				{
 					"Source":
 					{
+						"Text": "Electronic Circuit Resin 'Dipping'"
+					},
+					"Keys": [
+						{
+							"Key": "BasicFluidCircuit/Recip",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Empty Acid Canister"
 					},
 					"Keys": [
@@ -1909,6 +1945,18 @@
 					"Keys": [
 						{
 							"Key": "EmptyGasTank/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit"
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuit/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2036,11 +2084,39 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Resin"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedResin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Raw Resources"
 					},
 					"Keys": [
 						{
 							"Key": "RawResources/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin"
+					},
+					"Keys": [
+						{
+							"Key": "Resin/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						},
+						{
+							"Key": "Resin/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2125,6 +2201,18 @@
 					"Keys": [
 						{
 							"Key": "UnchargedVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Resin"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageResin/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -3018,6 +3106,18 @@
 				{
 					"Source":
 					{
+						"Text": "Resin Processing"
+					},
+					"Keys": [
+						{
+							"Key": "ResinProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Keys": [
@@ -3035,6 +3135,18 @@
 					"Keys": [
 						{
 							"Key": "TemperaturePlating/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The means to make pre-plastic materials."
+					},
+					"Keys": [
+						{
+							"Key": "ResinProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
