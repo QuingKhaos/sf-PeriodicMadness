@@ -1756,11 +1756,47 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Breadboard Mold"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicBreadboardMold/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Breadboard Molding"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicBreadboardMolding/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Circuit"
 					},
 					"Keys": [
 						{
 							"Key": "ElectronicCircuit/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicCircuitMolding/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1869,6 +1905,18 @@
 					"Keys": [
 						{
 							"Key": "ChargedVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Circuit Mold"
+					},
+					"Keys": [
+						{
+							"Key": "CircuitMold/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2149,6 +2197,18 @@
 					"Keys": [
 						{
 							"Key": "IronScrew/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molded Circuits"
+					},
+					"Keys": [
+						{
+							"Key": "MoldedCircuits/Cat",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -3058,6 +3118,18 @@
 				{
 					"Source":
 					{
+						"Text": "An alternative way of making basic circuitboards, using resin instead of metal."
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicCircuitMolding/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Automation"
 					},
 					"Keys": [
@@ -3075,6 +3147,18 @@
 					"Keys": [
 						{
 							"Key": "AutomationMk2/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicCircuitMolding/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

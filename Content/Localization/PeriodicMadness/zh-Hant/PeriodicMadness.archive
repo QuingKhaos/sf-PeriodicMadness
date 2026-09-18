@@ -1872,6 +1872,28 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Breadboard Mold"
+					},
+					"Translation":
+					{
+						"Text": "基礎麵包板模具"
+					},
+					"Key": "ElectronicBreadboardMold/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Breadboard Molding"
+					},
+					"Translation":
+					{
+						"Text": "基礎麵包板模具"
+					},
+					"Key": "ElectronicBreadboardMolding/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Circuit"
 					},
 					"Translation":
@@ -1879,6 +1901,17 @@
 						"Text": ""
 					},
 					"Key": "ElectronicCircuit/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": "基礎電路板模具"
+					},
+					"Key": "ElectronicCircuitMolding/Recipe"
 				},
 				{
 					"Source":
@@ -1982,6 +2015,17 @@
 				{
 					"Source":
 					{
+						"Text": "Circuit Mold"
+					},
+					"Translation":
+					{
+						"Text": "麵包板模具"
+					},
+					"Key": "CircuitMold/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Circuits"
 					},
 					"Translation":
@@ -1999,7 +2043,7 @@
 					{
 						"Text": "焦炭"
 					},
-					"Key": "Coke/Cat"
+					"Key": "Coke/Name"
 				},
 				{
 					"Source":
@@ -2010,7 +2054,7 @@
 					{
 						"Text": "焦炭"
 					},
-					"Key": "Coke/Name"
+					"Key": "Coke/Cat"
 				},
 				{
 					"Source":
@@ -2242,6 +2286,17 @@
 						"Text": ""
 					},
 					"Key": "IronScrew/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molded Circuits"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "MoldedCircuits/Cat"
 				},
 				{
 					"Source":
@@ -3081,6 +3136,17 @@
 				{
 					"Source":
 					{
+						"Text": "An alternative way of making basic circuitboards, using resin instead of metal."
+					},
+					"Translation":
+					{
+						"Text": "一種用樹脂代替金屬來製作基本電路板的替代方法。"
+					},
+					"Key": "ElectronicCircuitMolding/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Automation"
 					},
 					"Translation":
@@ -3099,6 +3165,17 @@
 						"Text": ""
 					},
 					"Key": "AutomationMk2/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": "基礎電路板模具"
+					},
+					"Key": "ElectronicCircuitMolding/Name"
 				},
 				{
 					"Source":

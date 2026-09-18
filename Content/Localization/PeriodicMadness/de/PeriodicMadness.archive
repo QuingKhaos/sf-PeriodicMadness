@@ -1872,6 +1872,28 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Breadboard Mold"
+					},
+					"Translation":
+					{
+						"Text": "Einfache Steckplatine"
+					},
+					"Key": "ElectronicBreadboardMold/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Breadboard Molding"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ElectronicBreadboardMolding/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Circuit"
 					},
 					"Translation":
@@ -1879,6 +1901,17 @@
 						"Text": ""
 					},
 					"Key": "ElectronicCircuit/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ElectronicCircuitMolding/Recipe"
 				},
 				{
 					"Source":
@@ -1982,6 +2015,17 @@
 				{
 					"Source":
 					{
+						"Text": "Circuit Mold"
+					},
+					"Translation":
+					{
+						"Text": "Schaltkreisform"
+					},
+					"Key": "CircuitMold/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Circuits"
 					},
 					"Translation":
@@ -1999,7 +2043,7 @@
 					{
 						"Text": "Koks"
 					},
-					"Key": "Coke/Cat"
+					"Key": "Coke/Name"
 				},
 				{
 					"Source":
@@ -2010,7 +2054,7 @@
 					{
 						"Text": "Koks"
 					},
-					"Key": "Coke/Name"
+					"Key": "Coke/Cat"
 				},
 				{
 					"Source":
@@ -2242,6 +2286,17 @@
 						"Text": ""
 					},
 					"Key": "IronScrew/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molded Circuits"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "MoldedCircuits/Cat"
 				},
 				{
 					"Source":
@@ -3081,6 +3136,17 @@
 				{
 					"Source":
 					{
+						"Text": "An alternative way of making basic circuitboards, using resin instead of metal."
+					},
+					"Translation":
+					{
+						"Text": "Eine alternative Methode zur Herstellung einfacher Leiterplatten, bei der Harz anstelle von Metall verwendet wird."
+					},
+					"Key": "ElectronicCircuitMolding/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Automation"
 					},
 					"Translation":
@@ -3099,6 +3165,17 @@
 						"Text": ""
 					},
 					"Key": "AutomationMk2/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ElectronicCircuitMolding/Name"
 				},
 				{
 					"Source":
