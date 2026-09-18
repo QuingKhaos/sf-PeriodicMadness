@@ -2043,7 +2043,7 @@
 					{
 						"Text": "Кокс"
 					},
-					"Key": "Coke/Name"
+					"Key": "Coke/Cat"
 				},
 				{
 					"Source":
@@ -2054,7 +2054,7 @@
 					{
 						"Text": "Кокс"
 					},
-					"Key": "Coke/Cat"
+					"Key": "Coke/Name"
 				},
 				{
 					"Source":
@@ -2158,6 +2158,28 @@
 				{
 					"Source":
 					{
+						"Text": "Fluid Resistant Breadboard Mold"
+					},
+					"Translation":
+					{
+						"Text": "Устойчивая к жидкости форма для макетной платы"
+					},
+					"Key": "FluidBreadboardMold/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Breadboard Molding"
+					},
+					"Translation":
+					{
+						"Text": "Формовка влагостойких макетных плат"
+					},
+					"Key": "FluidBreadboardMolding/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Translation":
@@ -2165,6 +2187,17 @@
 						"Text": "Влагостойкая схема"
 					},
 					"Key": "FluidCircuit/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": "Формовка влагостойких схем"
+					},
+					"Key": "FluidCircuitMolding/Recipe"
 				},
 				{
 					"Source":
@@ -3191,6 +3224,17 @@
 				{
 					"Source":
 					{
+						"Text": "An alternative way to making fluid resistant circuits."
+					},
+					"Translation":
+					{
+						"Text": "Альтернативный способ создания цепей, устойчивых к жидкости."
+					},
+					"Key": "FluidCircuitMolding/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Automation"
 					},
 					"Translation":
@@ -3330,6 +3374,17 @@
 						"Text": "Оптоволокно"
 					},
 					"Key": "Fiberoptics/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": "Формовка влагостойких схем"
+					},
+					"Key": "FluidCircuitMolding/Name"
 				},
 				{
 					"Source":

@@ -2060,11 +2060,47 @@
 				{
 					"Source":
 					{
+						"Text": "Fluid Resistant Breadboard Mold"
+					},
+					"Keys": [
+						{
+							"Key": "FluidBreadboardMold/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Breadboard Molding"
+					},
+					"Keys": [
+						{
+							"Key": "FluidBreadboardMolding/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Keys": [
 						{
 							"Key": "FluidCircuit/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuitMolding/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -3178,6 +3214,18 @@
 				{
 					"Source":
 					{
+						"Text": "An alternative way to making fluid resistant circuits."
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuitMolding/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Automation"
 					},
 					"Keys": [
@@ -3327,6 +3375,18 @@
 					"Keys": [
 						{
 							"Key": "Fiberoptics/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuitMolding/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
