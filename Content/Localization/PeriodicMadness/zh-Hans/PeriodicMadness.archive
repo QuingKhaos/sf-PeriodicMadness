@@ -2147,6 +2147,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fluid Resistant Breadboard"
+					},
+					"Translation":
+					{
+						"Text": "防水面包板"
+					},
+					"Key": "FluidBreadboard/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Translation":
@@ -2154,6 +2165,17 @@
 						"Text": "防水电路板"
 					},
 					"Key": "FluidCircuit/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Integrated Circuits"
+					},
+					"Translation":
+					{
+						"Text": "防水集成电路"
+					},
+					"Key": "FluidIntegratedCircuits/Name"
 				},
 				{
 					"Source":
@@ -2462,6 +2484,17 @@
 						"Text": ""
 					},
 					"Key": "Stone/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transistors"
+					},
+					"Translation":
+					{
+						"Text": "晶体管"
+					},
+					"Key": "Transistors/Name"
 				},
 				{
 					"Source":
@@ -3004,6 +3037,17 @@
 				{
 					"Source":
 					{
+						"Text": "A more advanced circuit, that has fluid handling and resistant capabilites."
+					},
+					"Translation":
+					{
+						"Text": "更先进的电路，具有流体处理和耐受能力。"
+					},
+					"Key": "FluidCircuit/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "A type of resin that is best for electronical components and things related."
 					},
 					"Translation":
@@ -3286,6 +3330,17 @@
 						"Text": "光纤"
 					},
 					"Key": "Fiberoptics/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Electronics"
+					},
+					"Translation":
+					{
+						"Text": "防水电路"
+					},
+					"Key": "FluidCircuit/Name"
 				},
 				{
 					"Source":

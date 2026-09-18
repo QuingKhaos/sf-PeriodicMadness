@@ -2147,6 +2147,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fluid Resistant Breadboard"
+					},
+					"Translation":
+					{
+						"Text": "Płytka odporna na płyny"
+					},
+					"Key": "FluidBreadboard/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Translation":
@@ -2154,6 +2165,17 @@
 						"Text": "Układ odporny na płyny"
 					},
 					"Key": "FluidCircuit/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Integrated Circuits"
+					},
+					"Translation":
+					{
+						"Text": "Układy scalone odporne na płyny"
+					},
+					"Key": "FluidIntegratedCircuits/Name"
 				},
 				{
 					"Source":
@@ -2462,6 +2484,17 @@
 						"Text": ""
 					},
 					"Key": "Stone/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transistors"
+					},
+					"Translation":
+					{
+						"Text": "Tranzystory"
+					},
+					"Key": "Transistors/Name"
 				},
 				{
 					"Source":
@@ -3004,6 +3037,17 @@
 				{
 					"Source":
 					{
+						"Text": "A more advanced circuit, that has fluid handling and resistant capabilites."
+					},
+					"Translation":
+					{
+						"Text": "Bardziej zaawansowany obwód, który ma możliwość obsługi płynów i jest na nią odporny."
+					},
+					"Key": "FluidCircuit/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "A type of resin that is best for electronical components and things related."
 					},
 					"Translation":
@@ -3286,6 +3330,17 @@
 						"Text": "Światłowody"
 					},
 					"Key": "Fiberoptics/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Electronics"
+					},
+					"Translation":
+					{
+						"Text": "Elektronika odporna na płyny"
+					},
+					"Key": "FluidCircuit/Name"
 				},
 				{
 					"Source":

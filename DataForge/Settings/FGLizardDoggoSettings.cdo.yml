@@ -61,6 +61,9 @@ patches:
               ItemClass: /PeriodicMadness/Resources/Products/Circuits/ElectronicCircuit/Desc_PM_ElectronicCircuit.Desc_PM_ElectronicCircuit_C
             NumItems: 17
           - Item:
+              ItemClass: /PeriodicMadness/Resources/Products/Circuits/FluidCircuit/Desc_PM_FluidCircuit.Desc_PM_FluidCircuit_C
+            NumItems: 13
+          - Item:
               ItemClass: /PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Desc_PM_IronPlate_C
             NumItems: 27
           - Item:

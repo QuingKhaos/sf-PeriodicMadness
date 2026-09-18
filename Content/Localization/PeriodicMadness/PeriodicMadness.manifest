@@ -2048,11 +2048,35 @@
 				{
 					"Source":
 					{
+						"Text": "Fluid Resistant Breadboard"
+					},
+					"Keys": [
+						{
+							"Key": "FluidBreadboard/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Keys": [
 						{
 							"Key": "FluidCircuit/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Integrated Circuits"
+					},
+					"Keys": [
+						{
+							"Key": "FluidIntegratedCircuits/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2381,6 +2405,18 @@
 					"Keys": [
 						{
 							"Key": "Stone/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transistors"
+					},
+					"Keys": [
+						{
+							"Key": "Transistors/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2974,6 +3010,18 @@
 				{
 					"Source":
 					{
+						"Text": "A more advanced circuit, that has fluid handling and resistant capabilites."
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuit/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "A type of resin that is best for electronical components and things related."
 					},
 					"Keys": [
@@ -3279,6 +3327,18 @@
 					"Keys": [
 						{
 							"Key": "Fiberoptics/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Electronics"
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuit/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
