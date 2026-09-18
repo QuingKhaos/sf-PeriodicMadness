@@ -40,6 +40,9 @@ patches:
               ItemClass: /PeriodicMadness/Resources/Products/Wires/GoldWire/Desc_PM_GoldWire.Desc_PM_GoldWire_C
             NumItems: 26
           - Item:
+              ItemClass: /PeriodicMadness/Resources/Products/Wires/FiberopticCable/Desc_PM_FiberopticCable.Desc_PM_FiberopticCable_C
+            NumItems: 13
+          - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
             NumItems: 33
           - Item:
