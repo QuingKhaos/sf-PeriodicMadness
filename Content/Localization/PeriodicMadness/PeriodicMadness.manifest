@@ -805,6 +805,18 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 50 %. Head Lift: 10 m."
+					},
+					"Keys": [
+						{
+							"Key": "WashingPlantMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 50 %. The first output is located at the production indicator."
 					},
 					"Keys": [
@@ -1062,6 +1074,18 @@
 					"Keys": [
 						{
 							"Key": "VoltaticDischarger/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Washing Plant"
+					},
+					"Keys": [
+						{
+							"Key": "WashingPlantMk1/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -3046,6 +3070,18 @@
 				{
 					"Source":
 					{
+						"Text": "A more advanced and tougher washing plant."
+					},
+					"Keys": [
+						{
+							"Key": "WashingPlantMk1/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "A more advanced circuit, that has fluid handling and resistant capabilites."
 					},
 					"Keys": [
@@ -3759,6 +3795,18 @@
 					"Keys": [
 						{
 							"Key": "VoltaticPiles/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Washing Plant Mk.1"
+					},
+					"Keys": [
+						{
+							"Key": "WashingPlantMk1/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

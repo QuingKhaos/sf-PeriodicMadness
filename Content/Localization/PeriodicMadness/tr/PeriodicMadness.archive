@@ -1012,6 +1012,17 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 50 %. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "WashingPlantMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 75%. Head Lift: 10 m."
 					},
 					"Translation":
@@ -1228,6 +1239,17 @@
 						"Text": "Voltaik deşarj makinesi"
 					},
 					"Key": "VoltaticDischarger/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Washing Plant"
+					},
+					"Translation":
+					{
+						"Text": "Yıkama tesisi"
+					},
+					"Key": "WashingPlantMk1/Name"
 				},
 				{
 					"Source":
@@ -3070,6 +3092,17 @@
 				{
 					"Source":
 					{
+						"Text": "A more advanced and tougher washing plant."
+					},
+					"Translation":
+					{
+						"Text": "Daha gelişmiş ve sağlam bir yıkama makinesi."
+					},
+					"Key": "WashingPlantMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "A more advanced circuit, that has fluid handling and resistant capabilites."
 					},
 					"Translation":
@@ -3726,6 +3759,17 @@
 						"Text": "Voltaik piller"
 					},
 					"Key": "VoltaticPiles/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Washing Plant Mk.1"
+					},
+					"Translation":
+					{
+						"Text": "Yıkama tesisi Mk.1"
+					},
+					"Key": "WashingPlantMk1/Name"
 				},
 				{
 					"Source":
