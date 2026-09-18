@@ -1009,6 +1009,30 @@
 				{
 					"Source":
 					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between buildings."
+					},
+					"Keys": [
+						{
+							"Key": "ConveyorBeltMk2/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between floors."
+					},
+					"Keys": [
+						{
+							"Key": "ConveyorLiftMk2/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Vacuum Former"
 					},
 					"Keys": [
@@ -1192,6 +1216,18 @@
 					"Keys": [
 						{
 							"Key": "ConveyorBeltPartMk1/Name",
+							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Conveyor Belt Parts Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "ConveyorBeltPartMk2/Name",
 							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
 						}
 					]

@@ -288,15 +288,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 35
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/UI/IconDesc_SmartSplitter_512.IconDesc_SmartSplitter_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Desc_ConveyorAttachmentSplitterSmart.Desc_ConveyorAttachmentSplitterSmart_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 35
+            Texture: "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/UI/IconDesc_SmartSplitter_512.IconDesc_SmartSplitter_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Desc_ConveyorAttachmentSplitterSmart.Desc_ConveyorAttachmentSplitterSmart_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 37
           #   Texture: "/Game/FactoryGame/Interface/UI/Assets/Shared/0_White.0_White"
           #   itemDescriptor: ""
@@ -609,15 +609,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 75
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/ConveyorPoleMulti/UI/ConveyorPoleMulti_512.ConveyorPoleMulti_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ConveyorPoleStackable/Desc_ConveyorPoleStackable.Desc_ConveyorPoleStackable_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 75
+            Texture: "/Game/FactoryGame/Buildable/Factory/ConveyorPoleMulti/UI/ConveyorPoleMulti_512.ConveyorPoleMulti_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ConveyorPoleStackable/Desc_ConveyorPoleStackable.Desc_ConveyorPoleStackable_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 76
             Texture: "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk2/UI/ConveyorLiftMK2_512.ConveyorLiftMK2_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk2/Desc_ConveyorLiftMk2.Desc_ConveyorLiftMk2_C"
@@ -8097,15 +8097,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 880
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/CA_MergerPriority/UI/IconDesc_PriorityMerger_512.IconDesc_PriorityMerger_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/CA_MergerPriority/Desc_ConveyorAttachmentMergerPriority.Desc_ConveyorAttachmentMergerPriority_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 880
+            Texture: "/Game/FactoryGame/Buildable/Factory/CA_MergerPriority/UI/IconDesc_PriorityMerger_512.IconDesc_PriorityMerger_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/CA_MergerPriority/Desc_ConveyorAttachmentMergerPriority.Desc_ConveyorAttachmentMergerPriority_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 881
           #   Texture: "/Game/FactoryGame/Buildable/Factory/Train/EndStop/UI/IconDesc_BufferStop_512.IconDesc_BufferStop_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Train/EndStop/Desc_RailroadEndStop.Desc_RailroadEndStop_C"

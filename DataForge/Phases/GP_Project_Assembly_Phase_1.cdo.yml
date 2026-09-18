@@ -8,5 +8,3 @@ patches:
         value:
           - ItemClass: /PeriodicMadness/Resources/Science/SciencePack/TMSP/Desc_PM_TransitionMetalSciencePack.Desc_PM_TransitionMetalSciencePack_C
             Amount: 1000
-          - ItemClass: /PeriodicMadness/Resources/Desc_NA.Desc_NA_C
-            Amount: 1

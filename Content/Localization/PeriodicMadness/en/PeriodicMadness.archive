@@ -1177,6 +1177,28 @@
 				{
 					"Source":
 					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between buildings."
+					},
+					"Translation":
+					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between buildings."
+					},
+					"Key": "ConveyorBeltMk2/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between floors."
+					},
+					"Translation":
+					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between floors."
+					},
+					"Key": "ConveyorLiftMk2/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Vacuum Former"
 					},
 					"Translation":
@@ -1348,6 +1370,17 @@
 						"Text": "Conveyor Belt Parts Mk.1"
 					},
 					"Key": "ConveyorBeltPartMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Conveyor Belt Parts Mk.2"
+					},
+					"Translation":
+					{
+						"Text": "Conveyor Belt Parts Mk.2"
+					},
+					"Key": "ConveyorBeltPartMk2/Name"
 				},
 				{
 					"Source":
