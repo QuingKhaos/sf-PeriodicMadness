@@ -2529,15 +2529,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 283
-          #   Texture: "/Game/FactoryGame/Buildable/Vehicle/Tractor/UI/IconDesc_Tractor_512.IconDesc_Tractor_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Tractor/Desc_Tractor.Desc_Tractor_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 283
+            Texture: "/Game/FactoryGame/Buildable/Vehicle/Tractor/UI/IconDesc_Tractor_512.IconDesc_Tractor_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Tractor/Desc_Tractor.Desc_Tractor_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 284
           #   Texture: "/Game/FactoryGame/Buildable/Vehicle/Truck/UI/IconDesc_Truck_512.IconDesc_Truck_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Truck/Desc_Truck.Desc_Truck_C"
@@ -2802,15 +2802,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 314
-          #   Texture: "/Game/FactoryGame/Buildable/Vehicle/Explorer/UI/IconDesc_Explorer_512.IconDesc_Explorer_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Explorer/Desc_Explorer.Desc_Explorer_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 314
+            Texture: "/Game/FactoryGame/Buildable/Vehicle/Explorer/UI/IconDesc_Explorer_512.IconDesc_Explorer_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Explorer/Desc_Explorer.Desc_Explorer_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 315
           #   Texture: "/Game/FactoryGame/Resource/Parts/CartridgeStandard/UI/Rifle_Magazine_256.Rifle_Magazine_256"
           #   itemDescriptor: ""
@@ -8160,15 +8160,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 887
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/TruckStation/UI/IconDesc_TruckStation_Fluid_512.IconDesc_TruckStation_Fluid_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/TruckStation/Desc_FluidTruckStation.Desc_FluidTruckStation_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 887
+            Texture: "/Game/FactoryGame/Buildable/Factory/TruckStation/UI/IconDesc_TruckStation_Fluid_512.IconDesc_TruckStation_Fluid_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/TruckStation/Desc_FluidTruckStation.Desc_FluidTruckStation_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 888
           #   Texture: "/Game/FactoryGame/Buildable/Vehicle/Truck/UI/IconDesc_FluidTruck_512.IconDesc_FluidTruck_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Truck/Desc_FluidTruck.Desc_FluidTruck_C"
@@ -8178,30 +8178,30 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 889
-          #   Texture: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/UI/IconDesc_ExplorerPath_512.IconDesc_ExplorerPath_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Explorer/Desc_VehiclePath_Explorer.Desc_VehiclePath_Explorer_C"
-          #   DisplayNameOverride: false
-          #   IconName:
-          #     key: "Transport/RoadVehicles/VehiclePath/Explorer"
-          #     ns: "Buildables_Data"
-          #     source: "Explorer Vehicle Path"
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 890
-          #   Texture: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/UI/IconDesc_TractorPath_512.IconDesc_TractorPath_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Tractor/Desc_VehiclePath_Tractor.Desc_VehiclePath_Tractor_C"
-          #   DisplayNameOverride: false
-          #   IconName:
-          #     key: "Transport/RoadVehicles/VehiclePath/Tractor"
-          #     ns: "Buildables_Data"
-          #     source: "Tractor Vehicle Path"
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 889
+            Texture: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/UI/IconDesc_ExplorerPath_512.IconDesc_ExplorerPath_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Explorer/Desc_VehiclePath_Explorer.Desc_VehiclePath_Explorer_C"
+            DisplayNameOverride: false
+            IconName:
+              key: "Transport/RoadVehicles/VehiclePath/Explorer"
+              ns: "Buildables_Data"
+              source: "Explorer Vehicle Path"
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 890
+            Texture: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/UI/IconDesc_TractorPath_512.IconDesc_TractorPath_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/Tractor/Desc_VehiclePath_Tractor.Desc_VehiclePath_Tractor_C"
+            DisplayNameOverride: false
+            IconName:
+              key: "Transport/RoadVehicles/VehiclePath/Tractor"
+              ns: "Buildables_Data"
+              source: "Tractor Vehicle Path"
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 891
           #   Texture: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/UI/IconDesc_AllPath_512.IconDesc_AllPath_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Vehicle/VehiclePath/Desc_VehiclePath_Universal.Desc_VehiclePath_Universal_C"

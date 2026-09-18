@@ -158,7 +158,10 @@ patches:
           - StorageMedkit
           - StoragePlayer
           - StreetLight
+          - Tractor
           - TradingPost
+          - TruckStation
+          - VehiclePath
           - WorkBench
           - Workshop
           - XenoZapper
@@ -246,7 +249,10 @@ patches:
           - StorageMedkit
           - StoragePlayer
           - StreetLight
+          - Tractor
           - TradingPost
+          - TruckStation
+          - VehiclePath
           - WorkBench
           - Workshop
           # Specific items

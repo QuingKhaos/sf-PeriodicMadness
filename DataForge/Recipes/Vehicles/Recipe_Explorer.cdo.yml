@@ -1,0 +1,16 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Vehicle/Recipe_Explorer.Recipe_Explorer_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /PeriodicMadness/Resources/Products/Intermediates/BasicMotor/Desc_PM_BasicMotor.Desc_PM_BasicMotor_C
+            Amount: 12
+          - ItemClass: /PeriodicMadness/Resources/Products/Resin/VulcanisedRubber/Desc_PM_VulcanisedRubber.Desc_PM_VulcanisedRubber_C
+            Amount: 8
+          - ItemClass: /PeriodicMadness/Resources/MultiMetal/Framing/BasicFraming/Desc_PM_BasicFraming.Desc_PM_BasicFraming_C
+            Amount: 16
+          - ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
+            Amount: 8
