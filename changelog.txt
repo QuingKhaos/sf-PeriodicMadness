@@ -7,6 +7,11 @@ Date: ????
   Changes:
     - Science Bottle moved to Glassing category.
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2026-09-18
+  Bugfixes:
+    - Unlock Air Filter together with Acid Plant.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2026-09-17
   Bugfixes:
