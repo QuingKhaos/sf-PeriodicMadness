@@ -1976,6 +1976,18 @@
 				{
 					"Source":
 					{
+						"Text": "Glass Fibers"
+					},
+					"Keys": [
+						{
+							"Key": "GlassFibers/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Glass Pane"
 					},
 					"Keys": [
@@ -2084,11 +2096,35 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Phenolic Resin"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedPhenolicResin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Resin"
 					},
 					"Keys": [
 						{
 							"Key": "PackagedResin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin"
+					},
+					"Keys": [
+						{
+							"Key": "PhenolicResin/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2201,6 +2237,18 @@
 					"Keys": [
 						{
 							"Key": "UnchargedVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Phenolic Resin"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackagePhenolicResin/Recip",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2734,6 +2782,18 @@
 				{
 					"Source":
 					{
+						"Text": "A type of resin that is best for electronical components and things related."
+					},
+					"Keys": [
+						{
+							"Key": "PhenolicResinProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Acidic Water Processing"
 					},
 					"Keys": [
@@ -3087,6 +3147,18 @@
 					"Keys": [
 						{
 							"Key": "WoodProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin Processing"
+					},
+					"Keys": [
+						{
+							"Key": "PhenolicResinProcessing/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

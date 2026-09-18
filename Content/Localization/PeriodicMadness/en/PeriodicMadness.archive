@@ -2081,6 +2081,17 @@
 				{
 					"Source":
 					{
+						"Text": "Glass Fibers"
+					},
+					"Translation":
+					{
+						"Text": "Glass Fibers"
+					},
+					"Key": "GlassFibers/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Glass Pane"
 					},
 					"Translation":
@@ -2180,6 +2191,17 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Phenolic Resin"
+					},
+					"Key": "PackagedPhenolicResin/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Resin"
 					},
 					"Translation":
@@ -2187,6 +2209,17 @@
 						"Text": "Packaged Resin"
 					},
 					"Key": "PackagedResin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": "Phenolic Resin"
+					},
+					"Key": "PhenolicResin/Name"
 				},
 				{
 					"Source":
@@ -2297,6 +2330,17 @@
 						"Text": "Uncharged Voltatic Pile"
 					},
 					"Key": "UnchargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Phenolic Resin"
+					},
+					"Key": "UnpackagePhenolicResin/Recip"
 				},
 				{
 					"Source":
@@ -2784,6 +2828,17 @@
 				{
 					"Source":
 					{
+						"Text": "A type of resin that is best for electronical components and things related."
+					},
+					"Translation":
+					{
+						"Text": "A type of resin that is best for electronical components and things related."
+					},
+					"Key": "PhenolicResinProcessing/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Acidic Water Processing"
 					},
 					"Translation":
@@ -3110,6 +3165,17 @@
 						"Text": "New ways to make use of wood in your factory."
 					},
 					"Key": "WoodProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin Processing"
+					},
+					"Translation":
+					{
+						"Text": "Phenolic Resin Processing"
+					},
+					"Key": "PhenolicResinProcessing/Name"
 				},
 				{
 					"Source":

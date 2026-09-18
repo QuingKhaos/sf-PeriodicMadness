@@ -2081,6 +2081,17 @@
 				{
 					"Source":
 					{
+						"Text": "Glass Fibers"
+					},
+					"Translation":
+					{
+						"Text": "玻璃纖維"
+					},
+					"Key": "GlassFibers/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Glass Pane"
 					},
 					"Translation":
@@ -2180,6 +2191,17 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedPhenolicResin/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Resin"
 					},
 					"Translation":
@@ -2187,6 +2209,17 @@
 						"Text": ""
 					},
 					"Key": "PackagedResin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": "酚醛樹脂"
+					},
+					"Key": "PhenolicResin/Name"
 				},
 				{
 					"Source":
@@ -2297,6 +2330,17 @@
 						"Text": "未充電的伏打電堆"
 					},
 					"Key": "UnchargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackagePhenolicResin/Recip"
 				},
 				{
 					"Source":
@@ -2784,6 +2828,17 @@
 				{
 					"Source":
 					{
+						"Text": "A type of resin that is best for electronical components and things related."
+					},
+					"Translation":
+					{
+						"Text": "一種最適合用於電子元件及相關產品的樹脂。"
+					},
+					"Key": "PhenolicResinProcessing/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Acidic Water Processing"
 					},
 					"Translation":
@@ -3110,6 +3165,17 @@
 						"Text": "工廠中利用木材的新方法。"
 					},
 					"Key": "WoodProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin Processing"
+					},
+					"Translation":
+					{
+						"Text": "酚醛樹脂加工"
+					},
+					"Key": "PhenolicResinProcessing/Name"
 				},
 				{
 					"Source":

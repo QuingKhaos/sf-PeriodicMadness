@@ -2081,6 +2081,17 @@
 				{
 					"Source":
 					{
+						"Text": "Glass Fibers"
+					},
+					"Translation":
+					{
+						"Text": "Fibras de vidrio"
+					},
+					"Key": "GlassFibers/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Glass Pane"
 					},
 					"Translation":
@@ -2180,6 +2191,17 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedPhenolicResin/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Resin"
 					},
 					"Translation":
@@ -2187,6 +2209,17 @@
 						"Text": ""
 					},
 					"Key": "PackagedResin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": "Resina fenolica"
+					},
+					"Key": "PhenolicResin/Name"
 				},
 				{
 					"Source":
@@ -2297,6 +2330,17 @@
 						"Text": "Pila voltaica descargada"
 					},
 					"Key": "UnchargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackagePhenolicResin/Recip"
 				},
 				{
 					"Source":
@@ -2784,6 +2828,17 @@
 				{
 					"Source":
 					{
+						"Text": "A type of resin that is best for electronical components and things related."
+					},
+					"Translation":
+					{
+						"Text": "Un tipo de resina que es mejor para componentes electrónicos y cosas relacionadas."
+					},
+					"Key": "PhenolicResinProcessing/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Acidic Water Processing"
 					},
 					"Translation":
@@ -3110,6 +3165,17 @@
 						"Text": "Nuevas formas de aprovechar la madera en tu fábrica."
 					},
 					"Key": "WoodProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin Processing"
+					},
+					"Translation":
+					{
+						"Text": "Procesamiento de resina fenólica"
+					},
+					"Key": "PhenolicResinProcessing/Name"
 				},
 				{
 					"Source":
