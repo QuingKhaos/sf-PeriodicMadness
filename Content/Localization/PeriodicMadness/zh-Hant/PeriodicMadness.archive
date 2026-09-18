@@ -2059,6 +2059,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptic Cable"
+					},
+					"Translation":
+					{
+						"Text": "光纜"
+					},
+					"Key": "FiberopticCable/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Translation":
@@ -2099,6 +2110,28 @@
 						"Text": "玻璃板"
 					},
 					"Key": "GlassPane/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Resmelting"
+					},
+					"Translation":
+					{
+						"Text": "玻璃再熔化"
+					},
+					"Key": "GlassResmelting/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Shards"
+					},
+					"Translation":
+					{
+						"Text": "玻璃碎片"
+					},
+					"Key": "GlassShards/Name"
 				},
 				{
 					"Source":
@@ -2735,6 +2768,17 @@
 				{
 					"Source":
 					{
+						"Text": "Rubber-based Air Filter"
+					},
+					"Translation":
+					{
+						"Text": "基於橡膠的空氣濾芯"
+					},
+					"Key": "RubberAirFilter/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Seawater Electrolysis"
 					},
 					"Translation":
@@ -3125,6 +3169,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptics"
+					},
+					"Translation":
+					{
+						"Text": "光纖"
+					},
+					"Key": "Fiberoptics/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Paint Finish"
 					},
 					"Translation":
@@ -3275,6 +3330,17 @@
 						"Text": ""
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stretching glass into very long and thin fibers allows near instant transmission of power or information."
+					},
+					"Translation":
+					{
+						"Text": "將玻璃拉伸成非常長非常細的纖維，可以實現近乎瞬時的電力或資訊傳輸。"
+					},
+					"Key": "Fiberoptics/Desc"
 				},
 				{
 					"Source":

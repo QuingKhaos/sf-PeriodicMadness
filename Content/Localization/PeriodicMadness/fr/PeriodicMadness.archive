@@ -2059,6 +2059,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptic Cable"
+					},
+					"Translation":
+					{
+						"Text": "Câble de fibre optique"
+					},
+					"Key": "FiberopticCable/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Translation":
@@ -2099,6 +2110,28 @@
 						"Text": "Verre"
 					},
 					"Key": "GlassPane/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Resmelting"
+					},
+					"Translation":
+					{
+						"Text": "Refonte du verre"
+					},
+					"Key": "GlassResmelting/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Shards"
+					},
+					"Translation":
+					{
+						"Text": "Bris de verre"
+					},
+					"Key": "GlassShards/Name"
 				},
 				{
 					"Source":
@@ -2735,6 +2768,17 @@
 				{
 					"Source":
 					{
+						"Text": "Rubber-based Air Filter"
+					},
+					"Translation":
+					{
+						"Text": "Filtre à air en caoutchouc"
+					},
+					"Key": "RubberAirFilter/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Seawater Electrolysis"
 					},
 					"Translation":
@@ -3125,6 +3169,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptics"
+					},
+					"Translation":
+					{
+						"Text": "Fibre optique"
+					},
+					"Key": "Fiberoptics/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Paint Finish"
 					},
 					"Translation":
@@ -3275,6 +3330,17 @@
 						"Text": ""
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stretching glass into very long and thin fibers allows near instant transmission of power or information."
+					},
+					"Translation":
+					{
+						"Text": "La création de fibres de verre permet la transition quasi instantanée d'informations."
+					},
+					"Key": "Fiberoptics/Desc"
 				},
 				{
 					"Source":

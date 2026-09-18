@@ -2059,6 +2059,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptic Cable"
+					},
+					"Translation":
+					{
+						"Text": "Kabel światłowodowy"
+					},
+					"Key": "FiberopticCable/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Translation":
@@ -2099,6 +2110,28 @@
 						"Text": "Tafla szklana"
 					},
 					"Key": "GlassPane/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Resmelting"
+					},
+					"Translation":
+					{
+						"Text": "Przetapianie szkła"
+					},
+					"Key": "GlassResmelting/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Shards"
+					},
+					"Translation":
+					{
+						"Text": "Odłamki szkła"
+					},
+					"Key": "GlassShards/Name"
 				},
 				{
 					"Source":
@@ -2735,6 +2768,17 @@
 				{
 					"Source":
 					{
+						"Text": "Rubber-based Air Filter"
+					},
+					"Translation":
+					{
+						"Text": "Filtry powietrza na bazie gumy"
+					},
+					"Key": "RubberAirFilter/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Seawater Electrolysis"
 					},
 					"Translation":
@@ -3125,6 +3169,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptics"
+					},
+					"Translation":
+					{
+						"Text": "Światłowody"
+					},
+					"Key": "Fiberoptics/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Paint Finish"
 					},
 					"Translation":
@@ -3275,6 +3330,17 @@
 						"Text": ""
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stretching glass into very long and thin fibers allows near instant transmission of power or information."
+					},
+					"Translation":
+					{
+						"Text": "Wytapianie szkła w bardzo długie i cienkie włókna pozwala na niemal natychmiastową transmisję mocy lub informacji."
+					},
+					"Key": "Fiberoptics/Desc"
 				},
 				{
 					"Source":

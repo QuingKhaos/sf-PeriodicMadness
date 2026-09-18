@@ -1952,6 +1952,18 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptic Cable"
+					},
+					"Keys": [
+						{
+							"Key": "FiberopticCable/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Keys": [
@@ -1993,6 +2005,30 @@
 					"Keys": [
 						{
 							"Key": "GlassPane/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Resmelting"
+					},
+					"Keys": [
+						{
+							"Key": "GlassResmelting/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Shards"
+					},
+					"Keys": [
+						{
+							"Key": "GlassShards/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -2681,6 +2717,18 @@
 				{
 					"Source":
 					{
+						"Text": "Rubber-based Air Filter"
+					},
+					"Keys": [
+						{
+							"Key": "RubberAirFilter/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Seawater Electrolysis"
 					},
 					"Keys": [
@@ -3106,6 +3154,18 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptics"
+					},
+					"Keys": [
+						{
+							"Key": "Fiberoptics/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Paint Finish"
 					},
 					"Keys": [
@@ -3267,6 +3327,18 @@
 					"Keys": [
 						{
 							"Key": "SteelProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stretching glass into very long and thin fibers allows near instant transmission of power or information."
+					},
+					"Keys": [
+						{
+							"Key": "Fiberoptics/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

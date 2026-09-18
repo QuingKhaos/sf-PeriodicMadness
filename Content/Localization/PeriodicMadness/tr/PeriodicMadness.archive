@@ -2059,6 +2059,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptic Cable"
+					},
+					"Translation":
+					{
+						"Text": "Fiberoptik kablo"
+					},
+					"Key": "FiberopticCable/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluid Resistant Circuit"
 					},
 					"Translation":
@@ -2099,6 +2110,28 @@
 						"Text": "Cam panel"
 					},
 					"Key": "GlassPane/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Resmelting"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "GlassResmelting/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Shards"
+					},
+					"Translation":
+					{
+						"Text": "Cam parçaları"
+					},
+					"Key": "GlassShards/Name"
 				},
 				{
 					"Source":
@@ -2735,6 +2768,17 @@
 				{
 					"Source":
 					{
+						"Text": "Rubber-based Air Filter"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "RubberAirFilter/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Seawater Electrolysis"
 					},
 					"Translation":
@@ -3125,6 +3169,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptics"
+					},
+					"Translation":
+					{
+						"Text": "Fiberoptik"
+					},
+					"Key": "Fiberoptics/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Paint Finish"
 					},
 					"Translation":
@@ -3275,6 +3330,17 @@
 						"Text": ""
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stretching glass into very long and thin fibers allows near instant transmission of power or information."
+					},
+					"Translation":
+					{
+						"Text": "Camı elyaf haline getirip inceltmek ve uzatmak, onu güç ve veri iletimi için en iyi hale getiriyor."
+					},
+					"Key": "Fiberoptics/Desc"
 				},
 				{
 					"Source":
