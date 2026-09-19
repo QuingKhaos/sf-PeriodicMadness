@@ -1,0 +1,12 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Equipment/Recipe_ZipLine.Recipe_ZipLine
+    properties:
+      - path: mIngredients[1].ItemClass
+        value: /PeriodicMadness/Resources/Products/Wires/GoldWire/Desc_PM_GoldWire.Desc_PM_GoldWire_C
+      - path: mIngredients[2].ItemClass
+        value: /PeriodicMadness/Resources/Products/Intermediates/IronRod/Desc_PM_IronRod.Desc_PM_IronRod_C
+      - path: mIngredients[3].ItemClass
+        value: /PeriodicMadness/Resources/Products/Wires/FiberopticCable/Desc_PM_FiberopticCable.Desc_PM_FiberopticCable_C

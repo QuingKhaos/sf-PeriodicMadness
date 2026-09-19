@@ -1620,15 +1620,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 183
-          #   Texture: "/Game/FactoryGame/Equipment/Zipline/UI/IconDesc_Zipline_256.IconDesc_Zipline_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/Zipline/BP_EqDescZipLine.BP_EqDescZipLine_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Equipment"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 183
+            Texture: "/Game/FactoryGame/Equipment/Zipline/UI/IconDesc_Zipline_256.IconDesc_Zipline_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Equipment/Zipline/BP_EqDescZipLine.BP_EqDescZipLine_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Equipment"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 184
           #   Texture: "/Game/FactoryGame/Resource/Equipment/ColorGun/UI/IconDesc_ColorGun_256.IconDesc_ColorGun_256"
           #   itemDescriptor: ""

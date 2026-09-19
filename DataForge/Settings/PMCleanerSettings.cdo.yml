@@ -169,6 +169,7 @@ patches:
           - Workshop
           - XenoBasher
           - XenoZapper
+          - ZipLine
           # Specific recipes
           - Recipe_AlienDNACapsule
           - Recipe_Biomass_AlienProtein
@@ -263,6 +264,7 @@ patches:
           - VehiclePath
           - WorkBench
           - Workshop
+          - ZipLine
           # Specific items
           - Desc_AlienDNACapsule
           - Desc_AlienProtein
