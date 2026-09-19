@@ -1430,6 +1430,22 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Combat",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Explosive Powder"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Explosives/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Fluids",
 			"Children": [
 				{
@@ -3539,6 +3555,28 @@
 						"Text": "焦炭加工"
 					},
 					"Key": "CokeProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Developing dangerous yet controllable explosives."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Explosives/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Explosives"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Explosives/Name"
 				},
 				{
 					"Source":

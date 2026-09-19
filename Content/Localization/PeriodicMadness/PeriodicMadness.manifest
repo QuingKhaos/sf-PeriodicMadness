@@ -1229,6 +1229,23 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Combat",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Explosive Powder"
+					},
+					"Keys": [
+						{
+							"Key": "Explosives/Name",
+							"Path": "/PeriodicMadness/Resources/Combat/ST_PM_Combat.ST_PM_Combat"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Fluids",
 			"Children": [
 				{
@@ -3499,6 +3516,30 @@
 					"Keys": [
 						{
 							"Key": "CokeProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Developing dangerous yet controllable explosives."
+					},
+					"Keys": [
+						{
+							"Key": "Explosives/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Explosives"
+					},
+					"Keys": [
+						{
+							"Key": "Explosives/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

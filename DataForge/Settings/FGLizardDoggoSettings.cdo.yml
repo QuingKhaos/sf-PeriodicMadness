@@ -115,12 +115,12 @@ patches:
           # - Item:
           #     ItemClass: /Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskShockwave.Desc_NobeliskShockwave_C
           #   NumItems: 2
-          # - Item:
-          #     ItemClass: /Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C
-          #   NumItems: 2
-          # - Item:
-          #     ItemClass: /Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C
-          #   NumItems: 1
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C
+            NumItems: 2
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C
+            NumItems: 1
           - Item:
               ItemClass: /Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C
             NumItems: 2

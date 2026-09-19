@@ -1430,6 +1430,22 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_Combat",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Explosive Powder"
+					},
+					"Translation":
+					{
+						"Text": "Explosive Powder"
+					},
+					"Key": "Explosives/Name"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Fluids",
 			"Children": [
 				{
@@ -3539,6 +3555,28 @@
 						"Text": "Coke Processing"
 					},
 					"Key": "CokeProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Developing dangerous yet controllable explosives."
+					},
+					"Translation":
+					{
+						"Text": "Developing dangerous yet controllable explosives."
+					},
+					"Key": "Explosives/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Explosives"
+					},
+					"Translation":
+					{
+						"Text": "Explosives"
+					},
+					"Key": "Explosives/Name"
 				},
 				{
 					"Source":

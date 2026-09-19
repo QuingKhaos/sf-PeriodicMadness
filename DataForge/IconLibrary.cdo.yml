@@ -1539,15 +1539,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 174
-          #   Texture: "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/UI/Detonator_256.Detonator_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/BP_EquipmentDescriptorNobeliskDetonator.BP_EquipmentDescriptorNobeliskDetonator_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Equipment"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 174
+            Texture: "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/UI/Detonator_256.Detonator_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/BP_EquipmentDescriptorNobeliskDetonator.BP_EquipmentDescriptorNobeliskDetonator_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Equipment"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 175
             Texture: "/Game/FactoryGame/Equipment/Chainsaw/UI/IconDesc_Chainsaw_256.IconDesc_Chainsaw_256"
             itemDescriptor: "/Game/FactoryGame/Equipment/Chainsaw/Desc_Chainsaw.Desc_Chainsaw_C"
@@ -1677,15 +1677,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 189
-          #   Texture: "/Game/FactoryGame/Resource/Equipment/Rifle/UI/RifleMK1_256.RifleMK1_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/Rifle/BP_EquipmentDescriptorRifle.BP_EquipmentDescriptorRifle_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Equipment"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 189
+            Texture: "/Game/FactoryGame/Resource/Equipment/Rifle/UI/RifleMK1_256.RifleMK1_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Equipment/Rifle/BP_EquipmentDescriptorRifle.BP_EquipmentDescriptorRifle_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Equipment"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 190
           #   Texture: "/Game/FactoryGame/Resource/Equipment/StunSpear/UI/IconDesc_CaneEquipment_256.IconDesc_CaneEquipment_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/Equipment/StunSpear/BP_EquipmentDescriptorCandyCane.BP_EquipmentDescriptorCandyCane_C"
@@ -2475,15 +2475,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 277
-          #   Texture: "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Explosive_256.IconDesc_Explosive_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 277
+            Texture: "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Explosive_256.IconDesc_Explosive_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 278
           #   Texture: "/Game/FactoryGame/Resource/Parts/UraniumCell/UI/IconDesc_NuclearCell_256.IconDesc_NuclearCell_256"
           #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/UraniumCell/Desc_UraniumCell.Desc_UraniumCell_C"
@@ -6276,15 +6276,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 678
-          #   Texture: "/Game/FactoryGame/Equipment/Rifle/UI/IconDesc_Rifle_256.IconDesc_Rifle_256"
-          #   itemDescriptor: "/Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 678
+            Texture: "/Game/FactoryGame/Equipment/Rifle/UI/IconDesc_Rifle_256.IconDesc_Rifle_256"
+            itemDescriptor: "/Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 679
           #   Texture: "/Game/FactoryGame/Equipment/Rifle/UI/IconDesc_HomingRifle_256.IconDesc_HomingRifle_256"
           #   itemDescriptor: "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeSmartProjectile.Desc_CartridgeSmartProjectile_C"
@@ -6339,15 +6339,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 685
-          #   Texture: "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_ExpRebar_256.IconDesc_ExpRebar_256"
-          #   itemDescriptor: "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Explosive.Desc_Rebar_Explosive_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Part"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 685
+            Texture: "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_ExpRebar_256.IconDesc_ExpRebar_256"
+            itemDescriptor: "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Explosive.Desc_Rebar_Explosive_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Part"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 686
           #   Texture: "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Nuke_256.IconDesc_Nuke_256"
           #   itemDescriptor: "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskNuke.Desc_NobeliskNuke_C"
