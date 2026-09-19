@@ -69,7 +69,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Chunks"
+					"Key": "Gold Ingot"
 				},
 				{
 					"Source":
@@ -80,7 +80,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Ingot"
+					"Key": "Gold Chunks"
 				},
 				{
 					"Source":
@@ -157,7 +157,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Chunks"
+					"Key": "Copper Disk"
 				},
 				{
 					"Source":
@@ -168,7 +168,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Disk"
+					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -267,7 +267,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Hydrogen Gas"
+					"Key": "Hydrogen Gas"
 				},
 				{
 					"Source":
@@ -278,18 +278,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Hydrogen Gas"
-				},
-				{
-					"Source":
-					{
-						"Text": "HCl"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Hydrochloric Acid"
+					"Key": "Packaged Hydrogen Gas"
 				},
 				{
 					"Source":
@@ -301,6 +290,17 @@
 						"Text": ""
 					},
 					"Key": "Packaged Hydrochloric Acid"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -377,17 +377,6 @@
 					{
 						"Text": ""
 					},
-					"Key": "Manganese Ingot"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mn"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
 					"Key": "Manganese Ore"
 				},
 				{
@@ -400,6 +389,17 @@
 						"Text": ""
 					},
 					"Key": "Manganese Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ingot"
 				},
 				{
 					"Source":
@@ -510,6 +510,116 @@
 						"Text": ""
 					},
 					"Key": "Transition Metal Science Pack"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Titanium Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Titanium Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Titanium Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Titanium Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "TiCl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Titanium Chloride"
+				},
+				{
+					"Source":
+					{
+						"Text": "TiO₂"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Titanium Oxide"
+				},
+				{
+					"Source":
+					{
+						"Text": "W"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Tungsten Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "W"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Tungsten Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "W"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Tungsten Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "WO₄"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Wolframite"
 				},
 				{
 					"Source":
@@ -3224,6 +3334,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced-Advanced Transition Metal Refining"
+					},
+					"Translation":
+					{
+						"Text": "Profesionalna rafinacja metali przejściowych"
+					},
+					"Key": "AdvancedAdvancedTransitionMetalRefining/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Allows research of basic automation methods."
 					},
 					"Translation":
@@ -3616,6 +3737,17 @@
 						"Text": "Środki do wytwarzania przed-plastikowych materiałów."
 					},
 					"Key": "ResinProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The next tier of Transitional Metal refining, allowing production of even stronger and advanced ores."
+					},
+					"Translation":
+					{
+						"Text": "Następny poziom rafinacji metali przejściowych, pozwalający na przetwarzanie jeszcze mocniejszych i bardziej zaawansowanych rud."
+					},
+					"Key": "AdvancedAdvancedTransitionMetalRefining/Desc"
 				},
 				{
 					"Source":
@@ -4268,6 +4400,17 @@
 				{
 					"Source":
 					{
+						"Text": "Scheelite"
+					},
+					"Translation":
+					{
+						"Text": "Szelit"
+					},
+					"Key": "Scheelite/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Silver Chunks"
 					},
 					"Translation":
@@ -4308,6 +4451,72 @@
 						"Text": "Płytka srebrna"
 					},
 					"Key": "SilverPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Chloride"
+					},
+					"Translation":
+					{
+						"Text": "Chlorek tytanu"
+					},
+					"Key": "TitaniumChloride/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Odłamki tytanu"
+					},
+					"Key": "TitaniumChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TitaniumIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Ore"
+					},
+					"Translation":
+					{
+						"Text": "Ruda tytanu"
+					},
+					"Key": "TitaniumOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Oxide"
+					},
+					"Translation":
+					{
+						"Text": "Tlenek tytanu"
+					},
+					"Key": "TitaniumOxide/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Plate"
+					},
+					"Translation":
+					{
+						"Text": "Płytka tytanowa"
+					},
+					"Key": "TitaniumPlate/Name"
 				},
 				{
 					"Source":
@@ -4422,6 +4631,28 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Titanium"
+					},
+					"Translation":
+					{
+						"Text": "Metale Przejściowe: Tytanu"
+					},
+					"Key": "Titanium/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Tungsten"
+					},
+					"Translation":
+					{
+						"Text": "Metale Przejściowe: Wolframu"
+					},
+					"Key": "Tungsten/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Zinc"
 					},
 					"Translation":
@@ -4433,6 +4664,61 @@
 				{
 					"Source":
 					{
+						"Text": "Tungsten Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Odłamki wolframu"
+					},
+					"Key": "TungstenChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Crystals"
+					},
+					"Translation":
+					{
+						"Text": "Kryształy wolframu"
+					},
+					"Key": "TungstenCrystals/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TungstenIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Ore"
+					},
+					"Translation":
+					{
+						"Text": "Ruda wolframu"
+					},
+					"Key": "TungstenOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Plate"
+					},
+					"Translation":
+					{
+						"Text": "Płytka wolframowa"
+					},
+					"Key": "TungstenPlate/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Unpackage Liquid Mercury"
 					},
 					"Translation":
@@ -4440,6 +4726,28 @@
 						"Text": ""
 					},
 					"Key": "UnpackageLiquidMercury/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wolframite"
+					},
+					"Translation":
+					{
+						"Text": "Wolframit"
+					},
+					"Key": "Wolframite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wolframite Washing"
+					},
+					"Translation":
+					{
+						"Text": "Płukanie wolframitu"
+					},
+					"Key": "WolframiteWashing/Recipe"
 				},
 				{
 					"Source":

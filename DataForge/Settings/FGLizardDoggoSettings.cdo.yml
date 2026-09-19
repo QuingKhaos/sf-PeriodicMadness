@@ -85,6 +85,12 @@ patches:
               ItemClass: /PeriodicMadness/Resources/TM/Silver/SilverPlate/Desc_PM_SilverPlate.Desc_PM_SilverPlate_C
             NumItems: 18
           - Item:
+              ItemClass: /PeriodicMadness/Resources/TM/Titanium/TitaniumPlate/Desc_PM_TitaniumPlate.Desc_PM_TitaniumPlate_C
+            NumItems: 15
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/TM/Tungsten/TungstenPlate/Desc_PM_TungstenPlate.Desc_PM_TungstenPlate_C
+            NumItems: 15
+          - Item:
               ItemClass: /PeriodicMadness/Resources/RNM/AirFilters/AirFilter/Desc_PM_AirFilter.Desc_PM_AirFilter_C
             NumItems: 12
           - Item:

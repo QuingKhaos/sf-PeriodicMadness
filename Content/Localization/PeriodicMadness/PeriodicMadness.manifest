@@ -336,6 +336,86 @@
 				{
 					"Source":
 					{
+						"Text": "Ti"
+					},
+					"Keys": [
+						{
+							"Key": "Titanium Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumChunks/Desc_PM_TitaniumChunks.Default__Desc_PM_TitaniumChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Titanium Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumIngot/Desc_PM_TitaniumIngot.Default__Desc_PM_TitaniumIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Titanium Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumOre/Desc_PM_TitaniumOre.Default__Desc_PM_TitaniumOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Titanium Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumPlate/Desc_PM_TitaniumPlate.Default__Desc_PM_TitaniumPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "TiCl"
+					},
+					"Keys": [
+						{
+							"Key": "Titanium Chloride",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumChloride/Desc_PM_TitaniumChloride.Default__Desc_PM_TitaniumChloride_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "TiO₂"
+					},
+					"Keys": [
+						{
+							"Key": "Titanium Oxide",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumOxide/Desc_PM_TitaniumOxide.Default__Desc_PM_TitaniumOxide_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "W"
+					},
+					"Keys": [
+						{
+							"Key": "Tungsten Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Tungsten/TungstenChunks/Desc_PM_TungstenChunks.Default__Desc_PM_TungstenChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Tungsten Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Tungsten/TungstenIngot/Desc_PM_TungstenIngot.Default__Desc_PM_TungstenIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Tungsten Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Tungsten/TungstenOre/Desc_PM_TungstenOre.Default__Desc_PM_TungstenOre_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "WO₄"
+					},
+					"Keys": [
+						{
+							"Key": "Wolframite",
+							"Path": "/PeriodicMadness/Resources/TM/Tungsten/Wolframite/Desc_PM_Wolframite.Default__Desc_PM_Wolframite_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Zn"
 					},
 					"Keys": [
@@ -3214,6 +3294,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced-Advanced Transition Metal Refining"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedAdvancedTransitionMetalRefining/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Allows research of basic automation methods."
 					},
 					"Keys": [
@@ -3639,6 +3731,18 @@
 					"Keys": [
 						{
 							"Key": "ResinProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The next tier of Transitional Metal refining, allowing production of even stronger and advanced ores."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedAdvancedTransitionMetalRefining/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -4352,6 +4456,18 @@
 				{
 					"Source":
 					{
+						"Text": "Scheelite"
+					},
+					"Keys": [
+						{
+							"Key": "Scheelite/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Silver Chunks"
 					},
 					"Keys": [
@@ -4393,6 +4509,78 @@
 					"Keys": [
 						{
 							"Key": "SilverPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Chloride"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumChloride/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Ore"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Oxide"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumOxide/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Plate"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumPlate/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -4520,6 +4708,30 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Titanium"
+					},
+					"Keys": [
+						{
+							"Key": "Titanium/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Tungsten"
+					},
+					"Keys": [
+						{
+							"Key": "Tungsten/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Zinc"
 					},
 					"Keys": [
@@ -4532,11 +4744,95 @@
 				{
 					"Source":
 					{
+						"Text": "Tungsten Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Crystals"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenCrystals/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Ore"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Plate"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Unpackage Liquid Mercury"
 					},
 					"Keys": [
 						{
 							"Key": "UnpackageLiquidMercury/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wolframite"
+					},
+					"Keys": [
+						{
+							"Key": "Wolframite/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wolframite Washing"
+					},
+					"Keys": [
+						{
+							"Key": "WolframiteWashing/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
