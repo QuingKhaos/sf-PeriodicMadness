@@ -4,6 +4,7 @@ Date: ????
   Features:
     - Add the Advanced Transition Metal Science Pack and content for it.
     - Science Bottle and Science Packs are now sinkable.
+    - Soomersloop production boost is now researchable.
   Changes:
     - Science Bottle moved to Glassing category.
 ---------------------------------------------------------------------------------------------------
