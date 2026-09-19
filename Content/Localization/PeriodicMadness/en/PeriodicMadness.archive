@@ -80,7 +80,7 @@
 					{
 						"Text": "Au"
 					},
-					"Key": "Gold Chunks"
+					"Key": "Gold Ore"
 				},
 				{
 					"Source":
@@ -91,7 +91,7 @@
 					{
 						"Text": "Au"
 					},
-					"Key": "Gold Ore"
+					"Key": "Gold Chunks"
 				},
 				{
 					"Source":
@@ -168,7 +168,7 @@
 					{
 						"Text": "Cu"
 					},
-					"Key": "Copper Chunks"
+					"Key": "Copper Ingot"
 				},
 				{
 					"Source":
@@ -179,7 +179,7 @@
 					{
 						"Text": "Cu"
 					},
-					"Key": "Copper Ingot"
+					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -267,29 +267,18 @@
 					{
 						"Text": "H"
 					},
-					"Key": "Hydrogen Gas"
-				},
-				{
-					"Source":
-					{
-						"Text": "H"
-					},
-					"Translation":
-					{
-						"Text": "H"
-					},
 					"Key": "Packaged Hydrogen Gas"
 				},
 				{
 					"Source":
 					{
-						"Text": "HCl"
+						"Text": "H"
 					},
 					"Translation":
 					{
-						"Text": "HCl"
+						"Text": "H"
 					},
-					"Key": "Packaged Hydrochloric Acid"
+					"Key": "Hydrogen Gas"
 				},
 				{
 					"Source":
@@ -301,6 +290,17 @@
 						"Text": "HCl"
 					},
 					"Key": "Hydrochloric Acid"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": "HCl"
+					},
+					"Key": "Packaged Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -377,6 +377,17 @@
 					{
 						"Text": "Mn"
 					},
+					"Key": "Manganese Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": "Mn"
+					},
 					"Key": "Manganese Ore"
 				},
 				{
@@ -393,13 +404,46 @@
 				{
 					"Source":
 					{
-						"Text": "Mn"
+						"Text": "Mo"
 					},
 					"Translation":
 					{
-						"Text": "Mn"
+						"Text": "Mo"
 					},
-					"Key": "Manganese Ingot"
+					"Key": "Molybdenite Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": "Mo"
+					},
+					"Key": "Molybdenum Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": "Mo"
+					},
+					"Key": "Molybdenite"
+				},
+				{
+					"Source":
+					{
+						"Text": "MoS₂"
+					},
+					"Translation":
+					{
+						"Text": "MoS₂"
+					},
+					"Key": "Molybdenum Disulfide"
 				},
 				{
 					"Source":
@@ -3631,6 +3675,17 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenum Processing"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenum Processing"
+					},
+					"Key": "MolybdenumProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "More advanced ways of using gold and its properties for products."
 					},
 					"Translation":
@@ -3759,6 +3814,17 @@
 						"Text": "The process of refining and processing mercury."
 					},
 					"Key": "MercuryProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The processing and production of molybdenum, an element useful in oil recipes and presumably other stuff too."
+					},
+					"Translation":
+					{
+						"Text": "The processing and production of molybdenum, an element useful in oil recipes and presumably other stuff too."
+					},
+					"Key": "MolybdenumProcessing/Desc"
 				},
 				{
 					"Source":
@@ -3989,6 +4055,17 @@
 						"Text": "Acidic Ferrum Leeching"
 					},
 					"Key": "FerrumLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Molybdenum Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Acidic Molybdenum Leeching"
+					},
+					"Key": "MolybdenumLeeching/Recipe"
 				},
 				{
 					"Source":
@@ -4301,6 +4378,72 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenite"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenite"
+					},
+					"Key": "Molybdenite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Crushing"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenite Crushing"
+					},
+					"Key": "MolybdeniteCrushing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Powder"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenite Powder"
+					},
+					"Key": "MolybdenitePowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Disulfide"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenum Disulfide"
+					},
+					"Key": "MolybdenumDisulfide/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Floating"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenum Floating"
+					},
+					"Key": "MolybdenumFloating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Ore"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenum Ore"
+					},
+					"Key": "MolybdenumOre/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Chunks"
 					},
 					"Translation":
@@ -4605,6 +4748,17 @@
 						"Text": "Transition Metals: Mercury"
 					},
 					"Key": "Mercury/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Molybdenum"
+					},
+					"Translation":
+					{
+						"Text": "Transition Metals: Molybdenum"
+					},
+					"Key": "Molybdenum/Cat"
 				},
 				{
 					"Source":

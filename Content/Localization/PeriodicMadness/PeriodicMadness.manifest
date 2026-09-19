@@ -264,6 +264,38 @@
 				{
 					"Source":
 					{
+						"Text": "Mo"
+					},
+					"Keys": [
+						{
+							"Key": "Molybdenite",
+							"Path": "/PeriodicMadness/Resources/TM/Molybdenum/Molybdenite/Desc_PM_Molybdenite.Default__Desc_PM_Molybdenite_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Molybdenite Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Molybdenum/MolybdenitePowder/Desc_PM_MolybdenitePowder.Default__Desc_PM_MolybdenitePowder_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Molybdenum Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Molybdenum/MolybdenumOre/Desc_PM_MolybdenumOre.Default__Desc_PM_MolybdenumOre_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MoS₂"
+					},
+					"Keys": [
+						{
+							"Key": "Molybdenum Disulfide",
+							"Path": "/PeriodicMadness/Resources/TM/Molybdenum/MolybdenumDisulfide/Desc_PM_MolybdenumDisulfide.Default__Desc_PM_MolybdenumDisulfide_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ni"
 					},
 					"Keys": [
@@ -3618,6 +3650,18 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenum Processing"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "More advanced ways of using gold and its properties for products."
 					},
 					"Keys": [
@@ -3755,6 +3799,18 @@
 					"Keys": [
 						{
 							"Key": "MercuryProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The processing and production of molybdenum, an element useful in oil recipes and presumably other stuff too."
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -4005,6 +4061,18 @@
 					"Keys": [
 						{
 							"Key": "FerrumLeeching/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Molybdenum Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumLeeching/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -4348,6 +4416,78 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenite"
+					},
+					"Keys": [
+						{
+							"Key": "Molybdenite/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Crushing"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdeniteCrushing/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Powder"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenitePowder/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Disulfide"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumDisulfide/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Floating"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumFloating/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Ore"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Chunks"
 					},
 					"Keys": [
@@ -4677,6 +4817,18 @@
 					"Keys": [
 						{
 							"Key": "Mercury/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Molybdenum"
+					},
+					"Keys": [
+						{
+							"Key": "Molybdenum/Cat",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]

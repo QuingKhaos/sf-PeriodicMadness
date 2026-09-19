@@ -80,7 +80,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Chunks"
+					"Key": "Gold Ore"
 				},
 				{
 					"Source":
@@ -91,7 +91,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Ore"
+					"Key": "Gold Chunks"
 				},
 				{
 					"Source":
@@ -168,7 +168,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Chunks"
+					"Key": "Copper Ingot"
 				},
 				{
 					"Source":
@@ -179,7 +179,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Ingot"
+					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -267,7 +267,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Hydrogen Gas"
+					"Key": "Packaged Hydrogen Gas"
 				},
 				{
 					"Source":
@@ -278,18 +278,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Hydrogen Gas"
-				},
-				{
-					"Source":
-					{
-						"Text": "HCl"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Packaged Hydrochloric Acid"
+					"Key": "Hydrogen Gas"
 				},
 				{
 					"Source":
@@ -301,6 +290,17 @@
 						"Text": ""
 					},
 					"Key": "Hydrochloric Acid"
+				},
+				{
+					"Source":
+					{
+						"Text": "HCl"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Packaged Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -377,6 +377,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Manganese Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Manganese Ore"
 				},
 				{
@@ -393,13 +404,46 @@
 				{
 					"Source":
 					{
-						"Text": "Mn"
+						"Text": "Mo"
 					},
 					"Translation":
 					{
 						"Text": ""
 					},
-					"Key": "Manganese Ingot"
+					"Key": "Molybdenite Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Molybdenum Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Molybdenite"
+				},
+				{
+					"Source":
+					{
+						"Text": "MoS₂"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Molybdenum Disulfide"
 				},
 				{
 					"Source":
@@ -3631,6 +3675,17 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenum Processing"
+					},
+					"Translation":
+					{
+						"Text": "鉬加工"
+					},
+					"Key": "MolybdenumProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "More advanced ways of using gold and its properties for products."
 					},
 					"Translation":
@@ -3759,6 +3814,17 @@
 						"Text": "汞的提煉和加工過程。"
 					},
 					"Key": "MercuryProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The processing and production of molybdenum, an element useful in oil recipes and presumably other stuff too."
+					},
+					"Translation":
+					{
+						"Text": "鉬的加工和生產，鉬是一種在石油加工很有用的元素，而且可能在其他方面也有應用。"
+					},
+					"Key": "MolybdenumProcessing/Desc"
 				},
 				{
 					"Source":
@@ -3989,6 +4055,17 @@
 						"Text": "酸性鐵鏽浸出"
 					},
 					"Key": "FerrumLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Molybdenum Leeching"
+					},
+					"Translation":
+					{
+						"Text": "酸性鉬浸出"
+					},
+					"Key": "MolybdenumLeeching/Recipe"
 				},
 				{
 					"Source":
@@ -4301,6 +4378,72 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenite"
+					},
+					"Translation":
+					{
+						"Text": "輝鉬礦"
+					},
+					"Key": "Molybdenite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Crushing"
+					},
+					"Translation":
+					{
+						"Text": "粉碎輝鉬礦"
+					},
+					"Key": "MolybdeniteCrushing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Powder"
+					},
+					"Translation":
+					{
+						"Text": "輝鉬粉"
+					},
+					"Key": "MolybdenitePowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Disulfide"
+					},
+					"Translation":
+					{
+						"Text": "二硫化鉬"
+					},
+					"Key": "MolybdenumDisulfide/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Floating"
+					},
+					"Translation":
+					{
+						"Text": "鉬漂浮"
+					},
+					"Key": "MolybdenumFloating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Ore"
+					},
+					"Translation":
+					{
+						"Text": "鉬礦"
+					},
+					"Key": "MolybdenumOre/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Chunks"
 					},
 					"Translation":
@@ -4605,6 +4748,17 @@
 						"Text": "過渡金屬: 汞"
 					},
 					"Key": "Mercury/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Molybdenum"
+					},
+					"Translation":
+					{
+						"Text": "過渡金屬: 鉬"
+					},
+					"Key": "Molybdenum/Cat"
 				},
 				{
 					"Source":
