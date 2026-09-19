@@ -1,0 +1,34 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/World/Benefit/DropPod/Settings/DPLT_DropPod.DPLT_DropPod
+    properties:
+      #######
+      - path: Entries[0].DismantleRefunds[0].ItemClass
+        value: /PeriodicMadness/Resources/Products/Intermediates/IronRod/Desc_PM_IronRod.Desc_PM_IronRod_C
+      - path: Entries[0].DismantleRefunds[1].ItemClass
+        value: /PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Desc_PM_IronPlate_C
+      - path: Entries[0].DismantleRefunds[2].ItemClass
+        value: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
+      #######
+      - path: Entries[1].DismantleRefunds[0].ItemClass
+        value: /PeriodicMadness/Resources/Products/Intermediates/IronRod/Desc_PM_IronRod.Desc_PM_IronRod_C
+      - path: Entries[2].DismantleRefunds[1].ItemClass
+        value: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
+      - path: Entries[2].DismantleRefunds[2].ItemClass
+        value: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
+      #######
+      - path: Entries[2].DismantleRefunds[0].ItemClass
+        value: /PeriodicMadness/Resources/Products/Intermediates/IronRod/Desc_PM_IronRod.Desc_PM_IronRod_C
+      - path: Entries[2].DismantleRefunds[1].ItemClass
+        value: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
+      - path: Entries[2].DismantleRefunds[2].ItemClass
+        value: /PeriodicMadness/Resources/MultiMetal/Framing/BasicFraming/Desc_PM_BasicFraming.Desc_PM_BasicFraming_C
+      #######
+      - path: Entries[3].DismantleRefunds[0].ItemClass
+        value: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
+      - path: Entries[3].DismantleRefunds[1].ItemClass
+        value: /PeriodicMadness/Resources/MultiMetal/Framing/BasicFraming/Desc_PM_BasicFraming.Desc_PM_BasicFraming_C
+      - path: Entries[3].DismantleRefunds[2].ItemClass
+        value: /PeriodicMadness/Resources/MultiMetal/Tubing/BasicTubing/Desc_PM_BasicTubing.Desc_PM_BasicTubing_C

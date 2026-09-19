@@ -7,6 +7,11 @@ Date: ????
   Changes:
     - Science Bottle moved to Glassing category.
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2026-09-19
+  Bugfixes:
+    - Ensure dismantling crash sites and starting drop pod refund Periodic Madness items.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2026-09-18
   Bugfixes:
