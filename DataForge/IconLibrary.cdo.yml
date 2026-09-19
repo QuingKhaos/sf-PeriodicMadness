@@ -933,15 +933,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 111
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerSwitch/UI/IconDesc_PowerSwitch_512.IconDesc_PowerSwitch_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerSwitch/Desc_PowerSwitch.Desc_PowerSwitch_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 111
+            Texture: "/Game/FactoryGame/Buildable/Factory/PowerSwitch/UI/IconDesc_PowerSwitch_512.IconDesc_PowerSwitch_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerSwitch/Desc_PowerSwitch.Desc_PowerSwitch_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 112
           #   Texture: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk3/UI/PowerPoleMk3_512.PowerPoleMk3_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PowerPoleMk3/Desc_PowerPoleMk3.Desc_PowerPoleMk3_C"
