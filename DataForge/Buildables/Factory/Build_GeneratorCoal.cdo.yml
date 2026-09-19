@@ -7,3 +7,4 @@ patches:
       - path: mDefaultFuelClasses
         value:
           - /PeriodicMadness/Resources/Products/RawResources/Coal/Desc_PM_Coal.Desc_PM_Coal_C
+          - /PeriodicMadness/Resources/Products/Coke/Coke/Desc_PM_Coke.Desc_PM_Coke_C

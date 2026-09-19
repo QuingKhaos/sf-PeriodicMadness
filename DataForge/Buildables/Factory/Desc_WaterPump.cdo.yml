@@ -1,0 +1,11 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Buildable/Factory/WaterPump/Desc_WaterPump.Desc_WaterPump_C
+    properties:
+      - path: mSubCategories
+        value:
+          - /PeriodicMadness/Buildables/Factory/SC_PM_Production_Water.SC_PM_Production_Water_C
+      - path: mMenuPriority
+        value: 2.0

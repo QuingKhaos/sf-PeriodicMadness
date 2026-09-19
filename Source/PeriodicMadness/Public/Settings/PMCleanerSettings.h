@@ -99,6 +99,8 @@ public:
 	bool ShouldRemoveFoliageItemClass(const TSubclassOf<UFGItemDescriptor>& ItemClass) const;
 	/** Checks if a foliage item class should be replaced and provides the replacement class. */
 	bool ShouldReplaceFoliageItemClass(const TSubclassOf<UFGItemDescriptor>& ItemClass, TSubclassOf<UFGItemDescriptor>& OutReplacement) const;
+	/** Checks if a water volume resource class should be replaced and provides the replacement class. */
+	bool ShouldReplaceWaterVolumeResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass, TSubclassOf<UFGResourceDescriptor>& OutReplacement) const;
 	/** Checks if a research tree class is allowed to be removed. */
 	bool ShouldRemoveResearchTreeClass(const TSubclassOf<UFGResearchTree>& ResearchTreeClass) const;
 	/** Checks if a schematic class is allowed to be removed. */
@@ -136,6 +138,10 @@ protected:
 	/** List of item class replacements on foliage drops. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
 	TArray<FPMItemReplacement> mFoliageItemClassReplacements;
+
+	/** Resource class replacements for water volumes. */
+	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")
+	FPMItemReplacement mWaterVolumeResourceClassReplacement;
 
 	/** List of research tree class substrings to block from removal. */
 	UPROPERTY(EditDefaultsOnly, Category = "Periodic Madness|Resource Cleanup")

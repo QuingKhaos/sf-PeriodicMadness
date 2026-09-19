@@ -16,6 +16,12 @@ patches:
               ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
             NumItems: 13
           - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/TempPlates/HeatingPlating/Desc_PM_HeatingPlating.Desc_PM_HeatingPlating_C
+            NumItems: 7
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/TempPlates/CoolingPlating/Desc_PM_CoolingPlating.Desc_PM_CoolingPlating_C
+            NumItems: 7
+          - Item:
               ItemClass: /PeriodicMadness/Resources/Products/AlienTech/SAM/Desc_PM_SAM.Desc_PM_SAM_C
             NumItems: 1
           - Item:
@@ -30,6 +36,12 @@ patches:
           - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Wires/CopperWire/Desc_PM_CopperWire.Desc_PM_CopperWire_C
             NumItems: 30
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/Products/Wires/GoldWire/Desc_PM_GoldWire.Desc_PM_GoldWire_C
+            NumItems: 26
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/Products/Wires/FiberopticCable/Desc_PM_FiberopticCable.Desc_PM_FiberopticCable_C
+            NumItems: 13
           - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Screws/IronScrew/Desc_PM_IronScrew.Desc_PM_IronScrew_C
             NumItems: 33
@@ -48,6 +60,9 @@ patches:
           - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Circuits/ElectronicCircuit/Desc_PM_ElectronicCircuit.Desc_PM_ElectronicCircuit_C
             NumItems: 17
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/Products/Circuits/FluidCircuit/Desc_PM_FluidCircuit.Desc_PM_FluidCircuit_C
+            NumItems: 13
           - Item:
               ItemClass: /PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Desc_PM_IronPlate_C
             NumItems: 27
@@ -69,6 +84,12 @@ patches:
           - Item:
               ItemClass: /PeriodicMadness/Resources/TM/Silver/SilverPlate/Desc_PM_SilverPlate.Desc_PM_SilverPlate_C
             NumItems: 18
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/TM/Titanium/TitaniumPlate/Desc_PM_TitaniumPlate.Desc_PM_TitaniumPlate_C
+            NumItems: 15
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/TM/Tungsten/TungstenPlate/Desc_PM_TungstenPlate.Desc_PM_TungstenPlate_C
+            NumItems: 15
           - Item:
               ItemClass: /PeriodicMadness/Resources/RNM/AirFilters/AirFilter/Desc_PM_AirFilter.Desc_PM_AirFilter_C
             NumItems: 12
@@ -94,12 +115,12 @@ patches:
           # - Item:
           #     ItemClass: /Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskShockwave.Desc_NobeliskShockwave_C
           #   NumItems: 2
-          # - Item:
-          #     ItemClass: /Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C
-          #   NumItems: 2
-          # - Item:
-          #     ItemClass: /Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C
-          #   NumItems: 1
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C
+            NumItems: 2
+          - Item:
+              ItemClass: /Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C
+            NumItems: 1
           - Item:
               ItemClass: /Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C
             NumItems: 2

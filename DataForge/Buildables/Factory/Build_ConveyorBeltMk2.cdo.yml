@@ -1,0 +1,13 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Buildable/Factory/ConveyorBeltMk2/Build_ConveyorBeltMk2.Build_ConveyorBeltMk2_C
+    properties:
+      - path: mDescription
+        value:
+          ns: ST_PM_Buildables
+          key: ConveyorBeltMk2/Desc
+          source: "Transports up to 300 resources per minute. Used to move resources between buildings."
+      - path: mSpeed
+        value: 600 # must be 2x the target speed

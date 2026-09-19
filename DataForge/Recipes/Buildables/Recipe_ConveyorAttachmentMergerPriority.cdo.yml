@@ -1,0 +1,18 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentMergerPriority.Recipe_ConveyorAttachmentMergerPriority_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /PeriodicMadness/Resources/TM/Iron/IronPlate/Desc_PM_IronPlate.Desc_PM_IronPlate_C
+            Amount: 2
+          - ItemClass: /PeriodicMadness/Resources/Products/Intermediates/BasicMotor/Desc_PM_BasicMotor.Desc_PM_BasicMotor_C
+            Amount: 2
+          - ItemClass: /PeriodicMadness/Resources/Products/Circuits/ElectronicCircuit/Desc_PM_ElectronicCircuit.Desc_PM_ElectronicCircuit_C
+            Amount: 3
+          - ItemClass: /PeriodicMadness/Resources/Products/Screws/Cat_PM_Products_Screws.Cat_PM_Products_Screws_C
+            Amount: 2
+          - ItemClass: /PeriodicMadness/Resources/TM/Silver/SilverPlate/Desc_PM_SilverPlate.Desc_PM_SilverPlate_C
+            Amount: 2

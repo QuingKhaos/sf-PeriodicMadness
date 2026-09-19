@@ -71,6 +71,10 @@ patches:
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Wood/Desc_PM_Wood.Desc_PM_Wood_C
           - Target: /Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C
             Replacement: /PeriodicMadness/Resources/Products/RawResources/Stone/Desc_PM_Stone.Desc_PM_Stone_C
+      - path: mWaterVolumeResourceClassReplacement
+        value:
+          Target: /Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C
+          Replacement: /PeriodicMadness/Resources/Fluids/Water/Water/Desc_PM_Water.Desc_PM_Water_C
       - path: mResearchTreeClassAllowlist
         value:
           # Mods
@@ -113,6 +117,8 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - BladeRunners
+          - Blueprint
+          - Cartridge
           - CentralStorage
           - Chainsaw
           - ConveyorAttachment
@@ -136,6 +142,7 @@ patches:
           - LightsControlPanel
           - LookoutTower
           - Mam
+          - Nobelisk
           - ObjectScanner
           - Parachute
           - Pipeline
@@ -145,8 +152,11 @@ patches:
           - PortalPotty
           - PowerCrystalShard
           - PowerPole
+          - PowerSwitch
+          - PowerTower
           - Rebar
           - ResourceSink
+          - Rifle
           - StackableShelf
           - StandaloneWidgetSign
           - StorageContainer
@@ -154,15 +164,21 @@ patches:
           - StorageMedkit
           - StoragePlayer
           - StreetLight
+          - Tractor
           - TradingPost
+          - TruckStation
+          - VehiclePath
           - WorkBench
           - Workshop
+          - XenoBasher
           - XenoZapper
+          - ZipLine
           # Specific recipes
           - Recipe_AlienDNACapsule
           - Recipe_Biomass_AlienProtein
           - Recipe_Miner
           - Recipe_Protein
+          - Recipe_WaterPump
           # More specific recipes
           - Doors/Recipe_BigGarageDoor_16x8.
           - Doors/Recipe_Gate
@@ -188,6 +204,7 @@ patches:
           - Walls/Recipe_Wall_Door_8x4_03.
           - Walls/Recipe_Wall_Gate
           - Walls/Recipe_Wall_Orange
+          - Walls/Recipe_Wall_Window
       - path: mItemClassAllowlist
         value:
           # Mods
@@ -196,6 +213,8 @@ patches:
           - /PeriodicMadness/
           # Generic matches
           - AnimalParts
+          - Blueprint
+          - Cartridge
           - CentralStorage
           - Chainsaw
           - ConveyorAttachment
@@ -223,6 +242,7 @@ patches:
           - Mam
           - Medkit
           - Miner
+          - Nobelisk
           - ObjectScanner
           - Parachute
           - Pipeline
@@ -230,8 +250,11 @@ patches:
           - PortableMiner
           - PortalPotty
           - PowerPole
+          - PowerSwitch
+          - PowerTower
           - Rebar
           - ResourceSink
+          - Rifle
           - ShockShank
           - StackableShelf
           - StandaloneWidgetSign
@@ -240,9 +263,14 @@ patches:
           - StorageMedkit
           - StoragePlayer
           - StreetLight
+          - StunSpear
+          - Tractor
           - TradingPost
+          - TruckStation
+          - VehiclePath
           - WorkBench
           - Workshop
+          - ZipLine
           # Specific items
           - Desc_AlienDNACapsule
           - Desc_AlienProtein
@@ -250,6 +278,7 @@ patches:
           - Desc_HardDrive
           - Desc_WAT1
           - Desc_WAT2
+          - Desc_WaterPump
           # More specific items
           - Desc_PowerLine.Desc_PowerLine
           - Doors/Desc_BigGarageDoor_16x8.
@@ -278,6 +307,7 @@ patches:
           - Wall/Desc_Wall_Door_8x4_03.
           - Wall/Desc_Wall_Gate
           - Wall/Desc_Wall_Orange
+          - Wall/Desc_Wall_Window
       - path: mResourceScannerAllowlist
         value:
           # Mods

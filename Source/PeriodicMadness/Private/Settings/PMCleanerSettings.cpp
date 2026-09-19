@@ -114,6 +114,17 @@ bool UPMCleanerSettings::ShouldReplaceFoliageItemClass(const TSubclassOf<UFGItem
 	return false;
 }
 
+bool UPMCleanerSettings::ShouldReplaceWaterVolumeResourceClass(const TSubclassOf<UFGResourceDescriptor>& ResourceClass, TSubclassOf<UFGResourceDescriptor>& OutReplacement) const
+{
+	if (ResourceClass == mWaterVolumeResourceClassReplacement.Target)
+	{
+		OutReplacement = mWaterVolumeResourceClassReplacement.Replacement;
+		return true;
+	}
+
+	return false;
+}
+
 bool UPMCleanerSettings::ShouldRemoveResearchTreeClass(const TSubclassOf<UFGResearchTree>& ResearchTreeClass) const
 {
 	FString ResearchTreeClassName = UKismetSystemLibrary::GetPathName(ResearchTreeClass);

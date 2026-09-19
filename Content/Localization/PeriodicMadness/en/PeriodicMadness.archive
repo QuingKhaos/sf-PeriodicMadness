@@ -8,6 +8,17 @@
 				{
 					"Source":
 					{
+						"Text": "ATM"
+					},
+					"Translation":
+					{
+						"Text": "ATM"
+					},
+					"Key": "Advanced Transition Metal Science Pack"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ag"
 					},
 					"Translation":
@@ -69,17 +80,6 @@
 					{
 						"Text": "Au"
 					},
-					"Key": "Gold Chunks"
-				},
-				{
-					"Source":
-					{
-						"Text": "Au"
-					},
-					"Translation":
-					{
-						"Text": "Au"
-					},
 					"Key": "Gold Ore"
 				},
 				{
@@ -91,7 +91,29 @@
 					{
 						"Text": "Au"
 					},
+					"Key": "Gold Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": "Au"
+					},
 					"Key": "Gold Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": "Au"
+					},
+					"Key": "Gold Wire"
 				},
 				{
 					"Source":
@@ -135,17 +157,6 @@
 					{
 						"Text": "Cu"
 					},
-					"Key": "Copper Chunks"
-				},
-				{
-					"Source":
-					{
-						"Text": "Cu"
-					},
-					"Translation":
-					{
-						"Text": "Cu"
-					},
 					"Key": "Copper Disk"
 				},
 				{
@@ -158,6 +169,17 @@
 						"Text": "Cu"
 					},
 					"Key": "Copper Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": "Cu"
+					},
+					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -355,6 +377,17 @@
 					{
 						"Text": "Mn"
 					},
+					"Key": "Manganese Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": "Mn"
+					},
 					"Key": "Manganese Ore"
 				},
 				{
@@ -371,13 +404,46 @@
 				{
 					"Source":
 					{
-						"Text": "Mn"
+						"Text": "Mo"
 					},
 					"Translation":
 					{
-						"Text": "Mn"
+						"Text": "Mo"
 					},
-					"Key": "Manganese Ingot"
+					"Key": "Molybdenite Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": "Mo"
+					},
+					"Key": "Molybdenum Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": "Mo"
+					},
+					"Key": "Molybdenite"
+				},
+				{
+					"Source":
+					{
+						"Text": "MoS₂"
+					},
+					"Translation":
+					{
+						"Text": "MoS₂"
+					},
+					"Key": "Molybdenum Disulfide"
 				},
 				{
 					"Source":
@@ -399,7 +465,7 @@
 					{
 						"Text": "Ni"
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Ore"
 				},
 				{
 					"Source":
@@ -410,7 +476,7 @@
 					{
 						"Text": "Ni"
 					},
-					"Key": "Nickel Ore"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -459,6 +525,17 @@
 				{
 					"Source":
 					{
+						"Text": "SB"
+					},
+					"Translation":
+					{
+						"Text": "SB"
+					},
+					"Key": "Science Bottle"
+				},
+				{
+					"Source":
+					{
 						"Text": "TM"
 					},
 					"Translation":
@@ -466,6 +543,127 @@
 						"Text": "TM"
 					},
 					"Key": "Transition Metals Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "TM"
+					},
+					"Translation":
+					{
+						"Text": "TM"
+					},
+					"Key": "Transition Metal Science Pack"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": "Ti"
+					},
+					"Key": "Titanium Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": "Ti"
+					},
+					"Key": "Titanium Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": "Ti"
+					},
+					"Key": "Titanium Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": "Ti"
+					},
+					"Key": "Titanium Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "TiCl"
+					},
+					"Translation":
+					{
+						"Text": "TiCl"
+					},
+					"Key": "Titanium Chloride"
+				},
+				{
+					"Source":
+					{
+						"Text": "TiO₂"
+					},
+					"Translation":
+					{
+						"Text": "TiO₂"
+					},
+					"Key": "Titanium Oxide"
+				},
+				{
+					"Source":
+					{
+						"Text": "W"
+					},
+					"Translation":
+					{
+						"Text": "W"
+					},
+					"Key": "Tungsten Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "W"
+					},
+					"Translation":
+					{
+						"Text": "W"
+					},
+					"Key": "Tungsten Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "W"
+					},
+					"Translation":
+					{
+						"Text": "W"
+					},
+					"Key": "Tungsten Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "WO₄"
+					},
+					"Translation":
+					{
+						"Text": "WO₄"
+					},
+					"Key": "Wolframite"
 				},
 				{
 					"Source":
@@ -682,6 +880,17 @@
 				{
 					"Source":
 					{
+						"Text": "A building that uses plastic or resins to create molds and other products. Has a base production speed of 50 %."
+					},
+					"Translation":
+					{
+						"Text": "A building that uses plastic or resins to create molds and other products. Has a base production speed of 50 %."
+					},
+					"Key": "VacuumFormerMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
 					},
 					"Translation":
@@ -770,6 +979,17 @@
 				{
 					"Source":
 					{
+						"Text": "Burner Smelter Mk.2"
+					},
+					"Translation":
+					{
+						"Text": "Burner Smelter Mk.2"
+					},
+					"Key": "BurnerSmelterMk2/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Burns fuel to turn water into steam."
 					},
 					"Translation":
@@ -788,6 +1008,17 @@
 						"Text": "Chemistry"
 					},
 					"Key": "Chemistry/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Crusher"
+					},
+					"Translation":
+					{
+						"Text": "Crusher"
+					},
+					"Key": "CrusherMk1/Name"
 				},
 				{
 					"Source":
@@ -836,6 +1067,17 @@
 				{
 					"Source":
 					{
+						"Text": "Fabricator Mk.2"
+					},
+					"Translation":
+					{
+						"Text": "Fabricator Mk.2"
+					},
+					"Key": "FabricatorMk2/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Finish"
 					},
 					"Translation":
@@ -869,17 +1111,6 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 100 %."
-					},
-					"Translation":
-					{
-						"Text": "Has a base production speed of 100 %."
-					},
-					"Key": "BurnerCrusher/Desc"
-				},
-				{
-					"Source":
-					{
 						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
 					},
 					"Translation":
@@ -887,6 +1118,39 @@
 						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
 					},
 					"Key": "ElectrolysisPlantMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 150 %."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 150 %."
+					},
+					"Key": "CrusherMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 30 %."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 30 %."
+					},
+					"Key": "StoneCokeOvenMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 50 %. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 50 %. Head Lift: 10 m."
+					},
+					"Key": "WashingPlantMk1/Desc"
 				},
 				{
 					"Source":
@@ -913,6 +1177,17 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 75 %. The first output is located at the production indicator."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 75 %. The first output is located at the production indicator."
+					},
+					"Key": "FabricatorMk2/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Laboratory"
 					},
 					"Translation":
@@ -920,6 +1195,17 @@
 						"Text": "Laboratory"
 					},
 					"Key": "Laboratory/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100 %."
+					},
+					"Translation":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100 %."
+					},
+					"Key": "BurnerCrusher/Desc"
 				},
 				{
 					"Source":
@@ -990,6 +1276,28 @@
 				{
 					"Source":
 					{
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 200 %."
+					},
+					"Translation":
+					{
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 200 %."
+					},
+					"Key": "BurnerSmelterMk2/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone Coke Oven"
+					},
+					"Translation":
+					{
+						"Text": "Stone Coke Oven"
+					},
+					"Key": "StoneCokeOvenMk1/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transports fluids. Capacity: 180 m³ of fluid per minute."
 					},
 					"Translation":
@@ -1034,6 +1342,39 @@
 				{
 					"Source":
 					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between buildings."
+					},
+					"Translation":
+					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between buildings."
+					},
+					"Key": "ConveyorBeltMk2/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between floors."
+					},
+					"Translation":
+					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between floors."
+					},
+					"Key": "ConveyorLiftMk2/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Vacuum Former"
+					},
+					"Translation":
+					{
+						"Text": "Vacuum Former"
+					},
+					"Key": "VacuumFormerMk1/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Voltatic Charger"
 					},
 					"Translation":
@@ -1056,6 +1397,17 @@
 				{
 					"Source":
 					{
+						"Text": "Washing Plant"
+					},
+					"Translation":
+					{
+						"Text": "Washing Plant"
+					},
+					"Key": "WashingPlantMk1/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Water"
 					},
 					"Translation":
@@ -1074,6 +1426,22 @@
 						"Text": "Welder"
 					},
 					"Key": "Welder/Name"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Combat",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Explosive Powder"
+					},
+					"Translation":
+					{
+						"Text": "Explosive Powder"
+					},
+					"Key": "Explosives/Name"
 				}
 			]
 		},
@@ -1198,6 +1566,17 @@
 				{
 					"Source":
 					{
+						"Text": "Conveyor Belt Parts Mk.2"
+					},
+					"Translation":
+					{
+						"Text": "Conveyor Belt Parts Mk.2"
+					},
+					"Key": "ConveyorBeltPartMk2/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Pipeline Parts Mk.1"
 					},
 					"Translation":
@@ -1318,6 +1697,28 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Brass Heat-resistant Plating"
+					},
+					"Key": "BrassHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Cold-resistant Plating"
+					},
+					"Key": "CoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Translation":
@@ -1325,6 +1726,50 @@
 						"Text": "Copper Basic Tubing"
 					},
 					"Key": "CopperBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Copper Cold-resistant Plating"
+					},
+					"Key": "CopperCoolingPlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Copper Heat-resistant Plating"
+					},
+					"Key": "CopperHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Gold Heat-resistant Plating"
+					},
+					"Key": "GoldHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Heat-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Heat-resistant Plating"
+					},
+					"Key": "HeatingPlating/Name"
 				},
 				{
 					"Source":
@@ -1358,6 +1803,17 @@
 						"Text": "Iron Basic Tubing"
 					},
 					"Key": "IronBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Manganese Cold-resistant Plating"
+					},
+					"Key": "ManganeseCoolingPlating/Name"
 				},
 				{
 					"Source":
@@ -1406,6 +1862,17 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Temperature Plating"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: Temperature Plating"
+					},
+					"Key": "TempPlates/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Basic Tubing"
 					},
 					"Translation":
@@ -1413,6 +1880,17 @@
 						"Text": "Nickel Basic Tubing"
 					},
 					"Key": "NickelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Silver Cold-resistant Plating"
+					},
+					"Key": "SilverCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -1435,6 +1913,17 @@
 						"Text": "Steel Basic Tubing"
 					},
 					"Key": "SteelBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Cold-resistant Plating"
+					},
+					"Translation":
+					{
+						"Text": "Steel Cold-resistant Plating"
+					},
+					"Key": "SteelCoolingPlating/Recipe"
 				},
 				{
 					"Source":
@@ -1575,6 +2064,28 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Breadboard Mold"
+					},
+					"Translation":
+					{
+						"Text": "Basic Breadboard Mold"
+					},
+					"Key": "ElectronicBreadboardMold/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Breadboard Molding"
+					},
+					"Translation":
+					{
+						"Text": "Basic Breadboard Molding"
+					},
+					"Key": "ElectronicBreadboardMolding/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Circuit"
 					},
 					"Translation":
@@ -1582,6 +2093,17 @@
 						"Text": "Basic Circuit"
 					},
 					"Key": "ElectronicCircuit/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Key": "ElectronicCircuitMolding/Recipe"
 				},
 				{
 					"Source":
@@ -1685,6 +2207,17 @@
 				{
 					"Source":
 					{
+						"Text": "Circuit Mold"
+					},
+					"Translation":
+					{
+						"Text": "Circuit Mold"
+					},
+					"Key": "CircuitMold/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Circuits"
 					},
 					"Translation":
@@ -1696,6 +2229,28 @@
 				{
 					"Source":
 					{
+						"Text": "Coke"
+					},
+					"Translation":
+					{
+						"Text": "Coke"
+					},
+					"Key": "Coke/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Coke"
+					},
+					"Translation":
+					{
+						"Text": "Coke"
+					},
+					"Key": "Coke/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Disk"
 					},
 					"Translation":
@@ -1703,6 +2258,17 @@
 						"Text": "Copper Disk"
 					},
 					"Key": "CopperDisc/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Electronic Circuit Resin 'Dipping'"
+					},
+					"Translation":
+					{
+						"Text": "Electronic Circuit Resin 'Dipping'"
+					},
+					"Key": "BasicFluidCircuit/Recip"
 				},
 				{
 					"Source":
@@ -1762,6 +2328,83 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptic Cable"
+					},
+					"Translation":
+					{
+						"Text": "Fiberoptic Cable"
+					},
+					"Key": "FiberopticCable/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Breadboard"
+					},
+					"Translation":
+					{
+						"Text": "Fluid Resistant Breadboard"
+					},
+					"Key": "FluidBreadboard/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Breadboard Mold"
+					},
+					"Translation":
+					{
+						"Text": "Fluid Resistant Breadboard Mold"
+					},
+					"Key": "FluidBreadboardMold/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Breadboard Molding"
+					},
+					"Translation":
+					{
+						"Text": "Fluid Resistant Breadboard Molding"
+					},
+					"Key": "FluidBreadboardMolding/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit"
+					},
+					"Translation":
+					{
+						"Text": "Fluid Resistant Circuit"
+					},
+					"Key": "FluidCircuit/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Key": "FluidCircuitMolding/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Integrated Circuits"
+					},
+					"Translation":
+					{
+						"Text": "Fluid Resistant Integrated Circuits"
+					},
+					"Key": "FluidIntegratedCircuits/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fuels"
 					},
 					"Translation":
@@ -1769,6 +2412,17 @@
 						"Text": "Fuels"
 					},
 					"Key": "Fuels/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Fibers"
+					},
+					"Translation":
+					{
+						"Text": "Glass Fibers"
+					},
+					"Key": "GlassFibers/Name"
 				},
 				{
 					"Source":
@@ -1784,6 +2438,28 @@
 				{
 					"Source":
 					{
+						"Text": "Glass Resmelting"
+					},
+					"Translation":
+					{
+						"Text": "Glass Resmelting"
+					},
+					"Key": "GlassResmelting/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Shards"
+					},
+					"Translation":
+					{
+						"Text": "Glass Shards"
+					},
+					"Key": "GlassShards/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Glassing"
 					},
 					"Translation":
@@ -1795,6 +2471,17 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Wire"
+					},
+					"Translation":
+					{
+						"Text": "Gold Wire"
+					},
+					"Key": "GoldWire/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gravel"
 					},
 					"Translation":
@@ -1802,6 +2489,17 @@
 						"Text": "Gravel"
 					},
 					"Key": "Gravel/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel Crushing"
+					},
+					"Translation":
+					{
+						"Text": "Gravel Crushing"
+					},
+					"Key": "GravelCrushing/Recipe"
 				},
 				{
 					"Source":
@@ -1839,6 +2537,17 @@
 				{
 					"Source":
 					{
+						"Text": "Molded Circuits"
+					},
+					"Translation":
+					{
+						"Text": "Molded Circuits"
+					},
+					"Key": "MoldedCircuits/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Oxidiser"
 					},
 					"Translation":
@@ -1850,6 +2559,50 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Phenolic Resin"
+					},
+					"Key": "PackagedPhenolicResin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Resin"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Resin"
+					},
+					"Key": "PackagedResin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Rubber Resin"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Rubber Resin"
+					},
+					"Key": "PackagedRubberResin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": "Phenolic Resin"
+					},
+					"Key": "PhenolicResin/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Raw Resources"
 					},
 					"Translation":
@@ -1857,6 +2610,50 @@
 						"Text": "Raw Resources"
 					},
 					"Key": "RawResources/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin"
+					},
+					"Translation":
+					{
+						"Text": "Resin"
+					},
+					"Key": "Resin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin"
+					},
+					"Translation":
+					{
+						"Text": "Resin"
+					},
+					"Key": "Resin/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber Resin"
+					},
+					"Translation":
+					{
+						"Text": "Rubber Resin"
+					},
+					"Key": "RubberResin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sand"
+					},
+					"Translation":
+					{
+						"Text": "Sand"
+					},
+					"Key": "Sand/Name"
 				},
 				{
 					"Source":
@@ -1916,6 +2713,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transistors"
+					},
+					"Translation":
+					{
+						"Text": "Transistors"
+					},
+					"Key": "Transistors/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Uncharged Voltatic Pile"
 					},
 					"Translation":
@@ -1923,6 +2731,39 @@
 						"Text": "Uncharged Voltatic Pile"
 					},
 					"Key": "UnchargedVoltaticPile/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Phenolic Resin"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Phenolic Resin"
+					},
+					"Key": "UnpackagePhenolicResin/Recip"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Resin"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Resin"
+					},
+					"Key": "UnpackageResin/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Rubber Resin"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Rubber Resin"
+					},
+					"Key": "UnpackageRubberResin/Recipe"
 				},
 				{
 					"Source":
@@ -1960,6 +2801,17 @@
 				{
 					"Source":
 					{
+						"Text": "Vulcanised Rubber"
+					},
+					"Translation":
+					{
+						"Text": "Vulcanised Rubber"
+					},
+					"Key": "VulcanisedRubber/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Water Evaporation"
 					},
 					"Translation":
@@ -1978,6 +2830,17 @@
 						"Text": "Wires"
 					},
 					"Key": "Wires/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Strip-based Coke"
+					},
+					"Translation":
+					{
+						"Text": "Wood Strip-based Coke"
+					},
+					"Key": "WoodStripCoke/Recipe"
 				},
 				{
 					"Source":
@@ -2016,6 +2879,17 @@
 						"Text": "Basic Oxygen Gas Evaporation"
 					},
 					"Key": "OxygenEvaporation/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Wood 'Growing'"
+					},
+					"Translation":
+					{
+						"Text": "Basic Wood 'Growing'"
+					},
+					"Key": "BasicBasicWoodGrowth/Recipe"
 				},
 				{
 					"Source":
@@ -2196,6 +3070,17 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Greenhousing"
+					},
+					"Translation":
+					{
+						"Text": "Reactive Non-Metals: Greenhousing"
+					},
+					"Key": "Greenhousing/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Hydrogen"
 					},
 					"Translation":
@@ -2225,6 +3110,17 @@
 						"Text": "Reactive Non-Metals: Sulfur"
 					},
 					"Key": "Sulfur/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber-based Air Filter"
+					},
+					"Translation":
+					{
+						"Text": "Rubber-based Air Filter"
+					},
+					"Key": "RubberAirFilter/Recipe"
 				},
 				{
 					"Source":
@@ -2324,12 +3220,89 @@
 						"Text": "Unpackage Oxygen Gas"
 					},
 					"Key": "UnpackageOxygen/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": "Water Electrolysis"
+					},
+					"Key": "WaterElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water-Mercury Electrolysis"
+					},
+					"Translation":
+					{
+						"Text": "Water-Mercury Electrolysis"
+					},
+					"Key": "WaterMercuryElectrolysis/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Strips"
+					},
+					"Translation":
+					{
+						"Text": "Wood Strips"
+					},
+					"Key": "WoodStrips/Name"
 				}
 			]
 		},
 		{
 			"Namespace": "ST_PM_Schematics",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "A more advanced and tougher washing plant."
+					},
+					"Translation":
+					{
+						"Text": "A more advanced and tougher washing plant."
+					},
+					"Key": "WashingPlantMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "A more advanced circuit, that has fluid handling and resistant capabilites."
+					},
+					"Translation":
+					{
+						"Text": "A more advanced circuit, that has fluid handling and resistant capabilites."
+					},
+					"Key": "FluidCircuit/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "A type of resin that is best for electronical components and things related."
+					},
+					"Translation":
+					{
+						"Text": "A type of resin that is best for electronical components and things related."
+					},
+					"Key": "PhenolicResinProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "A type of resin thats best for making rubber."
+					},
+					"Translation":
+					{
+						"Text": "A type of resin thats best for making rubber."
+					},
+					"Key": "RubberProcessing/Desc"
+				},
 				{
 					"Source":
 					{
@@ -2355,6 +3328,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Material Processing"
+					},
+					"Translation":
+					{
+						"Text": "Advanced Material Processing"
+					},
+					"Key": "AdvancedMaterialProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced MultiMetal Production"
 					},
 					"Translation":
@@ -2366,6 +3350,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Sand Processing"
+					},
+					"Translation":
+					{
+						"Text": "Advanced Sand Processing"
+					},
+					"Key": "AdvancedSandProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Translation":
@@ -2373,6 +3368,39 @@
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Key": "AdvancedTransitionMetalRefining/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced Transition Metals Science Pack"
+					},
+					"Translation":
+					{
+						"Text": "Advanced Transition Metals Science Pack"
+					},
+					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced ways to crush stone to manufacture glass."
+					},
+					"Translation":
+					{
+						"Text": "Advanced ways to crush stone to manufacture glass."
+					},
+					"Key": "AdvancedSandProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced-Advanced Transition Metal Refining"
+					},
+					"Translation":
+					{
+						"Text": "Advanced-Advanced Transition Metal Refining"
+					},
+					"Key": "AdvancedAdvancedTransitionMetalRefining/Name"
 				},
 				{
 					"Source":
@@ -2399,6 +3427,28 @@
 				{
 					"Source":
 					{
+						"Text": "An alternative way of making basic circuitboards, using resin instead of metal."
+					},
+					"Translation":
+					{
+						"Text": "An alternative way of making basic circuitboards, using resin instead of metal."
+					},
+					"Key": "ElectronicCircuitMolding/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "An alternative way to making fluid resistant circuits."
+					},
+					"Translation":
+					{
+						"Text": "An alternative way to making fluid resistant circuits."
+					},
+					"Key": "FluidCircuitMolding/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Automation"
 					},
 					"Translation":
@@ -2406,6 +3456,28 @@
 						"Text": "Automation"
 					},
 					"Key": "AutomationMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Automation Mk.2"
+					},
+					"Translation":
+					{
+						"Text": "Automation Mk.2"
+					},
+					"Key": "AutomationMk2/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Key": "ElectronicCircuitMolding/Name"
 				},
 				{
 					"Source":
@@ -2428,6 +3500,17 @@
 						"Text": "By stacking Copper and Zinc disks ontop of one another, you can safely store power in a primitive battery."
 					},
 					"Key": "VoltaticPiles/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "By using a mixture of different metals laid across eachother, you can harness the infinte power of... hot and cold."
+					},
+					"Translation":
+					{
+						"Text": "By using a mixture of different metals laid across eachother, you can harness the infinte power of... hot and cold."
+					},
+					"Key": "TemperaturePlating/Desc"
 				},
 				{
 					"Source":
@@ -2465,6 +3548,39 @@
 				{
 					"Source":
 					{
+						"Text": "Coke Processing"
+					},
+					"Translation":
+					{
+						"Text": "Coke Processing"
+					},
+					"Key": "CokeProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Developing dangerous yet controllable explosives."
+					},
+					"Translation":
+					{
+						"Text": "Developing dangerous yet controllable explosives."
+					},
+					"Key": "Explosives/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Explosives"
+					},
+					"Translation":
+					{
+						"Text": "Explosives"
+					},
+					"Key": "Explosives/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Translation":
@@ -2472,6 +3588,50 @@
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Key": "EzekielOrePurifying/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Faster and more flexible smelters."
+					},
+					"Translation":
+					{
+						"Text": "Faster and more flexible smelters."
+					},
+					"Key": "AdvancedMaterialProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fiberoptics"
+					},
+					"Translation":
+					{
+						"Text": "Fiberoptics"
+					},
+					"Key": "Fiberoptics/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Translation":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Key": "FluidCircuitMolding/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Electronics"
+					},
+					"Translation":
+					{
+						"Text": "Fluid Resistant Electronics"
+					},
+					"Key": "FluidCircuit/Name"
 				},
 				{
 					"Source":
@@ -2487,6 +3647,17 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Processing"
+					},
+					"Translation":
+					{
+						"Text": "Gold Processing"
+					},
+					"Key": "GoldProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Illumination for better visibility at night."
 					},
 					"Translation":
@@ -2494,6 +3665,17 @@
 						"Text": "Illumination for better visibility at night."
 					},
 					"Key": "StreetLight/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Industrial methods to produce coke, made from coal and useful in elemental processes."
+					},
+					"Translation":
+					{
+						"Text": "Industrial methods to produce coke, made from coal and useful in elemental processes."
+					},
+					"Key": "CokeProcessing/Desc"
 				},
 				{
 					"Source":
@@ -2531,6 +3713,83 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenum Processing"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenum Processing"
+					},
+					"Key": "MolybdenumProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "More advanced ways of using gold and its properties for products."
+					},
+					"Translation":
+					{
+						"Text": "More advanced ways of using gold and its properties for products."
+					},
+					"Key": "GoldProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "New ways to make use of wood in your factory."
+					},
+					"Translation":
+					{
+						"Text": "New ways to make use of wood in your factory."
+					},
+					"Key": "WoodProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin Processing"
+					},
+					"Translation":
+					{
+						"Text": "Phenolic Resin Processing"
+					},
+					"Key": "PhenolicResinProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Pioneer technology of refining and using water."
+					},
+					"Translation":
+					{
+						"Text": "Pioneer technology of refining and using water."
+					},
+					"Key": "WaterDistillation/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin Processing"
+					},
+					"Translation":
+					{
+						"Text": "Resin Processing"
+					},
+					"Key": "ResinProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber Resin Processing"
+					},
+					"Translation":
+					{
+						"Text": "Rubber Resin Processing"
+					},
+					"Key": "RubberProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Translation":
@@ -2538,6 +3797,50 @@
 						"Text": "Steel Processing"
 					},
 					"Key": "SteelProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stretching glass into very long and thin fibers allows near instant transmission of power or information."
+					},
+					"Translation":
+					{
+						"Text": "Stretching glass into very long and thin fibers allows near instant transmission of power or information."
+					},
+					"Key": "Fiberoptics/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Temperature Controlling Plating"
+					},
+					"Translation":
+					{
+						"Text": "Temperature Controlling Plating"
+					},
+					"Key": "TemperaturePlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "The means to make pre-plastic materials."
+					},
+					"Translation":
+					{
+						"Text": "The means to make pre-plastic materials."
+					},
+					"Key": "ResinProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The next tier of Transitional Metal refining, allowing production of even stronger and advanced ores."
+					},
+					"Translation":
+					{
+						"Text": "The next tier of Transitional Metal refining, allowing production of even stronger and advanced ores."
+					},
+					"Key": "AdvancedAdvancedTransitionMetalRefining/Desc"
 				},
 				{
 					"Source":
@@ -2553,6 +3856,17 @@
 				{
 					"Source":
 					{
+						"Text": "The processing and production of molybdenum, an element useful in oil recipes and presumably other stuff too."
+					},
+					"Translation":
+					{
+						"Text": "The processing and production of molybdenum, an element useful in oil recipes and presumably other stuff too."
+					},
+					"Key": "MolybdenumProcessing/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "The processing of Chlorine: make sure not to breath it in!"
 					},
 					"Translation":
@@ -2560,6 +3874,17 @@
 						"Text": "The processing of Chlorine: make sure not to breath it in!"
 					},
 					"Key": "ChlorineProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "The second tier of transition metal refining. Unlocks new recipes and new ores."
+					},
+					"Translation":
+					{
+						"Text": "The second tier of transition metal refining. Unlocks new recipes and new ores."
+					},
+					"Key": "AdvancedTransitionMetalSciencePack/Desc"
 				},
 				{
 					"Source":
@@ -2670,12 +3995,56 @@
 						"Text": "Voltatic Pile Batteries"
 					},
 					"Key": "VoltaticPiles/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Washing Plant Mk.1"
+					},
+					"Translation":
+					{
+						"Text": "Washing Plant Mk.1"
+					},
+					"Key": "WashingPlantMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Distillation Recipes"
+					},
+					"Translation":
+					{
+						"Text": "Water Distillation Recipes"
+					},
+					"Key": "WaterDistillation/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Processing"
+					},
+					"Translation":
+					{
+						"Text": "Wood Processing"
+					},
+					"Key": "WoodProcessing/Name"
 				}
 			]
 		},
 		{
 			"Namespace": "ST_PM_Science",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Advanced Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": "Advanced Transition Metal Science Pack"
+					},
+					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
 				{
 					"Source":
 					{
@@ -2724,6 +4093,17 @@
 						"Text": "Acidic Ferrum Leeching"
 					},
 					"Key": "FerrumLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Molybdenum Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Acidic Molybdenum Leeching"
+					},
+					"Key": "MolybdenumLeeching/Recipe"
 				},
 				{
 					"Source":
@@ -3036,6 +4416,72 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenite"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenite"
+					},
+					"Key": "Molybdenite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Crushing"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenite Crushing"
+					},
+					"Key": "MolybdeniteCrushing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Powder"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenite Powder"
+					},
+					"Key": "MolybdenitePowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Disulfide"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenum Disulfide"
+					},
+					"Key": "MolybdenumDisulfide/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Floating"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenum Floating"
+					},
+					"Key": "MolybdenumFloating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Ore"
+					},
+					"Translation":
+					{
+						"Text": "Molybdenum Ore"
+					},
+					"Key": "MolybdenumOre/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Chunks"
 					},
 					"Translation":
@@ -3135,6 +4581,17 @@
 				{
 					"Source":
 					{
+						"Text": "Scheelite"
+					},
+					"Translation":
+					{
+						"Text": "Scheelite"
+					},
+					"Key": "Scheelite/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Silver Chunks"
 					},
 					"Translation":
@@ -3175,6 +4632,72 @@
 						"Text": "Silver Plate"
 					},
 					"Key": "SilverPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Chloride"
+					},
+					"Translation":
+					{
+						"Text": "Titanium Chloride"
+					},
+					"Key": "TitaniumChloride/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Titanium Chunks"
+					},
+					"Key": "TitaniumChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Ingot"
+					},
+					"Translation":
+					{
+						"Text": "Titanium Ingot"
+					},
+					"Key": "TitaniumIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Ore"
+					},
+					"Translation":
+					{
+						"Text": "Titanium Ore"
+					},
+					"Key": "TitaniumOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Oxide"
+					},
+					"Translation":
+					{
+						"Text": "Titanium Oxide"
+					},
+					"Key": "TitaniumOxide/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Plate"
+					},
+					"Translation":
+					{
+						"Text": "Titanium Plate"
+					},
+					"Key": "TitaniumPlate/Name"
 				},
 				{
 					"Source":
@@ -3267,6 +4790,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Molybdenum"
+					},
+					"Translation":
+					{
+						"Text": "Transition Metals: Molybdenum"
+					},
+					"Key": "Molybdenum/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Nickel"
 					},
 					"Translation":
@@ -3289,6 +4823,28 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Titanium"
+					},
+					"Translation":
+					{
+						"Text": "Transition Metals: Titanium"
+					},
+					"Key": "Titanium/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Tungsten"
+					},
+					"Translation":
+					{
+						"Text": "Transition Metals: Tungsten"
+					},
+					"Key": "Tungsten/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Zinc"
 					},
 					"Translation":
@@ -3300,6 +4856,61 @@
 				{
 					"Source":
 					{
+						"Text": "Tungsten Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Tungsten Chunks"
+					},
+					"Key": "TungstenChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Crystals"
+					},
+					"Translation":
+					{
+						"Text": "Tungsten Crystals"
+					},
+					"Key": "TungstenCrystals/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Ingot"
+					},
+					"Translation":
+					{
+						"Text": "Tungsten Ingot"
+					},
+					"Key": "TungstenIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Ore"
+					},
+					"Translation":
+					{
+						"Text": "Tungsten Ore"
+					},
+					"Key": "TungstenOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Plate"
+					},
+					"Translation":
+					{
+						"Text": "Tungsten Plate"
+					},
+					"Key": "TungstenPlate/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Unpackage Liquid Mercury"
 					},
 					"Translation":
@@ -3307,6 +4918,28 @@
 						"Text": "Unpackage Liquid Mercury"
 					},
 					"Key": "UnpackageLiquidMercury/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wolframite"
+					},
+					"Translation":
+					{
+						"Text": "Wolframite"
+					},
+					"Key": "Wolframite/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Wolframite Washing"
+					},
+					"Translation":
+					{
+						"Text": "Wolframite Washing"
+					},
+					"Key": "WolframiteWashing/Recipe"
 				},
 				{
 					"Source":

@@ -8,6 +8,18 @@
 				{
 					"Source":
 					{
+						"Text": "ATM"
+					},
+					"Keys": [
+						{
+							"Key": "Advanced Transition Metal Science Pack",
+							"Path": "/PeriodicMadness/Resources/Science/SciencePack/ATMSP/Desc_PM_AdvancedTransitionMetalSciencePack.Default__Desc_PM_AdvancedTransitionMetalSciencePack_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ag"
 					},
 					"Keys": [
@@ -50,6 +62,10 @@
 						{
 							"Key": "Gold Plate",
 							"Path": "/PeriodicMadness/Resources/TM/Gold/GoldPlate/Desc_PM_GoldPlate.Default__Desc_PM_GoldPlate_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Gold Wire",
+							"Path": "/PeriodicMadness/Resources/Products/Wires/GoldWire/Desc_PM_GoldWire.Default__Desc_PM_GoldWire_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -248,6 +264,38 @@
 				{
 					"Source":
 					{
+						"Text": "Mo"
+					},
+					"Keys": [
+						{
+							"Key": "Molybdenite",
+							"Path": "/PeriodicMadness/Resources/TM/Molybdenum/Molybdenite/Desc_PM_Molybdenite.Default__Desc_PM_Molybdenite_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Molybdenite Powder",
+							"Path": "/PeriodicMadness/Resources/TM/Molybdenum/MolybdenitePowder/Desc_PM_MolybdenitePowder.Default__Desc_PM_MolybdenitePowder_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Molybdenum Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Molybdenum/MolybdenumOre/Desc_PM_MolybdenumOre.Default__Desc_PM_MolybdenumOre_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MoS₂"
+					},
+					"Keys": [
+						{
+							"Key": "Molybdenum Disulfide",
+							"Path": "/PeriodicMadness/Resources/TM/Molybdenum/MolybdenumDisulfide/Desc_PM_MolybdenumDisulfide.Default__Desc_PM_MolybdenumDisulfide_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ni"
 					},
 					"Keys": [
@@ -292,12 +340,108 @@
 				{
 					"Source":
 					{
+						"Text": "SB"
+					},
+					"Keys": [
+						{
+							"Key": "Science Bottle",
+							"Path": "/PeriodicMadness/Resources/Science/SciencePack/ScienceBottle/Desc_PM_ScienceBottle.Default__Desc_PM_ScienceBottle_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "TM"
 					},
 					"Keys": [
 						{
+							"Key": "Transition Metal Science Pack",
+							"Path": "/PeriodicMadness/Resources/Science/SciencePack/TMSP/Desc_PM_TransitionMetalSciencePack.Default__Desc_PM_TransitionMetalSciencePack_C.mAbbreviatedDisplayName"
+						},
+						{
 							"Key": "Transition Metals Ore",
 							"Path": "/PeriodicMadness/Resources/TM/TransitionMetals/TransitionMetalsOre/Desc_PM_TransitionMetalsOre.Default__Desc_PM_TransitionMetalsOre_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Keys": [
+						{
+							"Key": "Titanium Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumChunks/Desc_PM_TitaniumChunks.Default__Desc_PM_TitaniumChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Titanium Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumIngot/Desc_PM_TitaniumIngot.Default__Desc_PM_TitaniumIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Titanium Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumOre/Desc_PM_TitaniumOre.Default__Desc_PM_TitaniumOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Titanium Plate",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumPlate/Desc_PM_TitaniumPlate.Default__Desc_PM_TitaniumPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "TiCl"
+					},
+					"Keys": [
+						{
+							"Key": "Titanium Chloride",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumChloride/Desc_PM_TitaniumChloride.Default__Desc_PM_TitaniumChloride_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "TiO₂"
+					},
+					"Keys": [
+						{
+							"Key": "Titanium Oxide",
+							"Path": "/PeriodicMadness/Resources/TM/Titanium/TitaniumOxide/Desc_PM_TitaniumOxide.Default__Desc_PM_TitaniumOxide_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "W"
+					},
+					"Keys": [
+						{
+							"Key": "Tungsten Chunks",
+							"Path": "/PeriodicMadness/Resources/TM/Tungsten/TungstenChunks/Desc_PM_TungstenChunks.Default__Desc_PM_TungstenChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Tungsten Ingot",
+							"Path": "/PeriodicMadness/Resources/TM/Tungsten/TungstenIngot/Desc_PM_TungstenIngot.Default__Desc_PM_TungstenIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Tungsten Ore",
+							"Path": "/PeriodicMadness/Resources/TM/Tungsten/TungstenOre/Desc_PM_TungstenOre.Default__Desc_PM_TungstenOre_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "WO₄"
+					},
+					"Keys": [
+						{
+							"Key": "Wolframite",
+							"Path": "/PeriodicMadness/Resources/TM/Tungsten/Wolframite/Desc_PM_Wolframite.Default__Desc_PM_Wolframite_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -493,6 +637,18 @@
 				{
 					"Source":
 					{
+						"Text": "A building that uses plastic or resins to create molds and other products. Has a base production speed of 50 %."
+					},
+					"Keys": [
+						{
+							"Key": "VacuumFormerMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "A dirtier and more primitive version of a boiler, only takes seawater."
 					},
 					"Keys": [
@@ -581,6 +737,18 @@
 				{
 					"Source":
 					{
+						"Text": "Burner Smelter Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "BurnerSmelterMk2/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Burns fuel to turn water into steam."
 					},
 					"Keys": [
@@ -598,6 +766,18 @@
 					"Keys": [
 						{
 							"Key": "Chemistry/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Crusher"
+					},
+					"Keys": [
+						{
+							"Key": "CrusherMk1/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -653,6 +833,18 @@
 				{
 					"Source":
 					{
+						"Text": "Fabricator Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "FabricatorMk2/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Finish"
 					},
 					"Keys": [
@@ -681,10 +873,6 @@
 					},
 					"Keys": [
 						{
-							"Key": "BurnerCrusher/Desc",
-							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
-						},
-						{
 							"Key": "Laboratory/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
@@ -698,6 +886,42 @@
 					"Keys": [
 						{
 							"Key": "ElectrolysisPlantMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 150 %."
+					},
+					"Keys": [
+						{
+							"Key": "CrusherMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 30 %."
+					},
+					"Keys": [
+						{
+							"Key": "StoneCokeOvenMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 50 %. Head Lift: 10 m."
+					},
+					"Keys": [
+						{
+							"Key": "WashingPlantMk1/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -729,11 +953,35 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 75 %. The first output is located at the production indicator."
+					},
+					"Keys": [
+						{
+							"Key": "FabricatorMk2/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Laboratory"
 					},
 					"Keys": [
 						{
 							"Key": "Laboratory/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100 %."
+					},
+					"Keys": [
+						{
+							"Key": "BurnerCrusher/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -813,6 +1061,30 @@
 				{
 					"Source":
 					{
+						"Text": "Smelts ore into ingots. Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 200 %."
+					},
+					"Keys": [
+						{
+							"Key": "BurnerSmelterMk2/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone Coke Oven"
+					},
+					"Keys": [
+						{
+							"Key": "StoneCokeOvenMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transports fluids. Capacity: 180 m³ of fluid per minute."
 					},
 					"Keys": [
@@ -861,6 +1133,42 @@
 				{
 					"Source":
 					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between buildings."
+					},
+					"Keys": [
+						{
+							"Key": "ConveyorBeltMk2/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports up to 300 resources per minute. Used to move resources between floors."
+					},
+					"Keys": [
+						{
+							"Key": "ConveyorLiftMk2/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Vacuum Former"
+					},
+					"Keys": [
+						{
+							"Key": "VacuumFormerMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Voltatic Charger"
 					},
 					"Keys": [
@@ -878,6 +1186,18 @@
 					"Keys": [
 						{
 							"Key": "VoltaticDischarger/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Washing Plant"
+					},
+					"Keys": [
+						{
+							"Key": "WashingPlantMk1/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -903,6 +1223,23 @@
 						{
 							"Key": "Welder/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_PM_Combat",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Explosive Powder"
+					},
+					"Keys": [
+						{
+							"Key": "Explosives/Name",
+							"Path": "/PeriodicMadness/Resources/Combat/ST_PM_Combat.ST_PM_Combat"
 						}
 					]
 				}
@@ -1032,6 +1369,18 @@
 					"Keys": [
 						{
 							"Key": "ConveyorBeltPartMk1/Name",
+							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Conveyor Belt Parts Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "ConveyorBeltPartMk2/Name",
 							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
 						}
 					]
@@ -1169,11 +1518,83 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Heat-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "BrassHeatingPlating/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "CoolingPlating/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Basic Tubing"
 					},
 					"Keys": [
 						{
 							"Key": "CopperBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "CopperCoolingPlating/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Copper Heat-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "CopperHeatingPlating/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Heat-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "GoldHeatingPlating/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Heat-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "HeatingPlating/Name",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1210,6 +1631,18 @@
 					"Keys": [
 						{
 							"Key": "IronBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Manganese Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "ManganeseCoolingPlating/Name",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1265,11 +1698,35 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Temperature Plating"
+					},
+					"Keys": [
+						{
+							"Key": "TempPlates/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Basic Tubing"
 					},
 					"Keys": [
 						{
 							"Key": "NickelBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "SilverCoolingPlating/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1294,6 +1751,18 @@
 					"Keys": [
 						{
 							"Key": "SteelBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Steel Cold-resistant Plating"
+					},
+					"Keys": [
+						{
+							"Key": "SteelCoolingPlating/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1440,11 +1909,47 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Breadboard Mold"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicBreadboardMold/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Breadboard Molding"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicBreadboardMolding/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Circuit"
 					},
 					"Keys": [
 						{
 							"Key": "ElectronicCircuit/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicCircuitMolding/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1560,6 +2065,18 @@
 				{
 					"Source":
 					{
+						"Text": "Circuit Mold"
+					},
+					"Keys": [
+						{
+							"Key": "CircuitMold/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Circuits"
 					},
 					"Keys": [
@@ -1572,11 +2089,39 @@
 				{
 					"Source":
 					{
+						"Text": "Coke"
+					},
+					"Keys": [
+						{
+							"Key": "Coke/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						},
+						{
+							"Key": "Coke/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Copper Disk"
 					},
 					"Keys": [
 						{
 							"Key": "CopperDisc/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Electronic Circuit Resin 'Dipping'"
+					},
+					"Keys": [
+						{
+							"Key": "BasicFluidCircuit/Recip",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1644,11 +2189,107 @@
 				{
 					"Source":
 					{
+						"Text": "Fiberoptic Cable"
+					},
+					"Keys": [
+						{
+							"Key": "FiberopticCable/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Breadboard"
+					},
+					"Keys": [
+						{
+							"Key": "FluidBreadboard/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Breadboard Mold"
+					},
+					"Keys": [
+						{
+							"Key": "FluidBreadboardMold/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Breadboard Molding"
+					},
+					"Keys": [
+						{
+							"Key": "FluidBreadboardMolding/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit"
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuit/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuitMolding/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Integrated Circuits"
+					},
+					"Keys": [
+						{
+							"Key": "FluidIntegratedCircuits/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Fuels"
 					},
 					"Keys": [
 						{
 							"Key": "Fuels/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Fibers"
+					},
+					"Keys": [
+						{
+							"Key": "GlassFibers/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1668,6 +2309,30 @@
 				{
 					"Source":
 					{
+						"Text": "Glass Resmelting"
+					},
+					"Keys": [
+						{
+							"Key": "GlassResmelting/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Glass Shards"
+					},
+					"Keys": [
+						{
+							"Key": "GlassShards/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Glassing"
 					},
 					"Keys": [
@@ -1680,11 +2345,35 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Wire"
+					},
+					"Keys": [
+						{
+							"Key": "GoldWire/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Gravel"
 					},
 					"Keys": [
 						{
 							"Key": "Gravel/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gravel Crushing"
+					},
+					"Keys": [
+						{
+							"Key": "GravelCrushing/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1728,6 +2417,18 @@
 				{
 					"Source":
 					{
+						"Text": "Molded Circuits"
+					},
+					"Keys": [
+						{
+							"Key": "MoldedCircuits/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Oxidiser"
 					},
 					"Keys": [
@@ -1740,11 +2441,99 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Phenolic Resin"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedPhenolicResin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Resin"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedResin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Rubber Resin"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedRubberResin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin"
+					},
+					"Keys": [
+						{
+							"Key": "PhenolicResin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Raw Resources"
 					},
 					"Keys": [
 						{
 							"Key": "RawResources/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin"
+					},
+					"Keys": [
+						{
+							"Key": "Resin/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						},
+						{
+							"Key": "Resin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber Resin"
+					},
+					"Keys": [
+						{
+							"Key": "RubberResin/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sand"
+					},
+					"Keys": [
+						{
+							"Key": "Sand/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1812,11 +2601,59 @@
 				{
 					"Source":
 					{
+						"Text": "Transistors"
+					},
+					"Keys": [
+						{
+							"Key": "Transistors/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Uncharged Voltatic Pile"
 					},
 					"Keys": [
 						{
 							"Key": "UnchargedVoltaticPile/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Phenolic Resin"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackagePhenolicResin/Recip",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Resin"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageResin/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Rubber Resin"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageRubberResin/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1860,6 +2697,18 @@
 				{
 					"Source":
 					{
+						"Text": "Vulcanised Rubber"
+					},
+					"Keys": [
+						{
+							"Key": "VulcanisedRubber/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Water Evaporation"
 					},
 					"Keys": [
@@ -1877,6 +2726,18 @@
 					"Keys": [
 						{
 							"Key": "Wires/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Strip-based Coke"
+					},
+					"Keys": [
+						{
+							"Key": "WoodStripCoke/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -1918,6 +2779,18 @@
 					"Keys": [
 						{
 							"Key": "OxygenEvaporation/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Wood 'Growing'"
+					},
+					"Keys": [
+						{
+							"Key": "BasicBasicWoodGrowth/Recipe",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
@@ -2117,6 +2990,18 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Greenhousing"
+					},
+					"Keys": [
+						{
+							"Key": "Greenhousing/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Reactive Non-Metals: Hydrogen"
 					},
 					"Keys": [
@@ -2146,6 +3031,18 @@
 					"Keys": [
 						{
 							"Key": "Sulfur/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber-based Air Filter"
+					},
+					"Keys": [
+						{
+							"Key": "RubberAirFilter/Recipe",
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
@@ -2257,12 +3154,96 @@
 							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Electrolysis"
+					},
+					"Keys": [
+						{
+							"Key": "WaterElectrolysis/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water-Mercury Electrolysis"
+					},
+					"Keys": [
+						{
+							"Key": "WaterMercuryElectrolysis/Recipe",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Strips"
+					},
+					"Keys": [
+						{
+							"Key": "WoodStrips/Name",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
 				}
 			]
 		},
 		{
 			"Namespace": "ST_PM_Schematics",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "A more advanced and tougher washing plant."
+					},
+					"Keys": [
+						{
+							"Key": "WashingPlantMk1/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "A more advanced circuit, that has fluid handling and resistant capabilites."
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuit/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "A type of resin that is best for electronical components and things related."
+					},
+					"Keys": [
+						{
+							"Key": "PhenolicResinProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "A type of resin thats best for making rubber."
+					},
+					"Keys": [
+						{
+							"Key": "RubberProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
 				{
 					"Source":
 					{
@@ -2290,6 +3271,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Material Processing"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedMaterialProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced MultiMetal Production"
 					},
 					"Keys": [
@@ -2302,11 +3295,59 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Sand Processing"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedSandProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Transition Metal Refining"
 					},
 					"Keys": [
 						{
 							"Key": "AdvancedTransitionMetalRefining/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced Transition Metals Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced ways to crush stone to manufacture glass."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedSandProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced-Advanced Transition Metal Refining"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedAdvancedTransitionMetalRefining/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -2338,11 +3379,59 @@
 				{
 					"Source":
 					{
+						"Text": "An alternative way of making basic circuitboards, using resin instead of metal."
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicCircuitMolding/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "An alternative way to making fluid resistant circuits."
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuitMolding/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Automation"
 					},
 					"Keys": [
 						{
 							"Key": "AutomationMk1/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Automation Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "AutomationMk2/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Circuit Molding"
+					},
+					"Keys": [
+						{
+							"Key": "ElectronicCircuitMolding/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -2367,6 +3456,18 @@
 					"Keys": [
 						{
 							"Key": "VoltaticPiles/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "By using a mixture of different metals laid across eachother, you can harness the infinte power of... hot and cold."
+					},
+					"Keys": [
+						{
+							"Key": "TemperaturePlating/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -2410,11 +3511,95 @@
 				{
 					"Source":
 					{
+						"Text": "Coke Processing"
+					},
+					"Keys": [
+						{
+							"Key": "CokeProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Developing dangerous yet controllable explosives."
+					},
+					"Keys": [
+						{
+							"Key": "Explosives/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Explosives"
+					},
+					"Keys": [
+						{
+							"Key": "Explosives/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ezekiel Ore Purifying"
 					},
 					"Keys": [
 						{
 							"Key": "EzekielOrePurifying/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Faster and more flexible smelters."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedMaterialProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fiberoptics"
+					},
+					"Keys": [
+						{
+							"Key": "Fiberoptics/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Circuit Molding"
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuitMolding/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Resistant Electronics"
+					},
+					"Keys": [
+						{
+							"Key": "FluidCircuit/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -2434,11 +3619,35 @@
 				{
 					"Source":
 					{
+						"Text": "Gold Processing"
+					},
+					"Keys": [
+						{
+							"Key": "GoldProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Illumination for better visibility at night."
 					},
 					"Keys": [
 						{
 							"Key": "StreetLight/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Industrial methods to produce coke, made from coal and useful in elemental processes."
+					},
+					"Keys": [
+						{
+							"Key": "CokeProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -2482,11 +3691,143 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenum Processing"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "More advanced ways of using gold and its properties for products."
+					},
+					"Keys": [
+						{
+							"Key": "GoldProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "New ways to make use of wood in your factory."
+					},
+					"Keys": [
+						{
+							"Key": "WoodProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Phenolic Resin Processing"
+					},
+					"Keys": [
+						{
+							"Key": "PhenolicResinProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Pioneer technology of refining and using water."
+					},
+					"Keys": [
+						{
+							"Key": "WaterDistillation/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Resin Processing"
+					},
+					"Keys": [
+						{
+							"Key": "ResinProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Rubber Resin Processing"
+					},
+					"Keys": [
+						{
+							"Key": "RubberProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Processing"
 					},
 					"Keys": [
 						{
 							"Key": "SteelProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stretching glass into very long and thin fibers allows near instant transmission of power or information."
+					},
+					"Keys": [
+						{
+							"Key": "Fiberoptics/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Temperature Controlling Plating"
+					},
+					"Keys": [
+						{
+							"Key": "TemperaturePlating/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The means to make pre-plastic materials."
+					},
+					"Keys": [
+						{
+							"Key": "ResinProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The next tier of Transitional Metal refining, allowing production of even stronger and advanced ores."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedAdvancedTransitionMetalRefining/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -2506,11 +3847,35 @@
 				{
 					"Source":
 					{
+						"Text": "The processing and production of molybdenum, an element useful in oil recipes and presumably other stuff too."
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "The processing of Chlorine: make sure not to breath it in!"
 					},
 					"Keys": [
 						{
 							"Key": "ChlorineProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "The second tier of transition metal refining. Unlocks new recipes and new ores."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalSciencePack/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
@@ -2634,12 +3999,60 @@
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Washing Plant Mk.1"
+					},
+					"Keys": [
+						{
+							"Key": "WashingPlantMk1/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Water Distillation Recipes"
+					},
+					"Keys": [
+						{
+							"Key": "WaterDistillation/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wood Processing"
+					},
+					"Keys": [
+						{
+							"Key": "WoodProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
 				}
 			]
 		},
 		{
 			"Namespace": "ST_PM_Science",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Advanced Transition Metal Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedTransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
+						}
+					]
+				},
 				{
 					"Source":
 					{
@@ -2689,6 +4102,18 @@
 					"Keys": [
 						{
 							"Key": "FerrumLeeching/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Acidic Molybdenum Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumLeeching/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -3032,6 +4457,78 @@
 				{
 					"Source":
 					{
+						"Text": "Molybdenite"
+					},
+					"Keys": [
+						{
+							"Key": "Molybdenite/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Crushing"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdeniteCrushing/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenite Powder"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenitePowder/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Disulfide"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumDisulfide/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Floating"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumFloating/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Molybdenum Ore"
+					},
+					"Keys": [
+						{
+							"Key": "MolybdenumOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Nickel Chunks"
 					},
 					"Keys": [
@@ -3140,6 +4637,18 @@
 				{
 					"Source":
 					{
+						"Text": "Scheelite"
+					},
+					"Keys": [
+						{
+							"Key": "Scheelite/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Silver Chunks"
 					},
 					"Keys": [
@@ -3181,6 +4690,78 @@
 					"Keys": [
 						{
 							"Key": "SilverPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Chloride"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumChloride/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Ore"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Oxide"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumOxide/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Plate"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumPlate/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]
@@ -3284,6 +4865,18 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Molybdenum"
+					},
+					"Keys": [
+						{
+							"Key": "Molybdenum/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Nickel"
 					},
 					"Keys": [
@@ -3308,6 +4901,30 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Titanium"
+					},
+					"Keys": [
+						{
+							"Key": "Titanium/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Metals: Tungsten"
+					},
+					"Keys": [
+						{
+							"Key": "Tungsten/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transition Metals: Zinc"
 					},
 					"Keys": [
@@ -3320,11 +4937,95 @@
 				{
 					"Source":
 					{
+						"Text": "Tungsten Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenChunks/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Crystals"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenCrystals/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenIngot/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Ore"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenOre/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Plate"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenPlate/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Unpackage Liquid Mercury"
 					},
 					"Keys": [
 						{
 							"Key": "UnpackageLiquidMercury/Recipe",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wolframite"
+					},
+					"Keys": [
+						{
+							"Key": "Wolframite/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Wolframite Washing"
+					},
+					"Keys": [
+						{
+							"Key": "WolframiteWashing/Recipe",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]

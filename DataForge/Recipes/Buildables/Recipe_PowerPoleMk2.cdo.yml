@@ -1,0 +1,14 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk2.Recipe_PowerPoleMk2_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /PeriodicMadness/Resources/Products/Alloys/SteelPlate/Desc_PM_SteelPlate.Desc_PM_SteelPlate_C
+            Amount: 2
+          - ItemClass: /PeriodicMadness/Resources/Products/Wires/FiberopticCable/Desc_PM_FiberopticCable.Desc_PM_FiberopticCable_C
+            Amount: 1
+          - ItemClass: /PeriodicMadness/Resources/MultiMetal/Framing/BasicFraming/Desc_PM_BasicFraming.Desc_PM_BasicFraming_C
+            Amount: 4
