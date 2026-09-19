@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: ????
+  Bugfixes:
+    - Ensure dismantling crash sites and starting drop pod refund Periodic Madness items.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2026-09-18
   Bugfixes:
