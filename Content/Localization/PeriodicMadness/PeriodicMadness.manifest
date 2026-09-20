@@ -404,6 +404,22 @@
 				{
 					"Source":
 					{
+						"Text": "S"
+					},
+					"Keys": [
+						{
+							"Key": "Packaged Sulfuric Acid",
+							"Path": "/PeriodicMadness/Resources/RNM/Sulfur/SulfuricAcid/Desc_PM_PackagedSulfuricAcid.Default__Desc_PM_PackagedSulfuricAcid_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Sulfuric Acid",
+							"Path": "/PeriodicMadness/Resources/RNM/Sulfur/SulfuricAcid/Desc_PM_SulfuricAcid.Default__Desc_PM_SulfuricAcid_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "SB"
 					},
 					"Keys": [
@@ -3392,6 +3408,18 @@
 				{
 					"Source":
 					{
+						"Text": "Reactive Non-Metals: Sulfuric Acid"
+					},
+					"Keys": [
+						{
+							"Key": "SulfuricAcid/Cat",
+							"Path": "/PeriodicMadness/Resources/RNM/ST_PM_RNM.ST_PM_RNM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Rubber-based Air Filter"
 					},
 					"Keys": [
@@ -3550,6 +3578,18 @@
 		{
 			"Namespace": "ST_PM_Schematics",
 			"Children": [
+				{
+					"Source":
+					{
+						"Text": "A crude way to make sulfuric acid, using sulfur and metallic chlorides."
+					},
+					"Keys": [
+						{
+							"Key": "BasicSulfuricAcid/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
 				{
 					"Source":
 					{
@@ -3810,6 +3850,18 @@
 					"Keys": [
 						{
 							"Key": "ElectronicCircuitMolding/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Basic Sulfuric Acid"
+					},
+					"Keys": [
+						{
+							"Key": "BasicSulfuricAcid/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
