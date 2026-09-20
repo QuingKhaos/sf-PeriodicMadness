@@ -1246,6 +1246,107 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_DisableProductionBoost",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "<White10Reg>Somersloop Production Boost: </><Blue10Reg>Not Allowed</>"
+					},
+					"Keys": [
+						{
+							"Key": "Disabled/RecipeDetail",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_DisableProductionBoost.ST_PM_DisableProductionBoost"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Allowed"
+					},
+					"Keys": [
+						{
+							"Key": "Allowed",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_DisableProductionBoost.ST_PM_DisableProductionBoost"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Disabled"
+					},
+					"Keys": [
+						{
+							"Key": "Disabled",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_DisableProductionBoost.ST_PM_DisableProductionBoost"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Disabled (Machine)"
+					},
+					"Keys": [
+						{
+							"Key": "Disabled/Machine",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_DisableProductionBoost.ST_PM_DisableProductionBoost"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Disabled by Recipe"
+					},
+					"Keys": [
+						{
+							"Key": "Disabled/Recipe",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_DisableProductionBoost.ST_PM_DisableProductionBoost"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Somersloops can be installed to apply an Output Multiplier."
+					},
+					"Keys": [
+						{
+							"Key": "Allowed/ToolTip",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_DisableProductionBoost.ST_PM_DisableProductionBoost"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Somersloops can not be used to increase the Output Multiplier of this recipe."
+					},
+					"Keys": [
+						{
+							"Key": "Disabled/ToolTip",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_DisableProductionBoost.ST_PM_DisableProductionBoost"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "This machine does not support installing Somersloops."
+					},
+					"Keys": [
+						{
+							"Key": "Disabled/Machine/ToolTip",
+							"Path": "/PeriodicMadness/Hooks/ST_PM_DisableProductionBoost.ST_PM_DisableProductionBoost"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Fluids",
 			"Children": [
 				{

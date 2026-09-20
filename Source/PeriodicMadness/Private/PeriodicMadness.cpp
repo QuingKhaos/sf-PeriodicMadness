@@ -1,10 +1,13 @@
 #include "PeriodicMadness.h"
+#include "Hooks/PMProductionBoostHooks.h"
 
 #define LOCTEXT_NAMESPACE "FPeriodicMadnessModule"
 
 void FPeriodicMadnessModule::StartupModule()
 {
-	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+	FCoreDelegates::OnPostEngineInit.AddLambda([]() {
+		UPMProductionBoostHooks::ConfigureHooks();
+	});
 }
 
 void FPeriodicMadnessModule::ShutdownModule()

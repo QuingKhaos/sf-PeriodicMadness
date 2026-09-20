@@ -7,6 +7,7 @@ Date: ????
     - Soomersloop production boost is now researchable.
   Changes:
     - Science Bottle moved to Glassing category.
+    - Disable Somersloop production boost for some recipes.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
 Date: 2026-09-19
