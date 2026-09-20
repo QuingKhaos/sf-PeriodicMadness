@@ -1199,6 +1199,17 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "MixingTankMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 75 %. The first output is located at the production indicator."
 					},
 					"Translation":
@@ -1217,6 +1228,17 @@
 						"Text": ""
 					},
 					"Key": "Laboratory/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mixing Tank"
+					},
+					"Translation":
+					{
+						"Text": "混合罐"
+					},
+					"Key": "MixingTankMk1/Name"
 				},
 				{
 					"Source":
@@ -3824,6 +3846,17 @@
 						"Text": "汞加工"
 					},
 					"Key": "MercuryProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mixing Material Processing"
+					},
+					"Translation":
+					{
+						"Text": "混合材料处理"
+					},
+					"Key": "MixingMaterialProcessingMk1/Name"
 				},
 				{
 					"Source":

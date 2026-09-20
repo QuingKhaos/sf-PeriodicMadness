@@ -959,6 +959,10 @@
 						{
 							"Key": "EvaporatorMk1/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						},
+						{
+							"Key": "MixingTankMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
 				},
@@ -982,6 +986,18 @@
 					"Keys": [
 						{
 							"Key": "Laboratory/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mixing Tank"
+					},
+					"Keys": [
+						{
+							"Key": "MixingTankMk1/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -3809,6 +3825,18 @@
 					"Keys": [
 						{
 							"Key": "MercuryProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Mixing Material Processing"
+					},
+					"Keys": [
+						{
+							"Key": "MixingMaterialProcessingMk1/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

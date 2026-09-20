@@ -1188,6 +1188,17 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
+					},
+					"Key": "MixingTankMk1/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 75 %. The first output is located at the production indicator."
 					},
 					"Translation":
@@ -1206,6 +1217,17 @@
 						"Text": "Laboratory"
 					},
 					"Key": "Laboratory/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mixing Tank"
+					},
+					"Translation":
+					{
+						"Text": "Mixing Tank"
+					},
+					"Key": "MixingTankMk1/Name"
 				},
 				{
 					"Source":
@@ -3824,6 +3846,17 @@
 						"Text": "Mercury Processing"
 					},
 					"Key": "MercuryProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mixing Material Processing"
+					},
+					"Translation":
+					{
+						"Text": "Mixing Material Processing"
+					},
+					"Key": "MixingMaterialProcessingMk1/Name"
 				},
 				{
 					"Source":
