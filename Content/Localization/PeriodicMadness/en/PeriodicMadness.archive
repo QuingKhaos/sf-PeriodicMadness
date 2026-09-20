@@ -1446,6 +1446,99 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_DisableProductionBoost",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "<White10Reg>Somersloop Production Boost: </><Blue10Reg>Not Allowed</>"
+					},
+					"Translation":
+					{
+						"Text": "<White10Reg>Somersloop Production Boost: </><Blue10Reg>Not Allowed</>"
+					},
+					"Key": "Disabled/RecipeDetail"
+				},
+				{
+					"Source":
+					{
+						"Text": "Allowed"
+					},
+					"Translation":
+					{
+						"Text": "Allowed"
+					},
+					"Key": "Allowed"
+				},
+				{
+					"Source":
+					{
+						"Text": "Disabled"
+					},
+					"Translation":
+					{
+						"Text": "Disabled"
+					},
+					"Key": "Disabled"
+				},
+				{
+					"Source":
+					{
+						"Text": "Disabled (Machine)"
+					},
+					"Translation":
+					{
+						"Text": "Disabled (Machine)"
+					},
+					"Key": "Disabled/Machine"
+				},
+				{
+					"Source":
+					{
+						"Text": "Disabled by Recipe"
+					},
+					"Translation":
+					{
+						"Text": "Disabled by Recipe"
+					},
+					"Key": "Disabled/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Somersloops can be installed to apply an Output Multiplier."
+					},
+					"Translation":
+					{
+						"Text": "Somersloops can be installed to apply an Output Multiplier."
+					},
+					"Key": "Allowed/ToolTip"
+				},
+				{
+					"Source":
+					{
+						"Text": "Somersloops can not be used to increase the Output Multiplier of this recipe."
+					},
+					"Translation":
+					{
+						"Text": "Somersloops can not be used to increase the Output Multiplier of this recipe."
+					},
+					"Key": "Disabled/ToolTip"
+				},
+				{
+					"Source":
+					{
+						"Text": "This machine does not support installing Somersloops."
+					},
+					"Translation":
+					{
+						"Text": "This machine does not support installing Somersloops."
+					},
+					"Key": "Disabled/Machine/ToolTip"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_Fluids",
 			"Children": [
 				{
