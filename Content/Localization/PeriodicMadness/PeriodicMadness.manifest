@@ -56,6 +56,30 @@
 				{
 					"Source":
 					{
+						"Text": "Al"
+					},
+					"Keys": [
+						{
+							"Key": "Aluminium Hydroxide Slurry",
+							"Path": "/PeriodicMadness/Resources/PTM/Aluminium/AluminiumHydroxideSlurry/Desc_PM_AluminiumHydroxideSlurry.Default__Desc_PM_AluminiumHydroxideSlurry_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Aluminium Ingot",
+							"Path": "/PeriodicMadness/Resources/PTM/Aluminium/AluminiumIngot/Desc_PM_AluminiumIngot.Default__Desc_PM_AluminiumIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Aluminium Ore",
+							"Path": "/PeriodicMadness/Resources/PTM/Aluminium/AluminiumOre/Desc_PM_AluminiumOre.Default__Desc_PM_AluminiumOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Aluminium Plate",
+							"Path": "/PeriodicMadness/Resources/PTM/Aluminium/AluminiumPlate/Desc_PM_AluminiumPlate.Default__Desc_PM_AluminiumPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Au"
 					},
 					"Keys": [
@@ -84,12 +108,28 @@
 				{
 					"Source":
 					{
+						"Text": "Baux"
+					},
+					"Keys": [
+						{
+							"Key": "Bauxite Powder",
+							"Path": "/PeriodicMadness/Resources/PTM/Aluminium/BauxitePowder/Desc_PM_BauxitePowder.Default__Desc_PM_BauxitePowder_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ca"
 					},
 					"Keys": [
 						{
 							"Key": "Calcium Dust",
 							"Path": "/PeriodicMadness/Resources/AEM/Calcium/CalciumDust/Desc_PM_CalciumDust.Default__Desc_PM_CalciumDust_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Calcium Ore",
+							"Path": "/PeriodicMadness/Resources/AEM/Calcium/CalciumOre/Desc_PM_CalciumOre.Default__Desc_PM_CalciumOre_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -352,6 +392,18 @@
 				{
 					"Source":
 					{
+						"Text": "PTM"
+					},
+					"Keys": [
+						{
+							"Key": "Post-Transition Metals Ore",
+							"Path": "/PeriodicMadness/Resources/PTM/PostTransitionMetals/PostTransitionMetalsOre/Desc_PM_PostTransitionMetalsOre.Default__Desc_PM_PostTransitionMetalsOre_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "SB"
 					},
 					"Keys": [
@@ -584,6 +636,18 @@
 					"Keys": [
 						{
 							"Key": "CalciumDust/Name",
+							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Ore"
+					},
+					"Keys": [
+						{
+							"Key": "CalciumOre/Name",
 							"Path": "/PeriodicMadness/Resources/AEM/ST_PM_AEM.ST_PM_AEM"
 						}
 					]
@@ -2886,6 +2950,167 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_PTM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Aluminium Hydroxide Slurry"
+					},
+					"Keys": [
+						{
+							"Key": "AluminiumHydroxideSlurry/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "AluminiumIngot/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Ore"
+					},
+					"Keys": [
+						{
+							"Key": "AluminiumOre/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Plate"
+					},
+					"Keys": [
+						{
+							"Key": "AluminiumPlate/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Bauxite Powder"
+					},
+					"Keys": [
+						{
+							"Key": "BauxitePowder/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Aluminium Hydroxide Slurry"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedAluminiumHydroxideSlurry/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Post-Transition Metals"
+					},
+					"Keys": [
+						{
+							"Key": "PostTransitionMetals/Cat",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Post-Transition Metals Ore"
+					},
+					"Keys": [
+						{
+							"Key": "PostTransitionMetalsOre/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Post-Transition Metals: Aluminium"
+					},
+					"Keys": [
+						{
+							"Key": "Aluminium/Cat",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Post-Transition Metals: Gallium"
+					},
+					"Keys": [
+						{
+							"Key": "Gallium/Cat",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium Hydroxide"
+					},
+					"Keys": [
+						{
+							"Key": "SodiumHydroxide/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Aluminium Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "TransitionAluminiumLeeching/Recipe",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Aluminium Hydroxide Slurry"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageAluminiumHydroxideSlurry/Recipe",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_RNM",
 			"Children": [
 				{
@@ -3501,6 +3726,18 @@
 					"Keys": [
 						{
 							"Key": "TransitionMetalSciencePack/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Processing"
+					},
+					"Keys": [
+						{
+							"Key": "AluminiumProcessing/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

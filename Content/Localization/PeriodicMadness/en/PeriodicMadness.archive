@@ -47,6 +47,17 @@
 					{
 						"Text": "Ag"
 					},
+					"Key": "Silver Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ag"
+					},
+					"Translation":
+					{
+						"Text": "Ag"
+					},
 					"Key": "Silver Ore"
 				},
 				{
@@ -63,13 +74,46 @@
 				{
 					"Source":
 					{
-						"Text": "Ag"
+						"Text": "Al"
 					},
 					"Translation":
 					{
-						"Text": "Ag"
+						"Text": "Al"
 					},
-					"Key": "Silver Chunks"
+					"Key": "Aluminium Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Al"
+					},
+					"Translation":
+					{
+						"Text": "Al"
+					},
+					"Key": "Aluminium Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Al"
+					},
+					"Translation":
+					{
+						"Text": "Al"
+					},
+					"Key": "Aluminium Hydroxide Slurry"
+				},
+				{
+					"Source":
+					{
+						"Text": "Al"
+					},
+					"Translation":
+					{
+						"Text": "Al"
+					},
+					"Key": "Aluminium Plate"
 				},
 				{
 					"Source":
@@ -81,17 +125,6 @@
 						"Text": "Au"
 					},
 					"Key": "Gold Ingot"
-				},
-				{
-					"Source":
-					{
-						"Text": "Au"
-					},
-					"Translation":
-					{
-						"Text": "Au"
-					},
-					"Key": "Gold Chunks"
 				},
 				{
 					"Source":
@@ -129,6 +162,39 @@
 				{
 					"Source":
 					{
+						"Text": "Au"
+					},
+					"Translation":
+					{
+						"Text": "Au"
+					},
+					"Key": "Gold Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Baux"
+					},
+					"Translation":
+					{
+						"Text": "Baux"
+					},
+					"Key": "Bauxite Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ca"
+					},
+					"Translation":
+					{
+						"Text": "Ca"
+					},
+					"Key": "Calcium Ore"
+				},
+				{
+					"Source":
+					{
 						"Text": "Ca"
 					},
 					"Translation":
@@ -146,7 +212,7 @@
 					{
 						"Text": "Cl"
 					},
-					"Key": "Packaged Chlorine Gas"
+					"Key": "Chlorine Gas"
 				},
 				{
 					"Source":
@@ -157,7 +223,7 @@
 					{
 						"Text": "Cl"
 					},
-					"Key": "Chlorine Gas"
+					"Key": "Packaged Chlorine Gas"
 				},
 				{
 					"Source":
@@ -169,17 +235,6 @@
 						"Text": "Cu"
 					},
 					"Key": "Copper Disk"
-				},
-				{
-					"Source":
-					{
-						"Text": "Cu"
-					},
-					"Translation":
-					{
-						"Text": "Cu"
-					},
-					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -217,6 +272,17 @@
 				{
 					"Source":
 					{
+						"Text": "Cu"
+					},
+					"Translation":
+					{
+						"Text": "Cu"
+					},
+					"Key": "Copper Chunks"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fe"
 					},
 					"Translation":
@@ -245,6 +311,17 @@
 					{
 						"Text": "Fe"
 					},
+					"Key": "Iron Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": "Fe"
+					},
 					"Key": "Iron Plate"
 				},
 				{
@@ -257,17 +334,6 @@
 						"Text": "Fe"
 					},
 					"Key": "Iron Screws"
-				},
-				{
-					"Source":
-					{
-						"Text": "Fe"
-					},
-					"Translation":
-					{
-						"Text": "Fe"
-					},
-					"Key": "Iron Chunks"
 				},
 				{
 					"Source":
@@ -300,7 +366,7 @@
 					{
 						"Text": "HCl"
 					},
-					"Key": "Hydrochloric Acid"
+					"Key": "Packaged Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -311,7 +377,7 @@
 					{
 						"Text": "HCl"
 					},
-					"Key": "Packaged Hydrochloric Acid"
+					"Key": "Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -399,7 +465,7 @@
 					{
 						"Text": "Mn"
 					},
-					"Key": "Manganese Plate"
+					"Key": "Manganese Ingot"
 				},
 				{
 					"Source":
@@ -410,7 +476,7 @@
 					{
 						"Text": "Mn"
 					},
-					"Key": "Manganese Ingot"
+					"Key": "Manganese Plate"
 				},
 				{
 					"Source":
@@ -532,6 +598,17 @@
 						"Text": "O"
 					},
 					"Key": "Oxygen Gas"
+				},
+				{
+					"Source":
+					{
+						"Text": "PTM"
+					},
+					"Translation":
+					{
+						"Text": "PTM"
+					},
+					"Key": "Post-Transition Metals Ore"
 				},
 				{
 					"Source":
@@ -833,6 +910,17 @@
 						"Text": "Calcium Dust"
 					},
 					"Key": "CalciumDust/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Calcium Ore"
+					},
+					"Translation":
+					{
+						"Text": "Calcium Ore"
+					},
+					"Key": "CalciumOre/Name"
 				}
 			]
 		},
@@ -2982,6 +3070,154 @@
 			]
 		},
 		{
+			"Namespace": "ST_PM_PTM",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Aluminium Hydroxide Slurry"
+					},
+					"Translation":
+					{
+						"Text": "Aluminium Hydroxide Slurry"
+					},
+					"Key": "AluminiumHydroxideSlurry/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Ingot"
+					},
+					"Translation":
+					{
+						"Text": "Aluminium Ingot"
+					},
+					"Key": "AluminiumIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Ore"
+					},
+					"Translation":
+					{
+						"Text": "Aluminium Ore"
+					},
+					"Key": "AluminiumOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Plate"
+					},
+					"Translation":
+					{
+						"Text": "Aluminium Plate"
+					},
+					"Key": "AluminiumPlate/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Bauxite Powder"
+					},
+					"Translation":
+					{
+						"Text": "Bauxite Powder"
+					},
+					"Key": "BauxitePowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Aluminium Hydroxide Slurry"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Aluminium Hydroxide Slurry"
+					},
+					"Key": "PackagedAluminiumHydroxideSlurry/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Post-Transition Metals"
+					},
+					"Translation":
+					{
+						"Text": "Post-Transition Metals"
+					},
+					"Key": "PostTransitionMetals/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Post-Transition Metals Ore"
+					},
+					"Translation":
+					{
+						"Text": "Post-Transition Metals Ore"
+					},
+					"Key": "PostTransitionMetalsOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Post-Transition Metals: Aluminium"
+					},
+					"Translation":
+					{
+						"Text": "Post-Transition Metals: Aluminium"
+					},
+					"Key": "Aluminium/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Post-Transition Metals: Gallium"
+					},
+					"Translation":
+					{
+						"Text": "Post-Transition Metals: Gallium"
+					},
+					"Key": "Gallium/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sodium Hydroxide"
+					},
+					"Translation":
+					{
+						"Text": "Sodium Hydroxide"
+					},
+					"Key": "SodiumHydroxide/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transition Aluminium Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Transition Aluminium Leeching"
+					},
+					"Key": "TransitionAluminiumLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Aluminium Hydroxide Slurry"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Aluminium Hydroxide Slurry"
+					},
+					"Key": "UnpackageAluminiumHydroxideSlurry/Recipe"
+				}
+			]
+		},
+		{
 			"Namespace": "ST_PM_RNM",
 			"Children": [
 				{
@@ -3549,6 +3785,17 @@
 						"Text": "Allows research of basic automation methods."
 					},
 					"Key": "TransitionMetalSciencePack/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Processing"
+					},
+					"Translation":
+					{
+						"Text": "Aluminium Processing"
+					},
+					"Key": "AluminiumProcessing/Name"
 				},
 				{
 					"Source":

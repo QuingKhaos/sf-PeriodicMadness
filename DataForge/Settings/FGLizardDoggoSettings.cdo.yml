@@ -91,6 +91,9 @@ patches:
               ItemClass: /PeriodicMadness/Resources/TM/Tungsten/TungstenPlate/Desc_PM_TungstenPlate.Desc_PM_TungstenPlate_C
             NumItems: 15
           - Item:
+              ItemClass: /PeriodicMadness/Resources/PTM/Aluminium/AluminiumPlate/Desc_PM_AluminiumPlate.Desc_PM_AluminiumPlate_C
+            NumItems: 14
+          - Item:
               ItemClass: /PeriodicMadness/Resources/RNM/AirFilters/AirFilter/Desc_PM_AirFilter.Desc_PM_AirFilter_C
             NumItems: 12
           - Item:
