@@ -8,6 +8,17 @@
 				{
 					"Source":
 					{
+						"Text": "AATM"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Advanced-Advanced Transition Metal Science Pack"
+				},
+				{
+					"Source":
+					{
 						"Text": "ATM"
 					},
 					"Translation":
@@ -80,7 +91,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Ore"
+					"Key": "Gold Chunks"
 				},
 				{
 					"Source":
@@ -91,7 +102,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Chunks"
+					"Key": "Gold Ore"
 				},
 				{
 					"Source":
@@ -168,7 +179,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Ingot"
+					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -179,7 +190,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Chunks"
+					"Key": "Copper Ingot"
 				},
 				{
 					"Source":
@@ -377,17 +388,6 @@
 					{
 						"Text": ""
 					},
-					"Key": "Manganese Ingot"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mn"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
 					"Key": "Manganese Ore"
 				},
 				{
@@ -400,6 +400,17 @@
 						"Text": ""
 					},
 					"Key": "Manganese Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ingot"
 				},
 				{
 					"Source":
@@ -454,6 +465,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Nickel Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ni"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Nickel Ingot"
 				},
 				{
@@ -466,17 +488,6 @@
 						"Text": ""
 					},
 					"Key": "Nickel Ore"
-				},
-				{
-					"Source":
-					{
-						"Text": "Ni"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -542,7 +553,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Transition Metals Ore"
+					"Key": "Transition Metal Science Pack"
 				},
 				{
 					"Source":
@@ -553,18 +564,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Transition Metal Science Pack"
-				},
-				{
-					"Source":
-					{
-						"Text": "Ti"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Titanium Chunks"
+					"Key": "Transition Metals Ore"
 				},
 				{
 					"Source":
@@ -598,6 +598,17 @@
 						"Text": ""
 					},
 					"Key": "Titanium Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Titanium Chunks"
 				},
 				{
 					"Source":
@@ -641,7 +652,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Tungsten Ore"
+					"Key": "Tungsten Chunks"
 				},
 				{
 					"Source":
@@ -652,7 +663,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Tungsten Chunks"
+					"Key": "Tungsten Ore"
 				},
 				{
 					"Source":
@@ -664,17 +675,6 @@
 						"Text": ""
 					},
 					"Key": "Wolframite"
-				},
-				{
-					"Source":
-					{
-						"Text": "Zn"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Zinc Chunks"
 				},
 				{
 					"Source":
@@ -730,6 +730,17 @@
 						"Text": ""
 					},
 					"Key": "Zinc Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Chunks"
 				}
 			]
 		},
@@ -3498,6 +3509,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced-Advanced Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedAdvancedTransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Allows research of basic automation methods."
 					},
 					"Translation":
@@ -3916,6 +3938,17 @@
 				{
 					"Source":
 					{
+						"Text": "The final tier of Transition Metals, allowing production of better, stronger and more versatile metals."
+					},
+					"Translation":
+					{
+						"Text": "Geçiş metali araştırmalarının son versiyonu; daha iyi, güçlü ve kullanışlı metal üretim teknikleri."
+					},
+					"Key": "AdvancedAdvancedTransitionMetalSciencePack/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "The means to make pre-plastic materials."
 					},
 					"Translation":
@@ -4137,6 +4170,17 @@
 						"Text": ""
 					},
 					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced-Advanced Transition Metal Science Pack"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedAdvancedTransitionMetalSciencePack/Name"
 				},
 				{
 					"Source":

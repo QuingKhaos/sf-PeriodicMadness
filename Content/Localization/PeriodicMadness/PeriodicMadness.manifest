@@ -8,6 +8,18 @@
 				{
 					"Source":
 					{
+						"Text": "AATM"
+					},
+					"Keys": [
+						{
+							"Key": "Advanced-Advanced Transition Metal Science Pack",
+							"Path": "/PeriodicMadness/Resources/Science/SciencePack/AATMSP/Desc_PM_AdvancedAdvancedTransitionMetalSciencePack.Default__Desc_PM_AdvancedAdvancedTransitionMetalSciencePack_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "ATM"
 					},
 					"Keys": [
@@ -3456,6 +3468,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced-Advanced Transition Metal Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedAdvancedTransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Allows research of basic automation methods."
 					},
 					"Keys": [
@@ -3912,6 +3936,18 @@
 				{
 					"Source":
 					{
+						"Text": "The final tier of Transition Metals, allowing production of better, stronger and more versatile metals."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedAdvancedTransitionMetalSciencePack/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "The means to make pre-plastic materials."
 					},
 					"Keys": [
@@ -4150,6 +4186,18 @@
 					"Keys": [
 						{
 							"Key": "AdvancedTransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced-Advanced Transition Metal Science Pack"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedAdvancedTransitionMetalSciencePack/Name",
 							"Path": "/PeriodicMadness/Resources/Science/ST_PM_Science.ST_PM_Science"
 						}
 					]
