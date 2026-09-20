@@ -4,7 +4,7 @@
 
 **NOT COMPATIBLE with existing saves. NOT COMPATIBLE with previous Periodic Madness 0.x saves.**
 
-Even with 1.x releases, Periodic Madness is still a big Work In Progress. For Satisfactory 1.2, Periodic Madness was recreated from scratch and the current 1.0 release contains only the onboarding phase and content for the first transition metal science pack.
+Even with 1.x releases, Periodic Madness is still a big Work In Progress. For Satisfactory 1.2, Periodic Madness was recreated from scratch and the current 1.1 release contains only the onboarding phase and content for the first two science packs.
 
 ---
 

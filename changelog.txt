@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
-Date: ????
+Date: 2026-09-20
   Features:
     - Add the Advanced Transition Metal Science Pack and content for it.
     - Science Bottle and Science Packs are now sinkable.
