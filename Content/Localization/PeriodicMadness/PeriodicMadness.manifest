@@ -2191,6 +2191,30 @@
 				{
 					"Source":
 					{
+						"Text": "Stainless Steel Basic Framing"
+					},
+					"Keys": [
+						{
+							"Key": "StainlessSteelBasicFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Basic Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "StainlessSteelBasicPanelling/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Stainless Steel Corrosion-resistant Tubing"
 					},
 					"Keys": [
@@ -2215,6 +2239,18 @@
 				{
 					"Source":
 					{
+						"Text": "Steel Basic Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "SteelBasicPanelling/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Basic Tubing"
 					},
 					"Keys": [
@@ -2232,18 +2268,6 @@
 					"Keys": [
 						{
 							"Key": "SteelCoolingPlating/Recipe",
-							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
-						}
-					]
-				},
-				{
-					"Source":
-					{
-						"Text": "SteelBasicPanelling"
-					},
-					"Keys": [
-						{
-							"Key": "SteelBasicPanelling/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -3118,6 +3142,30 @@
 				{
 					"Source":
 					{
+						"Text": "Stainless Steel Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "StainlessSteelIngot/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Plate"
+					},
+					"Keys": [
+						{
+							"Key": "StainlessSteelPlate/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Steam Condensation"
 					},
 					"Keys": [
@@ -3949,6 +3997,18 @@
 				{
 					"Source":
 					{
+						"Text": "A more versatile and hardened version of steel."
+					},
+					"Keys": [
+						{
+							"Key": "StainlessSteelProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "A type of resin that is best for electronical components and things related."
 					},
 					"Keys": [
@@ -4566,6 +4626,18 @@
 					"Keys": [
 						{
 							"Key": "RubberProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Processing"
+					},
+					"Keys": [
+						{
+							"Key": "StainlessSteelProcessing/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

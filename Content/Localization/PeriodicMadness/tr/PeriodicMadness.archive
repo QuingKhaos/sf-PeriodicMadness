@@ -2373,6 +2373,28 @@
 				{
 					"Source":
 					{
+						"Text": "Stainless Steel Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StainlessSteelBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StainlessSteelBasicPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Stainless Steel Corrosion-resistant Tubing"
 					},
 					"Translation":
@@ -3175,7 +3197,7 @@
 					{
 						"Text": "Reçine"
 					},
-					"Key": "Resin/Name"
+					"Key": "Resin/Cat"
 				},
 				{
 					"Source":
@@ -3186,7 +3208,7 @@
 					{
 						"Text": "Reçine"
 					},
-					"Key": "Resin/Cat"
+					"Key": "Resin/Name"
 				},
 				{
 					"Source":
@@ -3242,6 +3264,28 @@
 						"Text": ""
 					},
 					"Key": "SeawaterFromSeaSalt/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StainlessSteelIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Plate"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StainlessSteelPlate/Name"
 				},
 				{
 					"Source":
@@ -4009,6 +4053,17 @@
 				{
 					"Source":
 					{
+						"Text": "A more versatile and hardened version of steel."
+					},
+					"Translation":
+					{
+						"Text": "Çeliğin daha kullanışlı ve paslanmaz versiyonu. Daha büyük sandıklar yapmanızı sağlar."
+					},
+					"Key": "StainlessSteelProcessing/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "A type of resin that is best for electronical components and things related."
 					},
 					"Translation":
@@ -4577,6 +4632,17 @@
 						"Text": "Kauçuk reçinesi işleme"
 					},
 					"Key": "RubberProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Processing"
+					},
+					"Translation":
+					{
+						"Text": "Paslanmaz çelik işleme"
+					},
+					"Key": "StainlessSteelProcessing/Name"
 				},
 				{
 					"Source":

@@ -46,6 +46,9 @@ patches:
               ItemClass: /PeriodicMadness/Resources/Products/Alloys/SteelPlate/Desc_PM_SteelPlate.Desc_PM_SteelPlate_C
             NumItems: 23
           - Item:
+              ItemClass: /PeriodicMadness/Resources/Products/Alloys/StainlessSteelPlate/Desc_PM_StainlessSteelPlate.Desc_PM_StainlessSteelPlate_C
+            NumItems: 17
+          - Item:
               ItemClass: /PeriodicMadness/Resources/Products/Glassing/GlassPane/Desc_PM_GlassPane.Desc_PM_GlassPane_C
             NumItems: 18
           - Item:

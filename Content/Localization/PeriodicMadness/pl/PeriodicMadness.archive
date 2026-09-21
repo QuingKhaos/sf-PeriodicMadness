@@ -2373,6 +2373,28 @@
 				{
 					"Source":
 					{
+						"Text": "Stainless Steel Basic Framing"
+					},
+					"Translation":
+					{
+						"Text": "Podstawowa rama ze stali nierdzewnej"
+					},
+					"Key": "StainlessSteelBasicFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Panele ze stali nierdzewnej"
+					},
+					"Key": "StainlessSteelBasicPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Stainless Steel Corrosion-resistant Tubing"
 					},
 					"Translation":
@@ -2395,6 +2417,17 @@
 				{
 					"Source":
 					{
+						"Text": "Steel Basic Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Stalowe panele"
+					},
+					"Key": "SteelBasicPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Steel Basic Tubing"
 					},
 					"Translation":
@@ -2413,17 +2446,6 @@
 						"Text": "Powlekanie stali powłoką odporną na niską temperaturę"
 					},
 					"Key": "SteelCoolingPlating/Recipe"
-				},
-				{
-					"Source":
-					{
-						"Text": "SteelBasicPanelling"
-					},
-					"Translation":
-					{
-						"Text": "Stalowe panele"
-					},
-					"Key": "SteelBasicPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -3175,7 +3197,7 @@
 					{
 						"Text": "Żywica"
 					},
-					"Key": "Resin/Name"
+					"Key": "Resin/Cat"
 				},
 				{
 					"Source":
@@ -3186,7 +3208,7 @@
 					{
 						"Text": "Żywica"
 					},
-					"Key": "Resin/Cat"
+					"Key": "Resin/Name"
 				},
 				{
 					"Source":
@@ -3242,6 +3264,28 @@
 						"Text": ""
 					},
 					"Key": "SeawaterFromSeaSalt/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StainlessSteelIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Plate"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StainlessSteelPlate/Name"
 				},
 				{
 					"Source":
@@ -4009,6 +4053,17 @@
 				{
 					"Source":
 					{
+						"Text": "A more versatile and hardened version of steel."
+					},
+					"Translation":
+					{
+						"Text": "Bardziej wszechstronna i utwardzona wersja stali."
+					},
+					"Key": "StainlessSteelProcessing/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "A type of resin that is best for electronical components and things related."
 					},
 					"Translation":
@@ -4577,6 +4632,17 @@
 						"Text": "Przetwarzanie żywicy gumowej"
 					},
 					"Key": "RubberProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Processing"
+					},
+					"Translation":
+					{
+						"Text": "Przetwarzanie stali nierdzewnej"
+					},
+					"Key": "StainlessSteelProcessing/Name"
 				},
 				{
 					"Source":
