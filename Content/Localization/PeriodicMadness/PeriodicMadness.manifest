@@ -600,6 +600,42 @@
 							"Path": "/PeriodicMadness/Resources/TM/Zinc/ZincPowder/Desc_PM_ZincPowder.Default__Desc_PM_ZincPowder_C.mAbbreviatedDisplayName"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zr"
+					},
+					"Keys": [
+						{
+							"Key": "Zirconium Sand",
+							"Path": "/PeriodicMadness/Resources/TM/Zirconium/ZirconiumSand/Desc_PM_ZirconiumSand.Default__Desc_PM_ZirconiumSand_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "ZrO₂"
+					},
+					"Keys": [
+						{
+							"Key": "Zirconia",
+							"Path": "/PeriodicMadness/Resources/TM/Zirconium/Zirconia/Desc_PM_Zirconia.Default__Desc_PM_Zirconia_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "ZrO₄"
+					},
+					"Keys": [
+						{
+							"Key": "Zircon",
+							"Path": "/PeriodicMadness/Resources/TM/Zirconium/Zircon/Desc_PM_Zircon.Default__Desc_PM_Zircon_C.mAbbreviatedDisplayName"
+						}
+					]
 				}
 			]
 		},
@@ -1504,6 +1540,18 @@
 				{
 					"Source":
 					{
+						"Text": "Creosote"
+					},
+					"Keys": [
+						{
+							"Key": "Creosote/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluids"
 					},
 					"Keys": [
@@ -1540,11 +1588,35 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Creosote"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedCreosote/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Seawater"
 					},
 					"Keys": [
 						{
 							"Key": "PackagedSeawater/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sand-based Creosote"
+					},
+					"Keys": [
+						{
+							"Key": "SandCreosote/Recipe",
 							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
 						}
 					]
@@ -1593,6 +1665,18 @@
 					"Keys": [
 						{
 							"Key": "SteamWater/Recipe",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Creosote"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageCreosote/Recipe",
 							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
 						}
 					]
@@ -2675,6 +2759,18 @@
 					"Keys": [
 						{
 							"Key": "CopperDisc/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Crucible"
+					},
+					"Keys": [
+						{
+							"Key": "Crucible/Name",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -3973,6 +4069,18 @@
 				{
 					"Source":
 					{
+						"Text": "A dark reddish metal thats good for bio-compatability and ceramics."
+					},
+					"Keys": [
+						{
+							"Key": "ZirconiumProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "A more advanced and tougher washing plant."
 					},
 					"Keys": [
@@ -4917,6 +5025,18 @@
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zirconium Processing"
+					},
+					"Keys": [
+						{
+							"Key": "ZirconiumProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
 				}
 			]
 		},
@@ -5831,6 +5951,18 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Zirconium"
+					},
+					"Keys": [
+						{
+							"Key": "Zirconium/Cat",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Tungsten Chunks"
 					},
 					"Keys": [
@@ -5980,6 +6112,42 @@
 					"Keys": [
 						{
 							"Key": "ZincPowder/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zircon"
+					},
+					"Keys": [
+						{
+							"Key": "Zircon/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zirconia"
+					},
+					"Keys": [
+						{
+							"Key": "Zirconia/Name",
+							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Zirconium Sand"
+					},
+					"Keys": [
+						{
+							"Key": "ZirconiumSand/Name",
 							"Path": "/PeriodicMadness/Resources/TM/ST_PM_TM.ST_PM_TM"
 						}
 					]

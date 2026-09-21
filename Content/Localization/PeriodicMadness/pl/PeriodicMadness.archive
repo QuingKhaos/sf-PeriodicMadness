@@ -223,7 +223,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Chlorine Gas"
+					"Key": "Packaged Chlorine Gas"
 				},
 				{
 					"Source":
@@ -234,7 +234,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Chlorine Gas"
+					"Key": "Chlorine Gas"
 				},
 				{
 					"Source":
@@ -245,7 +245,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Plate"
+					"Key": "Copper Chunks"
 				},
 				{
 					"Source":
@@ -289,7 +289,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Copper Chunks"
+					"Key": "Copper Plate"
 				},
 				{
 					"Source":
@@ -333,7 +333,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Iron Chunks"
+					"Key": "Iron Screws"
 				},
 				{
 					"Source":
@@ -344,7 +344,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Iron Screws"
+					"Key": "Iron Chunks"
 				},
 				{
 					"Source":
@@ -377,7 +377,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Hydrochloric Acid"
+					"Key": "Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -388,18 +388,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Hydrochloric Acid"
-				},
-				{
-					"Source":
-					{
-						"Text": "HW"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Heavyweight Framing"
+					"Key": "Packaged Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -411,6 +400,17 @@
 						"Text": ""
 					},
 					"Key": "Heavyweight Panelling"
+				},
+				{
+					"Source":
+					{
+						"Text": "HW"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Heavyweight Framing"
 				},
 				{
 					"Source":
@@ -509,17 +509,6 @@
 					{
 						"Text": ""
 					},
-					"Key": "Manganese Ingot"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mn"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
 					"Key": "Manganese Ore"
 				},
 				{
@@ -532,6 +521,28 @@
 						"Text": ""
 					},
 					"Key": "Manganese Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Molybdenite"
 				},
 				{
 					"Source":
@@ -558,17 +569,6 @@
 				{
 					"Source":
 					{
-						"Text": "Mo"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Molybdenite"
-				},
-				{
-					"Source":
-					{
 						"Text": "MoS₂"
 					},
 					"Translation":
@@ -586,7 +586,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Powder"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -630,7 +630,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Powder"
 				},
 				{
 					"Source":
@@ -674,7 +674,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Sulfuric Acid"
+					"Key": "Sulfuric Acid"
 				},
 				{
 					"Source":
@@ -685,7 +685,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Sulfuric Acid"
+					"Key": "Packaged Sulfuric Acid"
 				},
 				{
 					"Source":
@@ -707,7 +707,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Transition Metals Ore"
+					"Key": "Transition Metal Science Pack"
 				},
 				{
 					"Source":
@@ -718,18 +718,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Transition Metal Science Pack"
-				},
-				{
-					"Source":
-					{
-						"Text": "Ti"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Titanium Chunks"
+					"Key": "Transition Metals Ore"
 				},
 				{
 					"Source":
@@ -767,6 +756,17 @@
 				{
 					"Source":
 					{
+						"Text": "Ti"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Titanium Chunks"
+				},
+				{
+					"Source":
+					{
 						"Text": "TiCl"
 					},
 					"Translation":
@@ -795,17 +795,6 @@
 					{
 						"Text": ""
 					},
-					"Key": "Tungsten Chunks"
-				},
-				{
-					"Source":
-					{
-						"Text": "W"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
 					"Key": "Tungsten Ingot"
 				},
 				{
@@ -822,6 +811,17 @@
 				{
 					"Source":
 					{
+						"Text": "W"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Tungsten Chunks"
+				},
+				{
+					"Source":
+					{
 						"Text": "WO₄"
 					},
 					"Translation":
@@ -829,6 +829,17 @@
 						"Text": ""
 					},
 					"Key": "Wolframite"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zinc Plate"
 				},
 				{
 					"Source":
@@ -872,7 +883,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Zinc Plate"
+					"Key": "Zinc Chunks"
 				},
 				{
 					"Source":
@@ -888,13 +899,35 @@
 				{
 					"Source":
 					{
-						"Text": "Zn"
+						"Text": "Zr"
 					},
 					"Translation":
 					{
 						"Text": ""
 					},
-					"Key": "Zinc Chunks"
+					"Key": "Zirconium Sand"
+				},
+				{
+					"Source":
+					{
+						"Text": "ZrO₂"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zirconia"
+				},
+				{
+					"Source":
+					{
+						"Text": "ZrO₄"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Zircon"
 				}
 			]
 		},
@@ -1742,6 +1775,17 @@
 				{
 					"Source":
 					{
+						"Text": "Creosote"
+					},
+					"Translation":
+					{
+						"Text": "Kreozot"
+					},
+					"Key": "Creosote/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fluids"
 					},
 					"Translation":
@@ -1775,6 +1819,17 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Creosote"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedCreosote/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Seawater"
 					},
 					"Translation":
@@ -1782,6 +1837,17 @@
 						"Text": ""
 					},
 					"Key": "PackagedSeawater/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sand-based Creosote"
+					},
+					"Translation":
+					{
+						"Text": "Kreozot na bazie piasku"
+					},
+					"Key": "SandCreosote/Recipe"
 				},
 				{
 					"Source":
@@ -1826,6 +1892,17 @@
 						"Text": ""
 					},
 					"Key": "SteamWater/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Creosote"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageCreosote/Recipe"
 				},
 				{
 					"Source":
@@ -2839,6 +2916,17 @@
 				{
 					"Source":
 					{
+						"Text": "Crucible"
+					},
+					"Translation":
+					{
+						"Text": "Tygiel"
+					},
+					"Key": "Crucible/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Electronic Circuit Resin 'Dipping'"
 					},
 					"Translation":
@@ -3197,7 +3285,7 @@
 					{
 						"Text": "Żywica"
 					},
-					"Key": "Resin/Cat"
+					"Key": "Resin/Name"
 				},
 				{
 					"Source":
@@ -3208,7 +3296,7 @@
 					{
 						"Text": "Żywica"
 					},
-					"Key": "Resin/Name"
+					"Key": "Resin/Cat"
 				},
 				{
 					"Source":
@@ -4027,6 +4115,17 @@
 						"Text": "Prosta metoda wytwarzania kwasu siarkowego przy użyciu siarki i chlorków metali."
 					},
 					"Key": "BasicSulfuricAcid/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "A dark reddish metal thats good for bio-compatability and ceramics."
+					},
+					"Translation":
+					{
+						"Text": "Ciemnoczerwony metal, który nadaje się do biokompatybilności i ceramiki."
+					},
+					"Key": "ZirconiumProcessing/Desc"
 				},
 				{
 					"Source":
@@ -4896,6 +4995,17 @@
 						"Text": "Przetwarzanie drewna"
 					},
 					"Key": "WoodProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zirconium Processing"
+					},
+					"Translation":
+					{
+						"Text": "Przetwarzanie cyrkonu"
+					},
+					"Key": "ZirconiumProcessing/Name"
 				}
 			]
 		},
@@ -5735,6 +5845,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transition Metals: Zirconium"
+					},
+					"Translation":
+					{
+						"Text": "Metale Przejściowe: Zirconium"
+					},
+					"Key": "Zirconium/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Tungsten Chunks"
 					},
 					"Translation":
@@ -5874,6 +5995,39 @@
 						"Text": "Proszek cynku"
 					},
 					"Key": "ZincPowder/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zircon"
+					},
+					"Translation":
+					{
+						"Text": "Cyrkon"
+					},
+					"Key": "Zircon/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zirconia"
+					},
+					"Translation":
+					{
+						"Text": "Cyrkonia"
+					},
+					"Key": "Zirconia/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Zirconium Sand"
+					},
+					"Translation":
+					{
+						"Text": "Piasek cyrkonowy"
+					},
+					"Key": "ZirconiumSand/Name"
 				}
 			]
 		}
