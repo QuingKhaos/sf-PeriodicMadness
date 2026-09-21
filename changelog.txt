@@ -4,6 +4,11 @@ Date: ????
   Features:
     - Add Advanced-Advanced Transition Metal Science Pack and content for it.
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2026-09-21
+  Bugfixes:
+    - Ensure that the correct Iron Plate is used for foundation and walls.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2026-09-20
   Features:

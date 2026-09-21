@@ -176,6 +176,7 @@ patches:
           # Specific recipes
           - Recipe_AlienDNACapsule
           - Recipe_Biomass_AlienProtein
+          - Recipe_Material_Foundation_Default
           - Recipe_Miner
           - Recipe_Protein
           - Recipe_WaterPump
