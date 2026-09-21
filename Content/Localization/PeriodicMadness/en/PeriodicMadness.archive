@@ -47,7 +47,7 @@
 					{
 						"Text": "Ag"
 					},
-					"Key": "Silver Chunks"
+					"Key": "Silver Ore"
 				},
 				{
 					"Source":
@@ -58,7 +58,7 @@
 					{
 						"Text": "Ag"
 					},
-					"Key": "Silver Ore"
+					"Key": "Silver Chunks"
 				},
 				{
 					"Source":
@@ -102,29 +102,29 @@
 					{
 						"Text": "Al"
 					},
-					"Key": "Aluminium Hydroxide Slurry"
-				},
-				{
-					"Source":
-					{
-						"Text": "Al"
-					},
-					"Translation":
-					{
-						"Text": "Al"
-					},
 					"Key": "Aluminium Plate"
 				},
 				{
 					"Source":
 					{
+						"Text": "Al"
+					},
+					"Translation":
+					{
+						"Text": "Al"
+					},
+					"Key": "Aluminium Hydroxide Slurry"
+				},
+				{
+					"Source":
+					{
 						"Text": "Au"
 					},
 					"Translation":
 					{
 						"Text": "Au"
 					},
-					"Key": "Gold Wire"
+					"Key": "Gold Chunks"
 				},
 				{
 					"Source":
@@ -168,7 +168,7 @@
 					{
 						"Text": "Au"
 					},
-					"Key": "Gold Chunks"
+					"Key": "Gold Wire"
 				},
 				{
 					"Source":
@@ -180,6 +180,17 @@
 						"Text": "Baux"
 					},
 					"Key": "Bauxite Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "CR"
+					},
+					"Translation":
+					{
+						"Text": "CR"
+					},
+					"Key": "Corrosion Resistant Tubing"
 				},
 				{
 					"Source":
@@ -382,6 +393,28 @@
 				{
 					"Source":
 					{
+						"Text": "HW"
+					},
+					"Translation":
+					{
+						"Text": "HW"
+					},
+					"Key": "Heavyweight Framing"
+				},
+				{
+					"Source":
+					{
+						"Text": "HW"
+					},
+					"Translation":
+					{
+						"Text": "HW"
+					},
+					"Key": "Heavyweight Panelling"
+				},
+				{
+					"Source":
+					{
 						"Text": "Hg"
 					},
 					"Translation":
@@ -448,6 +481,39 @@
 				{
 					"Source":
 					{
+						"Text": "LW"
+					},
+					"Translation":
+					{
+						"Text": "LW"
+					},
+					"Key": "Lightweight Panelling"
+				},
+				{
+					"Source":
+					{
+						"Text": "LW"
+					},
+					"Translation":
+					{
+						"Text": "LW"
+					},
+					"Key": "Lightweight Framing"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": "Mn"
+					},
+					"Key": "Manganese Ingot"
+				},
+				{
+					"Source":
+					{
 						"Text": "Mn"
 					},
 					"Translation":
@@ -466,28 +532,6 @@
 						"Text": "Mn"
 					},
 					"Key": "Manganese Plate"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mn"
-					},
-					"Translation":
-					{
-						"Text": "Mn"
-					},
-					"Key": "Manganese Ingot"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mo"
-					},
-					"Translation":
-					{
-						"Text": "Mo"
-					},
-					"Key": "Molybdenite"
 				},
 				{
 					"Source":
@@ -514,6 +558,17 @@
 				{
 					"Source":
 					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": "Mo"
+					},
+					"Key": "Molybdenite"
+				},
+				{
+					"Source":
+					{
 						"Text": "MoS₂"
 					},
 					"Translation":
@@ -531,7 +586,7 @@
 					{
 						"Text": "Ni"
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Powder"
 				},
 				{
 					"Source":
@@ -575,7 +630,7 @@
 					{
 						"Text": "Ni"
 					},
-					"Key": "Nickel Powder"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -619,7 +674,7 @@
 					{
 						"Text": "S"
 					},
-					"Key": "Sulfuric Acid"
+					"Key": "Packaged Sulfuric Acid"
 				},
 				{
 					"Source":
@@ -630,7 +685,7 @@
 					{
 						"Text": "S"
 					},
-					"Key": "Packaged Sulfuric Acid"
+					"Key": "Sulfuric Acid"
 				},
 				{
 					"Source":
@@ -674,7 +729,7 @@
 					{
 						"Text": "Ti"
 					},
-					"Key": "Titanium Ingot"
+					"Key": "Titanium Chunks"
 				},
 				{
 					"Source":
@@ -685,7 +740,7 @@
 					{
 						"Text": "Ti"
 					},
-					"Key": "Titanium Chunks"
+					"Key": "Titanium Ingot"
 				},
 				{
 					"Source":
@@ -1878,6 +1933,28 @@
 				{
 					"Source":
 					{
+						"Text": "Aluminium Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "Aluminium Lightweight Framing"
+					},
+					"Key": "AluminiumLightweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Aluminium Lightweight Panelling"
+					},
+					"Key": "AluminiumLightweightPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Framing"
 					},
 					"Translation":
@@ -1933,6 +2010,17 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Corrosion-resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Brass Corrosion-resistant Tubing"
+					},
+					"Key": "BrassCorrosionResistantTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Brass Heat-resistant Plating"
 					},
 					"Translation":
@@ -1940,6 +2028,28 @@
 						"Text": "Brass Heat-resistant Plating"
 					},
 					"Key": "BrassHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chromium Heavyweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "Chromium Heavyweight Framing"
+					},
+					"Key": "ChromiumHeavyweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chromium Heavyweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Chromium Heavyweight Panelling"
+					},
+					"Key": "ChromiumHeavyweightPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -1988,6 +2098,28 @@
 				{
 					"Source":
 					{
+						"Text": "Corrosion Resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Corrosion Resistant Tubing"
+					},
+					"Key": "CorrosionResistantTubing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Corrosion-resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Gold Corrosion-resistant Tubing"
+					},
+					"Key": "GoldCorrosionResistantTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Heat-resistant Plating"
 					},
 					"Translation":
@@ -2006,6 +2138,28 @@
 						"Text": "Heat-resistant Plating"
 					},
 					"Key": "HeatingPlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Heavyweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "Heavyweight Framing"
+					},
+					"Key": "HeavyweightFraming/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Heavyweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Heavyweight Panelling"
+					},
+					"Key": "HeavyweightPanelling/Name"
 				},
 				{
 					"Source":
@@ -2039,6 +2193,28 @@
 						"Text": "Iron Basic Tubing"
 					},
 					"Key": "IronBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "Lightweight Framing"
+					},
+					"Key": "LightweightFraming/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Lightweight Panelling"
+					},
+					"Key": "LightweightPanelling/Name"
 				},
 				{
 					"Source":
@@ -2098,6 +2274,61 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Corrosion Resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: Corrosion Resistant Tubing"
+					},
+					"Key": "CorrosionResistantTubing/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Heavyweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: Heavyweight Framing"
+					},
+					"Key": "HeavyweightFraming/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Heavyweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: Heavyweight Panelling"
+					},
+					"Key": "HeavyweightPanelling/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: Lightweight Framing"
+					},
+					"Key": "LightweightFraming/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: Lightweight Panelling"
+					},
+					"Key": "LightweightPanelling/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "MultiMetal: Temperature Plating"
 					},
 					"Translation":
@@ -2127,6 +2358,28 @@
 						"Text": "Silver Cold-resistant Plating"
 					},
 					"Key": "SilverCoolingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Corrosion-resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Silver Corrosion-resistant Tubing"
+					},
+					"Key": "SilverCorrosionResistantTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Corrosion-resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "Stainless Steel Corrosion-resistant Tubing"
+					},
+					"Key": "StainlessSteelCorrosionResistantTubing/Recipe"
 				},
 				{
 					"Source":
@@ -2171,6 +2424,72 @@
 						"Text": "SteelBasicPanelling"
 					},
 					"Key": "SteelBasicPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "Tin Lightweight Framing"
+					},
+					"Key": "TinLightweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Tin Lightweight Panelling"
+					},
+					"Key": "TinLightweightPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "Titanium Lightweight Framing"
+					},
+					"Key": "TitaniumLightweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Titanium Lightweight Panelling"
+					},
+					"Key": "TitaniumLightweightPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Heavyweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "Tungsten Heavyweight Framing"
+					},
+					"Key": "TungstenHeavyweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Heavyweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "Tungsten Heavyweight Panelling"
+					},
+					"Key": "TungstenHeavyweightPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -4181,6 +4500,28 @@
 						"Text": "More advanced ways of using gold and its properties for products."
 					},
 					"Key": "GoldProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiProperty MultiMetal Intermediates"
+					},
+					"Translation":
+					{
+						"Text": "MultiProperty MultiMetal Intermediates"
+					},
+					"Key": "MultiMetalMultiProperty/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "New types of MultiMetal items can be produced when layered over with new metals, that have specific properties. Try saying MultiProperty MultiMetals 6 times fast, and you win a free cookie."
+					},
+					"Translation":
+					{
+						"Text": "New types of MultiMetal items can be produced when layered over with new metals, that have specific properties. Try saying MultiProperty MultiMetals 6 times fast, and you win a free cookie."
+					},
+					"Key": "MultiMetalMultiProperty/Desc"
 				},
 				{
 					"Source":

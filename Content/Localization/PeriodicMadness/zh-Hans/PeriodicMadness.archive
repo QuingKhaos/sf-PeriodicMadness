@@ -47,7 +47,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Silver Chunks"
+					"Key": "Silver Ore"
 				},
 				{
 					"Source":
@@ -58,7 +58,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Silver Ore"
+					"Key": "Silver Chunks"
 				},
 				{
 					"Source":
@@ -102,7 +102,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Aluminium Hydroxide Slurry"
+					"Key": "Aluminium Plate"
 				},
 				{
 					"Source":
@@ -113,7 +113,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Aluminium Plate"
+					"Key": "Aluminium Hydroxide Slurry"
 				},
 				{
 					"Source":
@@ -124,7 +124,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Wire"
+					"Key": "Gold Chunks"
 				},
 				{
 					"Source":
@@ -168,7 +168,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Gold Chunks"
+					"Key": "Gold Wire"
 				},
 				{
 					"Source":
@@ -180,6 +180,17 @@
 						"Text": ""
 					},
 					"Key": "Bauxite Powder"
+				},
+				{
+					"Source":
+					{
+						"Text": "CR"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Corrosion Resistant Tubing"
 				},
 				{
 					"Source":
@@ -382,6 +393,28 @@
 				{
 					"Source":
 					{
+						"Text": "HW"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Heavyweight Framing"
+				},
+				{
+					"Source":
+					{
+						"Text": "HW"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Heavyweight Panelling"
+				},
+				{
+					"Source":
+					{
 						"Text": "Hg"
 					},
 					"Translation":
@@ -448,6 +481,39 @@
 				{
 					"Source":
 					{
+						"Text": "LW"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Lightweight Panelling"
+				},
+				{
+					"Source":
+					{
+						"Text": "LW"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Lightweight Framing"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Manganese Ingot"
+				},
+				{
+					"Source":
+					{
 						"Text": "Mn"
 					},
 					"Translation":
@@ -466,28 +532,6 @@
 						"Text": ""
 					},
 					"Key": "Manganese Plate"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mn"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Manganese Ingot"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mo"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Molybdenite"
 				},
 				{
 					"Source":
@@ -514,6 +558,17 @@
 				{
 					"Source":
 					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Molybdenite"
+				},
+				{
+					"Source":
+					{
 						"Text": "MoS₂"
 					},
 					"Translation":
@@ -531,7 +586,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Chunks"
+					"Key": "Nickel Powder"
 				},
 				{
 					"Source":
@@ -575,7 +630,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Nickel Powder"
+					"Key": "Nickel Chunks"
 				},
 				{
 					"Source":
@@ -619,7 +674,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Sulfuric Acid"
+					"Key": "Packaged Sulfuric Acid"
 				},
 				{
 					"Source":
@@ -630,7 +685,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Sulfuric Acid"
+					"Key": "Sulfuric Acid"
 				},
 				{
 					"Source":
@@ -674,7 +729,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Titanium Ingot"
+					"Key": "Titanium Chunks"
 				},
 				{
 					"Source":
@@ -685,7 +740,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Titanium Chunks"
+					"Key": "Titanium Ingot"
 				},
 				{
 					"Source":
@@ -1878,6 +1933,28 @@
 				{
 					"Source":
 					{
+						"Text": "Aluminium Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "铝制轻质框架"
+					},
+					"Key": "AluminiumLightweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "铝制轻质板材"
+					},
+					"Key": "AluminiumLightweightPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Framing"
 					},
 					"Translation":
@@ -1933,6 +2010,17 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Corrosion-resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "黄铜制抗腐蚀管材"
+					},
+					"Key": "BrassCorrosionResistantTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Brass Heat-resistant Plating"
 					},
 					"Translation":
@@ -1940,6 +2028,28 @@
 						"Text": "黄铜制耐热板甲"
 					},
 					"Key": "BrassHeatingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chromium Heavyweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "重型框架"
+					},
+					"Key": "ChromiumHeavyweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chromium Heavyweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "铬制重型板材"
+					},
+					"Key": "ChromiumHeavyweightPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -1988,6 +2098,28 @@
 				{
 					"Source":
 					{
+						"Text": "Corrosion Resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "抗腐蚀管材"
+					},
+					"Key": "CorrosionResistantTubing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Corrosion-resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "金制抗腐蚀管材"
+					},
+					"Key": "GoldCorrosionResistantTubing/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Heat-resistant Plating"
 					},
 					"Translation":
@@ -2006,6 +2138,28 @@
 						"Text": "耐热板甲"
 					},
 					"Key": "HeatingPlating/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Heavyweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "重型框架"
+					},
+					"Key": "HeavyweightFraming/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Heavyweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "重型板材"
+					},
+					"Key": "HeavyweightPanelling/Name"
 				},
 				{
 					"Source":
@@ -2039,6 +2193,28 @@
 						"Text": "铁制基础管材"
 					},
 					"Key": "IronBasicTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "轻质框架"
+					},
+					"Key": "LightweightFraming/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "轻质板材"
+					},
+					"Key": "LightweightPanelling/Name"
 				},
 				{
 					"Source":
@@ -2098,6 +2274,61 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Corrosion Resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: 抗腐蚀管材"
+					},
+					"Key": "CorrosionResistantTubing/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Heavyweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: 重型框架"
+					},
+					"Key": "HeavyweightFraming/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Heavyweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: 重型板材"
+					},
+					"Key": "HeavyweightPanelling/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: 轻质框架"
+					},
+					"Key": "LightweightFraming/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "MultiMetal: 轻质板材"
+					},
+					"Key": "LightweightPanelling/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "MultiMetal: Temperature Plating"
 					},
 					"Translation":
@@ -2127,6 +2358,28 @@
 						"Text": "银制抗冷板甲"
 					},
 					"Key": "SilverCoolingPlating/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Corrosion-resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "银制抗腐蚀管材"
+					},
+					"Key": "SilverCorrosionResistantTubing/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Corrosion-resistant Tubing"
+					},
+					"Translation":
+					{
+						"Text": "不锈钢制抗腐蚀管材"
+					},
+					"Key": "StainlessSteelCorrosionResistantTubing/Recipe"
 				},
 				{
 					"Source":
@@ -2171,6 +2424,72 @@
 						"Text": "钢制基础板材"
 					},
 					"Key": "SteelBasicPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "锡制轻质框架"
+					},
+					"Key": "TinLightweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "锡制轻质板材"
+					},
+					"Key": "TinLightweightPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Lightweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "钛制轻质框架"
+					},
+					"Key": "TitaniumLightweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Lightweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "钛制轻质板材"
+					},
+					"Key": "TitaniumLightweightPanelling/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Heavyweight Framing"
+					},
+					"Translation":
+					{
+						"Text": "钨制重型框架"
+					},
+					"Key": "TungstenHeavyweightFraming/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Heavyweight Panelling"
+					},
+					"Translation":
+					{
+						"Text": "钨制重型板材"
+					},
+					"Key": "TungstenHeavyweightPanelling/Recipe"
 				},
 				{
 					"Source":
@@ -4181,6 +4500,28 @@
 						"Text": "更先进的利用黄金及其特性生产产品的方法。"
 					},
 					"Key": "GoldProcessing/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiProperty MultiMetal Intermediates"
+					},
+					"Translation":
+					{
+						"Text": "多功能多金属中间产品"
+					},
+					"Key": "MultiMetalMultiProperty/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "New types of MultiMetal items can be produced when layered over with new metals, that have specific properties. Try saying MultiProperty MultiMetals 6 times fast, and you win a free cookie."
+					},
+					"Translation":
+					{
+						"Text": "通过在多层金属上叠加具有特定属性的新金属，可以制造出新型的多金属物品。试试快速念六遍“多属性多金属”，就能赢一块免费饼干。"
+					},
+					"Key": "MultiMetalMultiProperty/Desc"
 				},
 				{
 					"Source":

@@ -120,6 +120,18 @@
 				{
 					"Source":
 					{
+						"Text": "CR"
+					},
+					"Keys": [
+						{
+							"Key": "Corrosion Resistant Tubing",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/Tubing/CorrosionResistantTubing/Desc_PM_CorrosionResistantTubing.Default__Desc_PM_CorrosionResistantTubing_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Ca"
 					},
 					"Keys": [
@@ -240,6 +252,22 @@
 				{
 					"Source":
 					{
+						"Text": "HW"
+					},
+					"Keys": [
+						{
+							"Key": "Heavyweight Framing",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/Framing/HeavyweightFraming/Desc_PM_HeavyweightFraming.Default__Desc_PM_HeavyweightFraming_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Heavyweight Panelling",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/Panelling/HeavyweightPanelling/Desc_PM_HeavyweightPanelling.Default__Desc_PM_HeavyweightPanelling_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Hg"
 					},
 					"Keys": [
@@ -290,6 +318,22 @@
 						{
 							"Key": "Mercury Powder",
 							"Path": "/PeriodicMadness/Resources/TM/Mercury/MercuryPowder/Desc_PM_MercuryPowder.Default__Desc_PM_MercuryPowder_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "LW"
+					},
+					"Keys": [
+						{
+							"Key": "Lightweight Framing",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/Framing/LightweightFraming/Desc_PM_LightweightFraming.Default__Desc_PM_LightweightFraming_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Lightweight Panelling",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/Panelling/LightweightPanelling/Desc_PM_LightweightPanelling.Default__Desc_PM_LightweightPanelling_C.mAbbreviatedDisplayName"
 						}
 					]
 				},
@@ -1667,6 +1711,30 @@
 				{
 					"Source":
 					{
+						"Text": "Aluminium Lightweight Framing"
+					},
+					"Keys": [
+						{
+							"Key": "AluminiumLightweightFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Aluminium Lightweight Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "AluminiumLightweightPanelling/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Basic Framing"
 					},
 					"Keys": [
@@ -1727,11 +1795,47 @@
 				{
 					"Source":
 					{
+						"Text": "Brass Corrosion-resistant Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "BrassCorrosionResistantTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Brass Heat-resistant Plating"
 					},
 					"Keys": [
 						{
 							"Key": "BrassHeatingPlating/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chromium Heavyweight Framing"
+					},
+					"Keys": [
+						{
+							"Key": "ChromiumHeavyweightFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Chromium Heavyweight Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "ChromiumHeavyweightPanelling/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1787,6 +1891,30 @@
 				{
 					"Source":
 					{
+						"Text": "Corrosion Resistant Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "CorrosionResistantTubing/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Gold Corrosion-resistant Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "GoldCorrosionResistantTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Gold Heat-resistant Plating"
 					},
 					"Keys": [
@@ -1804,6 +1932,30 @@
 					"Keys": [
 						{
 							"Key": "HeatingPlating/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Heavyweight Framing"
+					},
+					"Keys": [
+						{
+							"Key": "HeavyweightFraming/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Heavyweight Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "HeavyweightPanelling/Name",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1840,6 +1992,30 @@
 					"Keys": [
 						{
 							"Key": "IronBasicTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Lightweight Framing"
+					},
+					"Keys": [
+						{
+							"Key": "LightweightFraming/Name",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Lightweight Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "LightweightPanelling/Name",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1907,6 +2083,66 @@
 				{
 					"Source":
 					{
+						"Text": "MultiMetal: Corrosion Resistant Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "CorrosionResistantTubing/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Heavyweight Framing"
+					},
+					"Keys": [
+						{
+							"Key": "HeavyweightFraming/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Heavyweight Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "HeavyweightPanelling/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Lightweight Framing"
+					},
+					"Keys": [
+						{
+							"Key": "LightweightFraming/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiMetal: Lightweight Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "LightweightPanelling/Cat",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "MultiMetal: Temperature Plating"
 					},
 					"Keys": [
@@ -1936,6 +2172,30 @@
 					"Keys": [
 						{
 							"Key": "SilverCoolingPlating/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Silver Corrosion-resistant Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "SilverCorrosionResistantTubing/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stainless Steel Corrosion-resistant Tubing"
+					},
+					"Keys": [
+						{
+							"Key": "StainlessSteelCorrosionResistantTubing/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -1984,6 +2244,78 @@
 					"Keys": [
 						{
 							"Key": "SteelBasicPanelling/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Lightweight Framing"
+					},
+					"Keys": [
+						{
+							"Key": "TinLightweightFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Lightweight Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "TinLightweightPanelling/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Lightweight Framing"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumLightweightFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Titanium Lightweight Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "TitaniumLightweightPanelling/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Heavyweight Framing"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenHeavyweightFraming/Recipe",
+							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tungsten Heavyweight Panelling"
+					},
+					"Keys": [
+						{
+							"Key": "TungstenHeavyweightPanelling/Recipe",
 							"Path": "/PeriodicMadness/Resources/MultiMetal/ST_PM_MultiMetal.ST_PM_MultiMetal"
 						}
 					]
@@ -4150,6 +4482,30 @@
 					"Keys": [
 						{
 							"Key": "GoldProcessing/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "MultiProperty MultiMetal Intermediates"
+					},
+					"Keys": [
+						{
+							"Key": "MultiMetalMultiProperty/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "New types of MultiMetal items can be produced when layered over with new metals, that have specific properties. Try saying MultiProperty MultiMetals 6 times fast, and you win a free cookie."
+					},
+					"Keys": [
+						{
+							"Key": "MultiMetalMultiProperty/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

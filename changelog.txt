@@ -3,6 +3,8 @@ Version: 1.2.0
 Date: ????
   Features:
     - Add Advanced-Advanced Transition Metal Science Pack and content for it.
+  Changes:
+    - Disable production boost for MultiMetal items.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2026-09-21

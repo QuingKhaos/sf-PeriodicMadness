@@ -10,11 +10,26 @@ patches:
               ItemClass: /PeriodicMadness/Resources/MultiMetal/Tubing/BasicTubing/Desc_PM_BasicTubing.Desc_PM_BasicTubing_C
             NumItems: 13
           - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/Tubing/CorrosionResistantTubing/Desc_PM_CorrosionResistantTubing.Desc_PM_CorrosionResistantTubing_C
+            NumItems: 4
+          - Item:
               ItemClass: /PeriodicMadness/Resources/MultiMetal/Framing/BasicFraming/Desc_PM_BasicFraming.Desc_PM_BasicFraming_C
             NumItems: 13
           - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/Framing/HeavyweightFraming/Desc_PM_HeavyweightFraming.Desc_PM_HeavyweightFraming_C
+            NumItems: 4
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/Framing/LightweightFraming/Desc_PM_LightweightFraming.Desc_PM_LightweightFraming_C
+            NumItems: 4
+          - Item:
               ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/BasicPanelling/Desc_PM_BasicPanelling.Desc_PM_BasicPanelling_C
             NumItems: 13
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/HeavyweightPanelling/Desc_PM_HeavyweightPanelling.Desc_PM_HeavyweightPanelling_C
+            NumItems: 4
+          - Item:
+              ItemClass: /PeriodicMadness/Resources/MultiMetal/Panelling/LightweightPanelling/Desc_PM_LightweightPanelling.Desc_PM_LightweightPanelling_C
+            NumItems: 4
           - Item:
               ItemClass: /PeriodicMadness/Resources/MultiMetal/TempPlates/HeatingPlating/Desc_PM_HeatingPlating.Desc_PM_HeatingPlating_C
             NumItems: 7
