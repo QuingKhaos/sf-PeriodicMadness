@@ -136,6 +136,7 @@ patches:
           - Gasmask
           - GeneratorBiomass
           - GeneratorCoal
+          - Hyper
           - Inhaler
           - JumpPad
           - LandingPad
@@ -235,6 +236,7 @@ patches:
           - GeneratorBiomass
           - GeneratorCoal
           - GolfCart
+          - Hyper
           - JumpingStilts
           - JumpPad
           - LandingPad

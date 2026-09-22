@@ -4,7 +4,7 @@
 
 **NOT COMPATIBLE with existing saves. NOT COMPATIBLE with previous Periodic Madness 0.x saves.**
 
-Even with 1.x releases, Periodic Madness is still a big Work In Progress. For Satisfactory 1.2, Periodic Madness was recreated from scratch and the current 1.1 release contains only the onboarding phase and content for the first two science packs.
+Even with 1.x releases, Periodic Madness is still a big Work In Progress. For Satisfactory 1.2, Periodic Madness was recreated from scratch and the current 1.2 release contains only the onboarding phase and content for the first two science packs.
 
 ---
 
@@ -23,6 +23,8 @@ This is a port of the [Periodic Madness](https://mods.factorio.com/mod/periodic-
 ## Compatibilty
 
 This is a complete overhaul of items and recipes in the game. Thus no mod which adds new content or modifies existing content is compatible with Periodic Madness, unless stated otherwise. Most QoL mods should be compatible, tho.
+
+If you want to have compatibility for some mod, just ask on Discord. :3
 
 ## Credits
 
