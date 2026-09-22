@@ -476,6 +476,54 @@
 				{
 					"Source":
 					{
+						"Text": "Sn"
+					},
+					"Keys": [
+						{
+							"Key": "Tin Chunks",
+							"Path": "/PeriodicMadness/Resources/PTM/Tin/TinChunks/Desc_PM_TinChunks.Default__Desc_PM_TinChunks_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Tin Ingot",
+							"Path": "/PeriodicMadness/Resources/PTM/Tin/TinIngot/Desc_PM_TinIngot.Default__Desc_PM_TinIngot_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Tin Ore",
+							"Path": "/PeriodicMadness/Resources/PTM/Tin/TinOre/Desc_PM_TinOre.Default__Desc_PM_TinOre_C.mAbbreviatedDisplayName"
+						},
+						{
+							"Key": "Tin Plate",
+							"Path": "/PeriodicMadness/Resources/PTM/Tin/TinPlate/Desc_PM_TinPlate.Default__Desc_PM_TinPlate_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sn B"
+					},
+					"Keys": [
+						{
+							"Key": "Black Tin",
+							"Path": "/PeriodicMadness/Resources/PTM/Tin/BlackTin/Desc_PM_BlackTin.Default__Desc_PM_BlackTin_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Sn W"
+					},
+					"Keys": [
+						{
+							"Key": "White Tin",
+							"Path": "/PeriodicMadness/Resources/PTM/Tin/WhiteTin/Desc_PM_WhiteTin.Default__Desc_PM_WhiteTin_C.mAbbreviatedDisplayName"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "TM"
 					},
 					"Keys": [
@@ -3507,6 +3555,30 @@
 				{
 					"Source":
 					{
+						"Text": "Black Tin"
+					},
+					"Keys": [
+						{
+							"Key": "BlackTin/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Cassiterite"
+					},
+					"Keys": [
+						{
+							"Key": "Cassiterite/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Aluminium Hydroxide Slurry"
 					},
 					"Keys": [
@@ -3567,11 +3639,95 @@
 				{
 					"Source":
 					{
+						"Text": "Post-Transition Metals: Tin"
+					},
+					"Keys": [
+						{
+							"Key": "Tin/Cat",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Sodium Hydroxide"
 					},
 					"Keys": [
 						{
 							"Key": "SodiumHydroxide/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Chunk Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "TinChunkLeeching/Recipe",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Chunks"
+					},
+					"Keys": [
+						{
+							"Key": "TinChunks/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Ingot"
+					},
+					"Keys": [
+						{
+							"Key": "TinIngot/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Leeching"
+					},
+					"Keys": [
+						{
+							"Key": "TinLeeching/Recipe",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Ore"
+					},
+					"Keys": [
+						{
+							"Key": "TinOre/Name",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Plate"
+					},
+					"Keys": [
+						{
+							"Key": "TinPlate/Name",
 							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
 						}
 					]
@@ -3596,6 +3752,18 @@
 					"Keys": [
 						{
 							"Key": "UnpackageAluminiumHydroxideSlurry/Recipe",
+							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "White Tin"
+					},
+					"Keys": [
+						{
+							"Key": "WhiteTin/Name",
 							"Path": "/PeriodicMadness/Resources/PTM/ST_PM_PTM.ST_PM_PTM"
 						}
 					]
@@ -4878,6 +5046,18 @@
 					"Keys": [
 						{
 							"Key": "AdvancedTransitionMetalRefining/Desc",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Processing"
+					},
+					"Keys": [
+						{
+							"Key": "TinProcessing/Name",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]

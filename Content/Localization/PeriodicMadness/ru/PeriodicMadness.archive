@@ -300,6 +300,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Iron Screws"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fe"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Iron Ingot"
 				},
 				{
@@ -323,17 +334,6 @@
 						"Text": ""
 					},
 					"Key": "Iron Plate"
-				},
-				{
-					"Source":
-					{
-						"Text": "Fe"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Iron Screws"
 				},
 				{
 					"Source":
@@ -377,7 +377,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Hydrochloric Acid"
+					"Key": "Packaged Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -388,18 +388,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Hydrochloric Acid"
-				},
-				{
-					"Source":
-					{
-						"Text": "HW"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Heavyweight Panelling"
+					"Key": "Hydrochloric Acid"
 				},
 				{
 					"Source":
@@ -411,6 +400,17 @@
 						"Text": ""
 					},
 					"Key": "Heavyweight Framing"
+				},
+				{
+					"Source":
+					{
+						"Text": "HW"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Heavyweight Panelling"
 				},
 				{
 					"Source":
@@ -509,6 +509,17 @@
 					{
 						"Text": ""
 					},
+					"Key": "Manganese Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
 					"Key": "Manganese Ore"
 				},
 				{
@@ -521,28 +532,6 @@
 						"Text": ""
 					},
 					"Key": "Manganese Plate"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mn"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Manganese Ingot"
-				},
-				{
-					"Source":
-					{
-						"Text": "Mo"
-					},
-					"Translation":
-					{
-						"Text": ""
-					},
-					"Key": "Molybdenite"
 				},
 				{
 					"Source":
@@ -565,6 +554,17 @@
 						"Text": ""
 					},
 					"Key": "Molybdenum Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Mo"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Molybdenite"
 				},
 				{
 					"Source":
@@ -641,7 +641,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Packaged Oxygen Gas"
+					"Key": "Oxygen Gas"
 				},
 				{
 					"Source":
@@ -652,7 +652,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Oxygen Gas"
+					"Key": "Packaged Oxygen Gas"
 				},
 				{
 					"Source":
@@ -697,6 +697,72 @@
 						"Text": ""
 					},
 					"Key": "Science Bottle"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Tin Chunks"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Tin Ingot"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Tin Ore"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sn"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Tin Plate"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sn B"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Black Tin"
+				},
+				{
+					"Source":
+					{
+						"Text": "Sn W"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "White Tin"
 				},
 				{
 					"Source":
@@ -3603,6 +3669,28 @@
 				{
 					"Source":
 					{
+						"Text": "Black Tin"
+					},
+					"Translation":
+					{
+						"Text": "Чёрная банка"
+					},
+					"Key": "BlackTin/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Cassiterite"
+					},
+					"Translation":
+					{
+						"Text": "Кассиретит"
+					},
+					"Key": "Cassiterite/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Aluminium Hydroxide Slurry"
 					},
 					"Translation":
@@ -3658,6 +3746,17 @@
 				{
 					"Source":
 					{
+						"Text": "Post-Transition Metals: Tin"
+					},
+					"Translation":
+					{
+						"Text": "Постпереходные металлы: Оловянная"
+					},
+					"Key": "Tin/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Sodium Hydroxide"
 					},
 					"Translation":
@@ -3665,6 +3764,72 @@
 						"Text": "Гидроксид натрия"
 					},
 					"Key": "SodiumHydroxide/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Chunk Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Выщелачивание оловянных глыб"
+					},
+					"Key": "TinChunkLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Chunks"
+					},
+					"Translation":
+					{
+						"Text": "Оловянная глыба"
+					},
+					"Key": "TinChunks/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Ingot"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "TinIngot/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Leeching"
+					},
+					"Translation":
+					{
+						"Text": "Выщелачивание олова"
+					},
+					"Key": "TinLeeching/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Ore"
+					},
+					"Translation":
+					{
+						"Text": "Оловянная руда"
+					},
+					"Key": "TinOre/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Plate"
+					},
+					"Translation":
+					{
+						"Text": "Оловянная плита"
+					},
+					"Key": "TinPlate/Name"
 				},
 				{
 					"Source":
@@ -3687,6 +3852,17 @@
 						"Text": ""
 					},
 					"Key": "UnpackageAluminiumHydroxideSlurry/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "White Tin"
+					},
+					"Translation":
+					{
+						"Text": "Белая банка"
+					},
+					"Key": "WhiteTin/Name"
 				}
 			]
 		},
@@ -4863,6 +5039,17 @@
 						"Text": "Использование новых и более кислых жидкостей для очистки новых продуктов."
 					},
 					"Key": "AdvancedTransitionMetalRefining/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Tin Processing"
+					},
+					"Translation":
+					{
+						"Text": "Обработка олова"
+					},
+					"Key": "TinProcessing/Name"
 				},
 				{
 					"Source":
