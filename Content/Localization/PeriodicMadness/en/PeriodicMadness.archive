@@ -1408,17 +1408,6 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 30 %."
-					},
-					"Translation":
-					{
-						"Text": "Has a base production speed of 30 %."
-					},
-					"Key": "StoneCokeOvenMk1/Desc"
-				},
-				{
-					"Source":
-					{
 						"Text": "Has a base production speed of 50 %. Head Lift: 10 m."
 					},
 					"Translation":
@@ -1447,7 +1436,7 @@
 					{
 						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
 					},
-					"Key": "EvaporatorMk1/Desc"
+					"Key": "MixingTankMk1/Desc"
 				},
 				{
 					"Source":
@@ -1458,7 +1447,7 @@
 					{
 						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
 					},
-					"Key": "MixingTankMk1/Desc"
+					"Key": "EvaporatorMk1/Desc"
 				},
 				{
 					"Source":
@@ -1503,6 +1492,28 @@
 						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 100 %."
 					},
 					"Key": "BurnerCrusher/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 30 %."
+					},
+					"Translation":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 30 %."
+					},
+					"Key": "StoneCokeOvenMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 60 %."
+					},
+					"Translation":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 60 %."
+					},
+					"Key": "StoneCokeOvenMk2/Desc"
 				},
 				{
 					"Source":
@@ -1591,6 +1602,17 @@
 						"Text": "Stone Coke Oven"
 					},
 					"Key": "StoneCokeOvenMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone Coke Oven Mk.2"
+					},
+					"Translation":
+					{
+						"Text": "Stone Coke Oven Mk.2"
+					},
+					"Key": "StoneCokeOvenMk2/Name"
 				},
 				{
 					"Source":
@@ -2762,6 +2784,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Coke"
+					},
+					"Translation":
+					{
+						"Text": "Advanced Coke"
+					},
+					"Key": "AdvancedCoke/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Alloys"
 					},
 					"Translation":
@@ -2949,13 +2982,24 @@
 				{
 					"Source":
 					{
-						"Text": "Coke"
+						"Text": "Coal Tar"
 					},
 					"Translation":
 					{
-						"Text": "Coke"
+						"Text": "Coal Tar"
 					},
-					"Key": "Coke/Cat"
+					"Key": "CoalTar/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Coal Tar Separation"
+					},
+					"Translation":
+					{
+						"Text": "Coal Tar Separation"
+					},
+					"Key": "CoalTarSeparation/Recipe"
 				},
 				{
 					"Source":
@@ -2967,6 +3011,17 @@
 						"Text": "Coke"
 					},
 					"Key": "Coke/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Coke"
+					},
+					"Translation":
+					{
+						"Text": "Coke"
+					},
+					"Key": "Coke/Cat"
 				},
 				{
 					"Source":
@@ -4383,6 +4438,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Coke Processing"
+					},
+					"Translation":
+					{
+						"Text": "Advanced Coke Processing"
+					},
+					"Key": "AdvancedCokeProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Material Processing"
 					},
 					"Translation":
@@ -4434,6 +4500,17 @@
 						"Text": "Advanced Transition Metals Science Pack"
 					},
 					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced methods to extract coke from coal or other carbonic materials."
+					},
+					"Translation":
+					{
+						"Text": "Advanced methods to extract coke from coal or other carbonic materials."
+					},
+					"Key": "AdvancedCokeProcessing/Desc"
 				},
 				{
 					"Source":

@@ -1216,7 +1216,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Boiler/Cat"
+					"Key": "Boiler/Name"
 				},
 				{
 					"Source":
@@ -1227,7 +1227,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Boiler/Name"
+					"Key": "Boiler/Cat"
 				},
 				{
 					"Source":
@@ -1507,6 +1507,17 @@
 				{
 					"Source":
 					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 60 %."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StoneCokeOvenMk2/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Production"
 					},
 					"Translation":
@@ -1591,6 +1602,17 @@
 						"Text": ""
 					},
 					"Key": "StoneCokeOvenMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone Coke Oven Mk.2"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StoneCokeOvenMk2/Name"
 				},
 				{
 					"Source":
@@ -2762,6 +2784,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Coke"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedCoke/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Alloys"
 					},
 					"Translation":
@@ -2949,13 +2982,24 @@
 				{
 					"Source":
 					{
-						"Text": "Coke"
+						"Text": "Coal Tar"
 					},
 					"Translation":
 					{
-						"Text": "코크스"
+						"Text": ""
 					},
-					"Key": "Coke/Cat"
+					"Key": "CoalTar/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Coal Tar Separation"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "CoalTarSeparation/Recipe"
 				},
 				{
 					"Source":
@@ -2967,6 +3011,17 @@
 						"Text": "코크스"
 					},
 					"Key": "Coke/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Coke"
+					},
+					"Translation":
+					{
+						"Text": "코크스"
+					},
+					"Key": "Coke/Cat"
 				},
 				{
 					"Source":
@@ -4383,6 +4438,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Coke Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedCokeProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Material Processing"
 					},
 					"Translation":
@@ -4434,6 +4500,17 @@
 						"Text": ""
 					},
 					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced methods to extract coke from coal or other carbonic materials."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "AdvancedCokeProcessing/Desc"
 				},
 				{
 					"Source":

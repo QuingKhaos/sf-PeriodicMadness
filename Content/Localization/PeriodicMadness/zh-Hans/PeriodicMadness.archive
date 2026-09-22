@@ -1216,7 +1216,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Boiler/Cat"
+					"Key": "Boiler/Name"
 				},
 				{
 					"Source":
@@ -1227,7 +1227,7 @@
 					{
 						"Text": ""
 					},
-					"Key": "Boiler/Name"
+					"Key": "Boiler/Cat"
 				},
 				{
 					"Source":
@@ -1507,6 +1507,17 @@
 				{
 					"Source":
 					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 60 %."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "StoneCokeOvenMk2/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Production"
 					},
 					"Translation":
@@ -1591,6 +1602,17 @@
 						"Text": "石焦炉"
 					},
 					"Key": "StoneCokeOvenMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone Coke Oven Mk.2"
+					},
+					"Translation":
+					{
+						"Text": "石焦炉2型"
+					},
+					"Key": "StoneCokeOvenMk2/Name"
 				},
 				{
 					"Source":
@@ -2762,6 +2784,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Coke"
+					},
+					"Translation":
+					{
+						"Text": "高级焦炭"
+					},
+					"Key": "AdvancedCoke/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Alloys"
 					},
 					"Translation":
@@ -2949,13 +2982,24 @@
 				{
 					"Source":
 					{
-						"Text": "Coke"
+						"Text": "Coal Tar"
 					},
 					"Translation":
 					{
-						"Text": "焦炭"
+						"Text": "煤焦油"
 					},
-					"Key": "Coke/Cat"
+					"Key": "CoalTar/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Coal Tar Separation"
+					},
+					"Translation":
+					{
+						"Text": "煤焦油分离"
+					},
+					"Key": "CoalTarSeparation/Recipe"
 				},
 				{
 					"Source":
@@ -2967,6 +3011,17 @@
 						"Text": "焦炭"
 					},
 					"Key": "Coke/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Coke"
+					},
+					"Translation":
+					{
+						"Text": "焦炭"
+					},
+					"Key": "Coke/Cat"
 				},
 				{
 					"Source":
@@ -4383,6 +4438,17 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Coke Processing"
+					},
+					"Translation":
+					{
+						"Text": "高级焦炭加工"
+					},
+					"Key": "AdvancedCokeProcessing/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Material Processing"
 					},
 					"Translation":
@@ -4434,6 +4500,17 @@
 						"Text": "高级过渡金属科技包"
 					},
 					"Key": "AdvancedTransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced methods to extract coke from coal or other carbonic materials."
+					},
+					"Translation":
+					{
+						"Text": "从煤或其他含碳材料中提取焦炭的高级方法。"
+					},
+					"Key": "AdvancedCokeProcessing/Desc"
 				},
 				{
 					"Source":

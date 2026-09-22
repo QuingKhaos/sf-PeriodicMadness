@@ -1125,18 +1125,6 @@
 				{
 					"Source":
 					{
-						"Text": "Has a base production speed of 30 %."
-					},
-					"Keys": [
-						{
-							"Key": "StoneCokeOvenMk1/Desc",
-							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
-						}
-					]
-				},
-				{
-					"Source":
-					{
 						"Text": "Has a base production speed of 50 %. Head Lift: 10 m."
 					},
 					"Keys": [
@@ -1218,6 +1206,30 @@
 					"Keys": [
 						{
 							"Key": "BurnerCrusher/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 30 %."
+					},
+					"Keys": [
+						{
+							"Key": "StoneCokeOvenMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 60 %."
+					},
+					"Keys": [
+						{
+							"Key": "StoneCokeOvenMk2/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -1314,6 +1326,18 @@
 					"Keys": [
 						{
 							"Key": "StoneCokeOvenMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Stone Coke Oven Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "StoneCokeOvenMk2/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -2582,6 +2606,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Coke"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedCoke/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Alloys"
 					},
 					"Keys": [
@@ -2779,6 +2815,30 @@
 					"Keys": [
 						{
 							"Key": "Circuits/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Coal Tar"
+					},
+					"Keys": [
+						{
+							"Key": "CoalTar/Name",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Coal Tar Separation"
+					},
+					"Keys": [
+						{
+							"Key": "CoalTarSeparation/Recipe",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]
@@ -4333,6 +4393,18 @@
 				{
 					"Source":
 					{
+						"Text": "Advanced Coke Processing"
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedCokeProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Advanced Material Processing"
 					},
 					"Keys": [
@@ -4386,6 +4458,18 @@
 					"Keys": [
 						{
 							"Key": "AdvancedTransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Advanced methods to extract coke from coal or other carbonic materials."
+					},
+					"Keys": [
+						{
+							"Key": "AdvancedCokeProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
