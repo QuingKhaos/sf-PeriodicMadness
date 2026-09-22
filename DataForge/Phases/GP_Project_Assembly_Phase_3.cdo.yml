@@ -2,7 +2,7 @@
 $schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
 type: cdo
 patches:
-  - target: /Game/FactoryGame/GamePhases/GP_Project_Assembly_Phase_2.GP_Project_Assembly_Phase_2
+  - target: /Game/FactoryGame/GamePhases/GP_Project_Assembly_Phase_3.GP_Project_Assembly_Phase_3
     properties:
       - path: mCosts
         value:
@@ -10,3 +10,7 @@ patches:
             Amount: 1000
           - ItemClass: /PeriodicMadness/Resources/Science/SciencePack/ATMSP/Desc_PM_AdvancedTransitionMetalSciencePack.Desc_PM_AdvancedTransitionMetalSciencePack_C
             Amount: 1000
+          - ItemClass: /PeriodicMadness/Resources/Science/SciencePack/AATMSP/Desc_PM_AdvancedAdvancedTransitionMetalSciencePack.Desc_PM_AdvancedAdvancedTransitionMetalSciencePack_C
+            Amount: 1000
+          - ItemClass: /PeriodicMadness/Resources/Desc_NA.Desc_NA_C
+            Amount: 1
