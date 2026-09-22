@@ -654,42 +654,42 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 80
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/UI/HyperTubeStart_512.HyperTubeStart_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/Desc_PipeHyperStart.Desc_PipeHyperStart_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 81
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyper/UI/HyperTube_512.HyperTube_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyper/Desc_PipeHyper.Desc_PipeHyper_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 82
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyperSupport/UI/HyperTubePole_512.HyperTubePole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyperSupport/Desc_PipeHyperSupport.Desc_PipeHyperSupport_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 83
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/UI/IconDesc_HyperTubeStackable_512.IconDesc_HyperTubeStackable_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipelineSupport/Desc_HyperPoleStackable.Desc_HyperPoleStackable_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 80
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/UI/HyperTubeStart_512.HyperTubeStart_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/Desc_PipeHyperStart.Desc_PipeHyperStart_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 81
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyper/UI/HyperTube_512.HyperTube_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyper/Desc_PipeHyper.Desc_PipeHyper_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 82
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyperSupport/UI/HyperTubePole_512.HyperTubePole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyperSupport/Desc_PipeHyperSupport.Desc_PipeHyperSupport_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 83
+            Texture: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/UI/IconDesc_HyperTubeStackable_512.IconDesc_HyperTubeStackable_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipelineSupport/Desc_HyperPoleStackable.Desc_HyperPoleStackable_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 84
           #   Texture: "/Game/FactoryGame/Buildable/Factory/OilPump/UI/OilPump_512.OilPump_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/OilPump/Desc_OilPump.Desc_OilPump_C"
@@ -1278,24 +1278,24 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 148
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/UI/IconDesc_HyperTube_WallSupport_512.IconDesc_HyperTube_WallSupport_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/Desc_HyperTubeWallSupport.Desc_HyperTubeWallSupport_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 149
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/UI/IconDesc_HyperTube_WallHole_512.IconDesc_HyperTube_WallHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/Desc_HyperTubeWallHole.Desc_HyperTubeWallHole_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 148
+            Texture: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/UI/IconDesc_HyperTube_WallSupport_512.IconDesc_HyperTube_WallSupport_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/Desc_HyperTubeWallSupport.Desc_HyperTubeWallSupport_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 149
+            Texture: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/UI/IconDesc_HyperTube_WallHole_512.IconDesc_HyperTube_WallHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/Desc_HyperTubeWallHole.Desc_HyperTubeWallHole_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 150
           #   Texture: "/Game/FactoryGame/Buildable/Building/Ramp/UI/IconDesc_C_Inv_Ramp_8x1_01_512.IconDesc_C_Inv_Ramp_8x1_01_512"
           #   itemDescriptor: ""
@@ -5730,15 +5730,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: true
-          # - ID: 619
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/UI/IconDesc_HypertubeFloorHole_512.IconDesc_HypertubeFloorHole_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Hypertube.Desc_FoundationPassthrough_Hypertube_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 619
+            Texture: "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/UI/IconDesc_HypertubeFloorHole_512.IconDesc_HypertubeFloorHole_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Hypertube.Desc_FoundationPassthrough_Hypertube_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 620
           #   Texture: "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/UI/IconDesc_AsphaltFoundation8x1_512.IconDesc_AsphaltFoundation8x1_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_Foundation_Asphalt_8x1.Desc_Foundation_Asphalt_8x1_C"
@@ -7917,24 +7917,24 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 860
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyperJunction/UI/IconDesc_HypertubeJunction_512.IconDesc_HypertubeJunction_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyperJunction/Desc_HyperTubeJunction.Desc_HyperTubeJunction_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
-          # - ID: 861
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyperJunction/UI/IconDesc_HypertubeBranch_512.IconDesc_HypertubeBranch_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyperTJunction/Desc_HypertubeTJunction.Desc_HypertubeTJunction_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 860
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyperJunction/UI/IconDesc_HypertubeJunction_512.IconDesc_HypertubeJunction_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyperJunction/Desc_HyperTubeJunction.Desc_HyperTubeJunction_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
+          - ID: 861
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipeHyperJunction/UI/IconDesc_HypertubeBranch_512.IconDesc_HypertubeBranch_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeHyperTJunction/Desc_HypertubeTJunction.Desc_HypertubeTJunction_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 862
           #   Texture: "/Game/FactoryGame/Buildable/Building/Doors/UI/IconDesc_GarageDoorSteel_513.IconDesc_GarageDoorSteel_513"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Building/Doors/Desc_BigGarageDoor_16x8_Steel.Desc_BigGarageDoor_16x8_Steel_C"

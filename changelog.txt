@@ -3,6 +3,7 @@ Version: 1.2.0
 Date: ????
   Features:
     - Add Blueprints Mk.1 milestone to HUB.
+    - Add hypertubes to HUB and AWESOME shop.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2026-09-21
