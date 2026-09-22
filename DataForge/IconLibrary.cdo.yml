@@ -7251,15 +7251,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 786
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/BlueprintDesigner/UI/IconDesc_BlueprintDesigner_512.IconDesc_BlueprintDesigner_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/BlueprintDesigner/Desc_BlueprintDesigner.Desc_BlueprintDesigner_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 786
+            Texture: "/Game/FactoryGame/Buildable/Factory/BlueprintDesigner/UI/IconDesc_BlueprintDesigner_512.IconDesc_BlueprintDesigner_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/BlueprintDesigner/Desc_BlueprintDesigner.Desc_BlueprintDesigner_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           - ID: 787
             Texture: "/Game/FactoryGame/Buildable/Factory/ConveyorPoleWall/UI/IconDesc_ConvWallAttachment_512.IconDesc_ConvWallAttachment_512"
             itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ConveyorPoleWall/Desc_ConveyorPoleWall.Desc_ConveyorPoleWall_C"
