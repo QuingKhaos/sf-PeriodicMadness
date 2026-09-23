@@ -981,6 +981,18 @@
 				{
 					"Source":
 					{
+						"Text": "Chemical Plant"
+					},
+					"Keys": [
+						{
+							"Key": "ChemicalPlantMk1/Name",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Chemistry"
 					},
 					"Keys": [
@@ -1053,6 +1065,18 @@
 				{
 					"Source":
 					{
+						"Text": "Extraction"
+					},
+					"Keys": [
+						{
+							"Key": "Extraction/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Fabricator Mk.2"
 					},
 					"Keys": [
@@ -1089,6 +1113,18 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
+					},
+					"Keys": [
+						{
+							"Key": "OilRefinery/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 100 %."
 					},
 					"Keys": [
@@ -1104,6 +1140,10 @@
 						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
 					},
 					"Keys": [
+						{
+							"Key": "ChemicalPlantMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						},
 						{
 							"Key": "ElectrolysisPlantMk1/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
@@ -1230,6 +1270,30 @@
 					"Keys": [
 						{
 							"Key": "StoneCokeOvenMk2/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil"
+					},
+					"Keys": [
+						{
+							"Key": "Oil/Cat",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil Refinery"
+					},
+					"Keys": [
+						{
+							"Key": "OilRefinery/Name",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -1660,6 +1724,30 @@
 				{
 					"Source":
 					{
+						"Text": "Naphtha"
+					},
+					"Keys": [
+						{
+							"Key": "Naphtha/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil Residuals"
+					},
+					"Keys": [
+						{
+							"Key": "OilResiduals/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Creosote"
 					},
 					"Keys": [
@@ -1672,11 +1760,59 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Naphtha"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedNaphtha/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Oil Residuals"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedOilResiduals/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Refinery Gases"
+					},
+					"Keys": [
+						{
+							"Key": "PackagedRefineryGases/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Seawater"
 					},
 					"Keys": [
 						{
 							"Key": "PackagedSeawater/Name",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Refinery Gases"
+					},
+					"Keys": [
+						{
+							"Key": "RefineryGases/Name",
 							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
 						}
 					]
@@ -1749,6 +1885,42 @@
 					"Keys": [
 						{
 							"Key": "UnpackageCreosote/Recipe",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Naphtha"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageNaphtha/Recipe",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Oil Residuals"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageOilResiduals/Recipe",
+							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Refinery Gases"
+					},
+					"Keys": [
+						{
+							"Key": "UnpackageRefineryGases/Recipe",
 							"Path": "/PeriodicMadness/Resources/Fluids/ST_PM_Fluids.ST_PM_Fluids"
 						}
 					]
@@ -2714,6 +2886,18 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Oil Cracking"
+					},
+					"Keys": [
+						{
+							"Key": "BasicOilCracking/Recipe",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Batteries"
 					},
 					"Keys": [
@@ -3191,6 +3375,18 @@
 					"Keys": [
 						{
 							"Key": "MoldedCircuits/Cat",
+							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil"
+					},
+					"Keys": [
+						{
+							"Key": "Oil/Cat",
 							"Path": "/PeriodicMadness/Resources/Products/ST_PM_Products.ST_PM_Products"
 						}
 					]

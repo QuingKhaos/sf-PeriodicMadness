@@ -690,15 +690,15 @@ patches:
             Hidden: false
             SearchOnly: false
             Animated: false
-          # - ID: 84
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/OilPump/UI/OilPump_512.OilPump_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/OilPump/Desc_OilPump.Desc_OilPump_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 84
+            Texture: "/Game/FactoryGame/Buildable/Factory/OilPump/UI/OilPump_512.OilPump_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/OilPump/Desc_OilPump.Desc_OilPump_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 85
           #   Texture: "/Game/FactoryGame/Buildable/Factory/OilRefinery/UI/IconDesc_OilRefinery_512.IconDesc_OilRefinery_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/OilRefinery/Desc_OilRefinery.Desc_OilRefinery_C"
@@ -708,15 +708,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 86
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/PipeValve/UI/IconDesc_Valve_512.IconDesc_Valve_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeValve/Desc_Valve.Desc_Valve_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 86
+            Texture: "/Game/FactoryGame/Buildable/Factory/PipeValve/UI/IconDesc_Valve_512.IconDesc_Valve_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/PipeValve/Desc_Valve.Desc_Valve_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 87
           #   Texture: "/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/UI/IconDesc_Manufacturer_512.IconDesc_Manufacturer_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Desc_ManufacturerMk1.Desc_ManufacturerMk1_C"

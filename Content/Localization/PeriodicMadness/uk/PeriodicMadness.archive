@@ -1276,6 +1276,17 @@
 				{
 					"Source":
 					{
+						"Text": "Chemical Plant"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ChemicalPlantMk1/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Chemistry"
 					},
 					"Translation":
@@ -1342,6 +1353,17 @@
 				{
 					"Source":
 					{
+						"Text": "Extraction"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Extraction/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fabricator Mk.2"
 					},
 					"Translation":
@@ -1360,6 +1382,17 @@
 						"Text": ""
 					},
 					"Key": "Finishes/Caterium/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "OilRefinery/Desc"
 				},
 				{
 					"Source":
@@ -1404,6 +1437,17 @@
 						"Text": ""
 					},
 					"Key": "ElectrolysisPlantMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "ChemicalPlantMk1/Desc"
 				},
 				{
 					"Source":
@@ -1514,6 +1558,28 @@
 						"Text": ""
 					},
 					"Key": "StoneCokeOvenMk2/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Oil/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil Refinery"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "OilRefinery/Name"
 				},
 				{
 					"Source":
@@ -1907,6 +1973,28 @@
 				{
 					"Source":
 					{
+						"Text": "Naphtha"
+					},
+					"Translation":
+					{
+						"Text": "Лігроїн"
+					},
+					"Key": "Naphtha/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil Residuals"
+					},
+					"Translation":
+					{
+						"Text": "Залишкова нафта"
+					},
+					"Key": "OilResiduals/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Creosote"
 					},
 					"Translation":
@@ -1918,6 +2006,39 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Naphtha"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedNaphtha/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Oil Residuals"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedOilResiduals/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Refinery Gases"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PackagedRefineryGases/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Seawater"
 					},
 					"Translation":
@@ -1925,6 +2046,17 @@
 						"Text": ""
 					},
 					"Key": "PackagedSeawater/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Refinery Gases"
+					},
+					"Translation":
+					{
+						"Text": "Залишкові гази нафтопереробки"
+					},
+					"Key": "RefineryGases/Name"
 				},
 				{
 					"Source":
@@ -1991,6 +2123,39 @@
 						"Text": ""
 					},
 					"Key": "UnpackageCreosote/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Naphtha"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageNaphtha/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Oil Residuals"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageOilResiduals/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Refinery Gases"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnpackageRefineryGases/Recipe"
 				},
 				{
 					"Source":
@@ -2883,6 +3048,17 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Oil Cracking"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "BasicOilCracking/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Batteries"
 					},
 					"Translation":
@@ -3330,6 +3506,17 @@
 						"Text": ""
 					},
 					"Key": "MoldedCircuits/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "Oil/Cat"
 				},
 				{
 					"Source":

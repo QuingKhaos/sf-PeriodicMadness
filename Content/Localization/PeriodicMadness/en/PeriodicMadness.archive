@@ -1216,7 +1216,7 @@
 					{
 						"Text": "Boiler"
 					},
-					"Key": "Boiler/Cat"
+					"Key": "Boiler/Name"
 				},
 				{
 					"Source":
@@ -1227,7 +1227,7 @@
 					{
 						"Text": "Boiler"
 					},
-					"Key": "Boiler/Name"
+					"Key": "Boiler/Cat"
 				},
 				{
 					"Source":
@@ -1272,6 +1272,17 @@
 						"Text": "Burns fuel to turn water into steam."
 					},
 					"Key": "Boiler/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Chemical Plant"
+					},
+					"Translation":
+					{
+						"Text": "Chemical Plant"
+					},
+					"Key": "ChemicalPlantMk1/Name"
 				},
 				{
 					"Source":
@@ -1342,6 +1353,17 @@
 				{
 					"Source":
 					{
+						"Text": "Extraction"
+					},
+					"Translation":
+					{
+						"Text": "Extraction"
+					},
+					"Key": "Extraction/Cat"
+				},
+				{
+					"Source":
+					{
 						"Text": "Fabricator Mk.2"
 					},
 					"Translation":
@@ -1375,6 +1397,17 @@
 				{
 					"Source":
 					{
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
+					},
+					"Key": "OilRefinery/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Has a base production speed of 100 %."
 					},
 					"Translation":
@@ -1393,6 +1426,17 @@
 						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
 					},
 					"Key": "ElectrolysisPlantMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
+					},
+					"Translation":
+					{
+						"Text": "Has a base production speed of 100 %. Head Lift: 10 m."
+					},
+					"Key": "ChemicalPlantMk1/Desc"
 				},
 				{
 					"Source":
@@ -1436,7 +1480,7 @@
 					{
 						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
 					},
-					"Key": "MixingTankMk1/Desc"
+					"Key": "EvaporatorMk1/Desc"
 				},
 				{
 					"Source":
@@ -1447,7 +1491,7 @@
 					{
 						"Text": "Has a base production speed of 75 %. Head Lift: 10 m."
 					},
-					"Key": "EvaporatorMk1/Desc"
+					"Key": "MixingTankMk1/Desc"
 				},
 				{
 					"Source":
@@ -1514,6 +1558,28 @@
 						"Text": "Needs to be supplied with a solid fuel to be able to run production. Has a base production speed of 60 %."
 					},
 					"Key": "StoneCokeOvenMk2/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil"
+					},
+					"Translation":
+					{
+						"Text": "Oil"
+					},
+					"Key": "Oil/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil Refinery"
+					},
+					"Translation":
+					{
+						"Text": "Oil Refinery"
+					},
+					"Key": "OilRefinery/Name"
 				},
 				{
 					"Source":
@@ -1907,6 +1973,28 @@
 				{
 					"Source":
 					{
+						"Text": "Naphtha"
+					},
+					"Translation":
+					{
+						"Text": "Naphtha"
+					},
+					"Key": "Naphtha/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil Residuals"
+					},
+					"Translation":
+					{
+						"Text": "Oil Residuals"
+					},
+					"Key": "OilResiduals/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Creosote"
 					},
 					"Translation":
@@ -1918,6 +2006,39 @@
 				{
 					"Source":
 					{
+						"Text": "Packaged Naphtha"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Naphtha"
+					},
+					"Key": "PackagedNaphtha/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Oil Residuals"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Oil Residuals"
+					},
+					"Key": "PackagedOilResiduals/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Packaged Refinery Gases"
+					},
+					"Translation":
+					{
+						"Text": "Packaged Refinery Gases"
+					},
+					"Key": "PackagedRefineryGases/Name"
+				},
+				{
+					"Source":
+					{
 						"Text": "Packaged Seawater"
 					},
 					"Translation":
@@ -1925,6 +2046,17 @@
 						"Text": "Packaged Seawater"
 					},
 					"Key": "PackagedSeawater/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Refinery Gases"
+					},
+					"Translation":
+					{
+						"Text": "Refinery Gases"
+					},
+					"Key": "RefineryGases/Name"
 				},
 				{
 					"Source":
@@ -1991,6 +2123,39 @@
 						"Text": "Unpackage Creosote"
 					},
 					"Key": "UnpackageCreosote/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Naphtha"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Naphtha"
+					},
+					"Key": "UnpackageNaphtha/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Oil Residuals"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Oil Residuals"
+					},
+					"Key": "UnpackageOilResiduals/Recipe"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unpackage Refinery Gases"
+					},
+					"Translation":
+					{
+						"Text": "Unpackage Refinery Gases"
+					},
+					"Key": "UnpackageRefineryGases/Recipe"
 				},
 				{
 					"Source":
@@ -2883,6 +3048,17 @@
 				{
 					"Source":
 					{
+						"Text": "Basic Oil Cracking"
+					},
+					"Translation":
+					{
+						"Text": "Basic Oil Cracking"
+					},
+					"Key": "BasicOilCracking/Recipe"
+				},
+				{
+					"Source":
+					{
 						"Text": "Batteries"
 					},
 					"Translation":
@@ -3330,6 +3506,17 @@
 						"Text": "Molded Circuits"
 					},
 					"Key": "MoldedCircuits/Cat"
+				},
+				{
+					"Source":
+					{
+						"Text": "Oil"
+					},
+					"Translation":
+					{
+						"Text": "Oil"
+					},
+					"Key": "Oil/Cat"
 				},
 				{
 					"Source":
