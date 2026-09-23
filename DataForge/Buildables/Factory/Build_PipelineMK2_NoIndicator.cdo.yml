@@ -1,0 +1,13 @@
+---
+$schema: https://raw.githubusercontent.com/Satisfactory-KMods/KDataForge-Linter/refs/heads/main/src/kdataforge_linter/schemas/cdo.schema.yml
+type: cdo
+patches:
+  - target: /Game/FactoryGame/Buildable/Factory/PipelineMk2/Build_PipelineMK2_NoIndicator.Build_PipelineMK2_NoIndicator_C
+    properties:
+      - path: mDescription
+        value:
+          ns: ST_PM_Buildables
+          key: PipelineMk2/NoIndicator/Desc
+          source: "Transports fluids. Capacity: 360 m³ of fluid per minute."
+      - path: mFlowLimit
+        value: 6 # m³/s
