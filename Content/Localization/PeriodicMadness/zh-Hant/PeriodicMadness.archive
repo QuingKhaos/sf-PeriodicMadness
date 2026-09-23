@@ -1694,6 +1694,17 @@
 				{
 					"Source":
 					{
+						"Text": "Transports fluids. Capacity: 360 m³ of fluid per minute."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PipelineMk2/NoIndicator/Desc"
+				},
+				{
+					"Source":
+					{
 						"Text": "Transports fluids. External indicators show flow rate, direction, and volume. Capacity: 180 m³ of fluid per minute."
 					},
 					"Translation":
@@ -1701,6 +1712,17 @@
 						"Text": ""
 					},
 					"Key": "PipelineMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports fluids. External indicators show flow rate, direction, and volume. Capacity: 360 m³ of fluid per minute."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PipelineMk2/Desc"
 				},
 				{
 					"Source":
@@ -2205,6 +2227,17 @@
 						"Text": ""
 					},
 					"Key": "PipelinePartMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Pipeline Parts Mk.2"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "PipelinePartMk2/Name"
 				}
 			]
 		},
@@ -5325,6 +5358,28 @@
 						"Text": "過渡金屬科技包"
 					},
 					"Key": "TransitionMetalSciencePack/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unlock Oil Processing"
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnlockOilProcessing/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Unlock Oil Processing and Fluid Packaging in the HUB to proceed."
+					},
+					"Translation":
+					{
+						"Text": ""
+					},
+					"Key": "UnlockOilProcessing/Desc"
 				},
 				{
 					"Source":

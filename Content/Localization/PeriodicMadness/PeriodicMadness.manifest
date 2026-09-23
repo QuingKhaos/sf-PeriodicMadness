@@ -1421,11 +1421,35 @@
 				{
 					"Source":
 					{
+						"Text": "Transports fluids. Capacity: 360 m³ of fluid per minute."
+					},
+					"Keys": [
+						{
+							"Key": "PipelineMk2/NoIndicator/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
 						"Text": "Transports fluids. External indicators show flow rate, direction, and volume. Capacity: 180 m³ of fluid per minute."
 					},
 					"Keys": [
 						{
 							"Key": "PipelineMk1/Desc",
+							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Transports fluids. External indicators show flow rate, direction, and volume. Capacity: 360 m³ of fluid per minute."
+					},
+					"Keys": [
+						{
+							"Key": "PipelineMk2/Desc",
 							"Path": "/PeriodicMadness/Buildables/ST_PM_Buildables.ST_PM_Buildables"
 						}
 					]
@@ -1974,6 +1998,18 @@
 					"Keys": [
 						{
 							"Key": "PipelinePartMk1/Name",
+							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Pipeline Parts Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "PipelinePartMk2/Name",
 							"Path": "/PeriodicMadness/Resources/Logistics/ST_PM_Logistics.ST_PM_Logistics"
 						}
 					]
@@ -5350,6 +5386,30 @@
 					"Keys": [
 						{
 							"Key": "TransitionMetalSciencePack/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unlock Oil Processing"
+					},
+					"Keys": [
+						{
+							"Key": "UnlockOilProcessing/Name",
+							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Unlock Oil Processing and Fluid Packaging in the HUB to proceed."
+					},
+					"Keys": [
+						{
+							"Key": "UnlockOilProcessing/Desc",
 							"Path": "/PeriodicMadness/Schematics/ST_PM_Schematics.ST_PM_Schematics"
 						}
 					]
