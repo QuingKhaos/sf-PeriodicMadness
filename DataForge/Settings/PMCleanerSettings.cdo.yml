@@ -137,6 +137,7 @@ patches:
           - GeneratorBiomass
           - GeneratorCoal
           - Hyper
+          - IndustrialTank
           - Inhaler
           - JumpPad
           - LandingPad
@@ -145,6 +146,7 @@ patches:
           - Mam
           - Nobelisk
           - ObjectScanner
+          - Packager
           - Parachute
           - Pipeline
           - PipeStorage
@@ -239,6 +241,7 @@ patches:
           - GeneratorCoal
           - GolfCart
           - Hyper
+          - IndustrialTank
           - JumpingStilts
           - JumpPad
           - LandingPad
@@ -249,6 +252,7 @@ patches:
           - Miner
           - Nobelisk
           - ObjectScanner
+          - Packager
           - Parachute
           - Pipeline
           - PipeStorage

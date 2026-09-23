@@ -771,15 +771,15 @@ patches:
           #   Hidden: false
           #   SearchOnly: false
           #   Animated: false
-          # - ID: 93
-          #   Texture: "/Game/FactoryGame/Buildable/Factory/Packager/UI/IconDesc_Packager_512.IconDesc_Packager_512"
-          #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Packager/Desc_Packager.Desc_Packager_C"
-          #   DisplayNameOverride: false
-          #   IconName: ""
-          #   IconType: "ESIT_Building"
-          #   Hidden: false
-          #   SearchOnly: false
-          #   Animated: false
+          - ID: 93
+            Texture: "/Game/FactoryGame/Buildable/Factory/Packager/UI/IconDesc_Packager_512.IconDesc_Packager_512"
+            itemDescriptor: "/Game/FactoryGame/Buildable/Factory/Packager/Desc_Packager.Desc_Packager_C"
+            DisplayNameOverride: false
+            IconName: ""
+            IconType: "ESIT_Building"
+            Hidden: false
+            SearchOnly: false
+            Animated: false
           # - ID: 94
           #   Texture: "/Game/FactoryGame/Buildable/Factory/StorageTank/UI/FluidStorageIndustrial_512.FluidStorageIndustrial_512"
           #   itemDescriptor: "/Game/FactoryGame/Buildable/Factory/IndustrialFluidContainer/Desc_IndustrialTank.Desc_IndustrialTank_C"
