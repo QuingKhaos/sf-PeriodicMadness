@@ -12,7 +12,7 @@ patches:
             Amount: 2
           - ItemClass: /PeriodicMadness/Resources/Products/Circuits/ElectronicCircuit/Desc_PM_ElectronicCircuit.Desc_PM_ElectronicCircuit_C
             Amount: 3
-          - ItemClass: /PeriodicMadness/Resources/Products/Screws/Cat_PM_Products_Screws.Cat_PM_Products_Screws_C
+          - ItemClass: /PeriodicMadness/Resources/Products/Screws/BrassScrew/Desc_PM_BrassScrew.Desc_PM_BrassScrew_C
             Amount: 2
           - ItemClass: /PeriodicMadness/Resources/TM/Silver/SilverPlate/Desc_PM_SilverPlate.Desc_PM_SilverPlate_C
             Amount: 2
