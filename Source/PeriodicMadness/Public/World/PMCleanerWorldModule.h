@@ -35,9 +35,6 @@ protected:
 	/** Remove all recipes, except allowlisted ones. */
 	void RemoveRecipes();
 
-	/** Remove the actual recipe, except allowlisted ones. */
-	void RemoveRecipe(TSubclassOf<UFGRecipe> Recipe);
-
 	/** Remove all items, except allowlisted ones. */
 	void RemoveItems();
 

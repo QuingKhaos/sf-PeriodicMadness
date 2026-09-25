@@ -4,23 +4,53 @@
 #include "Equipment/FGResourceScanner.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "Net/UnrealNetwork.h"
 #include "Resources/FGResourceDeposit.h"
 #include "Settings/PMCleanerSettings.h"
+#include "Subsystem/SubsystemActorManager.h"
+#include "Unlocks/FGUnlock.h"
+#include "Unlocks/FGUnlockRecipe.h"
+#include "Unlocks/FGUnlockScannableResource.h"
+#include "WorldPartition/WorldPartitionSubsystem.h"
 #include "FGCharacterPlayer.h"
 #include "FGDropPod.h"
 #include "FGFoliagePickup.h"
 #include "FGFoliageResourceUserData.h"
 #include "FGItemPickup_Spawnable.h"
+#include "FGResearchTree.h"
+#include "FGSchematic.h"
 #include "FGWaterVolume.h"
 #include "ItemDrop.h"
 #include "PeriodicMadnessLogChannels.h"
-#include "WorldPartition/WorldPartitionSubsystem.h"
 
 APMCleanerSubsystem::APMCleanerSubsystem()
 {
 	PrimaryActorTick.bCanEverTick = false;
 
 	ReplicationPolicy = ESubsystemReplicationPolicy::SpawnOnServer_Replicate;
+}
+
+APMCleanerSubsystem* APMCleanerSubsystem::Get(UWorld* World)
+{
+	USubsystemActorManager* SubsystemActorManager = World->GetSubsystem<USubsystemActorManager>();
+	check(SubsystemActorManager);
+
+	return SubsystemActorManager->GetSubsystemActor<APMCleanerSubsystem>();
+}
+
+APMCleanerSubsystem* APMCleanerSubsystem::Get(const UObject* WorldContext)
+{
+	UWorld* WorldObject = GEngine->GetWorldFromContextObjectChecked(WorldContext);
+	return Get(WorldObject);
+}
+
+void APMCleanerSubsystem::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(APMCleanerSubsystem, mRemovedResearchTrees);
+	DOREPLIFETIME(APMCleanerSubsystem, mRemovedSchematics);
+	DOREPLIFETIME(APMCleanerSubsystem, mCleanedSchematics);
 }
 
 void APMCleanerSubsystem::UpdateResourceScanner()
@@ -43,9 +73,111 @@ void APMCleanerSubsystem::UpdateResourceScanner()
 	}
 }
 
+void APMCleanerSubsystem::ResearchTreeRemovalModifyCDO(const TSubclassOf<UFGResearchTree> ResearchTree, bool bReplay)
+{
+	PM_LOG_ARGS(Verbose, TEXT("Modifying research tree CDO: %s"), *UKismetSystemLibrary::GetPathName(ResearchTree));
+
+	UFGResearchTree* ResearchTreeCDO = GetMutableDefault<UFGResearchTree>(ResearchTree);
+	ResearchTreeCDO->mPreUnlockDisplayName = FText();
+	ResearchTreeCDO->mDisplayName = FText();
+	ResearchTreeCDO->mPreUnlockDescription = FText();
+	ResearchTreeCDO->mPostUnlockDescription = FText();
+
+	if (!bReplay)
+	{
+		mRemovedResearchTrees.Add(ResearchTree);
+	}
+
+	mCachedCDO.Add(ResearchTreeCDO);
+}
+
+void APMCleanerSubsystem::SchematicRemovalModifyCDO(const TSubclassOf<UFGSchematic> Schematic, bool bReplay)
+{
+	PM_LOG_ARGS(Verbose, TEXT("Modifying schematic CDO: %s"), *UKismetSystemLibrary::GetPathName(Schematic));
+
+	UFGSchematic* SchematicCDO = GetMutableDefault<UFGSchematic>(Schematic);
+	SchematicCDO->mType = ESchematicType::EST_Custom;
+
+	TArray<UFGUnlock*> UnlocksToRemove;
+	UnlocksToRemove.Append(SchematicCDO->mUnlocks);
+
+	for (UFGUnlock* Unlock : UnlocksToRemove)
+	{
+		if (Unlock)
+		{
+			if (UFGUnlockRecipe* UnlockRecipe = Cast<UFGUnlockRecipe>(Unlock))
+			{
+				UnlockRecipe->mRecipes.Empty();
+			}
+
+			if (UFGUnlockScannableResource* UnlockScannableResource = Cast<UFGUnlockScannableResource>(Unlock))
+			{
+				UnlockScannableResource->mResourcePairsToAddToScanner.Empty();
+			}
+
+			SchematicCDO->mUnlocks.Remove(Unlock);
+			mCachedCDO.Add(Unlock);
+		}
+	}
+
+	if (!bReplay)
+	{
+		mRemovedSchematics.Add(Schematic);
+	}
+
+	mCachedCDO.Add(SchematicCDO);
+}
+
+void APMCleanerSubsystem::SchematicCleanup(const TSubclassOf<UFGSchematic> Schematic, bool bReplay)
+{
+	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
+
+	FPMSchematicCleanup CleanupData;
+	if (CleanerSettings->ShouldCleanupSchematic(Schematic, CleanupData))
+	{
+		UFGSchematic* SchematicCDO = GetMutableDefault<UFGSchematic>(Schematic);
+		for (UFGUnlock* Unlock : SchematicCDO->mUnlocks)
+		{
+			if (Unlock)
+			{
+				if (UFGUnlockScannableResource* UnlockScannableResource = Cast<UFGUnlockScannableResource>(Unlock))
+				{
+					TArray<FScannableResourcePair> ResourcePairsToRemove;
+					ResourcePairsToRemove.Append(UnlockScannableResource->mResourcePairsToAddToScanner);
+
+					for (const FScannableResourcePair& ResourcePair : ResourcePairsToRemove)
+					{
+						for (const TSubclassOf<UFGResourceDescriptor>& ResourceClass : CleanupData.ScannableResourceClassCleanlist)
+						{
+							if (ResourcePair.ResourceDescriptor == ResourceClass)
+							{
+								PM_LOG_ARGS(Verbose, TEXT("Removing scannable resource: %s from schematic: %s"), *UKismetSystemLibrary::GetPathName(ResourceClass), *UKismetSystemLibrary::GetPathName(Schematic));
+								UnlockScannableResource->mResourcePairsToAddToScanner.Remove(ResourcePair);
+								break;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		if (!bReplay)
+		{
+			mCleanedSchematics.Add(Schematic);
+		}
+
+		mCachedCDO.Add(SchematicCDO);
+	}
+}
+
 void APMCleanerSubsystem::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (!HasAuthority())
+	{
+		ReplayCDOModifications();
+	}
 
 	RemoveStaticMeshes();
 	RemoveResourceDeposits();
@@ -81,6 +213,24 @@ void APMCleanerSubsystem::OnStreamingStateUpdated()
 	RemoveFoliageItemDrops();
 	ReplaceFoliageItemDrops();
 	CleanupCrashSites();
+}
+
+void APMCleanerSubsystem::ReplayCDOModifications()
+{
+	for (const TSubclassOf<UFGResearchTree>& ResearchTree : mRemovedResearchTrees)
+	{
+		ResearchTreeRemovalModifyCDO(ResearchTree, true);
+	}
+
+	for (const TSubclassOf<UFGSchematic>& Schematic : mRemovedSchematics)
+	{
+		SchematicRemovalModifyCDO(Schematic, true);
+	}
+
+	for (const TSubclassOf<UFGSchematic>& Schematic : mCleanedSchematics)
+	{
+		SchematicCleanup(Schematic, true);
+	}
 }
 
 void APMCleanerSubsystem::RemoveStaticMeshes()
@@ -126,7 +276,7 @@ void APMCleanerSubsystem::RemoveResourceDeposits()
 	for (AActor* Actor : ResourceDepositActors)
 	{
 		AFGResourceDeposit* ResourceDeposit = Cast<AFGResourceDeposit>(Actor);
-		if (ResourceDeposit)
+		if (ResourceDeposit && ResourceDeposit->GetResourceClass())
 		{
 			if (CleanerSettings->ShouldRemoveResourceClass(ResourceDeposit->GetResourceClass()))
 			{
@@ -154,7 +304,7 @@ void APMCleanerSubsystem::ReplaceResourceDeposits()
 	for (AActor* Actor : ResourceDepositActors)
 	{
 		AFGResourceDeposit* ResourceDeposit = Cast<AFGResourceDeposit>(Actor);
-		if (ResourceDeposit)
+		if (ResourceDeposit && ResourceDeposit->GetResourceClass())
 		{
 			TSubclassOf<UFGResourceDescriptor> ReplacementResourceClass;
 			if (CleanerSettings->ShouldReplaceResourceClass(ResourceDeposit->GetResourceClass(), ReplacementResourceClass))

@@ -9,9 +9,7 @@
 #include "Resources/FGResourceNodeBase.h"
 #include "Settings/PMCleanerSettings.h"
 #include "Subsystems/KBFLAssetDataSubsystem.h"
-#include "Unlocks/FGUnlock.h"
-#include "Unlocks/FGUnlockRecipe.h"
-#include "Unlocks/FGUnlockScannableResource.h"
+#include "Subsystems/PMCleanerSubsystem.h"
 #include "FGCustomizationRecipe.h"
 #include "FGRecipe.h"
 #include "FGRecipeManager.h"
@@ -59,7 +57,7 @@ void UPMCleanerWorldModule::RemoveResourceNodes()
 	for (AActor* Actor : ResourceNodeActors)
 	{
 		AFGResourceNode* ResourceNode = Cast<AFGResourceNode>(Actor);
-		if (ResourceNode)
+		if (ResourceNode && ResourceNode->GetResourceClass())
 		{
 			if (CleanerSettings->ShouldRemoveResourceClass(ResourceNode->GetResourceClass()))
 			{
@@ -95,7 +93,7 @@ void UPMCleanerWorldModule::ReplaceResources()
 	for (AActor* Actor : ResourceNodeActors)
 	{
 		AFGResourceNodeBase* ResourceNode = Cast<AFGResourceNodeBase>(Actor);
-		if (ResourceNode)
+		if (ResourceNode && ResourceNode->GetResourceClass())
 		{
 			TSubclassOf<UFGResourceDescriptor> ReplacementResourceClass;
 			if (CleanerSettings->ShouldReplaceResourceClass(ResourceNode->GetResourceClass(), ReplacementResourceClass))
@@ -112,33 +110,32 @@ void UPMCleanerWorldModule::ReplaceResources()
 void UPMCleanerWorldModule::RemoveResearchTrees()
 {
 	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
-	AFGResearchManager* ResearchManager = AFGResearchManager::Get(GetWorld());
-	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
-
-	AssetDataSubsystem->EnsureRegistryScanned();
-	AssetDataSubsystem->EnsureCategoryResolved(10);
-
-	for (TSubclassOf<UFGResearchTree> ResearchTree : AssetDataSubsystem->GetAllResearchTrees())
+	if (APMCleanerSubsystem* CleanerSubsystem = APMCleanerSubsystem::Get(GetWorld()))
 	{
-		if (ResearchTree && ResearchManager->mAvailableResearchTrees.Contains(ResearchTree))
+		if (AFGResearchManager* ResearchManager = AFGResearchManager::Get(GetWorld()))
 		{
-			if (CleanerSettings->ShouldRemoveResearchTreeClass(ResearchTree))
+			UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
+
+			AssetDataSubsystem->EnsureRegistryScanned();
+			AssetDataSubsystem->EnsureCategoryResolved(10);
+
+			for (const TSubclassOf<UFGResearchTree>& ResearchTree : AssetDataSubsystem->GetAllResearchTrees())
 			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing research tree: %s"), *UKismetSystemLibrary::GetPathName(ResearchTree));
-				ResearchManager->mAvailableResearchTrees.Remove(ResearchTree);
-
-				if (ResearchManager->mUnlockedResearchTrees.Contains(ResearchTree))
+				if (ResearchTree && ResearchManager->mAvailableResearchTrees.Contains(ResearchTree))
 				{
-					ResearchManager->mUnlockedResearchTrees.Remove(ResearchTree);
+					if (CleanerSettings->ShouldRemoveResearchTreeClass(ResearchTree))
+					{
+						PM_LOG_ARGS(Verbose, TEXT("Removing research tree: %s"), *UKismetSystemLibrary::GetPathName(ResearchTree));
+						ResearchManager->mAvailableResearchTrees.Remove(ResearchTree);
+
+						if (ResearchManager->mUnlockedResearchTrees.Contains(ResearchTree))
+						{
+							ResearchManager->mUnlockedResearchTrees.Remove(ResearchTree);
+						}
+
+						CleanerSubsystem->ResearchTreeRemovalModifyCDO(ResearchTree);
+					}
 				}
-
-				UFGResearchTree* ResearchTreeCDO = GetMutableDefault<UFGResearchTree>(ResearchTree);
-				ResearchTreeCDO->mPreUnlockDisplayName = FText();
-				ResearchTreeCDO->mDisplayName = FText();
-				ResearchTreeCDO->mPreUnlockDescription = FText();
-				ResearchTreeCDO->mPostUnlockDescription = FText();
-
-				mCachedCDO.Add(ResearchTreeCDO);
 			}
 		}
 	}
@@ -147,84 +144,34 @@ void UPMCleanerWorldModule::RemoveResearchTrees()
 void UPMCleanerWorldModule::RemoveSchematics()
 {
 	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
-	AFGSchematicManager* SchematicManager = AFGSchematicManager::Get(GetWorld());
-	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
-
-	AssetDataSubsystem->EnsureRegistryScanned();
-	AssetDataSubsystem->EnsureCategoryResolved(0);
-
-	for (TSubclassOf<UFGSchematic> Schematic : AssetDataSubsystem->GetAllSchematics())
+	if (APMCleanerSubsystem* CleanerSubsystem = APMCleanerSubsystem::Get(GetWorld()))
 	{
-		if (Schematic && SchematicManager->mAllSchematics.Contains(Schematic))
+		if (AFGSchematicManager* SchematicManager = AFGSchematicManager::Get(GetWorld()))
 		{
-			if (CleanerSettings->ShouldRemoveSchematicClass(Schematic))
+			UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
+
+			AssetDataSubsystem->EnsureRegistryScanned();
+			AssetDataSubsystem->EnsureCategoryResolved(0);
+
+			for (const TSubclassOf<UFGSchematic>& Schematic : AssetDataSubsystem->GetAllSchematics())
 			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing schematic: %s"), *UKismetSystemLibrary::GetPathName(Schematic));
-				SchematicManager->mAllSchematics.Remove(Schematic);
-
-				if (SchematicManager->mPurchasedSchematics.Contains(Schematic))
+				if (Schematic && SchematicManager->mAllSchematics.Contains(Schematic))
 				{
-					SchematicManager->mPurchasedSchematics.Remove(Schematic);
-				}
-
-				UFGSchematic* SchematicCDO = GetMutableDefault<UFGSchematic>(Schematic);
-				SchematicCDO->mType = ESchematicType::EST_Custom;
-
-				TArray<UFGUnlock*> UnlocksToRemove;
-				UnlocksToRemove.Append(SchematicCDO->mUnlocks);
-
-				for (UFGUnlock* Unlock : UnlocksToRemove)
-				{
-					if (Unlock)
+					if (CleanerSettings->ShouldRemoveSchematicClass(Schematic))
 					{
-						if (UFGUnlockRecipe* UnlockRecipe = Cast<UFGUnlockRecipe>(Unlock))
+						PM_LOG_ARGS(Verbose, TEXT("Removing schematic: %s"), *UKismetSystemLibrary::GetPathName(Schematic));
+						SchematicManager->mAllSchematics.Remove(Schematic);
+
+						if (SchematicManager->mPurchasedSchematics.Contains(Schematic))
 						{
-							UnlockRecipe->mRecipes.Empty();
+							SchematicManager->mPurchasedSchematics.Remove(Schematic);
 						}
 
-						if (UFGUnlockScannableResource* UnlockScannableResource = Cast<UFGUnlockScannableResource>(Unlock))
-						{
-							UnlockScannableResource->mResourcePairsToAddToScanner.Empty();
-						}
-
-						SchematicCDO->mUnlocks.Remove(Unlock);
-						mCachedCDO.Add(Unlock);
+						CleanerSubsystem->SchematicRemovalModifyCDO(Schematic);
 					}
+
+					CleanerSubsystem->SchematicCleanup(Schematic);
 				}
-
-				mCachedCDO.Add(SchematicCDO);
-			}
-
-			FPMSchematicCleanup CleanupData;
-			if (CleanerSettings->ShouldCleanupSchematic(Schematic, CleanupData))
-			{
-				UFGSchematic* SchematicCDO = GetMutableDefault<UFGSchematic>(Schematic);
-				for (UFGUnlock* Unlock : SchematicCDO->mUnlocks)
-				{
-					if (Unlock)
-					{
-						if (UFGUnlockScannableResource* UnlockScannableResource = Cast<UFGUnlockScannableResource>(Unlock))
-						{
-							TArray<FScannableResourcePair> ResourcePairsToRemove;
-							ResourcePairsToRemove.Append(UnlockScannableResource->mResourcePairsToAddToScanner);
-
-							for (const FScannableResourcePair& ResourcePair : ResourcePairsToRemove)
-							{
-								for (const TSubclassOf<UFGResourceDescriptor>& ResourceClass : CleanupData.ScannableResourceClassCleanlist)
-								{
-									if (ResourcePair.ResourceDescriptor == ResourceClass)
-									{
-										PM_LOG_ARGS(Verbose, TEXT("Removing scannable resource: %s from schematic: %s"), *UKismetSystemLibrary::GetPathName(ResourceClass), *UKismetSystemLibrary::GetPathName(Schematic));
-										UnlockScannableResource->mResourcePairsToAddToScanner.Remove(ResourcePair);
-										break;
-									}
-								}
-							}
-						}
-					}
-				}
-
-				mCachedCDO.Add(SchematicCDO);
 			}
 		}
 	}
@@ -232,94 +179,60 @@ void UPMCleanerWorldModule::RemoveSchematics()
 
 void UPMCleanerWorldModule::RemoveRecipes()
 {
-	AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld());
-	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
-
-	AssetDataSubsystem->EnsureRegistryScanned();
-	AssetDataSubsystem->EnsureCategoryResolved(1);
-
-	for (TSubclassOf<UFGRecipe> Recipe : AssetDataSubsystem->GetAllRecipes())
-	{
-		RemoveRecipe(Recipe);
-	}
-
-	TArray<TSubclassOf<UFGRecipe>> RecipesToRemove;
-	RecipesToRemove.Append(RecipeManager->mAllRecipes);
-	for (TSubclassOf<UFGRecipe> Recipe : RecipesToRemove)
-	{
-		RemoveRecipe(Recipe);
-	}
-
-	RecipeManager->RebuildDerivedAvailableRecipesData();
-
-	for (TSubclassOf<UFGRecipe> Recipe : RecipeManager->mAllRecipes)
-	{
-		PM_LOG_ARGS(Verbose, TEXT("Remaining all recipes: %s"), *UKismetSystemLibrary::GetPathName(Recipe));
-	}
-
-	for (TSubclassOf<UFGRecipe> Recipe : RecipeManager->mAvailableRecipes)
-	{
-		PM_LOG_ARGS(Verbose, TEXT("Remaining available recipes: %s"), *UKismetSystemLibrary::GetPathName(Recipe));
-	}
-
-	for (TSubclassOf<UFGCustomizationRecipe> CustomizationRecipe : RecipeManager->mAvailableCustomizationRecipes)
-	{
-		PM_LOG_ARGS(Verbose, TEXT("Remaining available customization recipes: %s"), *UKismetSystemLibrary::GetPathName(CustomizationRecipe));
-	}
-
-	for (TSubclassOf<AActor> Building : RecipeManager->mAvailableBuildings)
-	{
-		PM_LOG_ARGS(Verbose, TEXT("Remaining available buildings: %s"), *UKismetSystemLibrary::GetPathName(Building));
-	}
-}
-
-void UPMCleanerWorldModule::RemoveRecipe(TSubclassOf<UFGRecipe> Recipe)
-{
 	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
-	AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld());
-
-	if (Recipe && RecipeManager->mAllRecipes.Contains(Recipe))
+	if (AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld()))
 	{
-		if (CleanerSettings->ShouldRemoveRecipeClass(Recipe))
+		UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
+
+		AssetDataSubsystem->EnsureRegistryScanned();
+		AssetDataSubsystem->EnsureCategoryResolved(1);
+
+		for (const TSubclassOf<UFGRecipe>& Recipe : AssetDataSubsystem->GetAllRecipes())
 		{
-			PM_LOG_ARGS(Verbose, TEXT("Removing recipe: %s"), *UKismetSystemLibrary::GetPathName(Recipe));
-			RecipeManager->mAllRecipes.Remove(Recipe);
-
-			if (RecipeManager->mAvailableRecipes.Contains(Recipe))
+			if (Recipe && RecipeManager->mAllRecipes.Contains(Recipe))
 			{
-				RecipeManager->mAvailableRecipes.Remove(Recipe);
-			}
-
-			if (UFGCustomizationRecipe* CustomizationRecipe = Cast<UFGCustomizationRecipe>(Recipe->GetDefaultObject()))
-			{
-				if (RecipeManager->mAvailableCustomizationRecipes.Contains(CustomizationRecipe->StaticClass()))
+				if (CleanerSettings->ShouldRemoveRecipeClass(Recipe))
 				{
-					RecipeManager->mAvailableCustomizationRecipes.Remove(CustomizationRecipe->StaticClass());
-				}
+					PM_LOG_ARGS(Verbose, TEXT("Removing recipe: %s"), *UKismetSystemLibrary::GetPathName(Recipe));
+					RecipeManager->mAllRecipes.Remove(Recipe);
 
-				if (RecipeManager->mAvailableCustomizationRecipesLookup.Contains(CustomizationRecipe->StaticClass()))
-				{
-					RecipeManager->mAvailableCustomizationRecipesLookup.Remove(CustomizationRecipe->StaticClass());
-				}
-			}
-
-			TArray<TSubclassOf<UObject>> ProducedIn = UFGRecipe::GetProducedIn(Recipe);
-			for (TSubclassOf<UObject> Producer : ProducedIn)
-			{
-				if (AFGBuildGun* BuildGun = Cast<AFGBuildGun>(Producer->GetDefaultObject()))
-				{
-					TArray<FItemAmount> Products = UFGRecipe::GetProducts(Recipe);
-					for (const FItemAmount& Product : Products)
+					if (RecipeManager->mAvailableRecipes.Contains(Recipe))
 					{
-						if (UFGBuildDescriptor* BuildDescriptor = Cast<UFGBuildDescriptor>(Product.ItemClass->GetDefaultObject()))
+						RecipeManager->mAvailableRecipes.Remove(Recipe);
+					}
+
+					if (const UFGCustomizationRecipe* CustomizationRecipe = Cast<UFGCustomizationRecipe>(Recipe->GetDefaultObject()))
+					{
+						if (RecipeManager->mAvailableCustomizationRecipes.Contains(CustomizationRecipe->StaticClass()))
 						{
-							if (TSubclassOf<AActor> BuildClass = UFGBuildDescriptor::GetBuildClass(BuildDescriptor->StaticClass()))
+							RecipeManager->mAvailableCustomizationRecipes.Remove(CustomizationRecipe->StaticClass());
+						}
+
+						if (RecipeManager->mAvailableCustomizationRecipesLookup.Contains(CustomizationRecipe->StaticClass()))
+						{
+							RecipeManager->mAvailableCustomizationRecipesLookup.Remove(CustomizationRecipe->StaticClass());
+						}
+					}
+
+					TArray<TSubclassOf<UObject>> ProducedIn = UFGRecipe::GetProducedIn(Recipe);
+					for (const TSubclassOf<UObject>& Producer : ProducedIn)
+					{
+						if (const AFGBuildGun* BuildGun = Cast<AFGBuildGun>(Producer->GetDefaultObject()))
+						{
+							TArray<FItemAmount> Products = UFGRecipe::GetProducts(Recipe);
+							for (const FItemAmount& Product : Products)
 							{
-								if (AFGBuildable* Buildable = Cast<AFGBuildable>(BuildClass->GetDefaultObject()))
+								if (const UFGBuildDescriptor* BuildDescriptor = Cast<UFGBuildDescriptor>(Product.ItemClass->GetDefaultObject()))
 								{
-									if (RecipeManager->mAvailableBuildings.Contains(Buildable->StaticClass()))
+									if (const TSubclassOf<AActor> BuildClass = UFGBuildDescriptor::GetBuildClass(BuildDescriptor->StaticClass()))
 									{
-										RecipeManager->mAvailableBuildings.Remove(Buildable->StaticClass());
+										if (const AFGBuildable* Buildable = Cast<AFGBuildable>(BuildClass->GetDefaultObject()))
+										{
+											if (RecipeManager->mAvailableBuildings.Contains(Buildable->StaticClass()))
+											{
+												RecipeManager->mAvailableBuildings.Remove(Buildable->StaticClass());
+											}
+										}
 									}
 								}
 							}
@@ -328,63 +241,89 @@ void UPMCleanerWorldModule::RemoveRecipe(TSubclassOf<UFGRecipe> Recipe)
 				}
 			}
 		}
+
+		RecipeManager->RebuildDerivedAvailableRecipesData();
+
+		for (const TSubclassOf<UFGRecipe>& Recipe : RecipeManager->mAllRecipes)
+		{
+			PM_LOG_ARGS(Verbose, TEXT("Remaining all recipes: %s"), *UKismetSystemLibrary::GetPathName(Recipe));
+		}
+
+		for (const TSubclassOf<UFGRecipe>& Recipe : RecipeManager->mAvailableRecipes)
+		{
+			PM_LOG_ARGS(Verbose, TEXT("Remaining available recipes: %s"), *UKismetSystemLibrary::GetPathName(Recipe));
+		}
+
+		for (const TSubclassOf<UFGCustomizationRecipe>& CustomizationRecipe : RecipeManager->mAvailableCustomizationRecipes)
+		{
+			PM_LOG_ARGS(Verbose, TEXT("Remaining available customization recipes: %s"), *UKismetSystemLibrary::GetPathName(CustomizationRecipe));
+		}
+
+		for (const TSubclassOf<AActor>& Building : RecipeManager->mAvailableBuildings)
+		{
+			PM_LOG_ARGS(Verbose, TEXT("Remaining available buildings: %s"), *UKismetSystemLibrary::GetPathName(Building));
+		}
 	}
 }
 
 void UPMCleanerWorldModule::RemoveItems()
 {
 	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
-	AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld());
-	UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
-
-	AssetDataSubsystem->EnsureRegistryScanned();
-	AssetDataSubsystem->EnsureCategoryResolved(2);
-
-	for (TSubclassOf<UFGItemDescriptor> Item : AssetDataSubsystem->GetAllItems())
+	if (AFGRecipeManager* RecipeManager = AFGRecipeManager::Get(GetWorld()))
 	{
-		if (Item && RecipeManager->mAllItemDescriptors.Contains(Item))
-		{
-			if (CleanerSettings->ShouldRemoveItemClass(Item))
-			{
-				PM_LOG_ARGS(Verbose, TEXT("Removing item: %s"), *UKismetSystemLibrary::GetPathName(Item));
-				RecipeManager->mAllItemDescriptors.Remove(Item);
+		UKBFLAssetDataSubsystem* AssetDataSubsystem = UKBFLAssetDataSubsystem::Get(GetWorld());
 
-				if (RecipeManager->mAvailableItemDescriptors.Contains(Item))
+		AssetDataSubsystem->EnsureRegistryScanned();
+		AssetDataSubsystem->EnsureCategoryResolved(2);
+
+		for (const TSubclassOf<UFGItemDescriptor>& Item : AssetDataSubsystem->GetAllItems())
+		{
+			if (Item && RecipeManager->mAllItemDescriptors.Contains(Item))
+			{
+				if (CleanerSettings->ShouldRemoveItemClass(Item))
 				{
-					RecipeManager->mAvailableItemDescriptors.Remove(Item);
+					PM_LOG_ARGS(Verbose, TEXT("Removing item: %s"), *UKismetSystemLibrary::GetPathName(Item));
+					RecipeManager->mAllItemDescriptors.Remove(Item);
+
+					if (RecipeManager->mAvailableItemDescriptors.Contains(Item))
+					{
+						RecipeManager->mAvailableItemDescriptors.Remove(Item);
+					}
 				}
 			}
 		}
-	}
 
-	RecipeManager->RebuildAvailableItemDescriptorLookup();
+		RecipeManager->RebuildAvailableItemDescriptorLookup();
 
-	for (TSubclassOf<UFGItemDescriptor> Item : RecipeManager->mAllItemDescriptors)
-	{
-		PM_LOG_ARGS(Verbose, TEXT("Remaining all item descriptors: %s"), *UKismetSystemLibrary::GetPathName(Item));
-	}
+		for (const TSubclassOf<UFGItemDescriptor>& Item : RecipeManager->mAllItemDescriptors)
+		{
+			PM_LOG_ARGS(Verbose, TEXT("Remaining all item descriptors: %s"), *UKismetSystemLibrary::GetPathName(Item));
+		}
 
-	for (TSubclassOf<UFGItemDescriptor> Item : RecipeManager->mAvailableItemDescriptors)
-	{
-		PM_LOG_ARGS(Verbose, TEXT("Remaining available item descriptors: %s"), *UKismetSystemLibrary::GetPathName(Item));
+		for (const TSubclassOf<UFGItemDescriptor>& Item : RecipeManager->mAvailableItemDescriptors)
+		{
+			PM_LOG_ARGS(Verbose, TEXT("Remaining available item descriptors: %s"), *UKismetSystemLibrary::GetPathName(Item));
+		}
 	}
 }
 
 void UPMCleanerWorldModule::RemoveUnlockedScannableResources()
 {
 	const UPMCleanerSettings* CleanerSettings = UPMCleanerSettings::Get();
-	AFGUnlockSubsystem* UnlockSubsystem = AFGUnlockSubsystem::Get(GetWorld());
-	UnlockSubsystem->mScannableResources.Empty();
-
-	TArray<FScannableResourcePair> UnlockedScannableResourcePairs;
-	UnlockedScannableResourcePairs.Append(UnlockSubsystem->mScannableResourcesPairs);
-
-	for (const FScannableResourcePair& ResourcePair : UnlockedScannableResourcePairs)
+	if (AFGUnlockSubsystem* UnlockSubsystem = AFGUnlockSubsystem::Get(GetWorld()))
 	{
-		if (CleanerSettings->ShouldRemoveScannableResourceClass(ResourcePair.ResourceDescriptor))
+		UnlockSubsystem->mScannableResources.Empty();
+
+		TArray<FScannableResourcePair> UnlockedScannableResourcePairs;
+		UnlockedScannableResourcePairs.Append(UnlockSubsystem->mScannableResourcesPairs);
+
+		for (const FScannableResourcePair& ResourcePair : UnlockedScannableResourcePairs)
 		{
-			PM_LOG_ARGS(Verbose, TEXT("Removing unlocked scannable resource: %s"), *UKismetSystemLibrary::GetPathName(ResourcePair.ResourceDescriptor));
-			UnlockSubsystem->mScannableResourcesPairs.Remove(ResourcePair);
+			if (CleanerSettings->ShouldRemoveScannableResourceClass(ResourcePair.ResourceDescriptor))
+			{
+				PM_LOG_ARGS(Verbose, TEXT("Removing unlocked scannable resource: %s"), *UKismetSystemLibrary::GetPathName(ResourcePair.ResourceDescriptor));
+				UnlockSubsystem->mScannableResourcesPairs.Remove(ResourcePair);
+			}
 		}
 	}
 }
