@@ -24,6 +24,7 @@
 #include "PeriodicMadnessLogChannels.h"
 
 APMCleanerSubsystem::APMCleanerSubsystem()
+	: Super()
 {
 	PrimaryActorTick.bCanEverTick = false;
 

@@ -1,45 +1,26 @@
 #include "Resources/PMSeawaterVolume.h"
+#include "Net/UnrealNetwork.h"
+#include "Resources/FGResourceDescriptor.h"
 #include "FGWaterVolume.h"
 
-void APMSeawaterVolume::SetDecoratedWaterVolume(AFGWaterVolume* DecoratedWaterVolume)
+APMSeawaterVolume::APMSeawaterVolume()
+	: Super()
 {
-	mDecoratedWaterVolume = DecoratedWaterVolume;
+	bReplicates = true;
+	bAlwaysRelevant = true;
+}
+
+void APMSeawaterVolume::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(APMSeawaterVolume, mSeawaterResourceClass);
 }
 
 void APMSeawaterVolume::SetSeawaterResourceClass(TSubclassOf<class UFGResourceDescriptor> ResourceClass)
 {
 	mSeawaterResourceClass = ResourceClass;
 }
-
-//~ Begin AActor Interface
-void APMSeawaterVolume::BeginPlay()
-{
-	if (mDecoratedWaterVolume) {
-		mDecoratedWaterVolume->BeginPlay();
-	}
-}
-
-void APMSeawaterVolume::EndPlay(const EEndPlayReason::Type endPlayReason)
-{
-	if (mDecoratedWaterVolume) {
-		mDecoratedWaterVolume->EndPlay(endPlayReason);
-	}
-}
-
-void APMSeawaterVolume::PostUnregisterAllComponents(void)
-{
-	if (mDecoratedWaterVolume) {
-		mDecoratedWaterVolume->PostUnregisterAllComponents();
-	}
-}
-
-void APMSeawaterVolume::PostRegisterAllComponents()
-{
-	if (mDecoratedWaterVolume) {
-		mDecoratedWaterVolume->PostRegisterAllComponents();
-	}
-}
-//~ End AActor Interface
 
 //~ Begin IFGSaveInterface Interface
 bool APMSeawaterVolume::ShouldSave_Implementation() const
@@ -54,58 +35,58 @@ bool APMSeawaterVolume::NeedTransform_Implementation()
 //~ End IFGSaveInterface Interface
 
 //~ Begin IFGExtractableResourceInterface Interface
-void APMSeawaterVolume::SetIsOccupied(bool occupied)
+void APMSeawaterVolume::SetIsOccupied(bool Occupied)
 {
-	mDecoratedWaterVolume->SetIsOccupied(occupied);
+	// no-op
 }
 
 bool APMSeawaterVolume::IsOccupied() const
 {
-	return mDecoratedWaterVolume->IsOccupied();
+	return false;
 }
 
 bool APMSeawaterVolume::CanBecomeOccupied() const
 {
-	return mDecoratedWaterVolume->CanBecomeOccupied();
+	return true;
 }
 
 bool APMSeawaterVolume::HasAnyResources() const
 {
-	return mDecoratedWaterVolume->HasAnyResources();
+	return true;
 }
 
-TSubclassOf<class UFGResourceDescriptor> APMSeawaterVolume::GetResourceClass() const
+TSubclassOf<UFGResourceDescriptor> APMSeawaterVolume::GetResourceClass() const
 {
 	return mSeawaterResourceClass;
 }
 
-bool APMSeawaterVolume::DoesContainResource(TSubclassOf<class UFGResourceDescriptor> ResourceClass) const
+bool APMSeawaterVolume::DoesContainResource(TSubclassOf<UFGResourceDescriptor> ResourceClass) const
 {
-	return mDecoratedWaterVolume->DoesContainResource(ResourceClass);
+	return ResourceClass == mSeawaterResourceClass;
 }
 
-int32 APMSeawaterVolume::ExtractResource(int32 amount)
+int32 APMSeawaterVolume::ExtractResource(int32 Amount)
 {
-	return mDecoratedWaterVolume->ExtractResource(amount);
+	return Amount;
 }
 
 float APMSeawaterVolume::GetExtractionSpeedMultiplier() const
 {
-	return mDecoratedWaterVolume->GetExtractionSpeedMultiplier();
+	return UFGResourceDescriptor::GetCollectSpeedMultiplier(mSeawaterResourceClass);
 }
 
-FVector APMSeawaterVolume::GetPlacementLocation(const FVector& hitLocation) const
+FVector APMSeawaterVolume::GetPlacementLocation(const FVector& HitLocation) const
 {
-	return mDecoratedWaterVolume->GetPlacementLocation(hitLocation);
+	return GetActorLocation();
 }
 
-FRotator APMSeawaterVolume::GetPlacementRotation(const FVector& hitLocation) const
+FRotator APMSeawaterVolume::GetPlacementRotation(const FVector& HitLocation) const
 {
-	return mDecoratedWaterVolume->GetPlacementRotation(hitLocation);
+	return GetActorRotation();
 }
 
 bool APMSeawaterVolume::CanPlaceResourceExtractor() const
 {
-	return mDecoratedWaterVolume->CanPlaceResourceExtractor();
+	return true;
 }
 //~ End IFGExtractableResourceInterface Interface

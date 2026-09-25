@@ -9,7 +9,7 @@
 class AFGWaterVolume;
 
 /**
- * Decorator for water volumes that are considered seawater.
+ * Replacement for water volumes that are considered seawater.
  */
 UCLASS()
 class PERIODICMADNESS_API APMSeawaterVolume : public AActor, public IFGSaveInterface, public IFGExtractableResourceInterface
@@ -17,15 +17,11 @@ class PERIODICMADNESS_API APMSeawaterVolume : public AActor, public IFGSaveInter
 	GENERATED_BODY()
 
 public:
-	void SetDecoratedWaterVolume(AFGWaterVolume* DecoratedWaterVolume);
-	void SetSeawaterResourceClass(TSubclassOf<class UFGResourceDescriptor> ResourceClass);
+	APMSeawaterVolume();
 
-	//~ Begin AActor Interface
-	virtual void BeginPlay() override;
-	virtual void EndPlay(const EEndPlayReason::Type endPlayReason) override;
-	virtual void PostUnregisterAllComponents(void) override;
-	virtual void PostRegisterAllComponents() override;
-	//~ End AActor Interface
+	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
+	void SetSeawaterResourceClass(TSubclassOf<class UFGResourceDescriptor> ResourceClass);
 
 	//~ Begin IFGSaveInterface Interface
 	virtual bool ShouldSave_Implementation() const override;
@@ -33,24 +29,21 @@ public:
 	//~ End IFGSaveInterface Interface
 
 	//~ Begin IFGExtractableResourceInterface Interface
-	virtual void SetIsOccupied(bool occupied) override;
+	virtual void SetIsOccupied(bool Occupied) override;
 	virtual bool IsOccupied() const override;
 	virtual bool CanBecomeOccupied() const override;
 	virtual bool HasAnyResources() const override;
 	virtual TSubclassOf<UFGResourceDescriptor> GetResourceClass() const override;
 	virtual bool DoesContainResource(TSubclassOf<UFGResourceDescriptor> ResourceClass) const;
-	virtual int32 ExtractResource(int32 amount) override;
+	virtual int32 ExtractResource(int32 Amount) override;
 	virtual float GetExtractionSpeedMultiplier() const override;
-	virtual FVector GetPlacementLocation(const FVector& hitLocation) const override;
-	virtual FRotator GetPlacementRotation(const FVector& hitLocation) const;
+	virtual FVector GetPlacementLocation(const FVector& HitLocation) const override;
+	virtual FRotator GetPlacementRotation(const FVector& HitLocation) const override;
 	virtual bool CanPlaceResourceExtractor() const override;
 	//~ End IFGExtractableResourceInterface Interface
 
 private:
-	UPROPERTY(SaveGame)
-	AFGWaterVolume* mDecoratedWaterVolume;
-
 	/** Reference to the Seawater Descriptor. */
-	UPROPERTY(SaveGame)
+	UPROPERTY(SaveGame, Replicated)
 	TSubclassOf<UFGResourceDescriptor> mSeawaterResourceClass;
 };
